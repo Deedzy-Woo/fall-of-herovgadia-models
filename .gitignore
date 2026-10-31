@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# Generated editor readback and verification records.
+/dead_harpy/render_geometry.json
+/dead_harpy/rig_points.json
+/dead_harpy/blockbench_export_check.json
+/dead_harpy/blockbench_validation.json
+/dead_harpy/rig_validation.json
+/dead_harpy/viewer_validation.json
+/dead_harpy/validation.json
+/dead_harpy/build_stats.json
+/dead_harpy/material_manifest.json
+/dead_harpy/uv_manifest.json
