@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "fallofherovgadia:block/corrupted_soil_top",
+    "side": "fallofherovgadia:block/corrupted_soil_side",
+    "bottom": "fallofherovgadia:block/corrupted_soil_bottom",
+    "particle": "fallofherovgadia:block/corrupted_soil_side"
+  }
+}
