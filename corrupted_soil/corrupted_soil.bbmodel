@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "corrupted_soil",
+  "model_identifier": "fallofherovgadia:corrupted_soil",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "corrupted_soil",
+      "type": "cube",
+      "uuid": "322fcd48-e073-5ad5-be3a-ffec79d0b21c",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0,
+          "cullface": "down"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "322fcd48-e073-5ad5-be3a-ffec79d0b21c"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "corrupted_soil_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "0a37fdf0-a43e-524e-8ed2-b81ae8bef9b5",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABj0lEQVR4nF1SyW7bMBB9NkiRIizJdgKlRdWiPaRfkHs/oF+fq5GTIbSwkMjazFWoexiXFcLTgHwz8xaufv54UqkA8HqelOQAmm7sBg2gKvdKcnpNpej9db6Ma5WKVAoASnJtw+F4+v3aGx8SweumJWgqhbEu+eMBMG2cNk7bMFnbDdr4gMXRNuA8qFT4dTJfRm0D0zYAqJs2ETwRnBrShJdFRgzpFMmqRzZ1v1aP3z5vc7WRUkn+/FIXmfIuRPZERhsXta2qTx+WoMPxRAWAu11OaILScgagH3WRKZIYZ/t1QmhtQzfoyJYVmepH/Y4GOTjYUDdtVe6rch/FMO/CY/Ww5GCsm43TNtRN+/3LQxyhJG+6kcUrY13vr/PCYhpMium+3GZsaYW20zKNph99E25t/xb+D05JTmm8y26yNvoBgBEUwOF4oh9xS2rh9deP95EFi99rmysMOkIpafI3223my+Xm0t0up6oENlKSj7ST5Hl/Hd/aSJvFdJTkSvJtrpY9b+cBwGCDkvx+twHwF6vnQCZpMVo7AAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "corrupted_soil_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "particle": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "db48a256-d017-52a1-9fc8-21dbc52a0d44",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABfklEQVR4nG2SwW7bMBBEp4Iorhi5qV3DQgHDR39B7/2A/v+lx8KXCIGjSMpyKRpoD2OwCVAdJIicnX2c5aefP76H1gN4flmCOADDOI+TAjgedkEcd1vxr+uf29tcAwCgMQVxavkyXOOaATxuwmW4Hg87AKH10dItJgC1WgbA92KG/z0aU/2wAZJarhYzGgM4fNnQG8CaMpFYc3ub1fJiVo2TLmbnU0+k86lfU/62f+RKaD2bs/84adV4N07KVfqRu+iCuGGcf/1+0pQb76rgXePdZbjea1q/33ZkU8sak1oeJ228e501eFd1IsG79+drxYfWl4iDuONhR85OpA7igrhOhJZBXLSkMXEa51NPo/OpJ0JN0X7bUVRavbfgLntW9yhiUsudCFMuNWUyX7ef64eNWq55KUogNCsh3hOLCcCHSbNdaP1aNZzoh0lbLrKKH94wjalMtBM5n/r9tqOAbGq5pvfzy0IRQ6NOY+LZCvA/JBIzmQJdMELrQ3T8/Qs3xxafK/RoPQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "corrupted_soil_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "2",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "dd6c6251-c156-559e-801a-4a926641728b",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABC0lEQVR4nGVSu27DMAy8GnJNCwpaF4an/kPHzv3/PwkCRHAMWq6XDpdelEQbReoePL38fH9FawF42ZdSkhnL2He+bl52ALzhTBOtjX3HmtOx7x6mOcCyAaDeUgrL03m5jlqrx+wGLzsbx3zJsyczabgC/8NN7wcAQerz7K9de6d43Qg3DsnXjZNBbQB59qWUWoZekjD2XRC1TOP+HPOF94QIArttY93kMs/+OX3UKOGZmo9JWFMRLtTRKDsANPq8rqaOhqjct6KtRQJotBPxkEE2JHgcUrQ21NFo5XUyyYyuCNp42RW7fPOsv7f/IoXh4c9INz9Cnn16O9Qmg0ZP54UexiGRKpkpSsn+A6MzAibpGnC1AAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {},
+  "overrides": []
+}
