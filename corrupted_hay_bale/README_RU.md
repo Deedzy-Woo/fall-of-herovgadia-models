@@ -9,3 +9,9 @@
 - ../downloads/corrupted_hay_bale_blockbench.zip — только проект Blockbench и PNG для удобного скачивания.
 
 Генерация мира и существующие структуры не менялись. Основная реализация готовилась без commit/push; эта публикация сделана по последующему прямому запросу пользователя.
+
+## Анимированные мухи в Blockbench
+
+[Скачать анимированный проект ZIP](../downloads/corrupted_hay_bale_animated_flies.zip) · [Инструкция](ANIMATED_FLIES_RU.md)
+
+Откройте corrupted_hay_bale_animated_flies.bbmodel → Animate → flies_preview_fast → ▶. Для увеличенного просмотра выберите flies_inspection_large; для спокойного — flies_atmospheric. Игровой код не изменён.

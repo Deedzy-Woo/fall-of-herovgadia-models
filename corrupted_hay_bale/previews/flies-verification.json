@@ -1,0 +1,814 @@
+[
+  {
+    "clip": "flies_preview_fast",
+    "time": 0.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2,
+          14,
+          9.6
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 0.55,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -3.098439379876938,
+          14.721872744147674,
+          10.360936372073837
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_0"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 1.3,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -3.2062287305352175,
+          15.281238183630677,
+          9.843752363273865
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          2.029408910026206,
+          20.067650198971176,
+          1.5823546539842765
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 2.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.037516757760132,
+          15.315609638719879,
+          10.574988828159912
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_3"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3.3617490051441323,
+          20.470600795884696,
+          0.02939920411530572
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_1_1"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.53333944449537,
+          12.100009166743055,
+          -2.1749931249427084
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_2_3"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 2.9,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2.750008593723144,
+          15.765631982400055,
+          10.287497851569213
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          0.8058623701834406,
+          20.69706881490828,
+          1.9176356401048233
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.055556574082562,
+          13.097219421272953,
+          -3.975002291685765
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_2_1"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 3.8,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.9,
+          15.3,
+          9.7
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          1.7411821799475893,
+          21.95882752596331,
+          0.7176550519266249
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -11.188899074158952,
+          12.511100925841049,
+          -4.088880740672838
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_2_1"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_preview_fast",
+    "time": 5.6,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.9,
+          15.3,
+          9.7
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          2.3,
+          20.4,
+          0.4
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.1,
+          13.6,
+          -4.4
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 0.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2,
+          14,
+          9.6
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 0.55,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2.5500045833715284,
+          14.275002291685764,
+          9.920836006966725
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 1.3,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2.0250068750572923,
+          14.675005347266783,
+          10.150004583371528
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_3"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 2.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.124993889024688,
+          16.302774382791494,
+          10.677780493766805
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 2.9,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -3.641662847190394,
+          14.352775995355517,
+          9.944443425917438
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_3"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 3.8,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.288883796253857,
+          16.1555626852446,
+          9.883334861123842
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_0_2"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_atmospheric",
+    "time": 5.6,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.9,
+          15.3,
+          9.7
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3.9236879432624105,
+          20.155258358662614,
+          1.2526241134751794
+        ],
+        "scale": 1,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 0.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2,
+          14,
+          9.6
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 0.55,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -3.098439379876938,
+          14.721872744147674,
+          10.360936372073837
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_0_0"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3,
+          19,
+          1
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 1.3,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -3.2062287305352175,
+          15.281238183630677,
+          9.843752363273865
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          2.029408910026206,
+          20.067650198971176,
+          1.5823546539842765
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -9.8,
+          11,
+          -3
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 2.1,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.037516757760132,
+          15.315609638719879,
+          10.574988828159912
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_0_3"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          3.3617490051441323,
+          20.470600795884696,
+          0.02939920411530572
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_1_1"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.53333944449537,
+          12.100009166743055,
+          -2.1749931249427084
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_2_3"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 2.9,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -2.750008593723144,
+          15.765631982400055,
+          10.287497851569213
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_0_1"
+        ]
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          0.8058623701834406,
+          20.69706881490828,
+          1.9176356401048233
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.055556574082562,
+          13.097219421272953,
+          -3.975002291685765
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_2_1"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 3.8,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.9,
+          15.3,
+          9.7
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          1.7411821799475893,
+          21.95882752596331,
+          0.7176550519266249
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_1_3"
+        ]
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -11.188899074158952,
+          12.511100925841049,
+          -4.088880740672838
+        ],
+        "scale": 2.5,
+        "frames": [
+          "WING_2_1"
+        ]
+      }
+    ]
+  },
+  {
+    "clip": "flies_inspection_large",
+    "time": 5.6,
+    "flies": [
+      {
+        "name": "FLY_01",
+        "position": [
+          -4.9,
+          15.3,
+          9.7
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_02",
+        "position": [
+          2.3,
+          20.4,
+          0.4
+        ],
+        "scale": 0.00001,
+        "frames": []
+      },
+      {
+        "name": "FLY_03",
+        "position": [
+          -10.1,
+          13.6,
+          -4.4
+        ],
+        "scale": 0.00001,
+        "frames": []
+      }
+    ]
+  }
+]
