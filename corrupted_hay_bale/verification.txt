@@ -1,0 +1,7 @@
+PASS
+server axes placement + item + hoe + actual loot drop: OK
+client block models X/Y/Z + item model: OK
+single max=1 nonzero ticks=704
+pile 3x3x2 max=3 nonzero ticks=1144
+covered max after expiry=0
+minimal max after expiry=0

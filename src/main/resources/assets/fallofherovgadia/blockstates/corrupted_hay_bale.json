@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "fallofherovgadia:block/corrupted_hay_bale"
+    },
+    "axis=z": {
+      "model": "fallofherovgadia:block/corrupted_hay_bale",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "fallofherovgadia:block/corrupted_hay_bale",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

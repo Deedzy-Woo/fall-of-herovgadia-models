@@ -1,0 +1,532 @@
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
+index ecddce2..ad26432 100644
+--- a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
+@@ -25,6 +25,7 @@ public class FallOfHerovgadia {
+         // Регистрируем наших существ
+         ModEntities.ENTITY_TYPES.register(modEventBus);
+         ModSounds.SOUNDS.register(modEventBus);
++        ModBlocks.BLOCKS.register(modEventBus);
+         ModItems.ITEMS.register(modEventBus);
+         ModParticles.PARTICLES.register(modEventBus);
+         modEventBus.addListener(ModItems::addCreativeItems);
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadiaClient.java b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadiaClient.java
+index 0991ff5..b0be416 100644
+--- a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadiaClient.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadiaClient.java
+@@ -5,6 +5,7 @@ import com.herovgad.fallofherovgadia.client.GhoulRenderer;
+ import com.herovgad.fallofherovgadia.client.InfectedVillagerRenderer;
+ import com.herovgad.fallofherovgadia.client.VillagerCorpseRenderer;
+ import com.herovgad.fallofherovgadia.client.particle.CorruptedSoilVaporParticle;
++import com.herovgad.fallofherovgadia.client.particle.CorruptedHayFlyParticle;
+ 
+ import net.neoforged.api.distmarker.Dist;
+ import net.neoforged.bus.api.IEventBus;
+@@ -31,6 +32,7 @@ public class FallOfHerovgadiaClient {
+     private void registerParticles(RegisterParticleProvidersEvent event) {
+         event.registerSpriteSet(ModParticles.CORRUPTED_SOIL_VAPOR.get(),
+                 CorruptedSoilVaporParticle.Provider::new);
++        event.registerSpriteSet(ModParticles.CORRUPTED_HAY_FLY.get(), CorruptedHayFlyParticle.Provider::new);
+     }
+ 
+     private void registerRenderers(
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/ModItems.java b/src/main/java/com/herovgad/fallofherovgadia/ModItems.java
+index 33e1c33..700198f 100644
+--- a/src/main/java/com/herovgad/fallofherovgadia/ModItems.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/ModItems.java
+@@ -2,6 +2,7 @@ package com.herovgad.fallofherovgadia;
+ 
+ import net.minecraft.world.item.CreativeModeTabs;
+ import net.minecraft.world.item.Item;
++import net.minecraft.world.item.BlockItem;
+ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
+ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+ import net.neoforged.neoforge.registries.DeferredItem;
+@@ -12,8 +13,11 @@ public final class ModItems {
+     public static final DeferredItem<DeferredSpawnEggItem> GHOUL_SPAWN_EGG = ITEMS.register(
+             "ghoul_spawn_egg", () -> new DeferredSpawnEggItem(ModEntities.GHOUL, 44975, 7969893, new Item.Properties()));
+ 
++    public static final DeferredItem<BlockItem> CORRUPTED_HAY_BALE = ITEMS.registerSimpleBlockItem(ModBlocks.CORRUPTED_HAY_BALE);
++
+     public static void addCreativeItems(BuildCreativeModeTabContentsEvent event) {
+         if (event.getTabKey().equals(CreativeModeTabs.SPAWN_EGGS)) event.accept(GHOUL_SPAWN_EGG);
++        if (event.getTabKey().equals(CreativeModeTabs.NATURAL_BLOCKS)) event.accept(CORRUPTED_HAY_BALE);
+     }
+ 
+     private ModItems() {}
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/ModParticles.java b/src/main/java/com/herovgad/fallofherovgadia/ModParticles.java
+index 454fbac..c460f31 100644
+--- a/src/main/java/com/herovgad/fallofherovgadia/ModParticles.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/ModParticles.java
+@@ -13,5 +13,8 @@ public final class ModParticles {
+     public static final DeferredHolder<ParticleType<?>, SimpleParticleType> CORRUPTED_SOIL_VAPOR =
+             PARTICLES.register("corrupted_soil_vapor", () -> new SimpleParticleType(false));
+ 
++    public static final DeferredHolder<ParticleType<?>, SimpleParticleType> CORRUPTED_HAY_FLY =
++            PARTICLES.register("corrupted_hay_fly", () -> new SimpleParticleType(false));
++
+     private ModParticles() {}
+ }
+diff --git a/src/main/resources/assets/fallofherovgadia/lang/en_us.json b/src/main/resources/assets/fallofherovgadia/lang/en_us.json
+index 41c0386..18d77ac 100644
+--- a/src/main/resources/assets/fallofherovgadia/lang/en_us.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/en_us.json
+@@ -1,4 +1,5 @@
+ {
+   "item.fallofherovgadia.ghoul_spawn_egg": "Ghoul Spawn Egg",
+-  "entity.fallofherovgadia.dead_harpy": "Dead Harpy"
++  "entity.fallofherovgadia.dead_harpy": "Dead Harpy",
++  "block.fallofherovgadia.corrupted_hay_bale": "Corrupted Hay Bale"
+ }
+diff --git a/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json b/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
+index 03253d4..b87bc4c 100644
+--- a/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
+@@ -1,4 +1,5 @@
+ {
+   "item.fallofherovgadia.ghoul_spawn_egg": "???? ??????? ?????????",
+-  "entity.fallofherovgadia.dead_harpy": "??????? ??????"
++  "entity.fallofherovgadia.dead_harpy": "??????? ??????",
++  "block.fallofherovgadia.corrupted_hay_bale": "Заражённый тюк сена"
+ }
+diff --git a/docs/CORRUPTED_HAY_BALE_RU.md b/docs/CORRUPTED_HAY_BALE_RU.md
+new file mode 100644
+index 0000000..b933dd1
+--- /dev/null
++++ b/docs/CORRUPTED_HAY_BALE_RU.md
+@@ -0,0 +1,87 @@
++# Заражённый тюк сена
++
++Minecraft 1.21.1, NeoForge 21.1.235, Java 21.
++
++## Блок и ресурсы
++
++ID блока и предмета: `fallofherovgadia:corrupted_hay_bale`.
++
++Блок наследует `HayBlock`: осевая ориентация X/Y/Z и уменьшение урона от падения сохраняются. Физические свойства скопированы с `Blocks.HAY_BLOCK`; горючесть и распространение огня делегируются ванильному сену. Инструмент для ускоренной добычи — мотыга; добыча рукой тоже возвращает блок, как у обычного сена.
++
++В основной ветке не было общего `ModBlocks`: добавлен минимальный DeferredRegister для этого блока. Предмет подключён к существующему `ModItems`; доступен в творческой вкладке Natural Blocks / Природные блоки.
++
++Две оригинальные текстуры 16×16 RGB: тусклая серо-жёлтая солома с тёмными промежутками, очагами гнили, редкой плесенью и потемневшей перевязкой. Нижний торец использует ту же текстуру, что верхний. Боковые перевязки совпадают по высоте. Текстуры полностью непрозрачны и не анимированы; ванильные PNG не копировались и не перекрашивались.
++
++Подготовлены blockstate по трём осям, block/item model, loot table, английское/русское имя и тег mineable/hoe. Путь loot_table и тег block соответствуют формату 1.21.1.
++
++Генерация структур и мира не менялась. Позже можно использовать зарегистрированный ID в собственных шаблонах или processors заражённых деревень; глобальной замены minecraft:hay_block нет.
++
++## Мухи
++
++Тип: `fallofherovgadia:corrupted_hay_fly`. Отдельный спрайт 8×8 RGBA: маленькое тёмное тело и приглушённые крылья. Без звука, свечения, урона и игровых эффектов.
++
++- Эмиссия только из клиентского animateTick: у открытого верха или четырёх боковых граней. Закрытые collision shapes и жидкости не допускают появления.
++- Вызов требует игрока не дальше 32 блоков; обычный addParticle и SimpleParticleType(false) сохраняют штатные проверки камеры, дальности и качества частиц.
++- MIN_INTERVAL_TICKS=80 и MAX_INTERVAL_TICKS=180 в `CorruptedHayFlyEmitter`: 4–9 секунд по игровому времени на блок. animateTick выборочный, поэтому фактические интервалы могут быть длиннее.
++- CELL_COOLDOWN_TICKS=35: общая квота появления на область 4×4×4; соседи делят частоту, а не создают независимые рои.
++- GLOBAL_LIMIT=8 в `CorruptedHayFlyParticle`: жёсткая квота ParticleGroup для всех этих мух на клиенте. Локальная квота дополнительно уменьшает плотность у одной кучи.
++- Жизнь 60–100 тиков, размер отображаемого квадрата приблизительно 0,05–0,08 блока; тело занимает лишь часть спрайта.
++- Новая небольшая цель движения выбирается каждые 6–13 тиков вокруг стартовой точки. Муха меняет направление, слегка колеблется по высоте и постепенно исчезает.
++- Стандартные collision shapes Minecraft; застрявшая частица удаляется. Нет BlockEntity, сетевых пакетов, серверного тика или сущностей мух.
++- Карты расписания ограничены 2048 записями на карту; мир хранится слабой ссылкой, состояние не удерживает его в памяти.
++
++## Проверка
++
++`./gradlew build --no-daemon`: BUILD SUCCESSFUL, 1m 8s.
++
++В отдельном реальном Minecraft-клиенте под Xvfb запущен временный test source set, который не входит в мод/JAR. Создан новый плоский тестовый мир; существующие пользовательские миры не открывались и не менялись.
++
++Проверены:
++
++1. getStateForPlacement на всех шести гранях: правильные X/Y/Z.
++2. Клиентские baked models: все 18 граней для трёх ориентаций используют правильные торцевые/боковые PNG, без missing texture.
++3. Реальная модель BlockItem и отображение предмета в руке/панели быстрого доступа.
++4. Тег мотыги и увеличенная скорость добычи железной мотыгой.
++5. Реальное разрушение в ServerLevel с doDrops=true: выпал один предмет corrupted_hay_bale.
++6. Минута наблюдения одного блока: максимум 1 живая муха одновременно, 704 из 1200 тиков с ненулевым количеством.
++7. Минута наблюдения кучи 3×3×2 (18 блоков): максимум 3 одновременно, 1144 из 1200 тиков с ненулевым количеством. Густого роя нет.
++8. Полностью закрытая куча: 0 после истечения жизни ранее созданных частиц.
++9. Minimal: 0 после истечения прежних частиц.
++10. Байтовое сравнение 373 существующих файлов порчи, испарений, сущностей и звуков с исходным HEAD: без изменений.
++
++Снимки hay-single.png и hay-pile.png сделаны в Minecraft. Мухи очень малы: на снимках это отдельные тёмные пиксели около тюков; лучше оценивать их движение в живом клиенте с настройкой All.
++
++Платформенные сообщения тестовой среды: отсутствие OpenAL-устройства и недоступность сервисов профилей Mojang; ошибок загрузки новых моделей, PNG, loot или частиц не обнаружено. В тестовом options.txt было предупреждение о simulationDistance=4, автоматически использовано допустимое значение; для последующих запусков сохранено 5. Тест завершился успешно, runClient — BUILD SUCCESSFUL.
++
++Игровая проверка использовала дистанцию камеры около 4–7 блоков; отдельная длительная проверка на дальних границах 32 блоков не проводилась. Плотность мух оценена на одном блоке и запрошенной куче, а не на деревне целиком.
++
++## Изменённые и новые файлы
++
++Java, относительно `src/main/java/com/herovgad/fallofherovgadia/`:
++
++- `FallOfHerovgadia.java`
++- `FallOfHerovgadiaClient.java`
++- `ModItems.java`
++- `ModParticles.java`
++- `ModBlocks.java`
++- `block/CorruptedHayBaleBlock.java`
++- `block/CorruptedHayFlyEmitter.java`
++- `client/particle/CorruptedHayFlyParticle.java`
++
++Ресурсы, относительно `src/main/resources/`:
++
++- `assets/fallofherovgadia/blockstates/corrupted_hay_bale.json`
++- `assets/fallofherovgadia/models/block/corrupted_hay_bale.json`
++- `assets/fallofherovgadia/models/item/corrupted_hay_bale.json`
++- `assets/fallofherovgadia/textures/block/corrupted_hay_bale_side.png`
++- `assets/fallofherovgadia/textures/block/corrupted_hay_bale_top.png`
++- `assets/fallofherovgadia/textures/particle/corrupted_hay_fly.png`
++- `assets/fallofherovgadia/particles/corrupted_hay_fly.json`
++- `assets/fallofherovgadia/lang/en_us.json`
++- `assets/fallofherovgadia/lang/ru_ru.json`
++- `data/fallofherovgadia/loot_table/blocks/corrupted_hay_bale.json`
++- `data/minecraft/tags/block/mineable/hoe.json`
++
++Документация: `docs/CORRUPTED_HAY_BALE_RU.md`.
++
++Git commit/push не выполнялись. Новые игровые механики, кроме регистрации блока и декоративных мух, не добавлялись.
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/ModBlocks.java b/src/main/java/com/herovgad/fallofherovgadia/ModBlocks.java
+new file mode 100644
+index 0000000..c2f0ffd
+--- /dev/null
++++ b/src/main/java/com/herovgad/fallofherovgadia/ModBlocks.java
+@@ -0,0 +1,15 @@
++package com.herovgad.fallofherovgadia;
++
++import com.herovgad.fallofherovgadia.block.CorruptedHayBaleBlock;
++import net.minecraft.world.level.block.Blocks;
++import net.minecraft.world.level.block.state.BlockBehaviour;
++import net.neoforged.neoforge.registries.DeferredBlock;
++import net.neoforged.neoforge.registries.DeferredRegister;
++
++public final class ModBlocks {
++    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(FallOfHerovgadia.MODID);
++    public static final DeferredBlock<CorruptedHayBaleBlock> CORRUPTED_HAY_BALE = BLOCKS.register(
++            "corrupted_hay_bale", () -> new CorruptedHayBaleBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.HAY_BLOCK)));
++
++    private ModBlocks() {}
++}
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayBaleBlock.java b/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayBaleBlock.java
+new file mode 100644
+index 0000000..ff32cee
+--- /dev/null
++++ b/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayBaleBlock.java
+@@ -0,0 +1,38 @@
++package com.herovgad.fallofherovgadia.block;
++
++import com.mojang.serialization.MapCodec;
++import net.minecraft.core.BlockPos;
++import net.minecraft.core.Direction;
++import net.minecraft.util.RandomSource;
++import net.minecraft.world.level.BlockGetter;
++import net.minecraft.world.level.Level;
++import net.minecraft.world.level.block.Blocks;
++import net.minecraft.world.level.block.HayBlock;
++import net.minecraft.world.level.block.state.BlockState;
++
++public final class CorruptedHayBaleBlock extends HayBlock {
++    public static final MapCodec<HayBlock> CODEC = simpleCodec(CorruptedHayBaleBlock::new);
++
++    public CorruptedHayBaleBlock(Properties properties) { super(properties); }
++
++    @Override
++    public MapCodec<HayBlock> codec() {
++        return CODEC;
++    }
++
++    @Override
++    public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
++        super.animateTick(state, level, pos, random);
++        CorruptedHayFlyEmitter.animateTick(level, pos, random);
++    }
++
++    @Override
++    public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction face) {
++        return Blocks.HAY_BLOCK.defaultBlockState().getFlammability(level, pos, face);
++    }
++
++    @Override
++    public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction face) {
++        return Blocks.HAY_BLOCK.defaultBlockState().getFireSpreadSpeed(level, pos, face);
++    }
++}
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java b/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java
+new file mode 100644
+index 0000000..1922611
+--- /dev/null
++++ b/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java
+@@ -0,0 +1,67 @@
++package com.herovgad.fallofherovgadia.block;
++
++import com.herovgad.fallofherovgadia.ModParticles;
++import net.minecraft.core.BlockPos;
++import net.minecraft.core.Direction;
++import net.minecraft.util.RandomSource;
++import net.minecraft.world.level.Level;
++
++import java.util.LinkedHashMap;
++import java.util.Map;
++import java.util.WeakHashMap;
++
++/** Runs from client animateTick only. No client classes are referenced by this common hook. */
++public final class CorruptedHayFlyEmitter {
++    public static final int MIN_INTERVAL_TICKS = 80;
++    public static final int MAX_INTERVAL_TICKS = 180;
++    public static final int CELL_COOLDOWN_TICKS = 35;
++    private static final int MAX_ENTRIES = 2048;
++    private static final Direction[] SURFACES = {Direction.UP, Direction.NORTH, Direction.SOUTH, Direction.EAST, Direction.WEST};
++    private static final Map<Level, Schedule> SCHEDULES = new WeakHashMap<>();
++
++    private CorruptedHayFlyEmitter() {}
++
++    public static void animateTick(Level level, BlockPos pos, RandomSource random) {
++        if (!level.isClientSide || level.getNearestPlayer(pos.getX() + 0.5, pos.getY() + 0.5,
++                pos.getZ() + 0.5, 32.0, false) == null) return;
++        Schedule schedule = SCHEDULES.computeIfAbsent(level, ignored -> new Schedule());
++        long now = level.getGameTime(), key = pos.asLong();
++        Long due = schedule.blocks.get(key);
++        if (due == null) {
++            schedule.blocks.put(key, now + interval(random));
++            return;
++        }
++        if (now < due) return;
++        schedule.blocks.put(key, now + interval(random));
++        long cell = BlockPos.asLong(Math.floorDiv(pos.getX(), 4), Math.floorDiv(pos.getY(), 4), Math.floorDiv(pos.getZ(), 4));
++        if (now < schedule.cells.getOrDefault(cell, Long.MIN_VALUE)) return;
++        int first = random.nextInt(SURFACES.length);
++        for (int i = 0; i < SURFACES.length; i++) {
++            Direction face = SURFACES[(first + i) % SURFACES.length];
++            BlockPos neighbor = pos.relative(face);
++            if (!level.getFluidState(neighbor).isEmpty()
++                    || !level.getBlockState(neighbor).getCollisionShape(level, neighbor).isEmpty()) continue;
++            double x = pos.getX() + 0.5, y = pos.getY() + 0.5, z = pos.getZ() + 0.5;
++            if (face.getAxis() == Direction.Axis.Y) { x += jitter(random); z += jitter(random); }
++            else if (face.getAxis() == Direction.Axis.X) { y += jitter(random); z += jitter(random); }
++            else { x += jitter(random); y += jitter(random); }
++            x += face.getStepX() * 0.64; y += face.getStepY() * 0.64; z += face.getStepZ() * 0.64;
++            schedule.cells.put(cell, now + CELL_COOLDOWN_TICKS);
++            // Ordinary particle path respects quality, distance and the provider's global group cap.
++            level.addParticle(ModParticles.CORRUPTED_HAY_FLY.get(), x, y, z, 0, 0, 0);
++            return;
++        }
++    }
++
++    private static double jitter(RandomSource random) { return (random.nextDouble() - 0.5) * 0.72; }
++    private static int interval(RandomSource random) { return MIN_INTERVAL_TICKS + random.nextInt(MAX_INTERVAL_TICKS - MIN_INTERVAL_TICKS + 1); }
++    private static Map<Long, Long> boundedMap() {
++        return new LinkedHashMap<>() {
++            @Override protected boolean removeEldestEntry(Map.Entry<Long, Long> eldest) { return size() > MAX_ENTRIES; }
++        };
++    }
++    private static final class Schedule {
++        final Map<Long, Long> blocks = boundedMap();
++        final Map<Long, Long> cells = boundedMap();
++    }
++}
+diff --git a/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java
+new file mode 100644
+index 0000000..bcd8f32
+--- /dev/null
++++ b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java
+@@ -0,0 +1,64 @@
++package com.herovgad.fallofherovgadia.client.particle;
++
++import net.minecraft.client.multiplayer.ClientLevel;
++import net.minecraft.client.particle.Particle;
++import net.minecraft.client.particle.ParticleProvider;
++import net.minecraft.client.particle.ParticleRenderType;
++import net.minecraft.client.particle.SpriteSet;
++import net.minecraft.client.particle.TextureSheetParticle;
++import net.minecraft.core.particles.ParticleGroup;
++import net.minecraft.core.particles.SimpleParticleType;
++
++import java.util.Optional;
++
++public final class CorruptedHayFlyParticle extends TextureSheetParticle {
++    public static final int GLOBAL_LIMIT = 8;
++    private static final ParticleGroup GROUP = new ParticleGroup(GLOBAL_LIMIT);
++    private final double anchorX, anchorY, anchorZ;
++    private double targetX, targetY, targetZ;
++    private int retarget;
++
++    private CorruptedHayFlyParticle(ClientLevel level, double x, double y, double z, SpriteSet sprites) {
++        super(level, x, y, z);
++        anchorX = x; anchorY = y; anchorZ = z;
++        lifetime = 60 + random.nextInt(41);
++        quadSize = 0.025F + random.nextFloat() * 0.015F;
++        gravity = 0; friction = 0.86F; hasPhysics = true;
++        setSize(0.025F, 0.025F);
++        pickSprite(sprites);
++        chooseTarget();
++    }
++
++    private void chooseTarget() {
++        targetX = anchorX + (random.nextDouble() - 0.5) * 0.85;
++        targetY = anchorY + (random.nextDouble() - 0.5) * 0.55;
++        targetZ = anchorZ + (random.nextDouble() - 0.5) * 0.85;
++        retarget = 6 + random.nextInt(8);
++    }
++
++    @Override
++    public void tick() {
++        if (--retarget <= 0) chooseTarget();
++        // Small, changing steering impulses; no autonomous mob/entity or AI.
++        xd = Math.clamp(xd + (targetX - x) * 0.025, -0.035, 0.035);
++        yd = Math.clamp(yd + (targetY - y) * 0.025, -0.025, 0.025);
++        zd = Math.clamp(zd + (targetZ - z) * 0.025, -0.035, 0.035);
++        super.tick();
++        if (!isAlive()) return;
++        // A vanilla collision can stop a particle; retire it instead of leaving a stuck insect.
++        if (age > 3 && x == xo && y == yo && z == zo) { remove(); return; }
++        alpha = Math.min(1.0F, Math.min(age / 4.0F, (lifetime - age) / 8.0F));
++    }
++
++    @Override public ParticleRenderType getRenderType() { return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT; }
++    @Override public Optional<ParticleGroup> getParticleGroup() { return Optional.of(GROUP); }
++
++    public static final class Provider implements ParticleProvider<SimpleParticleType> {
++        private final SpriteSet sprites;
++        public Provider(SpriteSet sprites) { this.sprites = sprites; }
++        @Override public Particle createParticle(SimpleParticleType type, ClientLevel level,
++                double x, double y, double z, double xd, double yd, double zd) {
++            return new CorruptedHayFlyParticle(level, x, y, z, sprites);
++        }
++    }
++}
+diff --git a/src/main/resources/assets/fallofherovgadia/blockstates/corrupted_hay_bale.json b/src/main/resources/assets/fallofherovgadia/blockstates/corrupted_hay_bale.json
+new file mode 100644
+index 0000000..a10d8e6
+--- /dev/null
++++ b/src/main/resources/assets/fallofherovgadia/blockstates/corrupted_hay_bale.json
+@@ -0,0 +1,16 @@
++{
++  "variants": {
++    "axis=y": {
++      "model": "fallofherovgadia:block/corrupted_hay_bale"
++    },
++    "axis=z": {
++      "model": "fallofherovgadia:block/corrupted_hay_bale",
++      "x": 90
++    },
++    "axis=x": {
++      "model": "fallofherovgadia:block/corrupted_hay_bale",
++      "x": 90,
++      "y": 90
++    }
++  }
++}
+diff --git a/src/main/resources/assets/fallofherovgadia/models/block/corrupted_hay_bale.json b/src/main/resources/assets/fallofherovgadia/models/block/corrupted_hay_bale.json
+new file mode 100644
+index 0000000..78938d1
+--- /dev/null
++++ b/src/main/resources/assets/fallofherovgadia/models/block/corrupted_hay_bale.json
+@@ -0,0 +1,7 @@
++{
++  "parent": "minecraft:block/cube_column",
++  "textures": {
++    "end": "fallofherovgadia:block/corrupted_hay_bale_top",
++    "side": "fallofherovgadia:block/corrupted_hay_bale_side"
++  }
++}
+diff --git a/src/main/resources/assets/fallofherovgadia/models/item/corrupted_hay_bale.json b/src/main/resources/assets/fallofherovgadia/models/item/corrupted_hay_bale.json
+new file mode 100644
+index 0000000..2f27a6f
+--- /dev/null
++++ b/src/main/resources/assets/fallofherovgadia/models/item/corrupted_hay_bale.json
+@@ -0,0 +1,3 @@
++{
++  "parent": "fallofherovgadia:block/corrupted_hay_bale"
++}
+diff --git a/src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json b/src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json
+new file mode 100644
+index 0000000..a1924c5
+--- /dev/null
++++ b/src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json
+@@ -0,0 +1,5 @@
++{
++  "textures": [
++    "fallofherovgadia:corrupted_hay_fly"
++  ]
++}
+diff --git a/src/main/resources/assets/fallofherovgadia/textures/block/corrupted_hay_bale_side.png b/src/main/resources/assets/fallofherovgadia/textures/block/corrupted_hay_bale_side.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..267079a4fbf4a33ca4dc5ea6f1af288c9bde3b1c
+GIT binary patch
+literal 459
+zcmV;+0W|)JP)<h;3K|Lk000e1NJLTq000mG000mO0ssI2kdbIM0004!Nkl<Zc$}3|
+zU2EE46n<he-SQ@x=Hs;xKVo$hsyH&Cy&a6+6!r`DJ9@XjHrU;+TA{Fuf>fP&VHVR@
+zW84-Q?Zs(h$)K`x^_=H?ah`Le&*vY5dDJ>^#9|rDqiB_Q-3DRH)Z*WJPMHmErk1G<
+z$8$~1=kTAlEePfjfiGXbr=(M6{j1^AsPyUVEdW1Q1K^fYt@4Zhh+^DQD8wzr57s@;
+zolN|kwqFVpso8P3Yln$6xsADN%Q|azoG_7~GFfMo@F&lpGTAaU0IdUOa5Lp)?$7*h
+zm*Yd%PWe=T;n>eE{VNs#4qf|t^mF&psqGnsqjwd;(^*V&o-43Rr4--g3fT$8*LsF>
+z^cNNN)xV9xa1B5vM=X{AqE(Vfs@SqvJYZT(Iz4_vGUHMB^b{%I^W2O6i0&XaJI?rr
+z;I2(W4MP!|jjS`nPyon@1VC&yos+hR1yq)^Os!rkdfi4CuIsfTY0~qmnwoFaO#nTw
+z3V^-*8?BPv&-dYdn?U+Y+XCv8vFR)(8R_r<?g97<pjKWbfVcnv002ovPDHLkV1j1i
+B+eQEY
+
+literal 0
+HcmV?d00001
+
+diff --git a/src/main/resources/assets/fallofherovgadia/textures/block/corrupted_hay_bale_top.png b/src/main/resources/assets/fallofherovgadia/textures/block/corrupted_hay_bale_top.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..0d775e0a20290422d70c7a8b65067faf272d3d72
+GIT binary patch
+literal 428
+zcmV;d0aN~oP)<h;3K|Lk000e1NJLTq000mG000mO0ssI2kdbIM0004VNkl<Zc${sL
+z!AiqG6h*Ifh_z<YG?TVSq%k4TU7>&Ax47~fUHSupJ29kI%tFkRv=b`?1Q)jqp*qW%
+z_s+fVzB#$Oy$O}{haP}>yQ{PTV48L^om}*P0Qf^MFG|z2(se>51*^NI%S8g9{P+R@
+zATP=+jo1?^2ws_{-E8*p%uixPsc3r81n~H@S}qboMWqd^pI<-YnNRAGrgfX8kpMvI
+z9AjGwpwedjRtLervT3Zx8Kmn3!N7W`w7GwHLFa@@=0yphM`Wm^bRE;Qj0?d0dJI6i
+zPQBgvL(d<2p^^ZEMRs}b&G%_=cIBQ^pKQ~#NvwL6Hk><4qa;?eJ06Vy^ySndY}|q&
+z*vV+O(k8pSrt)g7`Fe<z`|Fajlw<7KPcWNJ(~2XPo6SBiN+Pl}s<%6?m7RG}_H6KW
+zeSdeyU9n7bZ<%ISGfN}8X6hWiMiMJp=Ub)Czn`++?nJ0$mU=dXZh{spU5DSN(&iU{
+Wx;i<Y%KZxf0000<MNUMnLSTY(Yshy1
+
+literal 0
+HcmV?d00001
+
+diff --git a/src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_hay_fly.png b/src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_hay_fly.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..6612d60426882e9295b132835d053cbca35a8805
+GIT binary patch
+literal 98
+zcmeAS@N?(olHy`uVBq!ia0vp^93afW1|*O0@9PFqnw~C>Ar*6y6BbB)_*fd*?~}~>
+w=#kR@i$`Znu*}i%;mOk4RKDW5-XaEu_6Mx1oeq9n2h_yi>FVdQ&MBb@00HzLc>n+a
+
+literal 0
+HcmV?d00001
+
+diff --git a/src/main/resources/data/fallofherovgadia/loot_table/blocks/corrupted_hay_bale.json b/src/main/resources/data/fallofherovgadia/loot_table/blocks/corrupted_hay_bale.json
+new file mode 100644
+index 0000000..987515d
+--- /dev/null
++++ b/src/main/resources/data/fallofherovgadia/loot_table/blocks/corrupted_hay_bale.json
+@@ -0,0 +1,19 @@
++{
++  "type": "minecraft:block",
++  "pools": [
++    {
++      "rolls": 1,
++      "entries": [
++        {
++          "type": "minecraft:item",
++          "name": "fallofherovgadia:corrupted_hay_bale"
++        }
++      ],
++      "conditions": [
++        {
++          "condition": "minecraft:survives_explosion"
++        }
++      ]
++    }
++  ]
++}
+diff --git a/src/main/resources/data/minecraft/tags/block/mineable/hoe.json b/src/main/resources/data/minecraft/tags/block/mineable/hoe.json
+new file mode 100644
+index 0000000..dc79018
+--- /dev/null
++++ b/src/main/resources/data/minecraft/tags/block/mineable/hoe.json
+@@ -0,0 +1,6 @@
++{
++  "replace": false,
++  "values": [
++    "fallofherovgadia:corrupted_hay_bale"
++  ]
++}

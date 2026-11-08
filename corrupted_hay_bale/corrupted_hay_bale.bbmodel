@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "corrupted_hay_bale",
+  "model_identifier": "fallofherovgadia:corrupted_hay_bale",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "corrupted_hay_bale",
+      "type": "cube",
+      "uuid": "866517a5-2746-5656-9113-f05828c4c2bd",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0,
+          "cullface": "down"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "south"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0,
+          "cullface": "west"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "866517a5-2746-5656-9113-f05828c4c2bd"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "corrupted_hay_bale_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "d84d82d9-c7e4-587a-b3ef-c6a47b7d6757",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABc0lEQVR4nG2SwUrDQBRFr3WItWbSNJO2SKQxIdBdoX/gt7jyG136A4I7MaRWzELMlLQTKwQEF7cMoTrLmffOve++Obm7vQmV9IcegHq7q7QBYJp2Mp1c9H8A+EMvL0rTtNJ1QiUFq7uly0UCoPz4AgAgL8osjdgTKghemabdbPbxzE9iRaloetAE8Pi0Wi4SQkWlDaufXz/jmU/qkaZ1m6WRAEDqHGNbCqDSZv1WB8HAsmmsxxmk6wTBwHqotLl/eEHnhErmRQmgR2SopHQd07SMC8D8egxAuk693flDzx96oZIAhEV2ee/N92lwduWeU59s07RJrHqVNpw7S6MkVrQ7Ho0A9OXUImzcgiHYyWi30ia7vKbyaq35eoiV++uSspRj7NlPMJtN04ojl5vNPi9KIrI0qrc7rpWdeVH2bPB2fX93x12xTHRvmWZXM0sju2bqHL5GEita51ulzb+fst7uRKhklno2hG6CFixdh9+n0uYXgLo6OZ7K/QsAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "corrupted_hay_bale_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "particle": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "e15c56bc-b2b5-565d-a757-7fb4aeccf24d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABkklEQVR4nJVSXWvaYBR+YjPd8iaZ5uO1ED9idRSqODKhvR2M3hT2C/Y7ere/NtjdrlqhsIuCVJ14YRbTV2PcFhntxWljyaCyc/Wc53xxnnOkz+cfg3nUOnDEYhnMo2iVeN0GYcvU4t97TpkNbqaWqQ3Hc03N5/Cfti0I5hGBL1+/p6RTZv2r4dOo9OnsLQA/WAPgllKt8ov+iGLcUijELcUP1j3PnUz8nLZfChOp2XG4a4eJNLmNuWvLOmt2nDCRoDJZZ5TwJ8+gMtkyNQCtA2dwM+Vl7s/8b5fjQ9dO+VSA4djPLv0rFgAOXft69HP30qntGYWjdxXC01lMc54rsEulFN/lCtkJxdd6hnL0FxX11b+NwnANQCZHLJYAolWSSarYslg8YFpMOj1+QzLjUfj0FCnf89yL/ojuIDc7zviH4K5NQw1DEZuNrDPDUADIiQRAbDadk7aIBVSWs0ytXit63UYYruu1ImnS86qamm/UTQA9rwqAvfwbrZLdz/fhfZtA+kvbAuqUseksJhnp8ADuAfgLoFZeJYC4AAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {},
+  "overrides": []
+}
