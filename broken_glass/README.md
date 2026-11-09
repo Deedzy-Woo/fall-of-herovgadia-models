@@ -5,3 +5,5 @@
 [Подключение и описание](README_RU.md). Minecraft 1.21.1, NeoForge 21.1.235, Java 21.
 
 This package contains source/resources and an integration patch, not a standalone mod JAR or Blockbench project.
+
+[Download Blockbench ZIP](../downloads/broken_glass_blockbench.zip) · [Blockbench preview](blockbench_comparison.png)

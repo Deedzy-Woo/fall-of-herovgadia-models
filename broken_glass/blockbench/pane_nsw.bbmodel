@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "pane_nsw",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "pane_nsw_0",
+      "type": "cube",
+      "uuid": "cf565150-9583-50f0-839d-911a007a4d4c",
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "pane_nsw_1",
+      "type": "cube",
+      "uuid": "537a4366-04ec-5b8a-ab65-72c8a21a290c",
+      "from": [
+        7,
+        0,
+        0
+      ],
+      "to": [
+        9,
+        16,
+        7
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            9,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            9,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "pane_nsw_2",
+      "type": "cube",
+      "uuid": "b7297ef5-48b7-5f22-942a-3720d1e0d31f",
+      "from": [
+        7,
+        0,
+        9
+      ],
+      "to": [
+        9,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "pane_nsw_3",
+      "type": "cube",
+      "uuid": "c65a5854-b98d-53e1-bc0f-13b398e49b8e",
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        7,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            7,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 90
+        },
+        "down": {
+          "uv": [
+            7,
+            0,
+            9,
+            7
+          ],
+          "texture": 2,
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "pane_nsw_4",
+      "type": "cube",
+      "uuid": "f07f5426-1fd0-570a-ab07-79c2d50ed7bb",
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "pane_nsw",
+      "uuid": "c78fb2ac-f95d-5880-9d65-53258a113524",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "cf565150-9583-50f0-839d-911a007a4d4c",
+        "537a4366-04ec-5b8a-ab65-72c8a21a290c",
+        "b7297ef5-48b7-5f22-942a-3720d1e0d31f",
+        "c65a5854-b98d-53e1-bc0f-13b398e49b8e",
+        "f07f5426-1fd0-570a-ab07-79c2d50ed7bb"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "broken_glass.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "e2e6c3e7-a75d-5d40-8113-ddd0698a631e",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABfElEQVR4nIVTsWrCUBQ9hhBNjBJ1iYNJpR0a9A/aL8keEBFXdRAEC+ou0pI9X9J+QVvs0EVdsqSGNihKCx3SG56PSM/27r3nvHvuuy/Tn8x0SZE74HDc7efsma1hcyIFgsC3KFip6EsAUEuaE21DlyU1mtbN68syERZI2by6vq1U9CWR0/BHfmJjAgAEgW9F29BVS5rDJsvFgsHGeLKkyB3x3G2GWRu3bdsBgIXnuevVZsjmg8C3qko97oCFWtKc6aDnE5kwHfR8w6yNyUpiQcjgm3xH29AtFwvG3f3DyW1t23aoC34OwqjbHeXyciuXl1uNpnWzXm2G5WLBOGctdYgAcFm/eKYk3z7FDLM2JhvUdSJAZP4leBF+mCIAiFL2R5WyDhA/HU9ceJ778fm1pqUiHHf7udifzHQ2EW1DLDzP5a2we8LWC2n/AACoVXYH+A5OZpBG7k9melr+X4E0MSDevtX726Na0hyyIwLnvyoLSZE7VaUe1xwOSfwXLye4ux2C1VIAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "broken_glass_pane.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "d5bde1c2-4cca-5666-8258-40f2e046fa13",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABk0lEQVR4nIVTPU8CQRB9XAjIhwakgYIvjQWBf0DpT6C7/hJCCK1YkJBAgvSEQK4k4QdATaHR2kINJQEKrjnuoicnFwsLHTKsRKfZ3Zl5b97szrqqrXbU4/eVIZizsTv8zHN4TCLHajmbeLze7Wo5m4hgynE2dufiLPXI/RIxRyLRKV/JEsl4g/bZXCb/8jx9AIBgOKTsFOi6lgEAyzDVYDikUPDm+korybJCJBxsGabq8fvKblGqZZgqq9AAgJIsK93hUAWA9evbwjJMVde1TMyfxi8CstOT4wQ/l2RZof1gPCrc3WprAJAkFz7FvgFgMV/WqCq3wXhUoFYAQKpXKvWjgK94FPAVs7lMnl8erwoA3eFQ5WDg5xIB4DydeqLgITC1kUjGG4lkvEGqdwSceTFf1sTKYnt7Cj7e7Z5Yrdnr75FUW+1os9evcbCzsTuuaqsd5Yk0A5ZhqvT+HEQzsFPAZ5yClCC2csik/xJEEnFa3aLsv8ho5HVdu6dXcAOAs916ge8ve+gnUizmT3PXpbOxO18Qjs8STBSkXQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "broken_glass_pane_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "2",
+      "uuid": "c8685a9a-27d2-5948-b0d0-a14831c6a4c2",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALElEQVR4nGNgwAM6Zs1I6Zg1wxGfGiZ8ksQAig0Y5GBoBOLAG0BbMBoLxAEA6UcMYBhABXEAAAAASUVORK5CYII="
+    }
+  ],
+  "ambientocclusion": false
+}

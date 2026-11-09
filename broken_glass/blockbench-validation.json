@@ -1,0 +1,116 @@
+[
+  {
+    "name": "broken_glass",
+    "elements": 1,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "broken_glass_comparison",
+    "elements": 46,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "broken_glass_pane",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_e",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_es",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_esw",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_ew",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_isolated",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_n",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_ne",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_nes",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_nesw",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_new",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_ns",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_nsw",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_nw",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_s",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_sw",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "pane_w",
+    "elements": 5,
+    "textures": 3,
+    "version": "4.12.6"
+  }
+]
