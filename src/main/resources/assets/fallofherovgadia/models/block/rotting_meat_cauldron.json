@@ -7,8 +7,8 @@
     "side": "minecraft:block/cauldron_side",
     "inside": "minecraft:block/cauldron_inner",
     "meat_top": "fallofherovgadia:block/rotting_meat_cauldron_surface",
-    "meat_side": "fallofherovgadia:block/rotting_meat_side",
-    "meat_other": "fallofherovgadia:block/rotting_meat_side_variant_2",
+    "meat_side": "fallofherovgadia:block/rotting_meat_cauldron_side",
+    "meat_other": "fallofherovgadia:block/rotting_meat_cauldron_side_variant_2",
     "details": "fallofherovgadia:block/rotting_meat_cauldron_details"
   },
   "elements": [
@@ -1190,72 +1190,332 @@
       }
     },
     {
-      "name": "front_small_streak",
+      "name": "front_hanging_tissue",
       "from": [
-        3.5,
-        9.8,
-        -0.03125
+        7.7,
+        14.3,
+        -0.4
       ],
       "to": [
-        6.5,
-        15.8,
-        -0.03125
+        9.5,
+        16.8,
+        1.4
       ],
       "faces": {
         "north": {
+          "texture": "#meat_other",
           "uv": [
-            0,
-            8,
-            5,
-            16
-          ],
-          "texture": "#details"
+            2,
+            4,
+            3.8,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#meat_other",
+          "uv": [
+            2,
+            4,
+            3.8,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#meat_other",
+          "uv": [
+            2,
+            4,
+            3.8,
+            6.5
+          ]
+        },
+        "west": {
+          "texture": "#meat_other",
+          "uv": [
+            2,
+            4,
+            3.8,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#meat_top",
+          "uv": [
+            2,
+            2,
+            3.8,
+            3.8
+          ]
+        },
+        "down": {
+          "texture": "#meat_side",
+          "uv": [
+            2,
+            2,
+            3.8,
+            3.8
+          ]
         }
       }
     },
     {
-      "name": "right_small_streak",
+      "name": "back_rim_clot",
       "from": [
-        16.03125,
-        11,
-        8.5
+        4.6,
+        14.8,
+        14.7
       ],
       "to": [
-        16.03125,
-        16,
-        12.5
+        7.0,
+        17.0,
+        16.4
       ],
       "faces": {
-        "east": {
+        "north": {
+          "texture": "#meat_side",
           "uv": [
-            9,
-            8,
-            16,
-            16
-          ],
-          "texture": "#details"
+            2,
+            4,
+            4.4,
+            6.199999999999999
+          ]
+        },
+        "south": {
+          "texture": "#meat_side",
+          "uv": [
+            2,
+            4,
+            4.4,
+            6.199999999999999
+          ]
+        },
+        "east": {
+          "texture": "#meat_side",
+          "uv": [
+            2,
+            4,
+            3.6999999999999993,
+            6.199999999999999
+          ]
+        },
+        "west": {
+          "texture": "#meat_side",
+          "uv": [
+            2,
+            4,
+            3.6999999999999993,
+            6.199999999999999
+          ]
+        },
+        "up": {
+          "texture": "#meat_top",
+          "uv": [
+            2,
+            2,
+            4.4,
+            3.6999999999999993
+          ]
+        },
+        "down": {
+          "texture": "#meat_side",
+          "uv": [
+            2,
+            2,
+            4.4,
+            3.6999999999999993
+          ]
         }
       }
     },
     {
-      "name": "front_rim_residue",
+      "name": "front_spill_a_rim",
       "from": [
-        4.0,
+        3.2,
         16.03125,
-        0.25
+        -0.03125
       ],
       "to": [
-        7.8,
+        6.4,
         16.03125,
-        1.8
+        2.4
       ],
       "faces": {
         "up": {
           "uv": [
             0,
             0,
-            6,
-            6
+            8,
+            8
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "front_spill_a_wall",
+      "from": [
+        3.2,
+        9.5,
+        -0.03125
+      ],
+      "to": [
+        6.4,
+        16.03125,
+        -0.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            0,
+            16
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "front_spill_b_rim",
+      "from": [
+        11.8,
+        16.03125,
+        -0.03125
+      ],
+      "to": [
+        14.0,
+        16.03125,
+        2.4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "front_spill_b_wall",
+      "from": [
+        11.8,
+        11.2,
+        -0.03125
+      ],
+      "to": [
+        14.0,
+        16.03125,
+        -0.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            8,
+            8,
+            16
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "right_spill_a_rim",
+      "from": [
+        13.6,
+        16.03125,
+        3.6
+      ],
+      "to": [
+        16.03125,
+        16.03125,
+        6.2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "rotation": 90,
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "right_spill_a_wall",
+      "from": [
+        16.03125,
+        9.8,
+        3.6
+      ],
+      "to": [
+        16.03125,
+        16.03125,
+        6.2
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            16,
+            8,
+            8,
+            16
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "right_spill_b_rim",
+      "from": [
+        13.6,
+        16.03125,
+        10
+      ],
+      "to": [
+        16.03125,
+        16.03125,
+        12.8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "rotation": 90,
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "right_spill_b_wall",
+      "from": [
+        16.03125,
+        11,
+        10
+      ],
+      "to": [
+        16.03125,
+        16.03125,
+        12.8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            8,
+            0,
+            16
           ],
           "texture": "#details"
         }

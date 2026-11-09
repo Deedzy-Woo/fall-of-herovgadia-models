@@ -1,4 +1,15 @@
 {
+  "revision_materials": {
+    "cauldron_surface_unchanged": true,
+    "cauldron_original_sides_preserved": {
+      "rotting_meat_cauldron_side.png": "b4c956b8ae2bf58bdb0a67def334c016b8157f0e4079b9084a560fb099d7ba4c",
+      "rotting_meat_cauldron_side_variant_2.png": "2c677cc75299099f8499158e1e1f7b86abfcf8efdd5281110d80fee7d6902747"
+    },
+    "rim_wall_edge_rgba_match": true,
+    "original_iron_and_meat_cuboids_preserved": 24,
+    "continuous_rim_wall_spill_pairs": 4,
+    "bone_fragments_in_cauldron": false
+  },
   "textures": [
     {
       "name": "rotting_meat_top.png",
@@ -7,7 +18,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "31d0e6dad62fd27602a5ca2c7f9753c1cd9b8e53afd7e7e6bdf20de43255f6ef"
+      "sha256": "064148782907d9a63892c1eaba1d98de63892b81beeed15b736b3f3e78ce85f5"
     },
     {
       "name": "rotting_meat_side.png",
@@ -16,7 +27,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "b4c956b8ae2bf58bdb0a67def334c016b8157f0e4079b9084a560fb099d7ba4c"
+      "sha256": "4228f105df15a3f4a3d4b4e5ce7922504ce198eddec8db27f86085131b466637"
     },
     {
       "name": "rotting_meat_bottom.png",
@@ -34,7 +45,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "ef8da2d2748a394d41ba6a2e2b190b5b06a798cbc79fc26467e541d50e42cbd8"
+      "sha256": "2c155a5f8ee642330afa2e198ac92b34a0340151e78e2658f394c1f26c6f53c1"
     },
     {
       "name": "rotting_meat_side_variant_2.png",
@@ -43,7 +54,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "2c677cc75299099f8499158e1e1f7b86abfcf8efdd5281110d80fee7d6902747"
+      "sha256": "70e1220607de7a78cccda8ca054cfdb989ccab65ffd023772d8d9776adb9e7b3"
     },
     {
       "name": "rotting_meat_top_variant_3.png",
@@ -52,7 +63,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "d61bb97cc84a9d42017443d8d8f706e509de0ae617f5d313a94b79714c50efd3"
+      "sha256": "fc0c15a8031116e1145b37a67d986df6cc1d6ce72e55f68f7dc2075df81d0177"
     },
     {
       "name": "rotting_meat_side_variant_3.png",
@@ -61,7 +72,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "c6de3f1cc7c86bb39345f6232452dbea63c3e64c98a7803efaeca93451a09e4f"
+      "sha256": "66ec522d417e88f0292ae6e24f1385eac55a5d59a671850752d34988aad7d852"
     },
     {
       "name": "rotting_meat_cauldron_surface.png",
@@ -73,13 +84,31 @@
       "sha256": "30d09694a682f8ba038db1262ca482091c3de19017ebfe984515d660fb3a514e"
     },
     {
+      "name": "rotting_meat_cauldron_side.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "b4c956b8ae2bf58bdb0a67def334c016b8157f0e4079b9084a560fb099d7ba4c"
+    },
+    {
+      "name": "rotting_meat_cauldron_side_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "2c677cc75299099f8499158e1e1f7b86abfcf8efdd5281110d80fee7d6902747"
+    },
+    {
       "name": "rotting_meat_cauldron_details.png",
       "size": [
         16,
         16
       ],
       "mode": "RGBA",
-      "sha256": "f2196226acaea1d67fd0dde2559dacbfbfe83ffef5f47b2f4b55dff6adaa68d1"
+      "sha256": "c75767efbed3e0a32c361cbd47a1dd53caa11ef8aebd0d3bf266f084254ed921"
     }
   ],
   "models": [
@@ -90,7 +119,7 @@
     },
     {
       "name": "rotting_meat_cauldron.json",
-      "cuboids": 27,
+      "cuboids": 34,
       "validated": true
     },
     {

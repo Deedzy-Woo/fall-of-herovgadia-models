@@ -25,6 +25,8 @@ src/main/resources/assets/fallofherovgadia/models/block/rotting_meat_variant_2.j
 src/main/resources/assets/fallofherovgadia/models/block/rotting_meat_variant_3.json
 src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_bottom.png
 src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_cauldron_details.png
+src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_cauldron_side.png
+src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_cauldron_side_variant_2.png
 src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_cauldron_surface.png
 src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_side.png
 src/main/resources/assets/fallofherovgadia/textures/block/rotting_meat_side_variant_2.png
