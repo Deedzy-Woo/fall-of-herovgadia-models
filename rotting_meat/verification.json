@@ -18,7 +18,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "ae76837c55103dbf9b1322f61e491e966d00da70a0fa87e82d61039506dd86d8"
+      "sha256": "7a85f2a50a59dd8728f7f1be353f4cea390142ec64593adfd7edcbde56e1b101"
     },
     {
       "name": "rotting_meat_bottom_variant_2.png",
@@ -27,7 +27,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "4cbc6aa1a8fc401db9747e47067c2d270dff0108e87dd9316a6470efba4d783d"
+      "sha256": "bfcef0a756e8c9135237e47653faa02e0223c238a376ce9455a43685462b8bea"
     },
     {
       "name": "rotting_meat_bottom_variant_3.png",
@@ -36,7 +36,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "6e99eec390dd21c6e0b136c5566402d6f5266b754c5ea62490a6138e29fd1301"
+      "sha256": "d2804da7d0505a2d5507f1a91be760a88c7a8073095f86ec57fa088751da9cc0"
     },
     {
       "name": "rotting_meat_cauldron_details.png",
@@ -90,7 +90,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "c8a4d8269f9f51b47595d8e6b879b5d282fc3008f4724aec2804a33fd91e1171"
+      "sha256": "796b4a52f05b4c4aa71a529389e0e5c423d4e9669c3cfd38d241b98c836acf90"
     },
     {
       "name": "rotting_meat_side_east_variant_2.png",
@@ -99,7 +99,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "755b157cc23440d72532da2ba9e6385f410461816b989c1ed490040885963b74"
+      "sha256": "b9f21bd16ef0c98ecea24fac82cd65f6d21fa2a67b6e15f71dde5d10e559ba88"
     },
     {
       "name": "rotting_meat_side_east_variant_3.png",
@@ -108,7 +108,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "921c28c3d772c0f679e1f9b4e438531795e2591e0d2d19e1b3f4d45efa54f459"
+      "sha256": "ee6593f6e560e0b051c7caec964b15cdf66edfa264096f5fbf93e13e0623586d"
     },
     {
       "name": "rotting_meat_side_south.png",
@@ -117,7 +117,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "8c3b696695d1ba52e151f6f20d47745cc6b907d92c0578ddf19fadcf683870c1"
+      "sha256": "8a7c502660d90d932844bb2ffb87e4566060a0d5b6d140bd490537240b3cac6d"
     },
     {
       "name": "rotting_meat_side_south_variant_2.png",
@@ -126,7 +126,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "9803c208c95c1dad8f4f57c600add3696d35f04bbc0d094d7bff1bc2c69ba75c"
+      "sha256": "1cdb6b8e91647f04a6016a6415b9892df04b7a3f502b3579ccf51db8b450ca03"
     },
     {
       "name": "rotting_meat_side_south_variant_3.png",
@@ -135,7 +135,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "1630d8373b7ce11fda7a40a3010b8edfdcb1bc264767ca505b3d53e6f113df5a"
+      "sha256": "e8ceb19c3363d103e3b523bb112b353727d19124cfa09611ddc281a64ec247af"
     },
     {
       "name": "rotting_meat_side_variant_2.png",
@@ -162,7 +162,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "4eee3b9806950ab9ad99d3bdfc3fc2873846ecd731ab5d146ce1e731800847bb"
+      "sha256": "3ca3b3090574cc00ca2a11d1ae47aaa5780f26de04f5d21b5174cbb0853c341b"
     },
     {
       "name": "rotting_meat_side_west_variant_2.png",
@@ -189,7 +189,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "21c6797992607eaee0c0285b29c5b33de038d75c9d2c8e370fc00dd7c40dbc40"
+      "sha256": "a36fa6bba3ff732902cd3c3ae0aec6c4f3edc6aa3845df020b28bed0d77cd2cd"
     },
     {
       "name": "rotting_meat_top_variant_2.png",
@@ -198,7 +198,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "e0a876ac473fbc39b4c44e56c0857b7ecca917a76fc3f2aa842aa5e473af61e9"
+      "sha256": "b5e88e900b9aecef3a5a9354b338cd8670a2615bfe092552da8840667d2644cd"
     },
     {
       "name": "rotting_meat_top_variant_3.png",
@@ -207,7 +207,7 @@
         16
       ],
       "mode": "RGB",
-      "sha256": "e364843f490fb809c9fad194f5d5d2c38730d463c61111aeee1006bc407af11b"
+      "sha256": "87e345fcdc21f867dfcb352f5958a50b202ff34582e18a63086138fb1b2e598b"
     }
   ],
   "models": [
@@ -256,8 +256,8 @@
         "face": "top",
         "name": "rotting_meat_top.png",
         "family": "top",
-        "sha256": "8abf928b37038164587e33cc0b99c58fd2651a699986a4d46a799b5f7adb2cb8",
-        "core_sha256": "aef8ca6271a0f59033115fd385d5513c7336260e7db1540124b1ac2d08d86288",
+        "sha256": "0f57c4aca57b3addbe32e483825a97b6a5c7f00c90f469cee9ca406527293b77",
+        "core_sha256": "74f3c6a1da32913ca85c95a3a364081bb136cc19052a79f2031e47a03e8fe610",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -333,8 +333,8 @@
         "face": "side_east",
         "name": "rotting_meat_side_east.png",
         "family": "side",
-        "sha256": "695265e648e8d7ccd7d0e21bbea103301bbd10841f231071d4879a1d364855cd",
-        "core_sha256": "364b832ca164ae18f793f9f17ebcf157bdc06f7fd1577e0d20cc3c90c505fb25",
+        "sha256": "8c3c043c72eaa2f49350c8ffec29ed89b372c60ed0900084e21b6619ad31dc6f",
+        "core_sha256": "8403be39f51d452316531d5b1c143c837c16f425497ba4e1e7a562fe8ec880de",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -383,8 +383,8 @@
         "face": "side_south",
         "name": "rotting_meat_side_south.png",
         "family": "side",
-        "sha256": "a2fe3d0c884ea1748df7647fa0e139459b2a31f52011389773cde41315b3db57",
-        "core_sha256": "8f56b34e61af58445b38e353f39f2763f7841be02f2c71141464d55f0b7dd4f3",
+        "sha256": "432729aee0cd49b07537b3b270b2ad4e9fcc75ffac4af45db11d8b917e2fbf85",
+        "core_sha256": "3becc9403ae86210318e185f9399242ef5677a47b2548126c1d4113019b98710",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -418,8 +418,8 @@
         "face": "side_west",
         "name": "rotting_meat_side_west.png",
         "family": "side",
-        "sha256": "c64f1aa36b0a60111f09dc357ce617a909f263df9de6de66dc655af56f23f2f4",
-        "core_sha256": "e38783745e637ab0b74da02a5a90d84007290c7548ea545409dd0d27237be012",
+        "sha256": "84f0facb2518fbc28221a5d646e132d47f6c48fbd7ec0bdd733dcd42d6f35a3c",
+        "core_sha256": "6e88fb1ed3d7b00fc5616725a48f096963ce6fdb53c42400975cc1c115383a41",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -468,8 +468,8 @@
         "face": "bottom",
         "name": "rotting_meat_bottom.png",
         "family": "bottom",
-        "sha256": "508b13bc43a06e2515dd9bd1a299e93806d3111dd7095624eefb97b868c0f9c3",
-        "core_sha256": "561c667699b89042948ed4fe399ade2e65ae34751850569317782a55a309411e",
+        "sha256": "14aaed44c94c8a5e6e85d8539f4fa88ec1aa5d00122202f4939ac1ba125086f4",
+        "core_sha256": "364c6f7dfe91be4702253eea487cbc938e351dc36e5a9cac2624edd926f46953",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -510,8 +510,8 @@
         "face": "top",
         "name": "rotting_meat_top_variant_2.png",
         "family": "top",
-        "sha256": "7bc2f3eeecf44c814bd82c46a595bf8a7cbc6fbc4cdd06836623e68409c3e662",
-        "core_sha256": "4e010ff00210e9134e3ad0cd1209836a2b7a4e20960c213a047cb4bcc8da6b6b",
+        "sha256": "42e175f9b6d71e3e4496f83892a4cecd2eb50f74faa561e130b4545c9bea2ca0",
+        "core_sha256": "fd0542cd893ccc9b022a188102c190bc061d98634b3eb2053f2d3d3c77d94a76",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -580,8 +580,8 @@
         "face": "side_east",
         "name": "rotting_meat_side_east_variant_2.png",
         "family": "side",
-        "sha256": "b7b7e3f2e83474634f9404d6a6e2bbbdbe503207975e86c00d9bf989db0c4f77",
-        "core_sha256": "d75a135ab64a1984d36f86974a202c2599e37c4831dcab273ddc0236abbe2ce7",
+        "sha256": "89d9e878dad2217ed3e1d823552134848a7c328d17d73428eee28a7b9768da48",
+        "core_sha256": "630b5f14340888d472d8992477ca1ba0dff818ed30b24595130f2ee42193f51e",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -630,8 +630,8 @@
         "face": "side_south",
         "name": "rotting_meat_side_south_variant_2.png",
         "family": "side",
-        "sha256": "2a36898a96def673c1e1bcccab034b0a79c1b9a7d87d89bcab54da1197fca1cc",
-        "core_sha256": "9f34348be957f813750a642067a05180c86139fd345dce4c3970c54af7198bf6",
+        "sha256": "2338514ce4708cfb2e70bcd64ea94e32c91075efcda2815dd4342c1677d0ba36",
+        "core_sha256": "45c4898bf22b345c910c48612fa88a5434acdb8f7bb387fe4faf6a48fe2b3026",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -707,8 +707,8 @@
         "face": "bottom",
         "name": "rotting_meat_bottom_variant_2.png",
         "family": "bottom",
-        "sha256": "b4f41402b9c2417a6c10210a3720d6fe1d2ae35d4d4df2afc28d150118a2fcdd",
-        "core_sha256": "0372926a56b35738c7b00764d2406be3e42e3a07c8e9e31c6e49478fdbf63263",
+        "sha256": "61d89dd72ba8a7ccee1619f436432f6f4d30f299bdfae7e862d6f106c0534072",
+        "core_sha256": "27ed7d7080ac948c695ad8a3287be729385b2dac69752d3d4bc88f82433237cd",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -742,8 +742,8 @@
         "face": "top",
         "name": "rotting_meat_top_variant_3.png",
         "family": "top",
-        "sha256": "50fc235b14140277274991afd1c0783a9f2e0b50dcfffe50876a9581dd1309d4",
-        "core_sha256": "a984f989f3b3a8e7d3a5a510521dd620fc629766eca290f421f73a0337d1abce",
+        "sha256": "fd20273583928b424757015ce73d66d85434a33ee802549ffc02596dabfc1f42",
+        "core_sha256": "4c6d5170825a2da9d83c88f2a989912315c86ebfbd29697ecdf3352b79d45c79",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -819,8 +819,8 @@
         "face": "side_east",
         "name": "rotting_meat_side_east_variant_3.png",
         "family": "side",
-        "sha256": "3179d6e7988ba9b5c04e3db7b4157399dd81d4ce9f739be691e17eda31ce2186",
-        "core_sha256": "ab6b900494ff50d1aa8fce0a98214c8dee0561c657329613f318b0469953678a",
+        "sha256": "c3fefbfc722923185bd62f0f3eacb8217d6e105006f57c830c51daea1f4504d0",
+        "core_sha256": "54877646cb972d05df10e306bc20f7a53a595d6c01362a78afd6150b3af14a96",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -862,8 +862,8 @@
         "face": "side_south",
         "name": "rotting_meat_side_south_variant_3.png",
         "family": "side",
-        "sha256": "e3f657db157f79e98619ddbd427aa5eb36438dba718676757e798fcc8cdec6d0",
-        "core_sha256": "d1ba68b9fe24365bf2f07c943c8a589cbe0a7c1368521740bc6753089c307dd6",
+        "sha256": "b7e71201d9b990cecaa13af3ccf438378b5527300cf8e0f4572c010de7b2b917",
+        "core_sha256": "ab955277f1d0360b15569779b632bd31aa66dca45453f9bbc59151cdf31caaa6",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -939,8 +939,8 @@
         "face": "bottom",
         "name": "rotting_meat_bottom_variant_3.png",
         "family": "bottom",
-        "sha256": "edebbe28353010b7605e6fc8e7b1e3bb52058d3254af34f80620bb948fc809c1",
-        "core_sha256": "7c30fd903db0f61561343e9a7075b687ccdc89fc9574837574921767528c2157",
+        "sha256": "91ab6106940ac79e709c325908459761d01f736f806a65f4500ad1147eefd6bb",
+        "core_sha256": "8e8e76de692c139a8646f00f716b55d4d0668f2e5209f451c0275e00f9f4a744",
         "placements": [
           {
             "motif": "intestinal_fold",
@@ -990,7 +990,18 @@
   "java_or_registration_added": false,
   "game_runtime_tested": false,
   "blood_revision": {
-    "pigment_alpha_in_drawing": 125,
+    "pool_rgba_in_drawing": [
+      155,
+      27,
+      32,
+      118
+    ],
+    "run_rgba_in_drawing": [
+      143,
+      21,
+      28,
+      125
+    ],
     "final_textures_opaque": true,
     "cauldron_unchanged": true
   }
