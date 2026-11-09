@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "single",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "single",
+      "type": "cube",
+      "uuid": "8afd4e69-5c58-5fed-b10e-53a23d2611b4",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "single",
+      "uuid": "9521d159-c531-5981-96e8-4a2d66b40836",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "export": true,
+      "visibility": true,
+      "isOpen": false,
+      "children": [
+        "8afd4e69-5c58-5fed-b10e-53a23d2611b4"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotting_meat_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "a43abda3-d406-5b9c-9126-a939ef65e6b7",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABu0lEQVR4nF2SUW/TMBSFz6p4JlEasBPkBTKEViR4LC/8gT3zN/kXvO1pT9XQhiq1KmIRIWoSd64VYyxNPJhEa++TZd979Z1zfPL5/UVGSRpSAK2xjXUAyt5OyQTALI7SkAqWAKilWu504Lv9FaAArHUPYO8ei4hiKF7ktVQZJYHv5kU+PCkAX393KT0dd/EiXxknWAKooDVWMADYZ5wPM2/jZz/0n4XUlyEF0JWVk+rOWACBh+vSTAAr4zgOarnTy53OKPHaMkoCfzoD6vuat00tVWssgJSezlk8Il1d33htJx/PXxcR9bhHLn16yXz3PuPTpuvK6svtJgDw4JwHSEO6kLq1fy/P+FO5uK+nIfE9wbje53Ao4b9c8u6iK6taqiKixznMgbXuF1IX1rXGug8CyQvy7bsLaWvsQQ4r48SQw0JqAD9fhTlQKRVZ54EBTEYMcS54kQuWpCGds7jsbbRRlVLRRo0UrbFBY10tFYDOuFEZgCmZlL3F7fbNYC6Axrqg7K2Xm0rVscTnsNb93j0e2XV1fVP29sDW1mz9mueEzGLy9J/e/dr6iI5tHYN7cG6t+5mxfkwwePJ/ZiwN6LD250cAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "5d6a96f6-7ea7-5be8-a894-95dc23b9ec8d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABXklEQVR4nG1SwU7CQBB9bDosJQulUoNRNCgHEi+GxD/w7L/jhcjBxAPBELpBSkMdNiEeRpZa7ak78/bNe2+29jy6SzQBAJCy2zi3dYcWqYhI6t1QA7AFp+wABL5qC5ZrlvdAPfohAYBe3O7FWK4zW7ASdC9u4/e3ca58FDSAQAYBGQCZ9hDTfMdl9HSxOsJQG19flRVXRIsly/unizMAk3WuLO+37uDJyvIE7fMQe8HANHz1XzP9pu43daKpG+qBaQQR0dCc4psuVpJYyq7SsgVHRMrH6rlnn3nKbr5jYb2/PPetRNOvWL3R+Y5bpMrCTouTA5B59Hv+1dX1iKjSkptK/rwMAAPTqHB3Qz3qmERTyi4QkDgZdUx5+lu+u3m8BTB7mYufyTpXLVLe3FEDAPhlf2SZAGzBLVLB0DT/OpOHFBHR63IcahyDHppmkLJLNNmCbbEqP29ZVmWJKbtvvULwHm6VsaAAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "2",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "86edf0c4-6aa8-5220-b1ad-29c0b3abf4d4",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABvElEQVR4nFWS32riQBTGPyXjEDF2deIGi1vYdkHoVS/6Gn3kvdsH2FJQhMqW7aAEnaSOIdPTA7IXp4bsuRpmzr/vN1/nYX6damViDcAF2hMDsDUlqgvgZtA3sc5GQwB56VdvVSTZcgV4AOuqBnDk06yvcY7xbJqXPtUqApCNhuPZ9Dlw1qp5qd4BpFpJQWG3cohkGQDZtyyJVTPnQilbU3vCYrMzsY5cIMAXJsVrfi4AgANzoroiCfB56eUc/S6rpKpvwtLEuvhUApnwWB6NPh2Y98SpVvMvg58b17n6OjG6l6juhVKy8e3lZDybLp9Wwm1d1Uc+Ofowuufoo/Mwv7Y13Y0GwkrUA/gRq8Ju89K3cQOIZFaTqtJxBuSvuTy7QCbWt5eTvPQu0Ccl+QRpnOyLwm659L8C7YltTXcA4LPRMBshL33kArmwM7HOgPycJ5Reqneje2iFC9QRazSOEHFtBo225dNq9VZFtiaR4QKlWq2r+ur+O4DDo22IPQeG3UrHSEwmb8Lkr/cAmDnVSm649ItAe+JEdaMjn/B/9P94AJZPzTeL4sVmZ2vqNpYUcG17H5jbjUysZ339Dw0wEUZl2rJgAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {},
+  "overrides": []
+}

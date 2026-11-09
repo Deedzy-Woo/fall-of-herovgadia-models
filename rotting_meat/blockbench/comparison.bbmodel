@@ -1,0 +1,4048 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "comparison",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "vanilla_cauldron_part_0",
+      "type": "cube",
+      "uuid": "970632ee-c4bd-5bdd-b6b0-bf80287a9c6b",
+      "from": [
+        -24,
+        3,
+        -8
+      ],
+      "to": [
+        -22,
+        16,
+        8
+      ],
+      "origin": [
+        -23.0,
+        9.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_1",
+      "type": "cube",
+      "uuid": "53541a46-fd4b-5183-a40b-987af2f632b5",
+      "from": [
+        -22,
+        3,
+        -6
+      ],
+      "to": [
+        -10,
+        4,
+        6
+      ],
+      "origin": [
+        -16.0,
+        3.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_2",
+      "type": "cube",
+      "uuid": "6c49f5d9-4b8d-5fed-a0a7-e42f1121867f",
+      "from": [
+        -10,
+        3,
+        -8
+      ],
+      "to": [
+        -8,
+        16,
+        8
+      ],
+      "origin": [
+        -9.0,
+        9.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_3",
+      "type": "cube",
+      "uuid": "72e28b5d-3f4b-5c68-affe-3982c1910ec6",
+      "from": [
+        -22,
+        3,
+        -8
+      ],
+      "to": [
+        -10,
+        16,
+        -6
+      ],
+      "origin": [
+        -16.0,
+        9.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_4",
+      "type": "cube",
+      "uuid": "a0db8a86-df0b-56bd-a610-b37ab89646ce",
+      "from": [
+        -22,
+        3,
+        6
+      ],
+      "to": [
+        -10,
+        16,
+        8
+      ],
+      "origin": [
+        -16.0,
+        9.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_5",
+      "type": "cube",
+      "uuid": "ecd61724-0194-5311-b7b0-e6821c83cad3",
+      "from": [
+        -24,
+        0,
+        -8
+      ],
+      "to": [
+        -20,
+        3,
+        -6
+      ],
+      "origin": [
+        -22.0,
+        1.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            14,
+            4,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_6",
+      "type": "cube",
+      "uuid": "755bc3bd-97b5-5386-8661-2291f7ebf7a4",
+      "from": [
+        -24,
+        0,
+        -6
+      ],
+      "to": [
+        -22,
+        3,
+        -4
+      ],
+      "origin": [
+        -23.0,
+        1.5,
+        -5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_7",
+      "type": "cube",
+      "uuid": "9bb25bb0-5838-5748-a3e4-0df98d02844a",
+      "from": [
+        -12,
+        0,
+        -8
+      ],
+      "to": [
+        -8,
+        3,
+        -6
+      ],
+      "origin": [
+        -10.0,
+        1.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            14,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_8",
+      "type": "cube",
+      "uuid": "2c5082af-ea8c-5c94-bcbc-88b632d987f2",
+      "from": [
+        -10,
+        0,
+        -6
+      ],
+      "to": [
+        -8,
+        3,
+        -4
+      ],
+      "origin": [
+        -9.0,
+        1.5,
+        -5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_9",
+      "type": "cube",
+      "uuid": "d8b9d730-b6bb-5df7-836b-dbc59aa65f65",
+      "from": [
+        -24,
+        0,
+        6
+      ],
+      "to": [
+        -20,
+        3,
+        8
+      ],
+      "origin": [
+        -22.0,
+        1.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_10",
+      "type": "cube",
+      "uuid": "da817dcf-41d2-5868-b4b2-083997b9e514",
+      "from": [
+        -24,
+        0,
+        4
+      ],
+      "to": [
+        -22,
+        3,
+        6
+      ],
+      "origin": [
+        -23.0,
+        1.5,
+        5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            2,
+            2,
+            4
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_11",
+      "type": "cube",
+      "uuid": "e1b6a875-8f37-5603-9dfb-e61ec5adac3d",
+      "from": [
+        -12,
+        0,
+        6
+      ],
+      "to": [
+        -8,
+        3,
+        8
+      ],
+      "origin": [
+        -10.0,
+        1.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            0,
+            16,
+            2
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_12",
+      "type": "cube",
+      "uuid": "554778a8-26e0-52b1-8d56-decf52b8bf3c",
+      "from": [
+        -10,
+        0,
+        4
+      ],
+      "to": [
+        -8,
+        3,
+        6
+      ],
+      "origin": [
+        -9.0,
+        1.5,
+        5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            2,
+            16,
+            4
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_0",
+      "type": "cube",
+      "uuid": "102932ad-5b7e-57ef-ab69-eceaa493fc45",
+      "from": [
+        8,
+        3,
+        -8
+      ],
+      "to": [
+        10,
+        16,
+        8
+      ],
+      "origin": [
+        9.0,
+        9.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_1",
+      "type": "cube",
+      "uuid": "349f4208-c00e-5101-935b-52beef2f2b5c",
+      "from": [
+        10,
+        3,
+        -6
+      ],
+      "to": [
+        22,
+        4,
+        6
+      ],
+      "origin": [
+        16.0,
+        3.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_2",
+      "type": "cube",
+      "uuid": "5e5596a5-b2c4-518c-8c3a-c0edb41fa70b",
+      "from": [
+        22,
+        3,
+        -8
+      ],
+      "to": [
+        24,
+        16,
+        8
+      ],
+      "origin": [
+        23.0,
+        9.5,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_3",
+      "type": "cube",
+      "uuid": "4e1721de-f4ff-538b-91fd-b60433085337",
+      "from": [
+        10,
+        3,
+        -8
+      ],
+      "to": [
+        22,
+        16,
+        -6
+      ],
+      "origin": [
+        16.0,
+        9.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_4",
+      "type": "cube",
+      "uuid": "f20d885b-1e1b-5324-bac2-b9fac5c3eb5f",
+      "from": [
+        10,
+        3,
+        6
+      ],
+      "to": [
+        22,
+        16,
+        8
+      ],
+      "origin": [
+        16.0,
+        9.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_5",
+      "type": "cube",
+      "uuid": "f84a9b2d-e62c-549a-9705-5109a1039996",
+      "from": [
+        8,
+        0,
+        -8
+      ],
+      "to": [
+        12,
+        3,
+        -6
+      ],
+      "origin": [
+        10.0,
+        1.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            14,
+            4,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_6",
+      "type": "cube",
+      "uuid": "fb2a6b1f-1983-5c76-aca1-af796e9816ea",
+      "from": [
+        8,
+        0,
+        -6
+      ],
+      "to": [
+        10,
+        3,
+        -4
+      ],
+      "origin": [
+        9.0,
+        1.5,
+        -5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_7",
+      "type": "cube",
+      "uuid": "d663be29-c2be-5dbc-aa12-cc0b90e50364",
+      "from": [
+        20,
+        0,
+        -8
+      ],
+      "to": [
+        24,
+        3,
+        -6
+      ],
+      "origin": [
+        22.0,
+        1.5,
+        -7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            14,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_8",
+      "type": "cube",
+      "uuid": "a1d1ade3-2e77-508a-beb1-c9834c645dfa",
+      "from": [
+        22,
+        0,
+        -6
+      ],
+      "to": [
+        24,
+        3,
+        -4
+      ],
+      "origin": [
+        23.0,
+        1.5,
+        -5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_9",
+      "type": "cube",
+      "uuid": "c88d2768-2505-5338-91c2-86912dac6966",
+      "from": [
+        8,
+        0,
+        6
+      ],
+      "to": [
+        12,
+        3,
+        8
+      ],
+      "origin": [
+        10.0,
+        1.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_10",
+      "type": "cube",
+      "uuid": "87fc48e0-e0a4-5f09-bd87-21f566283bd0",
+      "from": [
+        8,
+        0,
+        4
+      ],
+      "to": [
+        10,
+        3,
+        6
+      ],
+      "origin": [
+        9.0,
+        1.5,
+        5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            2,
+            2,
+            4
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_11",
+      "type": "cube",
+      "uuid": "dd657e11-1034-50fa-b9f7-1d2f38a665ef",
+      "from": [
+        20,
+        0,
+        6
+      ],
+      "to": [
+        24,
+        3,
+        8
+      ],
+      "origin": [
+        22.0,
+        1.5,
+        7.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            0,
+            16,
+            2
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "vanilla_cauldron_part_12",
+      "type": "cube",
+      "uuid": "0a3b83d5-ed55-5ed5-8d18-cd783623c878",
+      "from": [
+        22,
+        0,
+        4
+      ],
+      "to": [
+        24,
+        3,
+        6
+      ],
+      "origin": [
+        23.0,
+        1.5,
+        5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            2,
+            16,
+            4
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dense_lower_fill",
+      "type": "cube",
+      "uuid": "3e8dc981-c2f3-5f6c-b3fc-81378a868812",
+      "from": [
+        10.05,
+        4,
+        -5.95
+      ],
+      "to": [
+        21.95,
+        12,
+        5.949999999999999
+      ],
+      "origin": [
+        16.0,
+        8.0,
+        -4.440892098500626e-16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2.05,
+            2.05,
+            13.95,
+            13.95
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2.05,
+            2.05,
+            13.95,
+            13.95
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            13.899999999999999,
+            12
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            13.899999999999999,
+            12
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            13.899999999999999,
+            12
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            13.899999999999999,
+            12
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "front_fold",
+      "type": "cube",
+      "uuid": "935f5ebc-e18a-57e5-a6d6-7afd2ca46ef5",
+      "from": [
+        10.5,
+        11.2,
+        -5.5
+      ],
+      "to": [
+        15.5,
+        15.3,
+        -0.20000000000000018
+      ],
+      "origin": [
+        13.0,
+        13.25,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            2.5,
+            7.5,
+            7.8
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2.5,
+            2.5,
+            7.5,
+            7.8
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            7.0,
+            8.100000000000001
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            7.0,
+            8.100000000000001
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            7.3,
+            8.100000000000001
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            7.3,
+            8.100000000000001
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "front_rotten_chunk",
+      "type": "cube",
+      "uuid": "fd7aea51-f3a1-5f62-b5c9-eebf541c66e9",
+      "from": [
+        15.1,
+        10.7,
+        -5.3
+      ],
+      "to": [
+        21.2,
+        16.3,
+        -0.7000000000000002
+      ],
+      "origin": [
+        18.15,
+        13.5,
+        -3.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            7.1,
+            2.7,
+            13.2,
+            7.3
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            7.1,
+            2.7,
+            13.2,
+            7.3
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            8.1,
+            9.600000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            8.1,
+            9.600000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            6.6,
+            9.600000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            6.6,
+            9.600000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "back_coagulated_fold",
+      "type": "cube",
+      "uuid": "7ea3120c-347e-56fd-ac8d-4bbb9ee0fd06",
+      "from": [
+        10.5,
+        11.4,
+        0
+      ],
+      "to": [
+        15.8,
+        16.8,
+        5.300000000000001
+      ],
+      "origin": [
+        13.15,
+        14.100000000000001,
+        2.6500000000000004
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            8,
+            7.8,
+            13.3
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2.5,
+            8,
+            7.8,
+            13.3
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            7.3,
+            9.4
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            7.3,
+            9.4
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            7.300000000000001,
+            9.4
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            7.300000000000001,
+            9.4
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "back_chunk",
+      "type": "cube",
+      "uuid": "9c021e33-c89a-5601-adda-1689813a46db",
+      "from": [
+        16.2,
+        11.6,
+        -0.09999999999999964
+      ],
+      "to": [
+        21.2,
+        15.5,
+        5.1
+      ],
+      "origin": [
+        18.7,
+        13.55,
+        2.5
+      ],
+      "rotation": [
+        0,
+        -22.5,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            8.2,
+            7.9,
+            13.2,
+            13.1
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            8.2,
+            7.9,
+            13.2,
+            13.1
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            7.0,
+            7.9
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            7.0,
+            7.9
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            7.199999999999999,
+            7.9
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            7.199999999999999,
+            7.9
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "raised_center_mass",
+      "type": "cube",
+      "uuid": "6e4826e2-d2d4-5d2e-b1ee-e82139b2e9bf",
+      "from": [
+        13.8,
+        12.4,
+        -2.5
+      ],
+      "to": [
+        18.2,
+        17.7,
+        2.0
+      ],
+      "origin": [
+        16.0,
+        15.05,
+        -0.25
+      ],
+      "rotation": [
+        0,
+        22.5,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            1,
+            5.3999999999999995,
+            5.5
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            5.8,
+            5.5,
+            10.2,
+            10.0
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            6.3999999999999995,
+            9.299999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            6.3999999999999995,
+            9.299999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            6.5,
+            9.299999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            6.5,
+            9.299999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "center_shoulder",
+      "type": "cube",
+      "uuid": "a2a665d6-f20c-59e9-8360-1213806bc943",
+      "from": [
+        12.4,
+        14.0,
+        -2.0
+      ],
+      "to": [
+        16.0,
+        17.0,
+        1.8000000000000007
+      ],
+      "origin": [
+        14.2,
+        15.5,
+        -0.09999999999999964
+      ],
+      "rotation": [
+        0,
+        -22.5,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            4.4,
+            6.0,
+            8.0,
+            9.8
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            4.4,
+            6.0,
+            8.0,
+            9.8
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            5.6,
+            7.0
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            5.6,
+            7.0
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            5.800000000000001,
+            7.0
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            5.800000000000001,
+            7.0
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "central_upper_fold",
+      "type": "cube",
+      "uuid": "e28e9eba-6a6e-5d3c-8719-de1db706c379",
+      "from": [
+        15.2,
+        16.2,
+        -1.5
+      ],
+      "to": [
+        17.5,
+        18.1,
+        0.9000000000000004
+      ],
+      "origin": [
+        16.35,
+        17.15,
+        -0.2999999999999998
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            1,
+            3.3,
+            3.4000000000000004
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            7.2,
+            6.5,
+            9.5,
+            8.9
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            4.3,
+            5.900000000000002
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            4.3,
+            5.900000000000002
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            4.4,
+            5.900000000000002
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            4.4,
+            5.900000000000002
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "small_tissue_lobe",
+      "type": "cube",
+      "uuid": "09484503-dbd3-5d59-90e6-a7f507796b94",
+      "from": [
+        17.2,
+        14.7,
+        -1.2999999999999998
+      ],
+      "to": [
+        20.0,
+        17.0,
+        1.3000000000000007
+      ],
+      "origin": [
+        18.6,
+        15.85,
+        4.440892098500626e-16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            9.2,
+            6.7,
+            12.0,
+            9.3
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            9.2,
+            6.7,
+            12.0,
+            9.3
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            4.800000000000001,
+            6.300000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            4.800000000000001,
+            6.300000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            4.6000000000000005,
+            6.300000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            4.6000000000000005,
+            6.300000000000001
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "rim_fragment",
+      "type": "cube",
+      "uuid": "81a99b18-e032-56ee-b477-3b9a9e2012f2",
+      "from": [
+        18.0,
+        14.4,
+        -8.1
+      ],
+      "to": [
+        19.5,
+        16.4,
+        -6.9
+      ],
+      "origin": [
+        18.75,
+        15.399999999999999,
+        -7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.2
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.2
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            3.5,
+            5.999999999999998
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            3.5,
+            5.999999999999998
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            3.2,
+            5.999999999999998
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            3.2,
+            5.999999999999998
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "left_rim_fold",
+      "type": "cube",
+      "uuid": "594e8c45-5431-500b-80dd-541e8c93c96d",
+      "from": [
+        8.35,
+        14.3,
+        -0.40000000000000036
+      ],
+      "to": [
+        9.6,
+        16.2,
+        1.1999999999999993
+      ],
+      "origin": [
+        8.975,
+        15.25,
+        0.39999999999999947
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0.35,
+            7.6,
+            1.6,
+            9.2
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0.35,
+            7.6,
+            1.6,
+            9.2
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            2,
+            4,
+            3.25,
+            5.899999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            3.25,
+            5.899999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            3.5999999999999996,
+            5.899999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            3.5999999999999996,
+            5.899999999999999
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "front_small_streak",
+      "type": "cube",
+      "uuid": "a951f2a8-ed93-5511-adcd-dabf13974fa4",
+      "from": [
+        11.5,
+        9.8,
+        -8.03125
+      ],
+      "to": [
+        14.5,
+        15.8,
+        -8.03125
+      ],
+      "origin": [
+        13.0,
+        12.8,
+        -8.03125
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            8,
+            5,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "right_small_streak",
+      "type": "cube",
+      "uuid": "06451ee0-6702-58c7-bb6e-471bea77ede2",
+      "from": [
+        24.03125,
+        11,
+        0.5
+      ],
+      "to": [
+        24.03125,
+        16,
+        4.5
+      ],
+      "origin": [
+        24.03125,
+        13.5,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            8,
+            16,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "front_rim_residue",
+      "type": "cube",
+      "uuid": "5ec17a30-6dd9-5e9e-9961-fe6e15bd7de1",
+      "from": [
+        12.0,
+        16.03125,
+        -7.75
+      ],
+      "to": [
+        15.8,
+        16.03125,
+        -6.2
+      ],
+      "origin": [
+        13.9,
+        16.03125,
+        -6.975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "color": 0,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "vanilla_cauldron",
+      "uuid": "2d34a2a6-5405-5670-a6be-9de21e3abbed",
+      "origin": [
+        -16,
+        8,
+        0
+      ],
+      "export": true,
+      "visibility": true,
+      "isOpen": false,
+      "children": [
+        "970632ee-c4bd-5bdd-b6b0-bf80287a9c6b",
+        "53541a46-fd4b-5183-a40b-987af2f632b5",
+        "6c49f5d9-4b8d-5fed-a0a7-e42f1121867f",
+        "72e28b5d-3f4b-5c68-affe-3982c1910ec6",
+        "a0db8a86-df0b-56bd-a610-b37ab89646ce",
+        "ecd61724-0194-5311-b7b0-e6821c83cad3",
+        "755bc3bd-97b5-5386-8661-2291f7ebf7a4",
+        "9bb25bb0-5838-5748-a3e4-0df98d02844a",
+        "2c5082af-ea8c-5c94-bcbc-88b632d987f2",
+        "d8b9d730-b6bb-5df7-836b-dbc59aa65f65",
+        "da817dcf-41d2-5868-b4b2-083997b9e514",
+        "e1b6a875-8f37-5603-9dfb-e61ec5adac3d",
+        "554778a8-26e0-52b1-8d56-decf52b8bf3c"
+      ]
+    },
+    {
+      "name": "meat_cauldron",
+      "uuid": "c055e9d0-a8d3-5f89-8cff-73ed34bc7e62",
+      "origin": [
+        16,
+        8,
+        0
+      ],
+      "export": true,
+      "visibility": true,
+      "isOpen": false,
+      "children": [
+        "102932ad-5b7e-57ef-ab69-eceaa493fc45",
+        "349f4208-c00e-5101-935b-52beef2f2b5c",
+        "5e5596a5-b2c4-518c-8c3a-c0edb41fa70b",
+        "4e1721de-f4ff-538b-91fd-b60433085337",
+        "f20d885b-1e1b-5324-bac2-b9fac5c3eb5f",
+        "f84a9b2d-e62c-549a-9705-5109a1039996",
+        "fb2a6b1f-1983-5c76-aca1-af796e9816ea",
+        "d663be29-c2be-5dbc-aa12-cc0b90e50364",
+        "a1d1ade3-2e77-508a-beb1-c9834c645dfa",
+        "c88d2768-2505-5338-91c2-86912dac6966",
+        "87fc48e0-e0a4-5f09-bd87-21f566283bd0",
+        "dd657e11-1034-50fa-b9f7-1d2f38a665ef",
+        "0a3b83d5-ed55-5ed5-8d18-cd783623c878",
+        "3e8dc981-c2f3-5f6c-b3fc-81378a868812",
+        "935f5ebc-e18a-57e5-a6d6-7afd2ca46ef5",
+        "fd7aea51-f3a1-5f62-b5c9-eebf541c66e9",
+        "7ea3120c-347e-56fd-ac8d-4bbb9ee0fd06",
+        "9c021e33-c89a-5601-adda-1689813a46db",
+        "6e4826e2-d2d4-5d2e-b1ee-e82139b2e9bf",
+        "a2a665d6-f20c-59e9-8360-1213806bc943",
+        "e28e9eba-6a6e-5d3c-8719-de1db706c379",
+        "09484503-dbd3-5d59-90e6-a7f507796b94",
+        "81a99b18-e032-56ee-b477-3b9a9e2012f2",
+        "594e8c45-5431-500b-80dd-541e8c93c96d",
+        "a951f2a8-ed93-5511-adcd-dabf13974fa4",
+        "06451ee0-6702-58c7-bb6e-471bea77ede2",
+        "5ec17a30-6dd9-5e9e-9961-fe6e15bd7de1"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cauldron_top.png",
+      "folder": "block",
+      "namespace": "minecraft",
+      "id": "0",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "363756a4-0ae3-5aff-abea-186a08908d44",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAABnYWFZWFhPT09JSEg/PkI0NDgtLTIa/QFYAAAAAXRSTlMAQObYZgAAAGFJREFUeNo1ibEJgEAQBPdgE1HwvgLBBgwswMDGbUA7kTtz4fR9f5MdZjiHG0QTuZi/fxMHQs5rojUbAA5EWc8o4PQ2f6CmqFCNCKUUZa+fAeVvVK6eIpsx4Ek63rvBRNMDdr8a5gxZcpoAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "cauldron_inner.png",
+      "folder": "block",
+      "namespace": "minecraft",
+      "id": "1",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "d08a1c89-0869-5630-8d7d-5f3c35019e52",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEU/PkI0NDgtLTInJyvJ69g/AAAAVElEQVR42gVAsQ2AIBC8v2hPwSCOQMEAkMiOlhobCxMpHMBNnsbKTzAEZnAsOdGV11NqCozZN1oUcAAcHRC4AcIO3LQKIyZV9ut4KOfeqGrGb8H6Awx/GnfTLmsxAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "cauldron_side.png",
+      "folder": "block",
+      "namespace": "minecraft",
+      "id": "2",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "e65274bb-ed62-5cae-acf7-8073351b0cfe",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEVnYWFdXV1ZWFhPT09JSEg/PkI0NDgtLTLbU7zbAAAAcklEQVR42hXGsRHDIBAEwBt1oMip5uiAe1XAfwUWdADETqB92xstlAlQgksyd8ceY64xNmrr7q1XPIVktoCYD5CC8biOREGZTFcy3IW/2hsWhby9QObhXgSqeoSIFK23/mRYzL3XU9Da5zxfvWPNf9b8AjUyHqb8s+JGAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "cauldron_bottom.png",
+      "folder": "block",
+      "namespace": "minecraft",
+      "id": "3",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "b0ba103b-5907-5585-85e0-cbb7883c814b",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVQ4y2PQ1TX6r66ujYIZcAB0dSC9GIKkGABWC2OYmFj8h7kGnwEgNSC1GAaAnUMkQPY2AzFOx+cVhlEwGADF0Ui1hERxUiY7M1GanQFPn3zhNiazeAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_cauldron_surface.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "4",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "1f8f2db1-ff70-5dfc-8938-db7cd0068e6f",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABiUlEQVR4nGXSz4vTQBTA8a8l2ZDSRpIUhkD2oC2sK6g3T/4L/tV6EgRR6LKQnhoaQ5PGDiHDOFA8zDqmcU7DvDc/3ufNs493L1eBn4YB0CrdaAOUg176M2C9mKdhIOIIqDv5+Kv3bLaIoyTPgM9fvu/6AXju++6gJM9OZQWsAt9z2YUy4lZ8eP/2dVltD8fxeqHMJs8AkDNGo97XdjI5RdyKQhkb8lqlQQLJ36u3h6M9DCBd1ft6E/qmbey6Z6t8CsP2cGy0KQe97Ie10mknRRw9dNJ5eOWg3ZNadfzW9a3+DcDNrh8abVqlAafnAWdjrACw9GetJg1u8nkwBnz48fi0wQUAEUdpJ9cL/X/p92/uTmWVT/pQKHOfZ6eyqjtp9zuoYl8nsAr82USwUCbJM9vaMfcm9O2d/1id4ER2k2ensrJQV6wCACd4Nsa8Ej/h/OmrK7LRZswqx/8PqKTMomh4EXFQNvuKdTLWi3naXQSXdyzq8GLfA1yxjr/32ZidbXYYiDgSMZbuDzrWDacOVEuUAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "5",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "86edf0c4-6aa8-5220-b1ad-29c0b3abf4d4",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABvElEQVR4nFWS32riQBTGPyXjEDF2deIGi1vYdkHoVS/6Gn3kvdsH2FJQhMqW7aAEnaSOIdPTA7IXp4bsuRpmzr/vN1/nYX6damViDcAF2hMDsDUlqgvgZtA3sc5GQwB56VdvVSTZcgV4AOuqBnDk06yvcY7xbJqXPtUqApCNhuPZ9Dlw1qp5qd4BpFpJQWG3cohkGQDZtyyJVTPnQilbU3vCYrMzsY5cIMAXJsVrfi4AgANzoroiCfB56eUc/S6rpKpvwtLEuvhUApnwWB6NPh2Y98SpVvMvg58b17n6OjG6l6juhVKy8e3lZDybLp9Wwm1d1Uc+Ofowuufoo/Mwv7Y13Y0GwkrUA/gRq8Ju89K3cQOIZFaTqtJxBuSvuTy7QCbWt5eTvPQu0Ccl+QRpnOyLwm659L8C7YltTXcA4LPRMBshL33kArmwM7HOgPycJ5Reqneje2iFC9QRazSOEHFtBo225dNq9VZFtiaR4QKlWq2r+ur+O4DDo22IPQeG3UrHSEwmb8Lkr/cAmDnVSm649ItAe+JEdaMjn/B/9P94AJZPzTeL4sVmZ2vqNpYUcG17H5jbjUysZ339Dw0wEUZl2rJgAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_variant_2.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "6",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "19f9ed26-e5ef-5310-9703-5d54830b3eb8",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABzUlEQVR4nF1S0YrTQBQ9DZkMCUnddFJCaragWygGZHfBR3/BH/A3fe6bT764KO5a6aJiSA3tJHUaEqeB4sPdDov3beaemXvOuWfwZv484ky4HIDs9Fb3APJWB8wCcOF7wuVxOARQ1mq5a2xC0xWgANw3LYB9f0w9jlON0qSsVcSZDSAOh7fFhoZkk/HrNFl1PYCZy6p8fVtsFsX3t6eXtsGVtYrD4ShNVl0fn8cAVr/KWZpkgHD5KE3oU1t2GlCy09lkTOiZy6qbLwBGQAWUtQJw93lJ8gbX508DZv0njtTnrU49HnFGZITLF4W0pT4ADr2W3QYAQaU+CO786XsAEWeL35XgjtQH+zIM8lYbZ0nPu28/AQfAE8aodRkGAFKP2xFn8zOf5AKo8nVZqwvfoznG9Bcv5+8/fAJg0bkSEVlpKuLsKvSpS2Zkk/GDS7LbiFrF4fCuVrLT9027748G/bA4uaUoDCgaRCBg1o/mr+AOmUOqjHUAlrvGJqLzM5/sm756BoB9LR+TAYBaUcZsCplZ9kelAExPSqp83ddKdlq4fLlrAmbZ+/74WOu06La63wI3dZPuGiKWTcYkIG+1ZSJpFmziTVszJVyeevwf8Ij+4e1qABYAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_cauldron_details.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "7",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "26e74147-4655-5831-8879-f2cb9974afd3",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABCUlEQVR4nGNggIJEPfX/DDhAlK0+hhxMjAWm0cZMj4GBgeE/AwMDw/xLNxmRFS87fJGxMjrg/8NH9zEMZ2RgYGCYmxL6/8ipSzBDGJLnrGZEVxhlq/9fXk6RgYGBgQHZIEZ059uY6TEcOXUJwxXYvLLs8EWEGkNZ6f+Jeur/8YUFNoOYYAwDQR5C+rDbPOCA0VBW+r+zlDDD3mdv4YLnHz9FcSKucJl/6SYjEwMDA8PeZ28ZnKWEcdoCixEJXU04hgEmnLqwgBeXr6PQiXrq/1nOP37KaCgrDXciuvMJuYqFFBc8kuJkYIDaDgMkeUHu2XcU21EMYFVRwqt5/qWbjNiSNxwghwMpAAA9jWBrjlGYtwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {},
+  "overrides": []
+}

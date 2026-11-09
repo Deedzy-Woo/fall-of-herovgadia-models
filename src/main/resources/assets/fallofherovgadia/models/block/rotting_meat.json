@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "fallofherovgadia:block/rotting_meat_top",
+    "side": "fallofherovgadia:block/rotting_meat_side",
+    "bottom": "fallofherovgadia:block/rotting_meat_bottom",
+    "particle": "fallofherovgadia:block/rotting_meat_side"
+  }
+}
