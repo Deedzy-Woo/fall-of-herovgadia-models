@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_spruce_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_spruce_log",
+      "type": "cube",
+      "uuid": "017883f8-d23c-5d4f-a8ce-100923fbbb36",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "017883f8-d23c-5d4f-a8ce-100923fbbb36"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_spruce_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "1e571290-54aa-59f4-93dd-a2c79c74a9d9",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA9ElEQVR4nH2SQW7EIAxFfwkBJwsWlXqBXqFX6P2PgjQoI2AwmS6IXCYltSIRwP5+3+Lt++sTABExs/feOYdRhBDalQohDDMAGGOmaZLtsiwAlPwx85V8H6otKaW/DABqrXISYzwKtm0biglPznld16MDEbWLh7bt+8cVAG2MOSxyDvwkInr/WGYlDEee1o1T9cRE9LwP5K21Z9PSBIBK9167J3TO6SuxeZ5rrUnNQlhKYWYlpUOLhnNK6Vb2MdIp9n1vxtqWmV8KUko9bikFwENb8dYGde7Qnol4NZxbdozRew9A9c/rqljCWvvbobHKQK/G8AMxjnZMi8pGpAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "rotten_spruce_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "a7e2d098-62cc-5654-8208-10727498e879",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA/klEQVR4nJWSz0rEMBDGv22nbsilhNp68A8ifQNfwdcXEfEg9CB4kC7UZWMIhabVQ2oa0+xhf6dhZr7JfEk2D/d3OAUCcHVTxWtENjDGABBCvDy/zakh2dpA8CzosyilbJC4vr7vAez1cLYiXMnCGGMb0/9Q27Z+R1EUccHled51XZVzY5aRUsqIaSIiIvNHmqa2No6jc29ZPAQ0TRPNzwI72M/Wde0Pdof/8+DwN1lXw5SUMngHY8xeD0i2u4MOBfYG1w8nePb59c0Yu7i9XgTTNNlAa73ehDFW5Xx30LNAKRX9EY4MAHj7/kEAyrI81jcb9dwTgKfH12Ota34BZ7tviBYpdTcAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

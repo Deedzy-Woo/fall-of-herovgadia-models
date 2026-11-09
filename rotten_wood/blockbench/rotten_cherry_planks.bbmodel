@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_cherry_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_cherry_planks",
+      "type": "cube",
+      "uuid": "25bf27f3-99a0-5f09-94d0-054799cd2579",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "25bf27f3-99a0-5f09-94d0-054799cd2579"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_cherry_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "1c40cedd-94d7-5cce-acd0-746a02495dd2",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABY0lEQVR4nG2SzW7CMBCEJ2Tz44QipUhEAoS4tbxmT32UPhFnK5BISIFA+Qm2QelhWwuSzsGyx+v1fJadr88PpRT+dLvdAGy32+FwSETZccf+7OU1CAIAPa7WWmutARAREQEwxtR1/Z5Or9crgOy4U0oppXrGGGOM4zi+7+NBQgghRNM0YRi+jSbWp8PhgI5c1y3LkucRsFqtIqBUJQBK05TDAejC/HYlAlAUxXg8plad1vp+v9tUURS1Lic7M8YAcBxHCGHNy+ViD/NIm82my/CvXNeVUlKSJNYKgiDP88lkopRanyoA037SgiFOyVczzH6/BzDy4+x7u0Y17ScALAw1TcPh6rp+fBMAYRh2YagoilbQ0+kE4OwBQGxQVdXTK6VpartKKefzOcPwNofMsmw2mzEMDQYD3lsul+fzWUoJgI+x+I/Zpr3LnxaLRRzHj9X2mz1FyvPcLjzPA/DoWDBr/gDGjbf5s3WKSAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

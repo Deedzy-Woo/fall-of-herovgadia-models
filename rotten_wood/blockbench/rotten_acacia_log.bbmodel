@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_acacia_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_acacia_log",
+      "type": "cube",
+      "uuid": "6f484f17-8c23-56e8-b847-c297dc368f89",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "6f484f17-8c23-56e8-b847-c297dc368f89"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_acacia_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "5d8d5599-873a-52fa-acfe-69eff493a8d2",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA8UlEQVR4nG1SQY7DIAx0cRKg2kjlUKl5Ym+V+nAqpdoAcZI9eAXUlBN47PGMzenxvENzvPfTNBEREQlIIaL3vq0BgK7rRGQYBsU3Y4wxJgPOOQAIIXxh2bZNYCklRPyaDQCK+WKMrdzaUuYqKt/Lwpez1oiY4zFG1sxCVAYu48gyfmNsm4QQGP0v0Fozze16bbN5BsWDaHIZR1FQ2ysF1tp68Gz0Nc9LShzv+14p9dFBHFYYQnjNcw5+7FJMll3WC933XUE15lqScy5zs6t1XYsHY8xxHO3ufqzl7EKayfittSYi/i+iJ2uT/1GYFgoB4A+q6X0b3ajA8AAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "rotten_acacia_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "88c0b5a8-82e3-5080-a15c-e1bcfcac7c2e",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABAUlEQVR4nJWRQU7DMBBFf8ggJkkbEbIpC7pAuQGnYofEOblBJFBA6iI1lNQoNEpSFnZdt3YWvEUUjf2+PZ7g6fkR/4EAPMy3APq+n9xEpH5etnMCUNe1DCJVmu1bd5/KyrJMnwBgkYRv4oeZZRAtktAVpJTHKymYeZlF1Vcbx7Ed7OlBscwiIUQCCNHZQp7nfoGIiChNUzu4aZrJEwxhqHsYhsFdvTDZ/QEAZVmepB7QgktRFN66FkywuYnCBH987zbD5etaenqwuzRzMFO62a1OBPWCZwNWX2a+u+b3ze9R6Dr9/OM42oJitm8B/ry61YKU8ix4CgJQ8b1T81C1APAHK097E9rFY0oAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

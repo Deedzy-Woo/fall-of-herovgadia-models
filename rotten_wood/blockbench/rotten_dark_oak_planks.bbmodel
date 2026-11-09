@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_dark_oak_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_dark_oak_planks",
+      "type": "cube",
+      "uuid": "093d6ac6-a10f-5e2e-972a-cb7ad4b0997e",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "093d6ac6-a10f-5e2e-972a-cb7ad4b0997e"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_dark_oak_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "99ce76f8-00b1-5e36-b800-53a2cf748fb8",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABKElEQVR4nJWSMW/CMBCFn/GZ2DA0CkMksmTpAJU6du3//xVkYIkUCZbYDUfiDgZjBaGqb/Gzdbbvuzvx/fXRdV2e5wBYSiMEEmVZFswwDMHQbSFyzkHKk3PVZhMvWGujv1wujwsAjDEAoLX3Ppw454JhZgBCCKWU+HzfpjnoPAfwcz7jhaiqqri5Xq/BvJXl8Xis6/oZhkJy4zimiTVN0/d90zQA9vt9CrNgZiGEuSuc1nW9Xq8B7HY7732MZuY5w5+6MZzub6ykTGEAED0q2bYtDcPgnBOAmyattR3HlZQxSCmllEp/WARQItJaq2maJcDM1lp/FwDqum4WZPFSUkoqyzJsYqUPh8N2e6vEMwzF/qcKY7NcLp9hqCgKvBibGQwzG2P+3Ydf6sSIeeUWWVIAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

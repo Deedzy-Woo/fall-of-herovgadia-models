@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_birch_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_birch_planks",
+      "type": "cube",
+      "uuid": "8b1a689e-5d5a-500e-92cb-06a0eebe54cb",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "8b1a689e-5d5a-500e-92cb-06a0eebe54cb"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_birch_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "0a60e466-4260-5647-9695-f1df39b46ad9",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABdUlEQVR4nH2SQUvDQBCFn+xsmhyUVg/RthZswVOPWkHwpOgv8XeIf0qpeBNUPAvFEkTSFtuaUIxt12YD8TC6SgLOaXf2zb73Lbt0fnZar7rP/VG96hYKBQAAFouF7/u1Wg1AkiT4KSKietUF0NzeQq7iOLYsi4gAKKUAaK3JcRwAaZpyi7u8sCzLDLMMAHmel78bgBBiMBjk+1QsFgG8vc8BbKytcPcvjJEmSRKGIRGRlLLmON2XwWuIxua6UVy073ixt7P962BC27bNMJdX93x2ctTK+ERRREEQANBLFgCZxr1ez+jyDEIIcl0389K+75fLZXZuNBoZE2IRb6SUZrLf7z954ydvbDoH+83vAVMM0+kOO93hXwYupZSUkkajUSboPwwAaJHS+uoybxgmiiLOWSqVjC4Igkql8h3p5vaRI2ZgtNbmv/ATAaC1Zbt+1ALQvn7IuB8f7vIXUkrNZrP5fK61pul0Gn585hEzDEKIyWQC4AvZBatlXOPMmQAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

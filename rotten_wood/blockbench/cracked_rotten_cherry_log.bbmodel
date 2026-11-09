@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_cherry_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_cherry_log",
+      "type": "cube",
+      "uuid": "7dadc12e-d1ec-5fc2-9ca8-9d508a83d3b1",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "7dadc12e-d1ec-5fc2-9ca8-9d508a83d3b1"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_cherry_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "1456159d-e714-555d-a4d1-b376b74f37e2",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABWElEQVR4nI1RwUrDQBB9TXazWygrwYS01RYEIT33IwTvgke/wK/zHzx68aIEBQsplESKPbTZzbZ4mLrGWMQ5LDOzb2bfe9u5vbrG/0JKaa1lrW4QBGEYunKxWLQAbLVaUfZWFtN0UpZlWZYHXyAkU0oBKIqCulEUGWNaUGOM7/u+7wPwqBXHMSV5nlOitbbWPr6+cM6bw567SydnD89Pw+EQQJIky+Xy/DRwOFr/QwPWXwSCXZZlza1VVVVVtR9QSmmthRAA0qhXmxoBlFLr9doNkM5vSgCstQAC47mz3+/f3WfTdDKfz50l+wEhBGMMAOfc8/YrkiSh5OjkuGlj5+biEn9Hj0kpP/J3os2a/DjndV27stvtbjYbE+zQ8J1Za4kPAEK718fjMaFJFdnl/aYQxzGZOJvNRuFgFA6cHgCsaZ8LKaUQQmvd+pC2hoMhhLDWbrdbKj8BSCaQJY4Vaa4AAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_cherry_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "ae8af94c-3173-5336-9614-276035664ed0",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABQklEQVR4nJVSwUrDQBB9G5bNqmmbJQehelNRUBAPPVTo2UOvgl/h5/XiSShIoRcPHoLW3goa2NKkbUhhEjxsE9PaIn2nnZn3Zt4wyx7vH7ALOIDrcwWAc25SRLSRqpR67g0tQ42ZFaVZlGZSSifHy9tAKeU4juu6nHPT0TLqeq2aJAmAYB4LIYQQT73XdqvBGBNClOdYxgMRSSn3shSA1lprbcphGHLOKcdyB4Nj5WqtD50DE941b7YuvQbbts1jsVgUjVcs/YXv+xvzKwKeg4jevyZpmv4jKLCN+isoGhPReDyOoqh5edLp9otTBvM4ZtZoEmJtac/zStFnkanXqsPvQEp5duFx5HfYaCDLMkOQUh65tdEkXE6YzWZr1Nur00633241ptMpEe0DAD58zQEopcrUwjowAFCpVMpVtuv3/gHreIkvEzY+1QAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

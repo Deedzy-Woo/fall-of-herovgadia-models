@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_birch_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_birch_planks",
+      "type": "cube",
+      "uuid": "59c5eb89-371a-5ab9-8a15-b25e42b672c9",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "59c5eb89-371a-5ab9-8a15-b25e42b672c9"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_birch_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "e10960c9-58de-5161-8104-038512f004a1",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABYElEQVR4nG2SYU+DQAyG33Pl2GVRFzFhMiRxZH7yb/k7jH/TbIZsgJKBi3NA2LHgh3MnG+una/Ne26cte315nrj2e5hMXNs0TQAAqqpaLBae5wGo6xoHIyKauDaAp8cHdGy323HOiQhAWZYApJQkhADQNI0Kqah6cM71ZyUDQLPZrJsbQK/Xi6KoG6fhcAhg9V0AuLOuVLQNo6V1XWdZRkRkGIYnxFsQfWTw70ddkv1+/19BN93v98/CMMY0wGazoTRNAUjGARjNbrlcnkXSYGTb9smk4zh2HAdAGIa+75/AkBIpxzAM/TMMwzzP5/M5AMuyVHoAF+2KUkrVtxBiOp0OBgMArusSERExxjjnlCRJt9EgCHTBEwFVDY1uLpVzAtPWpWk6Ho//GIJ45dxe67PRuaWUesSagazLfnZ8NjhsQAihNlCWZZ7nRVFIKWm73QL0+fVjshrHtl6v2+mV+wvytKW2A5PHiAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

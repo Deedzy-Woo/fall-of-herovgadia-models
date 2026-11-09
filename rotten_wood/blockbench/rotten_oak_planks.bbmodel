@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_oak_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_oak_planks",
+      "type": "cube",
+      "uuid": "fb2af73d-b837-5afc-8755-b05d981aea95",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "fb2af73d-b837-5afc-8755-b05d981aea95"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_oak_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "62898341-2024-59dd-8efa-3f1c01b9c277",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABS0lEQVR4nH1SQW7CMBCceg3JOlQC0SqXKL/qM/qAvpYLQYoUmoQSNiEQ9bBgQhGd03g9a894/fL1+QFgtVoNw5AkCQAAp9MJV1hrMYIlIgDDMDRNs16vASRJoiIRAdD3PTPfGg6HAwBjTBRFqvZ7XueJiNg8zwEQkV6ly39gF4uFsiAIlHRdp6Qoivl8DqBue60sZ2x8K13hnHPO+QDW2uWM27YFsN2LVX8iomH6vve+m6bx7sMwXM54uxe72Wye2SWisiyVG6AsWwPY8/mcpulY9xgGo8kYAJPJ5M/BVVVVVSUizrnj8QjAeuB+NBqGmTVMXdfT6fTuWYkoy7JnMR5h9aUvi+u3yfM8juMgCLLiG8Dba+Q1xntjZg2jExARIkrj97Zti5/mFsa3qmlmZubdbsfMOpkwDMdhbFEUj0aJ6FIPGAA6qTvRrV8raqRZ106m0QAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

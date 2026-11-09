@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_mangrove_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_mangrove_log",
+      "type": "cube",
+      "uuid": "ce2202c1-e161-5938-9a9b-f810a925367c",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "ce2202c1-e161-5938-9a9b-f810a925367c"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_mangrove_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "f3e0ebd3-a881-5923-a1ea-c03bf865fca8",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABRElEQVR4nIVSy26DMBCcJGti01IVSyESFz6m1176+T1wjRSTUCo3xcE26sHIJaRS9+LVvmZ21qu31xf8Z5xz55xzDgDFaJIk3nvvvVKKiOYNZVlG/yaRpikApVRVVSGitQ5OGL9sCOmiKOq6LooCwDAMm83GGPMHwjAMwbler+M47o7HZr8HcD6f5wzJOUdEvTUABONzwCzLAHRdFxmeTqepVTD+obtFzz1DAOsIxzkH0Lbt5XJJkuSdsd3xGFKxeqKU57lqGwCF3EH+zm7whxERaa2f0sx7H6GFENbaKGW07XZ7I+sc+nA4EJHI0l5/h4iU8kbWcRzn4gCoqkq1zYqt8+w5lq3DY62di+OcK8uyrmvBeBDDGDP9pfufI6Xs+37OsLdmFZcO0HH2YsXu61MwHs4a5tLiLgt75A/ee8E42BT5AedgoXY5UnJNAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotten_mangrove_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "50a6f780-8033-5181-b79b-450c34f29f02",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA/klEQVR4nJWRTWrDMBCFn+KJrUTWwhgKJdsufI9uu+m5ewVD6aqYCkKNKymJ7HahRpH/oH0bDaOZp2807PnpEf8RAXiwdpQi8oFzLiSLolBKvQpBAPI8/7icANzvxKTOq+u6EG/8cRDSWvtuvtKZFpCIiIg45wCapomvy7IMBR71F/ft8wjgLuVIeahu23Y+9MZDH4Tk9gwguSo2dlfdZohV1/U8OZphoqqqADDGYuPVhr7vGWN/eoGItNZY2oPJtkZ36aTB/+Biw+50OX732HOEPQzD4O2XMYh4sr0h+c3PjWMkAPuzQ5YQACnlmnEMqbRClhGAF2PWvEcSAsAPMmRpStr/b+YAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

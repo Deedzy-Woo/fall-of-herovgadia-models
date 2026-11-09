@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_jungle_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_jungle_log",
+      "type": "cube",
+      "uuid": "57eba587-b9cf-5c96-bd37-18acca1151e4",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "57eba587-b9cf-5c96-bd37-18acca1151e4"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_jungle_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "937476e5-c7a0-5e16-9ac5-6929207ade60",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABO0lEQVR4nH1RPU/DMBB92OfEEKrSDpAFBRAMbP05/AV+MAMSQzcspBqqU5oSnyMGV2kTCm84P+lkvY87eX5avLytFo9lCAEAAGutiIgIjoF65r0f7ebzec+zLIsxxhj3H6qq6jkz9zzpH1Fg5rZttdZa66NmYowAaBTgL4fOueRwp1B3BMCg1VpPJhMAaQJ498vDPHR/fR5CKBRWG4E9yyApgHPuobz9FMYQqq5r77333lr728nrcj0yTKkct24AFEqKgyqPQjGziEwzFGpwqbIsGU3ixhil1E7h/3Ju7q5CCMaYvaX0iMioHADMXHdYbaScmq7rBh+I6PC62+2WiIioUAJrB6EBNE3zV0TvfX5xWXf0/fUxzpDnuYik+wOYzWYA6o7K6albN1VVJQvj0AnW2rQuFJg5zbT6AdM3phvHrx0sAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_jungle_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "e1736ef5-3119-522e-befe-855fa873634b",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABRklEQVR4nJVRMU7DQBAcn9fOgawDx1SIgs6iQKLwB/wLvsAn4QFQQAcFUQqLoMRWiG2hwzmfKS65JJaFxDR32p3Znd117m5v8B8QgOvLKwBEZEJKqUFqnuezekEAqqqqNQBwfUB9fp+nSbxcLokoDENTkQAEQRAA03kOzs+O+Z5kbrJSygNLSinf9znnAHzfN4n7x9c0iT3P67pObbERAPj4KgGM2nVRFABeJos0icuyjKKoNwkzz/mpGLVrIYQQYjwe2+lt4b7AwnXdh6e3NIkHF7WzBICIiMh13YsT1nVd27aDgn4HANlKO47zVwdTe9CxgWQ0W1VH9g4WZVkO/gOG/FuCc9g7MMZ2G5wsAERRZE6rtVZKmSvtOjRN07PRNI3W2loC4K1/NoK6rgd8S2nn4UAYhnm+FWSrz0MyAzAtsv2Q5fwC8saWcPkLoIMAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

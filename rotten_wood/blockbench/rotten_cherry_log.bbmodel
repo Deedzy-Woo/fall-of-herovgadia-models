@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_cherry_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_cherry_log",
+      "type": "cube",
+      "uuid": "f5d95113-bf4c-574f-bbf8-316cb6ae99b6",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "f5d95113-bf4c-574f-bbf8-316cb6ae99b6"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_cherry_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "725bee35-d5af-52e4-b5d2-d6ee36d42f97",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABO0lEQVR4nI1RXWvCMBQ9S9MkBakUkVvJlMH2kwb7FfvD82UIhUndynyoJsayh1siRh92HkLuybk59+Ph/fUN/4MxJoQgE1YpVVVVDLfbbSKQ+/0+oXa73V0HVsqyLAG0bcustdZ7n0i991mWZVkGQDA1n8+PxyOApmmYcc6FEG59RHyjZzu1s6mdASCiruteHhURsY6/v+6hBybSGOPVsF6vmYsX9h97cM5prQF4NSgvvBrKsuz7HgB3mJYEgMtVXsSzruvPr+GpFm3bxpGMCVprKSWAPM+FGL8gIiL6+AncVcy5swfGhZ/IqZ39Nt9Xe2DkeX46nWJYFMXhcPBq4LmPDiEErgcAq6P7arViNXfFsxK3xcQlbjabZbVYVou4DQCSx5fAGKO1ds7FPVwSbiedQGsdQjifzxz+AdhWlNvfiyngAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotten_cherry_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "be2603e2-7a9e-592d-a620-d241838d16d7",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA/UlEQVR4nJVSQWrDMBCcuKJWmhJHCBJIe3Rpb/1Moa/oH3PMEwwB33KIQSYximrDyvQg102ddaFzEsvM7OxqJx9v7/gPBIDXZwVACBFKRMRSlVKbbS4CtfItfAtgObtjXIWw1gbHKJTWybyuawDF2d1eYRiJiIhISjlt/Wd0Y4zpjQForZ1zgdMJAh7Vwhizup9dJqmqihl6gDiOw6Npmt64R8QuJMsytv5LIL5BRGmaji2XieS9H7PvBL0xEZVleU0qzg6TyB1Pww5aa9Z1nczzQyGlfHrRP//AdL84FinlwyLZH09dyVr7tyAczC4zAoBSaozHD73Z5mx0Fl9JfnG9nLN/iAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_oak_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_oak_log",
+      "type": "cube",
+      "uuid": "5db3c119-29e0-5382-a764-1f0d365162a2",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "5db3c119-29e0-5382-a764-1f0d365162a2"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_oak_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "b6674f10-bceb-58ee-90c2-10400a6a97f2",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA9ElEQVR4nH1SQW7EIAz0miRg7Qo1X+oXeuz/pSpqLkSVDQmoBxCgbHbnEOxgj0dmbt9fn8uyWGvhNZxztQDzQUR9xTRNSqn+DxExc2sAgJxnvtOETJ9JUUSstcx8GhJj7FNmDiHEGBGuEELIgff+OI7+qjT4FH2Kp7sTREQpVRo0KhGJeKuKK4ZhqDERNUnGmGdW732NM1GTBAAf98cbSQDAzE2SRpU3O44jYptMRL2q6y1V6McdALZte9ewrmtKqaY/62//ROicE5FXC9WojDFnSfM890XPRvwLvvqlSNr3/XKCT1FjcWHx0qWRekn1CwDM/A9J5W4KrB1eeAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "rotten_oak_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "3b86680e-5038-5f5b-81e8-a31c691bf53c",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABAUlEQVR4nJVRu07EMBAcktXFh3jI5waJknwFv0DJj1NSpKBBOgnHykUmF8I6pnBITrEPialWu7Oz4/HF89Mj/gMC8HB/A4CZz5KIpJRa67f9JwEQQhh7BPLd1XbFC0XTNMwcFLPQutvd9n1v7HETIWEpQAgBoK7rWZiZlVIrq9Nsbw4A1PXlqRNjTPyexdI2BxEVReG9996fyyCLW1VVJamLJSIiopCD974syzXpF8AXrWbOuT/kpwvMnGUZgLZtY+FxHDv23YfJHeM0VqVU7CQUG7i2/xZCLJaGYYh5XdfNzfBL0wVrbVJ4TnZADiB3w7QgpUzyVtBaTwsvr+9JRhI/RtVxtHWUGoYAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

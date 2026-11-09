@@ -1,0 +1,200 @@
+[
+  {
+    "name": "all_wood_comparison",
+    "elements": 32,
+    "textures": 48,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_acacia_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_acacia_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_birch_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_birch_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_cherry_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_cherry_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_dark_oak_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_dark_oak_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_jungle_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_jungle_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_mangrove_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_mangrove_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_oak_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_oak_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_spruce_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cracked_rotten_spruce_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_acacia_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_acacia_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_birch_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_birch_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_cherry_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_cherry_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_dark_oak_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_dark_oak_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_jungle_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_jungle_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_mangrove_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_mangrove_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_oak_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_oak_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_spruce_log",
+    "elements": 1,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "rotten_spruce_planks",
+    "elements": 1,
+    "textures": 1,
+    "version": "4.12.6"
+  }
+]

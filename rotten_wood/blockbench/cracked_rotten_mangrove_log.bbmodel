@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_mangrove_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_mangrove_log",
+      "type": "cube",
+      "uuid": "fe2bcc81-ecbf-5f94-a3c0-27031c89220d",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "fe2bcc81-ecbf-5f94-a3c0-27031c89220d"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_mangrove_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "df6b0b09-5246-56a0-863b-9dc5346c2428",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABZElEQVR4nIVSTU/DMAz1uqRLW4poJ3IoQt3EtD/ClQt/HXHgqxJcKtapESiMZk1ScXAXug2Jd3p5duLn2KPbm2v4D4wxY4wxBgCIU33ft9Zaa6uqIoQML2RZ5vheIAxDAKiqKs9zVKSUSJ6Lt+ViprXeu4BhznlRFJxzAGjbdjweK6VcjudY27ZItttt13XnqxUe67oWQiAXQnjYSqNVo3+fQcRxPJ1OAcA5jKKorxBQ9l7WlNIDh1JKzvnd/cNyMestHXyIEGKz2fi+/0ipc4XQWgMAMcYkSVKJNapYHbtf71Ln+QVm9xWklKdhfDW/fHp5VUpJKYMgOKiMmEwmf6iIsiwJIUEcNvIblTRNYTi4ruvc5zh7lViPqJfEZy7NGzaEXqWUxpgsy4qiCChjjAGAUqrfpePNSdO0aRoAwGEDQKPVaBclMJiL2xzX4sfXZ0AZzhTfJcPNOcYJi6y1AWWwG+kPTH+vP7qDGwUAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_mangrove_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "b428f16b-4d4b-5ac9-bf49-6110f130c49c",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABKklEQVR4nJVSy0rDQBQ9aW8y0yYBh6xEBCkW8gNusnXrxm+W4sIfEI10KcEQIcRMms4kLganSVoRz2bu49z3OPd3t/gPCMB104xMREZQSlmjECLP863vE4AgCD72OwDnC3/CM6iqysoz81z4YdM07/LLO8KJloiIiDjnALIsG7qjKLIE0yoBeEy3AJL1SikFj1t2WZanh765uvQ8b/PylqxXfd8bh9baZO26Tv0AjM1saBydmXHTND1OPKowQRzHABzHOSQeYDZha60fnl+11n9XIKK6rq1aFIWVJXNlXXmTALNBAMjykQosdvvPXmPJYe/Qdd0wPYC2bYfF+dw9tGQuPxlu+B0kcwEsWwU2JwBhGA6piRAAhBCTX5jXORgjAE9S/raTEXwfwDcSu4GDPAUdbQAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

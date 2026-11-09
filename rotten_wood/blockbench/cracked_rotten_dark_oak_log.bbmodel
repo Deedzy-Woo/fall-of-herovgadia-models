@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_dark_oak_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_dark_oak_log",
+      "type": "cube",
+      "uuid": "1543b29a-1065-55ea-8367-d3403624833f",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "1543b29a-1065-55ea-8367-d3403624833f"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_dark_oak_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "0ebba5a2-b207-5e4d-84b5-7a48cf33669a",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABC0lEQVR4nHVSwW7DIAx1CCSmytCqKYdpUn9g/7D//45depiyVVE1J0CSHsyAlswXYjvvPT9M9fH+BkWM42iMAQBE9N5772NLcLuu6xK2G4KPpmn++yOnTwAAIKK8Ya1dlmWapjhkAhhjiEhrPc8z87GBh9BaE5HIS9uhy9PcWNu2jEmA88U9Cbhu1a6rbxIsfqcAAIiYp3H0GLKcdaoVLi7oHF+CawgVoZQSIukcmzsK+zPEiwqA+PX6rD6/fr33XbXFojEGEaNgAKzrmnM8bAoXd764U38YhgEABB9RREoppcy97oyktY45EbECr4mLfVc55xKgjL7vcyIp000IfhclxlobPPxtht/LDTRpdb2EPg2qAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_dark_oak_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "6ae4734e-04dd-5302-95f2-bd03a63f00d0",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABKUlEQVR4nJVS22qDQBCddUeJttWHUqi0eahYKuQf+v9/UAjaQIVCc1ExBuu60T6MUePloefp7MyZPYfZZe+rJ/gPEACWznK6h0hESkkk/AybUnT6ZSKf0w0dCHnFHsybuYEg3HuOncVZ02MiXyx0wzD6Ok3TiHwE355jx3F85QAAP8kRz2KQZJsUnmOXZdlFQsRa0+80fhRnKaVpmq3a/9p5jq2qal3XFFWhhlqVAHB/q9ORc845J3UURX1DhUKPF+L7/ur1mfzlBZ3DGK7rTtaHA9ukQETGGGOsKAq6+JDlraDbUhDuAcBz7DRNqdLPuUtPunI98PbySIu3LGuc5AAAIofBOwghYOZHAECt6QBZ8w6ImCTJpI6kalWWito4bNabOekFWcv+AA+2ijt8yVlMAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_acacia_planks",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rotten_acacia_planks",
+      "type": "cube",
+      "uuid": "7ef6a968-d269-5ba4-82d8-08e73e51d34e",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "7ef6a968-d269-5ba4-82d8-08e73e51d34e"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_acacia_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "e0edf0f0-9032-5af8-8c4a-38f47542cc3f",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABcElEQVR4nGWR0WrCQBBF77qz0U1aihKUYkhB0H5Ov6M/0/9r3xqiEEma+GDW7Ir0YdYQ4n1YkuHuzpw74uvzAwAAIgKQ53mSJACm0ynXu67jj8PhsFwuiYiMMQCcc1VVnc/nPM8B7Ha7tm3Zaq3tH50A0Hdtt9soigAkScJu55xzTggRBIG/UxQFBlJKARgVWVLKoihoPp8DuF6vXG2aJo5jAJm5pXryCDMxxhhjnHNExNxKqTAMAfzUbRiGUsqu69htrSWt9ag1X35fRN9/6LmdcwCEEFTX9WjQuq59cfaSmdvz5TQ00Gaz6ZMewgBYEwEAnrIsS9OUYahpGn4YQBAE5E0+Lj4BMFVVVTRyDElwXz/gYbTWdDweHyMfSUq53+89QxzHPFyWZavVCsBv6zHWwR303ge8B06a/621r3S7XC4A9hZEpLXmzfDGSGs9DFsIoZSazSZvIXGrHmaxWACgsiz7QU8nH3kElK0/R/oHOjS2UUxxRK0AAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

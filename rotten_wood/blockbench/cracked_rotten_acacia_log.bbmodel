@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_acacia_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_acacia_log",
+      "type": "cube",
+      "uuid": "2ca36a4a-3c77-51e3-8c2a-fc4072e9ea47",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "2ca36a4a-3c77-51e3-8c2a-fc4072e9ea47"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_acacia_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "e2ebd148-5ace-5e6f-ba6a-53343a1ec650",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABBklEQVR4nIWSwWrDMAyGVceObWhhvgTyDIW20L3UboU95cYKW2HXHfoCHnQQ21GSHjQczw5MJ8WKfn2/rdXp+QmKsNa2bYuIiJiVWFVV1tqyBwA459lJXdeMMqWUUoryy8dn0zQA4JwrVdgwDFTLyq8vZyHEQgMAGGO89yVuaomSEMJM+dN1AHD9uh4fD33fx3PvPTETCIuFh80mpdrtt+e390gVmX8bpJRRpgxjzB8P6ZDFhtTe3KC15pzv9lsyEI12IdCDCCEYYwz+C+fc9+22jJTdLE1LjY3jyNLp6S4YY6I2eSPUeTWmaSrfbq01/T2LRjH6llIiIu1LNpPY8n1MI6WPond1I4K9LmwZPAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_acacia_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "0a8f6ace-1822-5982-a498-a277146cbf15",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABOUlEQVR4nJVSwU7CQBB9pWvcUmisF/AgBw2pZ03q2UP9F28m/p0h8WwIng2p0aCJh9oWw5JK2RYPU9uFwsF32Exm5703M7va7d0N/gMG4KI9AyCl3FnEGAWjWZsBCIJAaAalWqukXkdatm0XDgC6pv4WzjnnQjO6pl4nCCGqlgic855tTOKk2WyqwltmIPRsIwxDEwjDVCWM/ACA5zqbBMYYY8yyLFX44enFc53lchnH8doMKnS9mGEwHHuuo2maetsoteUfAPi+D+Dq/DSKorKAdtCoOwyG436/X89XDqVw2bSUMsuyUvjjezHN9l6/xNoM94/PtA1qA8o7lK90uPisCNeXZxR0Oh0KyJZOzvnxAX+f/lSENC3Wn+e5SiC0VgnAo/2jgiCE2Pg5u8AATPhJLbcFkwQAfgHt2o2yIJ+RzwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cracked_rotten_spruce_log",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cracked_rotten_spruce_log",
+      "type": "cube",
+      "uuid": "928d2ff3-66b0-5f9f-834c-6bc872d69934",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "928d2ff3-66b0-5f9f-834c-6bc872d69934"
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "cracked_rotten_spruce_log.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "8e949ec3-bb4b-5f4d-bce8-cacb437a76f5",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABD0lEQVR4nHVSQW7DIBCcYgzYSi21cg9VLlW/0C/0/2/IpcqldlRiCWwvdg8bYeSQuQDLDjsz4un76xOAMYaI+r5vmgY5WGv5Slhrsx0AlFJFUcRjVVUARNwR0aPnUwhevPf3GgCEEGLFOXcjDMMQqz+/Q1mWAK6TWNeVi+M41nXNe2mMYaGT1ACAjZyXpJS6WaQxCmNXKaSUrFOkio0x7XN5Ol+IKO3WWu9NxyH3GtLcm6aRu2utNa7z6Xz5eH8JIUxSm9e3qhQA5nkmIhGpWYts7G9e8pJ2WJaFjfGRjW0E7z3LPbaHWOSs2RsHtZ/AgR7bQ9d13Mrdzrm+7wGI9HtlySm01tsE1sofBo9j+Ae0AHdiOdkkbAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "cracked_rotten_spruce_log_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "b1612c21-35d8-5a6c-869b-0c1bae94483c",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABKElEQVR4nJWSUUvDMBSFz7ZMQ19KiK0Pm6OIPvWp+Bf89YJuMjcYFlxRGB1MWVpKYSnx4c6s67oHv6dL7jk3OUk6jw+3+A8MwHDkt/cYo0JrDUAIMX1d7Jd23UsqhNNv6Ig8z6noWl1ZlgB+it3FCc0jEZxz3tGlYWma1hVSynbD4MrdbDa+62h9GKmUagnNGGOM6T96vR71qqqy6YlDhgZxHE/miU3f3IEG23CTeRKF98aY8WwJIFmpKAxIc5SBmC6+qA0gCgOllJTyafIOQAjRNNAwG5RsWuvB0Aew3hYtO6B2j/bhhNNffWec8+vg5mB4efuIwsAYUxTF6RTOue86622xN+R5fjeSWZbh+EdY+gDgpMtPBsDzvHM6on6/DMD4eXZOesovP3aKPvVauKoAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}
