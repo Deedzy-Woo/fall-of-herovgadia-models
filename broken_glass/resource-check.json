@@ -1,0 +1,150 @@
+{
+  "references_resolve": true,
+  "pane_masks": [
+    {
+      "state": {
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": false,
+        "south": true,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": false,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": false,
+        "south": false,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": false,
+        "south": true,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": false,
+        "south": true,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": true,
+        "south": false,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": true,
+        "south": false,
+        "west": true
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": false
+      },
+      "parts": 5
+    },
+    {
+      "state": {
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "parts": 5
+    }
+  ],
+  "model_render_type": "minecraft:translucent"
+}

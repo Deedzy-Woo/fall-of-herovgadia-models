@@ -1,0 +1,30 @@
+--- a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
+@@ -26,6 +26,7 @@
+         ModEntities.ENTITY_TYPES.register(modEventBus);
+         ModSounds.SOUNDS.register(modEventBus);
+         ModItems.ITEMS.register(modEventBus);
++        BrokenGlassBlocks.register(modEventBus);
+         ModParticles.PARTICLES.register(modEventBus);
+         modEventBus.addListener(ModItems::addCreativeItems);
+ 
+--- a/src/main/resources/assets/fallofherovgadia/lang/en_us.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/en_us.json
+@@ -1,4 +1,6 @@
+ {
+   "item.fallofherovgadia.ghoul_spawn_egg": "Ghoul Spawn Egg",
+-  "entity.fallofherovgadia.dead_harpy": "Dead Harpy"
++  "entity.fallofherovgadia.dead_harpy": "Dead Harpy",
++  "block.fallofherovgadia.broken_glass": "Broken Glass",
++  "block.fallofherovgadia.broken_glass_pane": "Broken Glass Pane"
+ }
+--- a/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
+@@ -1,4 +1,6 @@
+ {
+   "item.fallofherovgadia.ghoul_spawn_egg": "???? ??????? ?????????",
+-  "entity.fallofherovgadia.dead_harpy": "??????? ??????"
++  "entity.fallofherovgadia.dead_harpy": "??????? ??????",
++  "block.fallofherovgadia.broken_glass": "Разбитое стекло",
++  "block.fallofherovgadia.broken_glass_pane": "Разбитая стеклянная панель"
+ }

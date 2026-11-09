@@ -1,0 +1,1 @@
+PASS: two blocks and items; 16 pane connection masks plus solid neighbor and waterlogging; all 32 pane states baked with translucent layer; block and item models loaded. Screenshots windows + inventory.

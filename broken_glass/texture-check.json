@@ -1,0 +1,35 @@
+{
+  "broken_glass": {
+    "size": [
+      16,
+      16
+    ],
+    "alpha_range": [
+      0,
+      155
+    ],
+    "missing_pixels": 39
+  },
+  "broken_glass_pane": {
+    "size": [
+      16,
+      16
+    ],
+    "alpha_range": [
+      0,
+      155
+    ],
+    "missing_pixels": 36
+  },
+  "broken_glass_pane_top": {
+    "size": [
+      16,
+      16
+    ],
+    "alpha_range": [
+      0,
+      100
+    ],
+    "missing_pixels": 230
+  }
+}
