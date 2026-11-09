@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "fallofherovgadia:block/cracked_rotten_jungle_log",
+    "end": "fallofherovgadia:block/cracked_rotten_jungle_log_top"
+  }
+}

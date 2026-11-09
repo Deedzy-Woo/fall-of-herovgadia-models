@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "fallofherovgadia:block/rotten_spruce_log",
+    "end": "fallofherovgadia:block/rotten_spruce_log_top"
+  }
+}
