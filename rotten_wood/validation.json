@@ -2,7 +2,7 @@
   "textures": [
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_jungle_log.png",
-      "sha256": "5e0fab2fbdac56c93752513de790af0ccc746e727d07ffe7763933fea1bb3abd",
+      "sha256": "98a5b5465f4f4513779116d3c8ad5acf0b695e57a6f09f81a2749bbcb47c5df3",
       "size": [
         16,
         16
@@ -11,7 +11,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_dark_oak_log.png",
-      "sha256": "0d58ef999b64174438640f5843a57b58428a34b78499b93be7199a9742977dc8",
+      "sha256": "3241d2ffcacde45522406673804e9e5e3a020f25e8daa603feb539794c9291c5",
       "size": [
         16,
         16
@@ -29,7 +29,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_spruce_planks.png",
-      "sha256": "cdc772824a6c8237e8c00c5acf51bdbf3cbbceefcbe7d8a4cfa171fb5e6ffeff",
+      "sha256": "f5514b74e6f7f8d6ed0fa7271a51019e80faa882c1f9ea435f78d292bb3bbb0c",
       "size": [
         16,
         16
@@ -47,7 +47,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_cherry_planks.png",
-      "sha256": "03d054d38e43e5bd176f49bbb9bd4fa86ec9bf8bddc1438595c07a60718896c1",
+      "sha256": "20df5e4e11225b80ee1d84105c9694bdd29d4e9c920396b2d96228a8d86540ba",
       "size": [
         16,
         16
@@ -56,7 +56,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_mangrove_log_top.png",
-      "sha256": "3e54808cdfa4c7a8966749fc6805967c60f13f7c986afc7b6b994a92fcc822a5",
+      "sha256": "6084d46b322fddd1aca9d6f6cfaee8a6fda3b453248365fd493d2e7d97fbee55",
       "size": [
         16,
         16
@@ -110,7 +110,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_birch_log.png",
-      "sha256": "dfd4a0bff5d9d4ee3b389dd0177fc42179144b0056646d4b30a34b9ebf4fe8fc",
+      "sha256": "3cfb7f5a20ca9d580d22e37874680fa15d679908794bfde019a3bbeead6c6492",
       "size": [
         16,
         16
@@ -119,7 +119,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_spruce_log.png",
-      "sha256": "f0356bee205dbb8d31a841ab8f22ab46d48e956908b7363539918fee66b2fb52",
+      "sha256": "b1c1526814297a143c9543dabf09168fefebd12e2ab994724ef4396f623a6020",
       "size": [
         16,
         16
@@ -128,7 +128,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_acacia_log_top.png",
-      "sha256": "85e93d97abe7c0ab4c0b2cc7bc22520a924b074772e5b85cc92aada937922b66",
+      "sha256": "e92df4a9181fd1a1385a63fac0ca2f4f8c705ceb404f5c7a2051598cadd79dc6",
       "size": [
         16,
         16
@@ -155,7 +155,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_dark_oak_log_top.png",
-      "sha256": "37184250bcea0d65493c1256de080e0fa504a6518287c0bef5539c6aa57f500d",
+      "sha256": "75be5b39d926e8df34025f2cfc51ed7fba52ae43f88a112dd03f4d4eb5266f3d",
       "size": [
         16,
         16
@@ -164,7 +164,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_oak_planks.png",
-      "sha256": "f09e6c402b0af6432dfa0adb12c6b7986b0226782372e61cd5a6791220de3188",
+      "sha256": "581236f48b9c6a6775f82dd78cf609f0f261d63ff3190cc7851577c215a3cb0a",
       "size": [
         16,
         16
@@ -200,7 +200,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_mangrove_log.png",
-      "sha256": "2ade7d0b83b7d665316b6ac5a85dc1514f881886898608fe13ebc95178a1b69e",
+      "sha256": "5a08f64a4ba010394c23a75be1f32830073b4c70d1b5769f9b727611c2e326b7",
       "size": [
         16,
         16
@@ -227,7 +227,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_acacia_log.png",
-      "sha256": "2c84ad75b443a4b69662c1018d4ddfc0e558fbb1fe9913e706229daa904e40b4",
+      "sha256": "7b494efee39e972831b62f8020bb776fc3adfec27bcadf8b2bd025c0d1e06f39",
       "size": [
         16,
         16
@@ -245,7 +245,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_jungle_planks.png",
-      "sha256": "18e1a651cb367b22f81f3f2a805883b5fcaf0ffd5debef57e96b3ccc7646ccba",
+      "sha256": "f298460dbcc0ab84604b8b7ec406e466947c1484cea66ec7c0dfcf70dcfd025a",
       "size": [
         16,
         16
@@ -254,7 +254,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_jungle_log_top.png",
-      "sha256": "77e11b61a5450a3643627b4353627c28c603414456d4712f5b6d7593b21a1456",
+      "sha256": "e99a8eb2ccee901f653b384852d000dc75eaaa4561ee65207219c90e2392f89d",
       "size": [
         16,
         16
@@ -263,7 +263,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_dark_oak_planks.png",
-      "sha256": "ea43421b550861a2d855b67a0cf2306f908555dbde9ef5806e8ca808575fe954",
+      "sha256": "60263853fdafa8e41f45ce6e9352ff64d72393ef023d2cbdc36122c940c05d89",
       "size": [
         16,
         16
@@ -272,7 +272,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_cherry_log_top.png",
-      "sha256": "461f54e2fb55edb6f2e80439c58c832351a966a6dca6a82e33b488102e49c881",
+      "sha256": "b1d3229e38c5ac879196356c8d351fd1e1edcdbbbe2f491a61ca2d2cfab0999d",
       "size": [
         16,
         16
@@ -308,7 +308,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_birch_planks.png",
-      "sha256": "f92d4da8be0a1ea88ccc452326b036496724c30e758e5e410c16abc854dca603",
+      "sha256": "c74141fa6e226db1269f7f9ac3e0e925d5d31d84909d199b49142c33d43422e5",
       "size": [
         16,
         16
@@ -317,7 +317,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_oak_log_top.png",
-      "sha256": "a9fdc416927bee3de9fd87ef45ca2198650c4925ffdb6bf4f1dc60243cd02417",
+      "sha256": "71a79a1444fe902feb05ea35724b1dfb31006779451f97d1d133b6ce601c6085",
       "size": [
         16,
         16
@@ -335,7 +335,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_cherry_log.png",
-      "sha256": "e1eaafbe3b2b48cf606cd2e8feaaaf0487d31015220efaecf167879293af07f4",
+      "sha256": "efd4e983a158311e47d6e26f975f442c8f8b27694e610a3cefb9c8508b145bec",
       "size": [
         16,
         16
@@ -344,7 +344,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_acacia_planks.png",
-      "sha256": "9b8f448d36a373e757201a9fc3283d9f9debcc5a6deb75baf81c2d585d3badc9",
+      "sha256": "51eaf00fef5dd4c21754b70737e044fb22d30ea5e3edc6edd612b1b673c7c9e7",
       "size": [
         16,
         16
@@ -371,7 +371,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_mangrove_planks.png",
-      "sha256": "96884dc2e7b4f240d6925d5d6e192c396ddfb6668d6e17ea5491bb7063e9e7af",
+      "sha256": "c679d6eb1c147ae8a9a40a759f1e263a371119985510deb56f64abba75e663ef",
       "size": [
         16,
         16
@@ -380,7 +380,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_birch_log_top.png",
-      "sha256": "bfbb64ebcc69d53479ad4eb8224124c4a04c887e9a5387a3604b0f1d6ad60eaa",
+      "sha256": "7f14c5aab1c9140f75921f9e241e9a0ed1d92ab764d754053d4bc6781470d99d",
       "size": [
         16,
         16
@@ -389,7 +389,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_oak_log.png",
-      "sha256": "fffda987bf01e22333707696229953a8dd45b735ea7c222109ee09ce96f2c90f",
+      "sha256": "7cc2987226efe3e9fb7f9d76eff46e62a07d8868690f40f6f80d28102caab163",
       "size": [
         16,
         16
@@ -407,7 +407,7 @@
     },
     {
       "file": "src/main/resources/assets/fallofherovgadia/textures/block/cracked_rotten_spruce_log_top.png",
-      "sha256": "6b024e6cbb6fbe94fb54798e7402c29674d80be8d5ad2baec4a2e410a867d123",
+      "sha256": "5f007a281c7a8454c571f71c4d808894e9a0762d3dbbcc538a6b8328c9546f85",
       "size": [
         16,
         16
