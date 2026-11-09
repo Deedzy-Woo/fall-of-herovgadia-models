@@ -1,9 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "top": "fallofherovgadia:block/rotting_meat_top",
-    "side": "fallofherovgadia:block/rotting_meat_side",
-    "bottom": "fallofherovgadia:block/rotting_meat_bottom",
+    "up": "fallofherovgadia:block/rotting_meat_top",
+    "down": "fallofherovgadia:block/rotting_meat_bottom",
+    "north": "fallofherovgadia:block/rotting_meat_side",
+    "east": "fallofherovgadia:block/rotting_meat_side_east",
+    "south": "fallofherovgadia:block/rotting_meat_side_south",
+    "west": "fallofherovgadia:block/rotting_meat_side_west",
     "particle": "fallofherovgadia:block/rotting_meat_side"
   }
 }

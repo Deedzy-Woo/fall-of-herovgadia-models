@@ -3,7 +3,7 @@
     "name": "single",
     "version": "4.12.6",
     "elements": 1,
-    "textures": 3,
+    "textures": 6,
     "center": [
       0,
       8,
@@ -24,7 +24,7 @@
     "name": "two",
     "version": "4.12.6",
     "elements": 2,
-    "textures": 5,
+    "textures": 12,
     "center": [
       0,
       8,
@@ -45,7 +45,7 @@
     "name": "patch_3x3",
     "version": "4.12.6",
     "elements": 9,
-    "textures": 7,
+    "textures": 18,
     "center": [
       0,
       8,
@@ -66,7 +66,7 @@
     "name": "volume_3x3x2",
     "version": "4.12.6",
     "elements": 18,
-    "textures": 7,
+    "textures": 18,
     "center": [
       0,
       16,

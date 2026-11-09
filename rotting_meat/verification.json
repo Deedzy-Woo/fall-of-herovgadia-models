@@ -12,76 +12,40 @@
   },
   "textures": [
     {
-      "name": "rotting_meat_top.png",
-      "size": [
-        16,
-        16
-      ],
-      "mode": "RGB",
-      "sha256": "064148782907d9a63892c1eaba1d98de63892b81beeed15b736b3f3e78ce85f5"
-    },
-    {
-      "name": "rotting_meat_side.png",
-      "size": [
-        16,
-        16
-      ],
-      "mode": "RGB",
-      "sha256": "4228f105df15a3f4a3d4b4e5ce7922504ce198eddec8db27f86085131b466637"
-    },
-    {
       "name": "rotting_meat_bottom.png",
       "size": [
         16,
         16
       ],
       "mode": "RGB",
-      "sha256": "dfd6d5e9195a7f2b1c38a0e4855f7383e1e2c02ec6013a7d08ebc399d0bf5875"
+      "sha256": "f0d1523a1bcf99072373878b8d4791000a646f52ce9074e0e773d73ddfe7572d"
     },
     {
-      "name": "rotting_meat_top_variant_2.png",
+      "name": "rotting_meat_bottom_variant_2.png",
       "size": [
         16,
         16
       ],
       "mode": "RGB",
-      "sha256": "2c155a5f8ee642330afa2e198ac92b34a0340151e78e2658f394c1f26c6f53c1"
+      "sha256": "ae11caa07b10be743ed8c5cdd7a8156fd27c0a9e08b3112b28928faa3991d25d"
     },
     {
-      "name": "rotting_meat_side_variant_2.png",
+      "name": "rotting_meat_bottom_variant_3.png",
       "size": [
         16,
         16
       ],
       "mode": "RGB",
-      "sha256": "70e1220607de7a78cccda8ca054cfdb989ccab65ffd023772d8d9776adb9e7b3"
+      "sha256": "1aa880cd23fbb2982fe95663f4b7c6fa795bbd6c4224d70948f374798d1605ca"
     },
     {
-      "name": "rotting_meat_top_variant_3.png",
+      "name": "rotting_meat_cauldron_details.png",
       "size": [
         16,
         16
       ],
-      "mode": "RGB",
-      "sha256": "fc0c15a8031116e1145b37a67d986df6cc1d6ce72e55f68f7dc2075df81d0177"
-    },
-    {
-      "name": "rotting_meat_side_variant_3.png",
-      "size": [
-        16,
-        16
-      ],
-      "mode": "RGB",
-      "sha256": "66ec522d417e88f0292ae6e24f1385eac55a5d59a671850752d34988aad7d852"
-    },
-    {
-      "name": "rotting_meat_cauldron_surface.png",
-      "size": [
-        16,
-        16
-      ],
-      "mode": "RGB",
-      "sha256": "30d09694a682f8ba038db1262ca482091c3de19017ebfe984515d660fb3a514e"
+      "mode": "RGBA",
+      "sha256": "c75767efbed3e0a32c361cbd47a1dd53caa11ef8aebd0d3bf266f084254ed921"
     },
     {
       "name": "rotting_meat_cauldron_side.png",
@@ -102,13 +66,148 @@
       "sha256": "2c677cc75299099f8499158e1e1f7b86abfcf8efdd5281110d80fee7d6902747"
     },
     {
-      "name": "rotting_meat_cauldron_details.png",
+      "name": "rotting_meat_cauldron_surface.png",
       "size": [
         16,
         16
       ],
-      "mode": "RGBA",
-      "sha256": "c75767efbed3e0a32c361cbd47a1dd53caa11ef8aebd0d3bf266f084254ed921"
+      "mode": "RGB",
+      "sha256": "30d09694a682f8ba038db1262ca482091c3de19017ebfe984515d660fb3a514e"
+    },
+    {
+      "name": "rotting_meat_side.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "f5b5e4decdacf1dfcb9e2c1bad559480de496ba457e6724d2749711bb095b089"
+    },
+    {
+      "name": "rotting_meat_side_east.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "f84cf1739c8dd89729a9fbf25ded8aff1bb2ca3812395a1b0e97281a9aa10753"
+    },
+    {
+      "name": "rotting_meat_side_east_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "c70313a685916debcd3135738228fc44107d9f30eff6dad629baf942a132bb64"
+    },
+    {
+      "name": "rotting_meat_side_east_variant_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "15c79ed238000980afff331010de261f5749d6a48105627a8939d9df2cca106f"
+    },
+    {
+      "name": "rotting_meat_side_south.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "73bdab6f128a99de9338c4bc56c3e2fe659aaf1eec6b65b98bf4801eab27ad1f"
+    },
+    {
+      "name": "rotting_meat_side_south_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "14f3bbf44dc37c15ffa961743cc4591b06f035c0df26f733f67fd59c91664b40"
+    },
+    {
+      "name": "rotting_meat_side_south_variant_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "6bf9972ac2562846440dff4c367aa4d73847f96cf16974bf5f46dffb47f804c4"
+    },
+    {
+      "name": "rotting_meat_side_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "8d7301f5f7c34e13f8fb65b4ee414566bd65ff9063b0ac8f4b589da7f62fee55"
+    },
+    {
+      "name": "rotting_meat_side_variant_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "5d3d05c980799041648d94566045ea199b35344a38783f41dcc2933c2581a95a"
+    },
+    {
+      "name": "rotting_meat_side_west.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "faae1e3203bcd41ee448e2805e68d7567a380fa73eb244755da5386b62e283fa"
+    },
+    {
+      "name": "rotting_meat_side_west_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "a8dd5a298dec8ea222424959c15f046d25e506d82c730f4b80202658f4beda05"
+    },
+    {
+      "name": "rotting_meat_side_west_variant_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "fef20664c7b9afb6e275ff599021f409b9b99dc417f666a21bfc964dc88d9179"
+    },
+    {
+      "name": "rotting_meat_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "0ab3a86c397ffd48ffdcc0be522dc8d78d776f7218393a466c4bc150544ec345"
+    },
+    {
+      "name": "rotting_meat_top_variant_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "cc47051543dad765047ef35718af5e858fa7f6b278c80e3df49eeace2745666c"
+    },
+    {
+      "name": "rotting_meat_top_variant_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGB",
+      "sha256": "c5c0ebae6b77e342385ef81dbec449cb950cd13264aa3358b4ec0735c1da5934"
     }
   ],
   "models": [
@@ -141,11 +240,178 @@
     },
     {
       "family": "side",
+      "passed": 288,
+      "orientation": "unrotated UV"
+    },
+    {
+      "family": "bottom",
       "passed": 18,
       "orientation": "unrotated UV"
     }
   ],
+  "six_face_layouts": {
+    "faces": [
+      {
+        "variant": 1,
+        "face": "top",
+        "name": "rotting_meat_top.png",
+        "family": "top",
+        "sha256": "d65c129c227a50a2d8a7186932e817278d8dd17fe4a699d2538187c947753e69",
+        "core_sha256": "065810fc54bfa21791d8da58ef0f9f233b55f62c2ee4a63c6132b8bf7c2dce28"
+      },
+      {
+        "variant": 1,
+        "face": "side",
+        "name": "rotting_meat_side.png",
+        "family": "side",
+        "sha256": "1911add05f026d1e29589dd1379a2671bc6df954c5915b55d3775a5173a4c0b3",
+        "core_sha256": "2ce86df0bc3a3102f2d36b796d166606c7eed4428cb32673dbc6b8407e360a12"
+      },
+      {
+        "variant": 1,
+        "face": "side_east",
+        "name": "rotting_meat_side_east.png",
+        "family": "side",
+        "sha256": "6b319d091a6221039d8af25aef00f22ab4aea874a52a7ba25d0986a0bb560aae",
+        "core_sha256": "dcc9d7e0b2ee57b91e7cfea30caa00270dca36270eb7528dc4ceee75084f433d"
+      },
+      {
+        "variant": 1,
+        "face": "side_south",
+        "name": "rotting_meat_side_south.png",
+        "family": "side",
+        "sha256": "ef4f5a418555b08f9c0d0c135cdd98071eb1afd115c56a374271a619fcb0169e",
+        "core_sha256": "cee1c33b2102eedddbac0ca0326276140373427e32d8c2947f1cd17712f14fcb"
+      },
+      {
+        "variant": 1,
+        "face": "side_west",
+        "name": "rotting_meat_side_west.png",
+        "family": "side",
+        "sha256": "e30207cf622e755a1b1449c35aa18e7ec0e98230ded000152b83af4856afa0f4",
+        "core_sha256": "53109ae1931b10dd1c78fe3d9c0a3c8ac9a8545ba62be06fb2944665a41c7e2b"
+      },
+      {
+        "variant": 1,
+        "face": "bottom",
+        "name": "rotting_meat_bottom.png",
+        "family": "bottom",
+        "sha256": "bcd7170108e8a2e896b369cd5c81a29e731ed724aa560dd0e26804d16dc58915",
+        "core_sha256": "bbd7d3e9a6a3ee428c2dcb273e05168d95df7337f9e87165de237fc7150c33fb"
+      },
+      {
+        "variant": 2,
+        "face": "top",
+        "name": "rotting_meat_top_variant_2.png",
+        "family": "top",
+        "sha256": "a9591919d0442e03c37f8c6a029c0151fe32de01524b933c7bf8b65a7ca0c769",
+        "core_sha256": "740dcf713f95d19b0800cab60ecfe8f205e381f01cc4440079b4f616c0a47f4e"
+      },
+      {
+        "variant": 2,
+        "face": "side",
+        "name": "rotting_meat_side_variant_2.png",
+        "family": "side",
+        "sha256": "991f453ae227771af429cccf582e1c98d80c351727272f357e3ab05503b23d65",
+        "core_sha256": "dc84a4dbe2648477b93f895b7446a046eb1ea585b1cf19966050ed1ac6f8eaef"
+      },
+      {
+        "variant": 2,
+        "face": "side_east",
+        "name": "rotting_meat_side_east_variant_2.png",
+        "family": "side",
+        "sha256": "2bf2ba7281cf82c7dc9283ec9dd324d76bf11478445031d83e4086da39ffc7b2",
+        "core_sha256": "3b135d24588a284083641df667b34e5c98e412db399d1557c98817fc4486b2e0"
+      },
+      {
+        "variant": 2,
+        "face": "side_south",
+        "name": "rotting_meat_side_south_variant_2.png",
+        "family": "side",
+        "sha256": "76308b744b9b2da0d1c9c13f79aba260d67cb091b1cd07c132682992a1573077",
+        "core_sha256": "8f9a9144bbb54a492745147630412f660f1d87710be91c5cc1e8530b68d35f1f"
+      },
+      {
+        "variant": 2,
+        "face": "side_west",
+        "name": "rotting_meat_side_west_variant_2.png",
+        "family": "side",
+        "sha256": "a8f37caf5d799503ba9d3b0c8a2371c64c6fd2ec33ad671d4a3404b5a3815e77",
+        "core_sha256": "c94f8bfe616b54df8127c3e9977b7e5f829cb77a009ecd8c8ee528a5b4480ef3"
+      },
+      {
+        "variant": 2,
+        "face": "bottom",
+        "name": "rotting_meat_bottom_variant_2.png",
+        "family": "bottom",
+        "sha256": "9139da89be6e5585bfef8d8f911105c4a341d1c588c3f7598d419f3b4dcba6ec",
+        "core_sha256": "b808c5909654c94503f152f06ede56070b0a00baf5146e668362370419667b7c"
+      },
+      {
+        "variant": 3,
+        "face": "top",
+        "name": "rotting_meat_top_variant_3.png",
+        "family": "top",
+        "sha256": "95273ad520962f59fa7f90b7bfce966c6d64ab2759b9e97b740c9bcbafed40d4",
+        "core_sha256": "86497f1758de11387444eb9cddad558887bf064cdcc5dceb5f3c2c2df10de33a"
+      },
+      {
+        "variant": 3,
+        "face": "side",
+        "name": "rotting_meat_side_variant_3.png",
+        "family": "side",
+        "sha256": "5b5107a353cf6193386752a7b1f3ecaa75754406dddf15a1932928fa0731d4df",
+        "core_sha256": "1d50888c2023ef29eb520764d612117ced9b82fe14a2e3707caa64a7fe91434b"
+      },
+      {
+        "variant": 3,
+        "face": "side_east",
+        "name": "rotting_meat_side_east_variant_3.png",
+        "family": "side",
+        "sha256": "52a7c0e81bebd7822f31d5a46696b3546b2b0826e232a6aa0f25d69b1ea4728d",
+        "core_sha256": "1df0cdb3f5c7f1ec1ebdbb0bb56e10cef6041db36e986367b79f5e53b6e4cf13"
+      },
+      {
+        "variant": 3,
+        "face": "side_south",
+        "name": "rotting_meat_side_south_variant_3.png",
+        "family": "side",
+        "sha256": "d493350db255cc7047f083d124c13b076c72c4ffbea17948a3c501bc70530805",
+        "core_sha256": "3cd29e3b5aae312f2d259a7ede62d852c810d6244bb8e2c04746f7fd04ba5876"
+      },
+      {
+        "variant": 3,
+        "face": "side_west",
+        "name": "rotting_meat_side_west_variant_3.png",
+        "family": "side",
+        "sha256": "993cb182275217d63f3b0703cd6a5b16e46516c29c1bf1ef978508be846d7bb7",
+        "core_sha256": "d05c8f38463f9df67663fd887a251f5c7a3c148d74b40112b65c6cd2a18e5810"
+      },
+      {
+        "variant": 3,
+        "face": "bottom",
+        "name": "rotting_meat_bottom_variant_3.png",
+        "family": "bottom",
+        "sha256": "4ab61342ce909344b86b2d34a120f622bc9d8ac2de1a725b68b20ae4753a8c85",
+        "core_sha256": "809f7fdc8dc0d0f1ee125f930bc7f10b2e18f4b9fed04a38bf7bdfbdf7a624e5"
+      }
+    ],
+    "edge_checks": {
+      "top": 18,
+      "side": 288,
+      "bottom": 18
+    },
+    "runtime_randomization": false
+  },
   "vanilla_body_unchanged": true,
   "java_or_registration_added": false,
-  "game_runtime_tested": false
+  "game_runtime_tested": false,
+  "cauldron_all_assets_unchanged": true,
+  "protected_cauldron_hashes": {
+    "rotting_meat_cauldron_details.png": "c75767efbed3e0a32c361cbd47a1dd53caa11ef8aebd0d3bf266f084254ed921",
+    "rotting_meat_cauldron_side.png": "b4c956b8ae2bf58bdb0a67def334c016b8157f0e4079b9084a560fb099d7ba4c",
+    "rotting_meat_cauldron_surface.png": "30d09694a682f8ba038db1262ca482091c3de19017ebfe984515d660fb3a514e",
+    "rotting_meat_cauldron_side_variant_2.png": "2c677cc75299099f8499158e1e1f7b86abfcf8efdd5281110d80fee7d6902747",
+    "rotting_meat_cauldron.json": "8b5c5822db02252dbd17b9a22f1f7a78c038e5159d5c7d62c66dc4d3e5717d7c"
+  }
 }

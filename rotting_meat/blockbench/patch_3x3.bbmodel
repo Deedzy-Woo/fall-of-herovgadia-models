@@ -80,7 +80,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 3,
           "rotation": 0
         },
         "east": {
@@ -90,7 +90,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 4,
           "rotation": 0
         },
         "west": {
@@ -100,7 +100,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 5,
           "rotation": 0
         }
       }
@@ -145,7 +145,7 @@
             16,
             16
           ],
-          "texture": 3,
+          "texture": 6,
           "rotation": 0
         },
         "down": {
@@ -155,7 +155,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 7,
           "rotation": 0
         },
         "north": {
@@ -165,7 +165,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 8,
           "rotation": 0
         },
         "south": {
@@ -175,7 +175,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 9,
           "rotation": 0
         },
         "east": {
@@ -185,7 +185,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 10,
           "rotation": 0
         },
         "west": {
@@ -195,7 +195,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 11,
           "rotation": 0
         }
       }
@@ -240,7 +240,7 @@
             16,
             16
           ],
-          "texture": 5,
+          "texture": 12,
           "rotation": 0
         },
         "down": {
@@ -250,7 +250,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 13,
           "rotation": 0
         },
         "north": {
@@ -260,7 +260,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 14,
           "rotation": 0
         },
         "south": {
@@ -270,7 +270,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 15,
           "rotation": 0
         },
         "east": {
@@ -280,7 +280,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 16,
           "rotation": 0
         },
         "west": {
@@ -290,7 +290,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 17,
           "rotation": 0
         }
       }
@@ -335,7 +335,7 @@
             16,
             16
           ],
-          "texture": 5,
+          "texture": 12,
           "rotation": 0
         },
         "down": {
@@ -345,7 +345,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 13,
           "rotation": 0
         },
         "north": {
@@ -355,7 +355,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 14,
           "rotation": 0
         },
         "south": {
@@ -365,7 +365,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 15,
           "rotation": 0
         },
         "east": {
@@ -375,7 +375,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 16,
           "rotation": 0
         },
         "west": {
@@ -385,7 +385,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 17,
           "rotation": 0
         }
       }
@@ -460,7 +460,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 3,
           "rotation": 0
         },
         "east": {
@@ -470,7 +470,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 4,
           "rotation": 0
         },
         "west": {
@@ -480,7 +480,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 5,
           "rotation": 0
         }
       }
@@ -525,7 +525,7 @@
             16,
             16
           ],
-          "texture": 3,
+          "texture": 6,
           "rotation": 0
         },
         "down": {
@@ -535,7 +535,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 7,
           "rotation": 0
         },
         "north": {
@@ -545,7 +545,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 8,
           "rotation": 0
         },
         "south": {
@@ -555,7 +555,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 9,
           "rotation": 0
         },
         "east": {
@@ -565,7 +565,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 10,
           "rotation": 0
         },
         "west": {
@@ -575,7 +575,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 11,
           "rotation": 0
         }
       }
@@ -620,7 +620,7 @@
             16,
             16
           ],
-          "texture": 3,
+          "texture": 6,
           "rotation": 0
         },
         "down": {
@@ -630,7 +630,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 7,
           "rotation": 0
         },
         "north": {
@@ -640,7 +640,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 8,
           "rotation": 0
         },
         "south": {
@@ -650,7 +650,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 9,
           "rotation": 0
         },
         "east": {
@@ -660,7 +660,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 10,
           "rotation": 0
         },
         "west": {
@@ -670,7 +670,7 @@
             16,
             16
           ],
-          "texture": 4,
+          "texture": 11,
           "rotation": 0
         }
       }
@@ -715,7 +715,7 @@
             16,
             16
           ],
-          "texture": 5,
+          "texture": 12,
           "rotation": 0
         },
         "down": {
@@ -725,7 +725,7 @@
             16,
             16
           ],
-          "texture": 1,
+          "texture": 13,
           "rotation": 0
         },
         "north": {
@@ -735,7 +735,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 14,
           "rotation": 0
         },
         "south": {
@@ -745,7 +745,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 15,
           "rotation": 0
         },
         "east": {
@@ -755,7 +755,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 16,
           "rotation": 0
         },
         "west": {
@@ -765,7 +765,7 @@
             16,
             16
           ],
-          "texture": 6,
+          "texture": 17,
           "rotation": 0
         }
       }
@@ -840,7 +840,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 3,
           "rotation": 0
         },
         "east": {
@@ -850,7 +850,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 4,
           "rotation": 0
         },
         "west": {
@@ -860,7 +860,7 @@
             16,
             16
           ],
-          "texture": 2,
+          "texture": 5,
           "rotation": 0
         }
       }
@@ -1022,7 +1022,7 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB70lEQVR4nF2SwWsTQRTGv8pOxw2byGZXtq1bsQb0UIToQcSDCKHoxYu9Bbx6EA8e/DM8+jfk1psXkXjQIkVBgiXRgiEiS+ySzI6dDruOA8XDI5vYuc2b9+Z9v/e9pQdXL4ecBS4HIAozNRZAkpsqOwOg4VUCl0d+DUAq1cFv7VA2hQAFYKhzAMf2JK5wzE49Xk2lCjlzKLser86eFIDuYRbw5SQ3SW4gNcbifhBGfg1QjihM5APAy9cfqKK1Flzyzv7Qfx5v3aLIRhy86Lxp+h4Ah8R1+iO6A+iOBQHsvPtMke07NwBMjQ05c4iy6XsLJOhJHfDl5+2tUSJKjCNrAThJbgCEnBHJ1/2DwOWQGsAoEWWTp/duZ8mvTn/kUGnIWSpVFoSiMN3DrLVS70ldiiGG9uYGACeucJpsdyyahSExhH6KIZUqrvC5D22/lkrVBIY670kdG9v0vca1KyWDKMx/PnwvbDTzgfT8XHN7syY0FQBzH6L1qOoyAHefPdwG+vuD3Z232DxfGalSxWA8cabGplIByApbddnNJ4/29j59e/V+qPNje4L+5OLCxKfGLl1fv1ByR34tlUoUhrKF+dtaqZeadz9+6UntlI4AEMWEvjnHWMNji3s6GE/I4vlYT633kbVDnTcKQ2WRD1L+D5W5Ag9Z/9oRAAAAAElFTkSuQmCC"
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABw0lEQVR4nF1Sv2/TQBT+iM49GrmRHBu5BQ9ABgaWDExdkKhQ26F71al/AFv5DxiQECMLG1M2/gCEzIQYog4RVYIyVGGwTKz4cq2xbF5PQgyPXpO87b577973424dPHoYSMdflwBUTTkZAElFG04DQMdt+usy9FoAMl2ML0rB3QwBBYDzsgLw2/yNmhLX1Y62Ml0E0hHc3Y62rq8KAPF07su1pKKkIugSqdrzg9BrAYVQNYUeALz79I0ndu76993bP8s/J/vbjASb3tve567nAhBMrjec8BlAnCoW8OHLKSPHz54AyMkE0hGssuu5VslAlwB8ufby6Hk+1VbGpTEARFIRgEA6rOTH2ZgVA8in2i55sbs9T371hhPBo4F0Ml3M/UDVxAt5D5NhDUePHwAQUVOys3GqujUNdKnoiqWvaMh0ETVlYzEHy36gy/FFieVSNS3lcBz6iybahwF09p4e3rszi/sAbnJYIZBUxMirNyfDs9Es7odea5TORE4m08Xie1wbToO9+vj6veWck/lvq6ppMJysdCu62tlsW85f+9+TioRNxCbNUXZcZ/GfjtIZ4ze2Yvl7XxpzXladmngs9MDM/wE5hPOjMH97CAAAAABJRU5ErkJggg=="
     },
     {
       "path": "",
@@ -1042,7 +1042,7 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABXklEQVR4nG1SwU7CQBB9bDosJQulUoNRNCgHEi+GxD/w7L/jhcjBxAPBELpBSkMdNiEeRpZa7ak78/bNe2+29jy6SzQBAJCy2zi3dYcWqYhI6t1QA7AFp+wABL5qC5ZrlvdAPfohAYBe3O7FWK4zW7ASdC9u4/e3ca58FDSAQAYBGQCZ9hDTfMdl9HSxOsJQG19flRVXRIsly/unizMAk3WuLO+37uDJyvIE7fMQe8HANHz1XzP9pu43daKpG+qBaQQR0dCc4psuVpJYyq7SsgVHRMrH6rlnn3nKbr5jYb2/PPetRNOvWL3R+Y5bpMrCTouTA5B59Hv+1dX1iKjSkptK/rwMAAPTqHB3Qz3qmERTyi4QkDgZdUx5+lu+u3m8BTB7mYufyTpXLVLe3FEDAPhlf2SZAGzBLVLB0DT/OpOHFBHR63IcahyDHppmkLJLNNmCbbEqP29ZVmWJKbtvvULwHm6VsaAAAAAASUVORK5CYII="
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABw0lEQVR4nG1SwWrbQBB9EZpsHGS7K8kYG0GTBhpwaSICvfrSSy89BXrorf/T7/AtX1ByCYVCD0HUJCaQ1IUIEWFtRWxhdbtgehijqqZ7Gnbmzbw387beHj7zBQEAkGnzaMzCrJpktYn432sIAKrUmTYA7OpXlZphSv8GttvrJgDQla2uRJrPVaktrn54+iTKi3ipF2bliW0A8VJHeRHlhSr16GrKQwDYPOjqy10oHe4X5cXp8ITj/cD7OPr0uu+5QS+bJgDseKkfjQml4zVEV7YYcHZxyYAKORnf+IKivLCZMRN1g95kfFOvW6uqybP3nJ2FWQFI8/lPz+dcNQFAKJ27Yvmj+PVuv7fn7FhtImZ/nqiH8aQuoJJ04Owey6YqdZtovdZBv8M72aDOogf9jhv0Pn/95guyq9OcDk84XefDSApf3N6nmTa+IIs1pfn87OJyGiv876X3qasyjm3GnSd/S0PpHLx8XgeY2++QLV9Qpo0dL/XGHgf9zujfLXHgNUSUF3aTLF9QxfvN8JXboPfAdTLjU7KFgLkqdZOsrQ9Hh4zuytZ1MmOnsGeDXeELqrvVF7TWoEqtylnd3ly9oT7T5g8vg/jQU6YgSgAAAABJRU5ErkJggg=="
     },
     {
       "path": "",
@@ -1062,14 +1062,74 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/UlEQVR4nE1Sv2vbQBh9Fne5SkhOZCkYu2rByWBIobildCqlkDldsmXq1r3QoVOXLoWM+Ru65Q8IxUuGLIXgYGJjqGkpwq1ryxfLF6mXA9PhS4y+6fh+vvfulfaaW6HggS0AJLmeagMgzrTHLQDbrhPYouqXAYxlOrhSjLopBaQAhioDsDDLyBG4i0pUG8s0FJwBqPrlSlQ7OjmjWst3hyr7qf4BCAWn5Cz+TQ9GYI5Ozlq+S6mOVC3fXec8zvSbT+8W19eX3V74d94bTQJbsCTXQNry3QIwdKTyuOVx6/D951Dw/Q9vL7s9old68uC+x61t19mpb1aiWr87ANAeJZEjLuQiEGset9Y5J6rtUcISfQOskQizIExy3f4z+/j6Vb87aG64Sa6HKoszTcOJvintNbfiTLd8l6B3pEIhdutBUW4ALBS8ueFW/fKL54+/5wan3/ZfPqVaIwoOv3zdrQc79c2xTJNc36pEXFeyAjg+PQdAk6RK1S9XfYxlypJcJ/kksEVxcRFVRypIdeCXaZhNtQkFH1yp+PR81eRxa2GWqyMAKva9fncw1YbFmSYa9KlDlT181gAwv4iPCysOHjXIY4xMBoCYAfiVpgCMMavfHMu0N5pMtfG4xeh0MZwfKYDYLO+kvGXcG03iTFsrS5JwRXvPjSkuCmwROeI/eh7/2uTJ1wMAAAAASUVORK5CYII="
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB2klEQVR4nF2SP2/TQBjGn0bnnhw5aS/nKEowFaWRAslQM3SAoUuXDPAF8pn4HPkEDEgoC0IMMGBRJW0GlCVyseLLhauV09VSxXDEMnm3e/W8f37PvQfves996nCXAhDapCYHsNyamlMBcOZVuUtbrA4gkWq+yYhV2xSgAPzKtgDu88egSrGLRtBOpPKpQwC0WH0WryKZoRTDy4uu66yXd7N4NYkXo12e2GX6nWbwsluoXzxrvh9/Gl5edIN2H+AubQTtWbziLiVCG0AJbaLpojQgBPDx83f7uOrwm+u5xTt49fRJzamU4cbTxds34d60kHncpZNYEGEegENbLfQKQFClH75Ge9Mmv9ecHgrzQM5Zbbk1PnUK6NHgVB0d4f84ZzXbi/jU6R17LVa30HaBPfVocNoI2l++/fznUovV19zfIYYAQuZFMguZZwvG08WQ+/1OM5GKCG2EXnGpyi2turAhkllDpACENiQ1uU+d+SYrO2P/uMXqjaB9cz0HkEgFIDU5scS9Y69wZvD6zLlNrGjNfaFN0Wi5NcQemSVLpPrBKndKnQDW9VCbAma+yWpOhdznj+XtT2KdmjwFIpnZxa463JIIbZZbUylOMpFq77z/5Hm5F3dpUKV/Adai3fVWY2UzAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_south.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "3",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "3563ca64-5536-516e-b695-96ac65435b70",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB2UlEQVR4nGVSwW7TQBB9iXZZ2XLbODZyE7mHFCQjKqocAHFAHIADl/5ATvA/HPsBOfUbqFB74NAD9BCpolUkoiKwUlnJZlt3ZbNZqeIwimXB3Hb2vZk3b6axl2yHggeOACBLMzcWQFqYNd4E8MBzA0dE/jqATOXja80ITSkgBzDRBYBbexe7Aqtox51M5aHgDEDkr7fjzv7hCf31fW+ii5/6D7WC0pjKwYrJSMz+4Unf9yg1Urrvexucv33xhDLhpv/x4HPf9wJHMFkaIKcHCRspDeDG2uHxKRHev34KgMZrjpT+OlOVsEzlBNrgXJolapG0vJHSTJolcI9MWAShLA2Al893L87GScvbetSrCEdTKc2ysZdsp4Xp+x5JHyn97tUzAA8dvkivDr5fErpyrPFhNyH17bjzo7TRVgQg+519+vKtqj3Y6WUqp+asmrWytT4oxfD4dLDTi3xkKmeyNLKcBY6oI8jH/5myNGxubCj4+FofrUz8B1Rt+uJsPDeWpYUJBU9aXig4gIkubu1dnRNu+gAW6RWAtDCMjgzA4+59WsKvrjOsdQPwphucT2dzY9d4k1G9eriXueuKtDCxK6rTjHycT2dpYZqVwWRc/bxvrK0XChwRu+Iv3JzgEJL3IgQAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_east.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "4",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "e1bf163c-de6c-581e-a551-92ac80c3b4db",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB5UlEQVR4nGVSz2sTQRh9CbsOuyTR7S6ElFVIC+YQ2oYKKqK5SPGiIAQ8xIM3Tz32z/Cmf0NvAa9FcongzbAiVQItAV0SlmYy7WbZ4etA8DB2SPU7vvfg/eArvGhsBMz2HQaAS5qRAhDnVLaLADZLru+wqlcBkIh0dJ5ZWq0hIAVwmuUAFmoZugxXtxbWEpEGzLYAVL3Kj8lZJDJDP133q14lESmA/oR3vco8nmrK0mF+rTudrbsaqof+u8NP+1uNw+OxRt4PR6/qNS7Jd5jFJQHpHUm946GmO+1dAB+OvrS8kkYikY3O//pbkcjKWb5Qy4Pu3jjmJlXLK5lukch01f6EW5wugRsAxjHvDYamA5dU9SprYe3n9xGAGalIZJwuizteGf+dDpCI9EQqLgnAyyf3QpfteGUrYHbjVqk/4Sa9Lh0wuz/hLUmRyN68fn7yOwmYDaBw8GBbBzWbdNq7vcGw26wbBEC3WdeeFpfE5dnj+9tYoTWnDY1nt1nnkqwZKe1laFMjHlwbOhHpjJQV5xQwex5Pe9cdvonF272H/4wR51Rob9zeLLkA9OqJSLmk0yxfqOWqdP/Zo4+fv14oZWliVT0jddO2F4pCl5nXnMfTgNlxTkXzkkaNq/e+UGrVxHdY6LI/MQn/NqcW8wwAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_west.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "5",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "96b42352-fba6-57d6-b53b-070a3440e0fd",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB7klEQVR4nFWSMW/TUBSFD5adp1hOxKsTRbEMamFoKRI1DAwIsURsZWHswh9gg3/Ahhj5DfkFXaDqhjJV6ElV0mZA6WAZRcnrSxzL1o2liOGmUTjje/c8fee+c+/d/qOGcPyqAKALmlIJIM6p5lgAHnuuXxUtWQcwNulwltk8zUdACuBPlgNYlKvQFbjTTtgem7QhHBtAS9YHyWRKJZvZvxO2v//oxTnBZFFBqj/qBD4Am2GUyTQtj2QNwGHQ5OlIevy8Mlkn8HVBflXYuiAg1bT0RSXOKc5Jmexj2I6kt0FVJhvOMjbbymS1LPdF5fhVxEcHu81v3bNIegx2dTkEwLTnibY1LYFKJL3TnrpLuHaOTXrrN3RBzNntjzQt7SNZi3MC0An8lqx3+6MN9zquWcOErghdYTeEs3/fA3CeaCSa77bxVPcskh7vdL0lTna8+4Dpt9jWeIdBE0BLYmxSSxc0SCYATnvq+mYC4OTpHv7Xkw/vVy8OuAo2/xd7WN3+6PPJWzYD+PL1U/9y8PP3xXOzmlJpxzkx3LaubyYbsPp8/muUPBQOqiLOyeKS8Zbq8zn/P0vTkuO+2Qtev3w2nGU1x7IW5QoARx+bVBcUukKpKwDcFNZt/LchnEW5sjaV5Ontes/LcpvTr4rQFf8A6r/5kZSUZhgAAAAASUVORK5CYII="
     },
     {
       "path": "",
       "name": "rotting_meat_top_variant_3.png",
       "folder": "block",
       "namespace": "fallofherovgadia",
-      "id": "3",
+      "id": "6",
       "particle": false,
       "render_mode": "default",
       "render_sides": "auto",
@@ -1082,14 +1142,34 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACAElEQVR4nFVSz2sTQRT+GnYdNqShk92wJCxIrJi0oRIKFrz0kouXngoeAh68+rd48E/w1FvuBUmRUhAqSFASGzAENGxcspNpxiXLMFA8PLuJ7zjz3vt+va2T+iOP2a7DAIhUx9oAmK70tp0DsFvIuw7zeRFAJNXoNrGom54ABWCcrAD8MXdBnuG+SkElkspjtkXdw3BuGj6KO/ZNlG2NpALQC0WHFxfTmc+LgMqJVAP4WXVmSgHoy6Qvk14oSkFl76BOyEdvXt0dNobhXKR66/XTuuswkWrT8Aefxi1eIA59mbw4fvbYsf3288G34VX3AoDH7FysDYHYN1GLF1yH7VfL+9VyixfOLz9nGjxmL42JtclNV/+cIa0+L5I+8m0xnX189/6qexFrc/Lk4XSlLQBLYzxmH5W5SHUk1cL1RKp7vxcva5VIKp8X9w7qNAzACvIsy4E8aaW6LxOXPSC0H6mxvVL0KzJSBXm2zuFsMMnktqtu1g1gO14YEQ9Tvc6hFFROXU4DtcB9e/ahDQA4H0w6zdp3qUa3SX2nAMASqfY5AHQvv9DA6fEhcUMoAGiXjyahx2zK14q1oUQ7zVokVS8U2UyGBoDWx9pY05WmsyNu7Q2orDrNWimoXF1/XdtKHyKdA6Cb2zzKSKphOKe4/rN187yXxoyT1e49ss9BzP8COZEWE6Xj8ksAAAAASUVORK5CYII="
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB5UlEQVR4nGVSwWoTURQ9CfPyzDCJTt+E2HS6iBFqUyLTgl0IBiELXeiqu35D136F7lz5Ad1156YUEbqQClJm04JgbRePCSHzMnY6zPR1oLi4cRz0rh73nXvPvefcyuuVBw5nos4BqEyHOgcgU91gVQA9yxR13rabACZR/P1XYhCaUkAM4CxJAVzlt67J8ScW3MVJFDucGYRecBdnckx/F8m14LUGq8pUy1QjShAoL5j2Oy0gNlSm2zZmcjyJYpVpP0oIfZXfbg03CgauotNgCsCg4QC0RpvPB33/zTuah3B7h8f02HnxNDwPHM4M2vLRq2drg77/8TN1/frtRKa664oyyWWeA6isLy+5Jpep3hpuFP0og1Jsr3UB7J6cV4vScqzcszzbUvoGgGdbxdgADNfkDmd+lJQH2Ds89mxL8JpnW/cHq6MfP1Wmgdg1+dyHnc3Hb3cPCE1lfpQAEHX+sM5mdlNlU5Xpvz683/9StO+6AgAp27abpDgVA5j78I+ISt802B0ApD0Rbndap8HUCHVODco7fDg4AjDqiE+BKnyYyXGoc4Pkezl8UuwAQPDaRXLds/SoI+hwiE2murK+vNRg1buMOZwRmqwsHyVdTahzmeq5rP+f92WenyVpL9NU1rbnVvwGA2b2nxbJ3fcAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_bottom_variant_3.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "7",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "ade80527-9855-589f-85b3-162fe97ada0d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABwElEQVR4nG1SwWrbQBB9DrtVFFS5imSUigRc2+DWoUGnQkPpxdf0B3Lr//Q78gU6BEovPejSy5ZiO4UEX4yLsdeLbeFlsxB6GFUEp3ta3sy8N/Nmap+6rcjhAAAsjF1Zu7EPz/lenXPCQ9cBILVZGAuAVajUhsqkuQee1UsSAIgDPw4wU2upDas4AHRfeHHgU6CXNA6PX95qe/39B6YSQBp4ABgJ9ZIGsJbafJuOqVio4hK4HowvztMSESMAbLI1K2t7/5KqMIDh6JY+WS5IQaiCUccAeKdF0hTeef0klNpIc8+a3v7GPizDKD6Jn+YBeN1sAKm/WgHrprfP6py3Pd5x+VIMqnCVneXiy9VXAJenr6Q2dc5rn8+6tIHI4UIVj7kvztMsF9Q6WQRgj2z9qTZ3xbZCK/o08I7evuknIZECYLTF/tHhU5eyXISu03H5MvClnhPIqJlyd6rYcSkO/OXkz0ytAUQOXxjLJlsD4MO7s9Gv3ztDZ7kYTktioYp+EgpV1D62TtreQS9pXA3GNN9/zT193+Y3s7tiW7oUuk4c+MPpnCajmz0+cKpu6Vojh5czSG2knj8+b8re0VkY+xfcIeinrkuZOQAAAABJRU5ErkJggg=="
     },
     {
       "path": "",
       "name": "rotting_meat_side_variant_3.png",
       "folder": "block",
       "namespace": "fallofherovgadia",
-      "id": "4",
+      "id": "8",
       "particle": false,
       "render_mode": "default",
       "render_sides": "auto",
@@ -1102,14 +1182,74 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB+ElEQVR4nF1SPYgTQRT+suxk2GUTspmNIXFVcneQI0GI198111jcVelS2dnb2Vta24t4hWB3hShpgnJwgsSfOwnkjEVICMm4cbNknRsIFs8swcdU7837vu+976WOq1seZ8LiAGSsZkoDGC5VhhkAth1bWLzoZgFMgrA3j0z6TSkgBHAVLQEs9Mq3OdaR90uTIPQ4MwEU3eznrHFxdpWUW/VK3i/9Go4BXI6m7dGgtS6ZJGYchs2DPUpVfPH05N194UF4OxarAcLieb90OZoKi5syVkBYupN73flEDdT5pvMxITwsi+9fezRe6t6tmxlmbDs21bpBlFAlbAAariMs3h7J1O0bBcHTvs09zgBQFhvRPNh7e9b9Gf0RPC3Vdeq4ujVcKgKQsaIeAL15RPsleNIDwPQ4q+acopudBGE3iKS6FjydYcZCr5IBim4275fen38BYCQmEDzFQq8arkOvPZKsUe/HulYu/NuSjKckg6gThWs38fzlaateIVCDxPXm0YMnj3aP9j3OGq5DbpK7hEWnMVPaoLGqOef82Yv63Vrz8cPdo30q92MtY/VqMD4sC+oZLpVJR0bx4bQDYMditXLh5GLQiFU3iARPk7m9eZRhhplsA4Du/5Cx+rbe4EzpzWFkrIZLZSQnOQnC/877t9abDgqL+zb/C7wq7vy5T6+HAAAAAElFTkSuQmCC"
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB5ElEQVR4nF2SzWrbQBSFj43UQcIWyGPwD4Li1NSkIa0X6daLeNNNXsCr9H36EF1l0ScotO6imxbahcHEwZBgCGKMkMaTykJiLDBdXDqI3tUwc2bud+ae2tXopM1s7jAAstCJLgGEuW7adQAvGi53WMf3AEQqXT9lFqlpC0gBPGQ5gH15DFyGf9UKepFK28y2AHR8L1KpLPRCZWO/sS+P0z6XhX7sO48AV0cAd8s13awTDABSd89PSQ2g53m723gu5M3thoC5wyxZaCIBwB02dOyd78kiTnQZ/ni4vrygo68/l7SwFiprZvnVy+cQsuN7u3AbqZR8k+Ljt98Apn0OYC5kXerDvjzueBvASsQrERszqJQ9PJkLKfXBeuM3w1wPHXt2NiBWYwlAu+sT1SFKApcFLqu9fz3iDls/ZWGuDTHVIZLmCdPQoiF82mw5e2aIqQKXGV2iy8mgH6nUkoWWRTztthYqMwDG7mTQpxnTjix0rRqNuZBGfX15Ue029htEboW5bjP79Hx0t1zPzgatoHdflJ+///qv2yGSkUrDXFsUsl24nQs5LvQrYBj03k3efrj5Uv2Asd9IdNm069a+PBLl7GwQqXQl4mQjjOlqNFciDnNdN5Gk/FXj/acsq024wwKX/QVIsQbRI88LNQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_south_variant_3.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "9",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "4b5354b3-c2ce-528a-904c-a302b7cc1819",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB+ElEQVR4nF1Sz2sTQRT+EnY7nWWzsN2UtXUDpimEtMRGwYuHXIroxZO33Lx79M/w6N+QW8GjIrlEEPzREpREAtFQXDYMyWTSddllsiAeJtnGfqfHm+/N+973Xu5p9aBIdIcSADyRM5kC8GNZ0PMAKqbhUOLaFgAmwuEi0hRbpYAQwM8oBvAn/esZBGvseHtMhEWiawBc2xoEU4eSTsCxgbhsIUhU/OP7UAWaEnO0v9vuj1+2Ho3965qz7kWq5wHwZOpQwhPpUKLxRAJhrV5Ffzz2+Vn3QrGfNe8rYT0RAfBkuurQE1Ehil1/gv9R9hxVo7AYXQLoBFzjcglsZQ8Z6VX7/WZ967jc7o+5XGondsGPJRNh67jcXusB8KT5wC25ANhvdkj1uT/xDOIZJPf8btWhZLiI/Fhmn+14e6MkBfC2+6Vhmz0RNWzz2iXXtjoBz8Sw0SUTYa1eff3uY8M2b9Vrp6NfPJFH+7tMhBpPJE+mmY8AuFye2AX++RsAh5JDqs9tS3F4IvOztV8ZHLJ1la6Srm3N/QkTIQAmwplMNT+WRaLf8PHT174KBsGqeU9Ep5T4scw1D0oV01CbzppwubxjbldMQ20NwIvHD998OL9K09y90u2GbarRmQg3D9YzyOZpDoJpT0T57CRvsAt6PptkNRslnkH+AdvU+lJxCe+aAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_east_variant_3.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "10",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "0e8f815e-1372-54c9-a8fb-f0b6b5ac6269",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB60lEQVR4nF1SMWvbQBh9MXc5JCRjWTJujApxEnAaU6rZQxcPWdo/4A79A/kpHf0HMsRzBy2mmA4FDYWCOtQQaJtCVQVhyRfLQuIiMB0uFWrecuJ4et/73r2914Mji1FTYQCSQsSiBBDkQqcNAMeaaiqsazQBRDy9vsuIZMsrIAXwI8sBbMudrTL8Q9s+iHhqMUoAdI1m2z6Yzj3UoNNGpRXxdBmupAsij+ncezVyKvblx8/Avs8z8AxhAmAy7Mt/SFII6QSA6/ny44WhB7moS7R1Nb4JARCfZ3qWAzg97AAPjOLX7yAXdYmL89GgpS3ChCTiHtifDPvvZh8qvcmwL51UWAe3izBJxD2R09em9fbN8PLKdQzN59kyXD2aOfN8W2W2yojF6KClnSh0euU6hvbk+bPx959JIWyVVTPlMhajABoyuPefvgAwFXaiUPkmg5aG/3HW6zyklBQri9EgF12juQ5uI54CWIRJldLpYcf1IKtAYlFajMpGSOsAfJ7Vg3Y9OIYW8TQWJQlyIdf4yrcV7+J8NJ179aW9zR+T74Jc7L08enqsqWe9DoDZt5txz5RliXi6qCXrGFosyk1Zkm25AxDxtGs0xz1TFvb6LgtyYausXs1luApy0agqGfH0Ub03ZVlPyVSYrbK/K07zYBlKtQ8AAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_west_variant_3.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "11",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "a26ab309-a528-5991-a3b8-7487128863e9",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB+klEQVR4nF1SwWoTURQ9GWbymDAZ+joTko7jwiqEpgSjZFVwk6BZSH+gq3xAl+LOP9B/cNVfUNARlIJQpISCsVlIRIbRIXl9cRwmvgyIi9sOsXf1ePfce88995T2m9suMxyTARBLNVc5gDBTVUMDcNuqOCarcxtALJPJItUJTV9AAuBrmgH4nf/1KwxXselvxTJxmaEBqHN7098qct/SPwCGvW6YKeoVy+T45IyyGpE5Pjn7MI3q3B7J1GHlojiIRLnuBJEgwo7JdLFUQPLdMx/df7DTbg1fvyeo2+D4P2g9fSTTapo97g92261nT18Me92X7z4R4mD31tHnKb1bXi2WSRAJXagVUNZOz7+cnl9rSWi3wYe97ioWQSSEWpX2m9thpvqeI5ZqJNMnBw/nP2VRU0zre85kkQLQXWY0N6w6t4NoCuDtq48jmRJo2OsSsVgmYqlcZlyqdHUEdLjVaO/0PafDrXVipFLLq12qJJYzyjkmu2MaF9ymH2JfcGt5NbFU+lzlLjNIsjq3L8IfsUwAHA72nh+9KeYItYplMle5FmYKQHPDAjCOZuNoRtsT+w63/AoTakXXDDOlk8mCSHS4Vax7ONijUeSDu7zqMmOySKuGVrp380aHW4Vn1g3rV9i6NcfRbCRTrbDkNXTV0H7l+fodHZP5FfYP2Br9/92t1nIAAAAASUVORK5CYII="
     },
     {
       "path": "",
       "name": "rotting_meat_top_variant_2.png",
       "folder": "block",
       "namespace": "fallofherovgadia",
-      "id": "5",
+      "id": "12",
       "particle": false,
       "render_mode": "default",
       "render_sides": "auto",
@@ -1122,14 +1262,34 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB2ElEQVR4nF2SwYrTUBSGf0vuXFLSkfRGwtSMUKsInU2ZnZsBEcGNK3fd+BI+hs/RnU8g3YgrFxKURkYsWTRkDMntnaYh4c6F4uKMaZ3skvznnP98/7n35tljjzNhcwCy0YU2AJJa91gHwMjpCpv77jGATJWX15VFavoElACWVQ1ga3ZBl+Pf0w9OMlV6nFmkjtI8VFX7e3o27AcnvxvzxGbr5CpK83ART8+GQGnJRvsuQlW9vTgn9TAQH2afXgvPP/W3QB8YA8LmUZoDsMic1DcfP3+jgrYyW2U0gdwD8DizaEvBj95PX8WJbF2R9KcqiYTHGe1mJbUmRZzIdsjLgaDGstGhqnqsczEcjIHZIrYAbIy5Y2b549flddr22ppdO9kKupzItu2J0mwRT1yHXkNVZaoEEHT5Pod3L55nq8w/9XvFep1cTVznIB/MUzlxHY+zzj7IVQaA1NTPd48pL7oDYXNh89scojQfAwAOsWSqXAtPNnr+Z/30/KEPJ0pzq9CG+kVpTog3xmzNzuNsnspJo0NVCX70KG0wcAptbrHSJuPBA0K5rOpQVVLfEGLy9uXr96TW/2GVTQ6g0OY+YyOHHd5pO3+P9c55b4xZVvWo0VTmuyDnfwGy1yT9fxg8CAAAAABJRU5ErkJggg=="
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABzUlEQVR4nH1SPWvbUBQ9FlJeLWSDLAXlQ6FpA03TEFDoUgpdaro10DlL/0R/Sn5D5g4emkFLC1pKQUtKAs3HIJwI++nFspB4eWA6XOdhGuhd3n2Xc+7Xua2D7ec+s7w2A8AbOZYKQFbLjmUA2HJsr80CtwsgF+X5XWUSmkJACeCiqgFM1Sy0GR6sF67movSZZRC68Pzj06t4yFNRfX7/hkBZLVNRaU7gdr02M3kjAxffvv/8cvjh7HoE4Ogk0T6AQZL2AQC/hyMABjUH4Ox6NEhSApGvv7yRuShpPJOe/1sqqgiYKAXAyGq5yHm5ufzxbfSYE98WBy+eZrVs7W+sdyxjqmZc3gPw2BIh+mve+V2lVzxVs8PdZ8enV2ZoM59Z8W2x6Twh6FTNItfhjcxqqSMdy8hFGdpsrkN/pee1WTzkumku7z22pNc1SFLeSJ9Z5oNqZTzkkeu8WlvORcmbuQK0LpqKrsHgjSRR9Hw7e9srezuR6/wzd+B2eSONsVS5KHvhKkVzURbZjfpzuaixtrFUrf2N9dBmn969BnB0kujE1ColKrIbkjkVlQlgotTXH798ZhF6QZZSl9Xx+Vofn/dEqYuq3moklQrcOe0vQiT+jb7YkloAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_bottom_variant_2.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "13",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "b627e248-2dd4-5a30-a300-3c87c91be27f",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABqUlEQVR4nIVSwWrbQBB9FtqubeQIWTImjgNuezCxcaLQXnNpCOQSyNmn9h/6QfkR+5pDCxUEmhbcNgfjWFibparIdr0QchhnETm0exA7b99o3ryZyln/VcQZAACZNr+N+WMeGszxGSM8rHEAQulMGwCuRYXSlCb0Gnjhb34CAO1gqx0glblQ2iV2O9jaG21fX30XSt8Uf7t1fn70ZqZMU2SUQ2wALhWaLH4dy5zeel414uxuftuOhylgZj/LkiqHuzsN5rz26oksKCEOPHu3CGlOZOGS4kQWH8cn2VICuJh+BmBDQsadllAroddOz6tuLFpKopZDi6QyD2u851Udn7E48PC/I5QWSvuMOXYI/z6DTgtAxJmDp9FQdfq+f/fWUpMv38bDl83u9mZwVI6sGHRa5He5mUQWiSxOw4hCN9OmrGpv1J8pE19dl30DcDH9FAdepo07v9eWncocgJE5zcH6RgrDGk9k4TaYE3HmH3STyx8xINTKylun4rgTThbCGtVgTuXDfh9P6/R1saLOaGe7dR5xVt7WiLNND0JpoVbl9Sb2M3MzbR4Bwsf6LO4MpoMAAAAASUVORK5CYII="
     },
     {
       "path": "",
       "name": "rotting_meat_side_variant_2.png",
       "folder": "block",
       "namespace": "fallofherovgadia",
-      "id": "6",
+      "id": "14",
       "particle": false,
       "render_mode": "default",
       "render_sides": "auto",
@@ -1142,7 +1302,67 @@
       "height": 16,
       "uv_width": 16,
       "uv_height": 16,
-      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB90lEQVR4nF1SwarTQBQ9LyQODW0xTUpozBOeFR88kVd1J+qmiCtBcNdvcOlnuPQXfAuhO3fSTXGjSA1CC4VKN2FKaKZT09Bh3kBxcW0p3tVlOPfMPefck1fndwLm+BUGQCidawMg3eqaYwFoV12/wkKvDiCTxXRd2oSmJ6AA8LvcAtiYXewy7KsRtzJZBMyxAYRefcKX9MlF1Hwat2bKALhbcVbpYsKXAz7v7SftAy6TRejVG3Frpkx4GgL48PEzgbqR34hbRGoLpYFCKJ3IElxgPH/78skqGV+N5x2vSgMDLoApyTt5eHqr5ljtqtt+cA/AWey/v/pC0IO2CV8msuxG/oALS+jrjdnl2vSHo/5wNE8FgESWpI200toDLoS+ti69GoCAOTgq8jSTxUwZofSn+SJ2WeyyS69mB8w5v1kdcPGu94Loyf5cm0SWHaUTWfrsxutnj79+//XPpdCrg4t5KvrDEXkilA6YQxH1oiZZR07aQmmhlsf7DLgA0PGqR4GiIXI6BTvX5iDgzfNH1Hz7MaaGwlmli0wWAHJt7HSrA+Z0I5/2oTrQN/apQxZ0YzYZAqB3/yyTxU/PAgCu6HGVLowshNJ+hU3XZc2x7I3ZHQu4zVWuTQ4ksozXJem+iJokIN1q63CSmSz+O+8/xhxz+RUWu+wviIgKaq3xWhcAAAAASUVORK5CYII="
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB0UlEQVR4nGVSMWvbQBh9MVIOC9m1LBnXRh2aDCYOwQ6d2yUEuhQ653f0N3nL7lljA0aLAwa36iAchH0553LoejkwGb5WuPXjuOHju3vve987+jI4iZgb1hkArs3GWAB5aRpuDcCp74V11g2aAAohF1vlUDeVAAnghyoBPNtd7DH8RTvuFUJGzHUAUDeVAPxSv0dB4+vHD0tt23xTCEmHXjokZjLProQEkAoVsuO8NI/5w3SeVQzjwAcQ1pnDtQHkOPC7QXMyz77dXGc5BzBJZuPAH/Y7hZBcm1QoUlhLhfq+FsN+px33AGQ5v01m2MPZxeDtxdk48ActPxXK4eYFOG7HvaW2OABJt0KmQkEobl6cUdDIS7PUdprc/dedCjUGuF4DuOqHi62KPeZEzB20/GlyV6nfH5SkR8zl2kTM/eNSN2hixSv1sccYF8RAS3wzih+k/Ay/ENLh2hAp4eb8/f1qvW8XgNtk1j7vUBRqlIVDEGHl2KXYFUJujK3lpTm05RCUhrw0R59O3p36HoBhv3O/WgPYGBsxd9jvPIaRXf5cbNWg5QNYbNWTtc6z3dHO6eba0JvJPIu9FXlI33Nt8tLUqkhSBPbj/WT/GS+ss9hjrwJ2DS+0U4sYAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_south_variant_2.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "15",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "14ee313c-ae2e-59bf-9882-e8e5bbc54dce",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB3UlEQVR4nHVSwWrbQBB9FhKLxKpYlo1rVy51XFAd40Y9pIdSfAmFHNof8Hf0M3rsN/gLfGgouYTiQ3IRBbcJpLUhxkE4yiaKkFgLQg+TCLWhc9ndeW8eM7Ov9MHdqDLN1hmAMJUXMgOwSKSpKQA63LB1VrceAQhEdHIVq8SmFBAB+BUnAG6yW8dguI+K0whEVGWaCoDYo+kshx2DuWVO+YrTuFycfzv8Tl2odIyms4/Dd8fzFRWMJ/6g3byTmM4A7DTtMJW2ztQwldTJ8Xw1nvgA3r/xSIIuAF48q30afaUOVV/EZpzgP0ESgAfALfP9ZaiEcn2T3eaMUK7T+dmw135YvL8MQ7lWtiyTeL7/09TunhWn8bDAMdiWZapVprllfrgSVaZVmQag23dP02x3sD0+OCpuglCVPqGTSl/EBPh7k93Bdr1VL26i0qttggciUsJU/liufBF7Fh/22jtN27P4l4OjYjOmpjxdpgDCVCrkhTy6ffdxv+tZPDgL8iQZJBDRhcyURSJzIBDR5eI8O/3ti/i5rhWF6NcXiSwNNlodbrx9/fLz3sSzeM7YbNZwbzi3zAGcXMXXWVZ61XriWZxGD0RUNKxjsKI1aVQlt+Q/bFNTrrO/xrN15hjsD0444lCsskhEAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_east_variant_2.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "16",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "a29fffdc-935d-5a49-aa88-ec3e184293c1",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB7klEQVR4nIVSQWsTQRT+suxm2LCtJrslTdgKJofYhEjQnhVSBD30LgWx3j2KN3+Ct/wARVrEs6A5RKiHHMRDPDQQMARk3XbZHSfdLLtMF4KHR5cUD36neW/evPm+773cXqNmMc3UGQCeyECmAJxYrmkKgLpRMHVWLq4D8EQ4mUcqVVMKCAFMoxjAIl3aBYZLlOyKJ0KLaSqA1QYW065p2tPu3Z9JWuLB8s6t9+8+weXP7Qq9VIgMgA+zUyeWIxE5sez1h+Wt8tHJrNVuPn7y6KC70+sPeSJNnak8kUA4cLnJ8p2i0axueCLkiXx7+BHA9PNx6+H96e9jACRPGYnomy92q2ZGd7vd2Gxvd4oGha9evqZD47oxEpHK5QWQz6o9EQJIRTgSEa5i4HIuL3J7jZoTy/3WzZJd6fWHWWMARG8yj36IhcnyZFru2e0G6R64nOp2q+ZkHjmxXG2/pil1owBApSEcncxe7D8IzgSAN1++A8hCytSNAn2o8ESOXR9AcCaolEBhlslWQSGz/otycd0TYSBT1YmlxbTswtosHnR3/n1A7jmxzN2rbZGaX1X9hpusuknWAfjjnI5dP5DpeZqqi3RJFJswPH3ZuZyoE8uvM9dyfXKlWd0Yu74TSyVbSdqI1fU+T6/IM3VmF9hfQ83/NWRkk0QAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotting_meat_side_west_variant_2.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "17",
+      "particle": false,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "uuid": "cb3d209d-6899-520d-9b9d-2c205e6905cb",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB5klEQVR4nGVSQWsTQRT+GnYzJGyWjrMSElalDRisSIM3i/RSpXjoyVt+Q4/+DI/+htz8ASK99OCxbimJVCx7WbaGZDLpZNhlslA8vGaN9TGH4b033/u+N9/GUXc7YK6oMQAyt1NbAEgy23ArADpeXdRYk/sAxkpfzo1D3ZQCNIArkwFYFLdhnWEVD8LWWOmAuQ6AJvcHw/igLS7nJmDu0dMnhNfk/rlf+a7143TyOmzRS4fI9Lh3kkoiEylDmSYHgJbvT2M9S65lbkWNOTK3gI6U6XFvp/1wrLTMbaQMHULtP98aK03ynEiZhslKrs9edH/lRe/ix5t3r+JEUnJwetbjXnfTO0mlI+0SqFJhrDSAQulImU4iP5+eAXi//xLAye+ZYFVpl5Vd3gBwfLgXKSNzO0onMrf4LwSrhnW2yxtOwNzupjdLro8P9wB8+vLtXutWKGjI1cXPuy01uU9kBsP4Q/9tSZ3kfhx8XZfuyNzKfCJqbJROAMQr6ndyhzFdDtqCrOBMbREwtzRFCXZvGpOKNuskmQ2YO7XFuVoI9s+61qfRhCSzG/vbjzpeHUCkjLRLwao97gEoDUZUAUxtcVMUzqK4pXJ/9c3ELVImnJt1a47SSZLZSmnJ9W6y903xVxWBhnX2B6H0F6lrbqLdAAAAAElFTkSuQmCC"
     }
   ],
   "display": {},
