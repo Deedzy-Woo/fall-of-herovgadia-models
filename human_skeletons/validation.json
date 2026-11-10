@@ -1,77 +1,107 @@
 [
   {
     "model": "hanging_skeleton",
-    "cuboids": 116,
-    "bones_and_limbs_present": true,
-    "complete_opaque_uv": true,
+    "cuboids": 10,
+    "vanilla_anatomy": true,
+    "atlas_size": [
+      64,
+      32
+    ],
+    "skin_sha256": "66524aa68d4e94fd3117df9b6e40cb48da5526e24a7f079c2c4852bca0d1c20e",
     "embedded_atlas_matches": true,
+    "arm_head_clearance_pixels": {
+      "left_arm_upper": 0.3154,
+      "left_arm_lower": 0.2871,
+      "right_arm_upper": 0.2837,
+      "right_arm_lower": 0.2723
+    },
     "static": true,
     "bounds_pixels": {
       "min": [
-        3.3364,
-        -20.0427,
-        2.4805
+        1.487,
+        -20.8776,
+        1.0649
       ],
       "max": [
-        15.0923,
-        15.9361,
-        12.8195
+        17.9311,
+        16.0,
+        10.9351
       ]
     },
     "size_blocks": [
-      0.735,
-      2.249,
-      0.646
+      1.028,
+      2.305,
+      0.617
     ]
   },
   {
     "model": "lying_skeleton",
-    "cuboids": 108,
-    "bones_and_limbs_present": true,
-    "complete_opaque_uv": true,
+    "cuboids": 10,
+    "vanilla_anatomy": true,
+    "atlas_size": [
+      64,
+      32
+    ],
+    "skin_sha256": "66524aa68d4e94fd3117df9b6e40cb48da5526e24a7f079c2c4852bca0d1c20e",
     "embedded_atlas_matches": true,
+    "arm_head_clearance_pixels": {
+      "left_arm_upper": 1.3348,
+      "left_arm_lower": 7.1179,
+      "right_arm_upper": 0.4749,
+      "right_arm_lower": 5.3648
+    },
     "static": true,
     "bounds_pixels": {
       "min": [
-        0.5571,
+        0.1803,
         0.08,
-        -1.1462
+        0.4304
       ],
       "max": [
-        14.5883,
-        10.135,
-        31.3853
+        14.8344,
+        10.159,
+        31.8834
       ]
     },
     "size_blocks": [
-      0.877,
-      0.628,
-      2.033
+      0.916,
+      0.63,
+      1.966
     ]
   },
   {
     "model": "sitting_skeleton",
-    "cuboids": 108,
-    "bones_and_limbs_present": true,
-    "complete_opaque_uv": true,
+    "cuboids": 10,
+    "vanilla_anatomy": true,
+    "atlas_size": [
+      64,
+      32
+    ],
+    "skin_sha256": "66524aa68d4e94fd3117df9b6e40cb48da5526e24a7f079c2c4852bca0d1c20e",
     "embedded_atlas_matches": true,
+    "arm_head_clearance_pixels": {
+      "left_arm_upper": 0.8969,
+      "left_arm_lower": 4.5557,
+      "right_arm_upper": 0.6687,
+      "right_arm_lower": 6.9914
+    },
     "static": true,
     "bounds_pixels": {
       "min": [
-        1.1523,
+        0.8907,
         0.08,
-        -6.375
+        -4.2532
       ],
       "max": [
-        14.8419,
-        21.2414,
-        14.9504
+        15.0805,
+        23.8687,
+        15.3544
       ]
     },
     "size_blocks": [
-      0.856,
-      1.323,
-      1.333
+      0.887,
+      1.487,
+      1.225
     ]
   }
 ]

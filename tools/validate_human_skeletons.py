@@ -1,15 +1,18 @@
-"""Validate exported static model geometry, atlas bindings, anatomy and chain point."""
+"""Check vanilla anatomy, untouched skin UVs and actual rotated arm/head separation."""
 from pathlib import Path
-import base64,collections,itertools,json,math,io
+import base64,collections,itertools,json,hashlib,math
 import numpy as np
 from PIL import Image
 from scipy.spatial.transform import Rotation
+from build_human_skeletons import separation
 ROOT=Path(__file__).resolve().parents[1]/'human_skeletons'
+def obb(e):return np.array(e['origin']),np.array(e['to'])-e['from'],Rotation.from_euler('XYZ',e['rotation'],degrees=True).as_matrix()
 results=[]
 for f in sorted((ROOT/'blockbench').glob('*.bbmodel')):
- m=json.loads(f.read_text());els=m['elements'];assert not m.get('animations');assert m['resolution']=={'width':32,'height':32}
- t=m['textures'][0];assert base64.b64decode(t['source'].split(',')[1])==(ROOT/'textures/human_skeletons.png').read_bytes()
- atlas=Image.open(ROOT/'textures/human_skeletons.png').convert('RGBA');assert atlas.size==(32,32)
+ m=json.loads(f.read_text());els=m['elements'];assert len(els)==10 and not m.get('animations')
+ assert m['resolution']=={'width':64,'height':32}
+ png=(ROOT/'textures/human_skeletons.png').read_bytes();assert base64.b64decode(m['textures'][0]['source'].split(',')[1])==png
+ atlas=Image.open(ROOT/'textures/human_skeletons.png');assert atlas.size==(64,32)
  refs=[]
  def walk(nodes):
   for n in nodes:
@@ -17,26 +20,27 @@ for f in sorted((ROOT/'blockbench').glob('*.bbmodel')):
    else:walk(n['children'])
  walk(m['outliner']);assert collections.Counter(refs)==collections.Counter(e['uuid'] for e in els)
  assert len(set(e['uuid'] for e in els))==len(els)
- groups={g['name'] for g in m['outliner']};assert {'skull','spine','ribcage','pelvis','arm_left','arm_right','leg_left','leg_right','left_hand','right_hand','left_foot','right_foot'}<=groups
+ assert {g['name'] for g in m['outliner']}=={'skull','torso','arm_left','arm_right','leg_left','leg_right'}
  points=[]
  for e in els:
-  assert all(math.isfinite(v) for k in ('from','to','origin','rotation') for v in e[k])
-  assert all(b>a for a,b in zip(e['from'],e['to']))
+  assert all(math.isfinite(v) for k in ('from','to','origin','rotation') for v in e[k]);size=np.array(e['to'])-e['from'];assert (size>0).all()
+  if e['name']=='cranium':assert np.allclose(size,[8,8,8])
+  elif e['name']=='torso':assert np.allclose(size,[8,12,4])
+  else:assert np.allclose(size[[0,2]],[2,2])
   assert set(e['faces'])=={'up','down','north','south','east','west'}
   for face in e['faces'].values():
-   a,b,c,d=face['uv'];assert face['texture']==0;assert 0<=a<c<=32 and 0<=b<d<=32
-   assert atlas.crop((a,b,c,d)).getextrema()[3]==(255,255), (f,e['name'],'transparent used UV')
-  r=Rotation.from_euler('XYZ',e['rotation'],degrees=True).as_matrix();o=np.array(e['origin'])
-  for p in itertools.product(*zip(e['from'],e['to'])):points.append(r@(np.array(p)-o)+o)
- bounds=np.array(points);low=bounds.min(0);high=bounds.max(0);size=high-low
- if f.stem=='lying_skeleton':assert size[2]>29 and size[1]<11 and abs(low[1]-.08)<.001
- if f.stem=='sitting_skeleton':assert size[1]>19 and abs(low[1]-.08)<.001
+   a,b,c,d=face['uv'];assert face['texture']==0 and 0<=a<c<=64 and 0<=b<d<=32
+  centre,size,r=obb(e)
+  for p in itertools.product(*zip(e['from'],e['to'])):points.append(r@(np.array(p)-centre)+centre)
+ bounds=np.array(points);low=bounds.min(0);high=bounds.max(0);span=high-low
+ head=obb(next(e for e in els if e['name']=='cranium'))
+ gaps={e['name']:round(separation(obb(e),head),4) for e in els if '_arm_' in e['name']}
+ assert all(gap>.20 for gap in gaps.values()),(f,gaps)
+ if f.stem=='lying_skeleton':assert span[2]>29 and abs(low[1]-.08)<.001
+ if f.stem=='sitting_skeleton':assert span[1]>19 and abs(low[1]-.08)<.001
  if f.stem=='hanging_skeleton':
-  hands=[e for e in els if e['name'].endswith('_palm')];head=next(e for e in els if e['name']=='cranium')
-  assert len(hands)==2 and all(e['origin'][1]>head['to'][1] for e in hands)
-  assert abs(hands[0]['origin'][0]-hands[1]['origin'][0])<2
-  assert low[1]>-24 and size[1]>32
-  landmark=json.loads((ROOT/'hanging_skeleton_landmarks.json').read_text());assert landmark['chain_connection']==[8,16,8]
- report=dict(model=f.stem,cuboids=len(els),bones_and_limbs_present=True,complete_opaque_uv=True,embedded_atlas_matches=True,static=True,bounds_pixels={'min':low.round(4).tolist(),'max':high.round(4).tolist()},size_blocks=(size/16).round(3).tolist())
+  assert abs(high[1]-16)<.001 and low[1]>-26
+  assert next(e for e in els if e['name']=='left_arm_lower')['origin'][1]>head[0][1]
+ report=dict(model=f.stem,cuboids=len(els),vanilla_anatomy=True,atlas_size=[64,32],skin_sha256=hashlib.sha256(png).hexdigest(),embedded_atlas_matches=True,arm_head_clearance_pixels=gaps,static=True,bounds_pixels={'min':low.round(4).tolist(),'max':high.round(4).tolist()},size_blocks=(span/16).round(3).tolist())
  results.append(report);print(json.dumps(report))
 (ROOT/'validation.json').write_text(json.dumps(results,indent=2))

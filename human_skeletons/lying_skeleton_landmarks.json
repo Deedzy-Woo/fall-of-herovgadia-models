@@ -1,25 +1,25 @@
 {
   "left_wrist": [
     1.175,
-    0.75,
-    10.78
+    1.71949,
+    11.365
   ],
   "right_wrist": [
     10.73,
-    0.75,
+    1.71949,
     12.4375
   ],
   "bounds_pixels": {
     "min": [
-      0.5571,
+      0.1803,
       0.08,
-      -1.1462
+      0.4304
     ],
     "max": [
-      14.5883,
-      10.135,
-      31.3853
+      14.8344,
+      10.159,
+      31.8834
     ]
   },
-  "notes": "Static asset only; no animations, entities, block registration or multiblock implementation."
+  "anatomy": "Vanilla skeleton: 8x8x8 head, 8x12x4 torso, 2x2 arms/legs split at elbows and knees. No bow."
 }

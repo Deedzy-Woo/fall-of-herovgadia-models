@@ -1,9 +1,9 @@
 [
   {
-    "cuboids": 116,
-    "triangles": 1608,
+    "cuboids": 10,
+    "triangles": 336,
     "texture": [
-      32,
+      64,
       32
     ],
     "model": "hanging_skeleton_viewer",
@@ -12,10 +12,10 @@
     "wireframe_controls": true
   },
   {
-    "cuboids": 108,
-    "triangles": 1308,
+    "cuboids": 10,
+    "triangles": 132,
     "texture": [
-      32,
+      64,
       32
     ],
     "model": "lying_skeleton_viewer",
@@ -24,10 +24,10 @@
     "wireframe_controls": true
   },
   {
-    "cuboids": 108,
-    "triangles": 1320,
+    "cuboids": 10,
+    "triangles": 144,
     "texture": [
-      32,
+      64,
       32
     ],
     "model": "sitting_skeleton_viewer",
