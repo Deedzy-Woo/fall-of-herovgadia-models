@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "part=north_west": {
+      "model": "fallofherovgadia:block/large_bone_pile_north_west"
+    },
+    "part=north_east": {
+      "model": "fallofherovgadia:block/large_bone_pile_north_east"
+    },
+    "part=south_west": {
+      "model": "fallofherovgadia:block/large_bone_pile_south_west"
+    },
+    "part=south_east": {
+      "model": "fallofherovgadia:block/large_bone_pile_south_east"
+    }
+  }
+}
