@@ -1,0 +1,16 @@
+FILES.txt
+README_RU.md
+bone_piles_preview.png
+large_bone_pile.bbmodel
+large_bone_pile_preview.png
+medium_bone_pile.bbmodel
+medium_bone_pile_preview.png
+small_bone_pile.bbmodel
+small_bone_pile_preview.png
+textures/bone_end.png
+textures/bone_side.png
+textures/bone_weathered.png
+textures/skull_front.png
+textures/skull_jaw.png
+textures/skull_side.png
+textures/skull_top.png
