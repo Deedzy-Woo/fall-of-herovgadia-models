@@ -1,0 +1,32 @@
+{
+  "models": [
+    {
+      "model": "hanging_skeleton",
+      "blockbench": "5.2.2",
+      "euler_order": "ZYX",
+      "cuboids": 10,
+      "max_vertex_error_pixels": 1.656188975000092e-07,
+      "max_joint_error_pixels": 8.868510860447216e-07,
+      "passed": true
+    },
+    {
+      "model": "lying_skeleton",
+      "blockbench": "5.2.2",
+      "euler_order": "ZYX",
+      "cuboids": 10,
+      "max_vertex_error_pixels": 1.0716247635099875e-07,
+      "max_joint_error_pixels": 3.442760144982771e-07,
+      "passed": true
+    },
+    {
+      "model": "sitting_skeleton",
+      "blockbench": "5.2.2",
+      "euler_order": "ZYX",
+      "cuboids": 10,
+      "max_vertex_error_pixels": 1.0075378517848185e-07,
+      "max_joint_error_pixels": 1.0951535272833596e-06,
+      "passed": true
+    }
+  ],
+  "page_errors": []
+}

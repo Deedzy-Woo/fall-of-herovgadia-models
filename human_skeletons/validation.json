@@ -3,6 +3,8 @@
     "model": "hanging_skeleton",
     "cuboids": 10,
     "vanilla_anatomy": true,
+    "euler_order": "ZYX",
+    "limb_joints_connected": true,
     "atlas_size": [
       64,
       32
@@ -38,6 +40,8 @@
     "model": "lying_skeleton",
     "cuboids": 10,
     "vanilla_anatomy": true,
+    "euler_order": "ZYX",
+    "limb_joints_connected": true,
     "atlas_size": [
       64,
       32
@@ -73,6 +77,8 @@
     "model": "sitting_skeleton",
     "cuboids": 10,
     "vanilla_anatomy": true,
+    "euler_order": "ZYX",
+    "limb_joints_connected": true,
     "atlas_size": [
       64,
       32

@@ -2,6 +2,7 @@
 The unchanged Minecraft 1.21.1 skeleton texture is embedded (64x32).
 Head 8x8x8; torso 8x12x4; limb cross section 2x2. Elbows/knees
 split the vanilla 12-texel limb skin into two continuous six-row regions.
+Blockbench free models use Euler ZYX: SciPy extrinsic xyz, NOT intrinsic XYZ.
 """
 from pathlib import Path
 import base64,json,uuid,itertools,math
@@ -32,9 +33,10 @@ class Model:
  def __init__(self,name):self.name=name;self.elements=[];self.groups={};self.landmarks={}
  def cube(self,name,c,size,R,uv,group):
   c=np.array(c,float);size=np.array(size,float);uid=str(uuid.uuid5(uuid.NAMESPACE_URL,self.name+'/'+name))
-  e={'name':name,'type':'cube','uuid':uid,'from':(c-size/2).round(6).tolist(),'to':(c+size/2).round(6).tolist(),'origin':c.round(6).tolist(),'rotation':Rotation.from_matrix(R).as_euler('XYZ',degrees=True).round(6).tolist(),'faces':{side:{'uv':coords,'texture':0,'rotation':0} for side,coords in uv.items()},'rescale':False,'shade':True,'visibility':True,'export':True,'autouv':0}
+  e={'name':name,'type':'cube','uuid':uid,'from':(c-size/2).round(6).tolist(),'to':(c+size/2).round(6).tolist(),'origin':c.round(6).tolist(),'rotation':Rotation.from_matrix(R).as_euler('xyz',degrees=True).round(6).tolist(),'faces':{side:{'uv':coords,'texture':0,'rotation':0} for side,coords in uv.items()},'rescale':False,'shade':True,'visibility':True,'export':True,'autouv':0}
   self.elements.append(e);self.groups.setdefault(group,[]).append(uid)
  def limb(self,side,kind,a,b,c):
+  self.landmarks[side+'_'+kind+'_joints']=[np.array(p,dtype=float).tolist() for p in (a,b,c)]
   base=40 if kind=='arm' else 0
   for index,(start,end) in enumerate(((a,b),(b,c))):
    centre,size,R=bone_frame(start,end);uv=uvbox(base,16,2,12,2)
@@ -42,7 +44,7 @@ class Model:
     u,v,uu,vv=uv[face];uv[face]=[u,v+6*index,uu,v+6*(index+1)]
    self.cube(side+'_'+kind+('_upper' if index==0 else '_lower'),centre,size,R,uv,kind+'_'+side)
  def save(self):
-  data={'meta':{'format_version':'4.10','model_format':'free','box_uv':False},'name':self.name,'resolution':{'width':64,'height':32},'elements':self.elements,'outliner':[{'name':g,'uuid':str(uuid.uuid5(uuid.NAMESPACE_URL,self.name+'/'+g)),'origin':[0,0,0],'rotation':[0,0,0],'export':True,'visibility':True,'isOpen':False,'children':children} for g,children in self.groups.items()],'textures':[{'path':'../textures/human_skeletons.png','name':'human_skeletons.png','id':'0','uuid':str(uuid.uuid5(uuid.NAMESPACE_URL,'herovgadia/vanilla_skeleton_atlas')),'width':64,'height':32,'uv_width':64,'uv_height':32,'render_mode':'default','render_sides':'auto','visible':True,'source':'data:image/png;base64,'+base64.b64encode(ATLAS.read_bytes()).decode()}],'animations':[],'display':{'gui':{'rotation':[25,35,0],'translation':[0,0,0],'scale':[.5,.5,.5]}}}
+  data={'meta':{'format_version':'4.10','model_format':'free','box_uv':False},'name':self.name,'resolution':{'width':64,'height':32},'elements':self.elements,'outliner':[{'name':g,'uuid':str(uuid.uuid5(uuid.NAMESPACE_URL,self.name+'/group/'+g)),'origin':[0,0,0],'rotation':[0,0,0],'export':True,'visibility':True,'isOpen':False,'children':children} for g,children in self.groups.items()],'textures':[{'path':'../textures/human_skeletons.png','name':'human_skeletons.png','id':'0','uuid':str(uuid.uuid5(uuid.NAMESPACE_URL,'herovgadia/vanilla_skeleton_atlas')),'width':64,'height':32,'uv_width':64,'uv_height':32,'render_mode':'default','render_sides':'auto','visible':True,'source':'data:image/png;base64,'+base64.b64encode(ATLAS.read_bytes()).decode()}],'animations':[],'display':{'gui':{'rotation':[25,35,0],'translation':[0,0,0],'scale':[.5,.5,.5]}}}
   (ROOT/'blockbench'/f'{self.name}.bbmodel').write_text(json.dumps(data,ensure_ascii=False,indent=2));(ROOT/f'{self.name}_landmarks.json').write_text(json.dumps(self.landmarks,indent=2));print(self.name,len(self.elements),'cuboids',flush=True)
 def build(name):
  m=Model(name)
@@ -92,13 +94,16 @@ def build(name):
  # Vanilla has a painted jaw and hands/feet in the limb skin, no added anatomy.
  points=[]
  for e in m.elements:
-  r=Rotation.from_euler('XYZ',e['rotation'],degrees=True).as_matrix();o=np.array(e['origin'])
+  r=Rotation.from_euler('xyz',e['rotation'],degrees=True).as_matrix();o=np.array(e['origin'])
   for p in itertools.product(*zip(e['from'],e['to'])):points.append(r@(np.array(p)-o)+o)
  bounds=np.array(points);low=bounds.min(0);high=bounds.max(0)
  dy=.08-low[1] if name!='hanging_skeleton' else 16-high[1]
  for e in m.elements:
   for k in ('from','to','origin'):e[k][1]=round(e[k][1]+dy,6)
  for key in ('left_wrist','right_wrist'):m.landmarks[key][1]=round(m.landmarks[key][1]+dy,5)
+ for key,value in m.landmarks.items():
+  if key.endswith('_joints'):
+   for p in value:p[1]=round(p[1]+dy,6)
  low[1]+=dy;high[1]+=dy
  m.landmarks['bounds_pixels']={'min':low.round(4).tolist(),'max':high.round(4).tolist()}
  m.landmarks['anatomy']='Vanilla skeleton: 8x8x8 head, 8x12x4 torso, 2x2 arms/legs split at elbows and knees. No bow.'
