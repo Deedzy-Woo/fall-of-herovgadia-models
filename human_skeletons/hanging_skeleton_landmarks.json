@@ -1,0 +1,31 @@
+{
+  "left_wrist": [
+    7.35,
+    14.5,
+    8.0
+  ],
+  "right_wrist": [
+    8.65,
+    14.5,
+    8.0
+  ],
+  "chain_connection": [
+    8,
+    16,
+    8
+  ],
+  "placement_note": "Manual vanilla chain is centred above x=8,z=8; bottom of chain meets raised hands at y=16. No chain is part of this model.",
+  "bounds_pixels": {
+    "min": [
+      3.3364,
+      -20.0427,
+      2.4805
+    ],
+    "max": [
+      15.0923,
+      15.9361,
+      12.8195
+    ]
+  },
+  "notes": "Static asset only; no animations, entities, block registration or multiblock implementation."
+}

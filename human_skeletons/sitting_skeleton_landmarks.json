@@ -1,0 +1,25 @@
+{
+  "left_wrist": [
+    3.1,
+    2.2,
+    1.4
+  ],
+  "right_wrist": [
+    13.5,
+    2.2,
+    0.8
+  ],
+  "bounds_pixels": {
+    "min": [
+      1.1523,
+      0.08,
+      -6.375
+    ],
+    "max": [
+      14.8419,
+      21.2414,
+      14.9504
+    ]
+  },
+  "notes": "Static asset only; no animations, entities, block registration or multiblock implementation."
+}

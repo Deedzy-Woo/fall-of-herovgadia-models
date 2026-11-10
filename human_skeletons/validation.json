@@ -1,0 +1,77 @@
+[
+  {
+    "model": "hanging_skeleton",
+    "cuboids": 116,
+    "bones_and_limbs_present": true,
+    "complete_opaque_uv": true,
+    "embedded_atlas_matches": true,
+    "static": true,
+    "bounds_pixels": {
+      "min": [
+        3.3364,
+        -20.0427,
+        2.4805
+      ],
+      "max": [
+        15.0923,
+        15.9361,
+        12.8195
+      ]
+    },
+    "size_blocks": [
+      0.735,
+      2.249,
+      0.646
+    ]
+  },
+  {
+    "model": "lying_skeleton",
+    "cuboids": 108,
+    "bones_and_limbs_present": true,
+    "complete_opaque_uv": true,
+    "embedded_atlas_matches": true,
+    "static": true,
+    "bounds_pixels": {
+      "min": [
+        0.5571,
+        0.08,
+        -1.1462
+      ],
+      "max": [
+        14.5883,
+        10.135,
+        31.3853
+      ]
+    },
+    "size_blocks": [
+      0.877,
+      0.628,
+      2.033
+    ]
+  },
+  {
+    "model": "sitting_skeleton",
+    "cuboids": 108,
+    "bones_and_limbs_present": true,
+    "complete_opaque_uv": true,
+    "embedded_atlas_matches": true,
+    "static": true,
+    "bounds_pixels": {
+      "min": [
+        1.1523,
+        0.08,
+        -6.375
+      ],
+      "max": [
+        14.8419,
+        21.2414,
+        14.9504
+      ]
+    },
+    "size_blocks": [
+      0.856,
+      1.323,
+      1.333
+    ]
+  }
+]
