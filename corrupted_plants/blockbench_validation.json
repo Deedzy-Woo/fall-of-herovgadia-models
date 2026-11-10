@@ -1,0 +1,97 @@
+{
+  "models": [
+    {
+      "version": "5.2.2",
+      "cubes": 2,
+      "texture": [
+        16,
+        16
+      ],
+      "rescale": true,
+      "bounds": {
+        "min": [
+          0.7990001906873676,
+          0,
+          0.8000001907348633
+        ],
+        "max": [
+          15.200999809312632,
+          16,
+          15.200999809312634
+        ]
+      },
+      "model": "corrupted_plant_medium",
+      "passed": true
+    },
+    {
+      "version": "5.2.2",
+      "cubes": 2,
+      "texture": [
+        16,
+        16
+      ],
+      "rescale": true,
+      "bounds": {
+        "min": [
+          0.7990001906873676,
+          0,
+          0.8000001907348633
+        ],
+        "max": [
+          15.200999809312632,
+          16,
+          15.200999809312634
+        ]
+      },
+      "model": "corrupted_plant_small",
+      "passed": true
+    },
+    {
+      "version": "5.2.2",
+      "cubes": 2,
+      "texture": [
+        16,
+        16
+      ],
+      "rescale": true,
+      "bounds": {
+        "min": [
+          0.7990001906873676,
+          0,
+          0.8000001907348633
+        ],
+        "max": [
+          15.200999809312632,
+          16,
+          15.200999809312634
+        ]
+      },
+      "model": "corrupted_plant_tall",
+      "passed": true
+    },
+    {
+      "version": "5.2.2",
+      "cubes": 2,
+      "texture": [
+        16,
+        16
+      ],
+      "rescale": true,
+      "bounds": {
+        "min": [
+          0.7990001906873676,
+          0,
+          0.8000001907348633
+        ],
+        "max": [
+          15.200999809312632,
+          16,
+          15.200999809312634
+        ]
+      },
+      "model": "corrupted_plant_withered_bush",
+      "passed": true
+    }
+  ],
+  "page_errors": []
+}

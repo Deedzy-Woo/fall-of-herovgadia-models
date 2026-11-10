@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "corrupted_plant_small",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cross_plane_1",
+      "type": "cube",
+      "uuid": "ef818608-1630-50fd-ad08-622d43a821f8",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "rescale": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "cross_plane_2",
+      "type": "cube",
+      "uuid": "35b79709-250e-5e29-8c0d-c938ba6f8b8b",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "ef818608-1630-50fd-ad08-622d43a821f8",
+    "35b79709-250e-5e29-8c0d-c938ba6f8b8b"
+  ],
+  "textures": [
+    {
+      "name": "corrupted_plant_small.png",
+      "path": "../textures/corrupted_plant_small.png",
+      "id": "0",
+      "uuid": "b4add51a-cf22-5581-b2b2-9b51f6dbc51b",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAVUExURQAAAFhIMFZGL0k7K19PLzwwJv///3jH+DMAAAABdFJOUwBA5thmAAAAAWJLR0QGYWa4fQAAAAd0SU1FB+oLChALCwtm4AIAAAAdSURBVAjXY2CgDxCA0kxQBqOQApShrAIVMjUEEgAQEAEU2ZGz3gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0xMS0xMFQxNjoxMToxMSswMDowMDI1zVAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMTEtMTBUMTY6MTE6MTErMDA6MDBDaHXsAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTExLTEwVDE2OjExOjExKzAwOjAwFH1UMwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "animations": []
+}

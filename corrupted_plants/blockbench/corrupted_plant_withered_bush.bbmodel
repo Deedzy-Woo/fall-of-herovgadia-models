@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "corrupted_plant_withered_bush",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cross_plane_1",
+      "type": "cube",
+      "uuid": "d98cb0ed-9388-5cee-b6dd-ca35582461a7",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "rescale": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "cross_plane_2",
+      "type": "cube",
+      "uuid": "fa5b77f7-a1ef-538b-9ffe-ad765bcd05ae",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "d98cb0ed-9388-5cee-b6dd-ca35582461a7",
+    "fa5b77f7-a1ef-538b-9ffe-ad765bcd05ae"
+  ],
+  "textures": [
+    {
+      "name": "corrupted_plant_withered_bush.png",
+      "path": "../textures/corrupted_plant_withered_bush.png",
+      "id": "0",
+      "uuid": "019b7391-6f4d-58de-aeb3-6c46c50f0e3c",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAASUExURQAAAFZGL0k7K1hIMDwwJv///7zuhD8AAAABdFJOUwBA5thmAAAAAWJLR0QF+G/pxwAAAAd0SU1FB+oLChALCwtm4AIAAABPSURBVAjXlYzREcAgCEND2gE0LqBMoOcEdf+hinaC8gEv3LsAfyd9x+DzwID1nVVRUIO4TGD8EvN9+VaVfQRI8tbbBLNYGrfMx72eIl+xXtEABQQUAERxAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTExLTEwVDE2OjExOjExKzAwOjAwMjXNUAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0xMS0xMFQxNjoxMToxMSswMDowMENodewAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMTEtMTBUMTY6MTE6MTErMDA6MDAUfVQzAAAAAElFTkSuQmCC"
+    }
+  ],
+  "animations": []
+}

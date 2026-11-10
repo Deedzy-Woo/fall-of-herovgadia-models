@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "fallofherovgadia:block/corrupted_plant_small",
+        "y": 0
+      },
+      {
+        "model": "fallofherovgadia:block/corrupted_plant_small",
+        "y": 90
+      },
+      {
+        "model": "fallofherovgadia:block/corrupted_plant_small",
+        "y": 180
+      },
+      {
+        "model": "fallofherovgadia:block/corrupted_plant_small",
+        "y": 270
+      }
+    ]
+  }
+}

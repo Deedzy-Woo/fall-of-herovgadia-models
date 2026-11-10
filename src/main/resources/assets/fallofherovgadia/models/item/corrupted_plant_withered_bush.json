@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fallofherovgadia:block/corrupted_plant_withered_bush"
+  }
+}

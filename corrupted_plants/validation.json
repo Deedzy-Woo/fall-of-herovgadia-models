@@ -1,0 +1,88 @@
+{
+  "resource_checks": [
+    {
+      "id": "fallofherovgadia:corrupted_plant_small",
+      "size": [
+        16,
+        16
+      ],
+      "visible_bounds": [
+        5,
+        11,
+        11,
+        16
+      ],
+      "opaque_texels": 17,
+      "ground_connected_texels": 17,
+      "stray_pixels": 0,
+      "binary_alpha": true,
+      "unique_silhouette": true,
+      "block_item_and_loot_references_valid": true,
+      "embedded_texture_matches": true
+    },
+    {
+      "id": "fallofherovgadia:corrupted_plant_medium",
+      "size": [
+        16,
+        16
+      ],
+      "visible_bounds": [
+        3,
+        5,
+        13,
+        16
+      ],
+      "opaque_texels": 52,
+      "ground_connected_texels": 52,
+      "stray_pixels": 0,
+      "binary_alpha": true,
+      "unique_silhouette": true,
+      "block_item_and_loot_references_valid": true,
+      "embedded_texture_matches": true
+    },
+    {
+      "id": "fallofherovgadia:corrupted_plant_tall",
+      "size": [
+        16,
+        16
+      ],
+      "visible_bounds": [
+        5,
+        1,
+        11,
+        16
+      ],
+      "opaque_texels": 43,
+      "ground_connected_texels": 43,
+      "stray_pixels": 0,
+      "binary_alpha": true,
+      "unique_silhouette": true,
+      "block_item_and_loot_references_valid": true,
+      "embedded_texture_matches": true
+    },
+    {
+      "id": "fallofherovgadia:corrupted_plant_withered_bush",
+      "size": [
+        16,
+        16
+      ],
+      "visible_bounds": [
+        0,
+        5,
+        16,
+        16
+      ],
+      "opaque_texels": 83,
+      "ground_connected_texels": 83,
+      "stray_pixels": 0,
+      "binary_alpha": true,
+      "unique_silhouette": true,
+      "block_item_and_loot_references_valid": true,
+      "embedded_texture_matches": true
+    }
+  ],
+  "existing_language_entries_preserved": true,
+  "custom_soil_tag_valid": true,
+  "java_compiled": false,
+  "minecraft_runtime_tested": false
+}

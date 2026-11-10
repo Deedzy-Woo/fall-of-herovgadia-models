@@ -1,0 +1,39 @@
+{
+  "cells": 12,
+  "planes": 24,
+  "textures": [
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      16
+    ]
+  ],
+  "triangles": 192,
+  "errors": [],
+  "all_four_controls": true,
+  "offline": true,
+  "ingame": false
+}

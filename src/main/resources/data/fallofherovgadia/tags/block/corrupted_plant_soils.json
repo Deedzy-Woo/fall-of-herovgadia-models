@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dirt",
+    {
+      "id": "fallofherovgadia:corrupted_soil",
+      "required": false
+    }
+  ]
+}
