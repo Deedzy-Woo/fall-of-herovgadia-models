@@ -1,0 +1,13 @@
+FILES.txt
+README_RU.md
+bone_piles_refined_preview.png
+large_bone_pile.bbmodel
+large_bone_pile_preview.png
+medium_bone_pile.bbmodel
+medium_bone_pile_preview.png
+small_bone_pile.bbmodel
+small_bone_pile_preview.png
+textures/bone_block_side.png
+textures/bone_block_top.png
+textures/skeleton_bone_toned.png
+FILES.txt
