@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "dead_large_fern",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "dead_large_fern_bottom_0",
+      "type": "cube",
+      "uuid": "1a2f868e-730c-5c57-9ba2-ef371748af7d",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_bottom_1",
+      "type": "cube",
+      "uuid": "59f18541-91d4-5016-b8de-19ea867f191c",
+      "from": [
+        8,
+        0,
+        0.8
+      ],
+      "to": [
+        8,
+        16,
+        15.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_top_0",
+      "type": "cube",
+      "uuid": "a4e591ae-e872-53ea-9b15-478cb7e22bbd",
+      "from": [
+        0.8,
+        16,
+        8
+      ],
+      "to": [
+        15.2,
+        32,
+        8
+      ],
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_top_1",
+      "type": "cube",
+      "uuid": "475f6faf-6822-5033-993d-83c9e0547463",
+      "from": [
+        8,
+        16,
+        0.8
+      ],
+      "to": [
+        8,
+        32,
+        15.2
+      ],
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "dead_large_fern",
+      "uuid": "0db8eb83-bfe3-530d-a624-d2740f28d2aa",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "1a2f868e-730c-5c57-9ba2-ef371748af7d",
+        "59f18541-91d4-5016-b8de-19ea867f191c",
+        "a4e591ae-e872-53ea-9b15-478cb7e22bbd",
+        "475f6faf-6822-5033-993d-83c9e0547463"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "dead_large_fern_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "ac399efa-954b-5558-bc93-89f04ddb6706",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA/klEQVR4nGNggAI7a+P/hSne/6ODXf/DxCY2RMDZ0cGu/wtTvP/bWRvDxRgYGBgYkQ04dPQsI7pGGMhvWMGIrg5ugJ218f9gV1UMxRMbIv4js2Hya3ffZkA2hAHdWdi8gAxwqccAyOGBC7DgskFWQojBTFeYgYHB9f/jF+9QnYwEmHCZvHTtbkZkmixQmOJN0AtYTYdpVJDhZXjw5DMDAwMDQ/+crcS5BF9CwqYeIwwev3iHohlGw8TxAjtr4/8TGyL+o2uGiWGLfwwXnLr8Fp4SYSC/YQXjqctvsVqKNWCw+RdXdKJkJlkJIRTFyHkBZih6okJJifgSDUwOPRwA8BqHkIGAm6IAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_large_fern_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "09629ff6-b02a-5c05-841d-11ccf4004054",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoklEQVR4nGNgoCWY2BDxn5AaJpq6gBhXUOwCvAYUpngTDAOCmskyxM7aGK5pYkPEf2Q+OmDBJUFMFOK0HVnzxIaI//hcgRGIshJCDPkNKxiRxfIbVjDKSghhtZARqygDA0N0sCvcxqVrd+NUhxIGdtbG/2E2wTRBvAMx7PGLdwyHjp5FMQxrOkC3EZ8LcEogx3//nK041WHVCNMMiw1kMXQAAKp1RW5kYxKmAAAAAElFTkSuQmCC"
+    }
+  ]
+}

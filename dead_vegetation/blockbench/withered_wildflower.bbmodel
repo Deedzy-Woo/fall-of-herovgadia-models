@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "withered_wildflower",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "withered_wildflower_plant_0",
+      "type": "cube",
+      "uuid": "939a299b-a16e-51ab-b6b6-27c0d4a2057c",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "withered_wildflower_plant_1",
+      "type": "cube",
+      "uuid": "8c974b7d-b2b2-5fd4-a12f-de2f322e9bea",
+      "from": [
+        8,
+        0,
+        0.8
+      ],
+      "to": [
+        8,
+        16,
+        15.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "withered_wildflower",
+      "uuid": "4432eade-9356-506b-889c-0f129862231e",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "939a299b-a16e-51ab-b6b6-27c0d4a2057c",
+        "8c974b7d-b2b2-5fd4-a12f-de2f322e9bea"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "withered_wildflower.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "41722614-69ac-5622-a6e9-34601de72db0",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfElEQVR4nGNgGAUDDxiJURQd7Pofxl66djdRenAagMwmygXRwa7/YbY2FMfDNTf0LmRkYGBgYCJkwOMX7xjsrI3/wzTJyQji11CY4o3VuXbWxv9hGFk9C7rm/jlbGWGGvHr/Cy536OhZ0gMP2TW4AN4wQHYBWQYQAyg2AABayi+cA7PZEQAAAABJRU5ErkJggg=="
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "dead_savanna_shrub",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "dead_savanna_shrub_plant_0",
+      "type": "cube",
+      "uuid": "5dc16dfa-21be-503f-b245-da4dd1a73a5e",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_savanna_shrub_plant_1",
+      "type": "cube",
+      "uuid": "afa48566-d85c-50ce-980f-97d178b9d5d5",
+      "from": [
+        8,
+        0,
+        0.8
+      ],
+      "to": [
+        8,
+        16,
+        15.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "dead_savanna_shrub",
+      "uuid": "6657b1b5-0447-55cb-83e3-7fcba0d3cf19",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "5dc16dfa-21be-503f-b245-da4dd1a73a5e",
+        "afa48566-d85c-50ce-980f-97d178b9d5d5"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "dead_savanna_shrub.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "79c98f00-5edd-5ac3-8ea3-9145b3feb818",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhElEQVR4nGNgGHSgMtP/f2Wm/390MbIMgrEnNkTgNIAJl63I4MXL7wRdiddWZHF0jSz4bIUpbp++kREmLiHOiaIOxQB0SWSNyAYjAyZ8kuigMtP/P7KhOMMBJkEoOisz/f9jOBFdMcxGbLZh8yJWQ3A6lxDA5RWSDCBbM7E2MxFSQAgAAP8VVsAvU4mKAAAAAElFTkSuQmCC"
+    }
+  ]
+}

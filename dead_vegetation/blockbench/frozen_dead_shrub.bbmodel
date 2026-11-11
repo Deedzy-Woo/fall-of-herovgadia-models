@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "frozen_dead_shrub",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "frozen_dead_shrub_plant_0",
+      "type": "cube",
+      "uuid": "7ff45869-906d-52e4-8fd9-531ef44760d1",
+      "from": [
+        0.8,
+        0,
+        8
+      ],
+      "to": [
+        15.2,
+        16,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "frozen_dead_shrub_plant_1",
+      "type": "cube",
+      "uuid": "e20b271b-a736-5b7e-bdd4-749efb5e11eb",
+      "from": [
+        8,
+        0,
+        0.8
+      ],
+      "to": [
+        8,
+        16,
+        15.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "frozen_dead_shrub",
+      "uuid": "03310f25-9e39-5ced-8ae9-03e4fb22d8de",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "7ff45869-906d-52e4-8fd9-531ef44760d1",
+        "e20b271b-a736-5b7e-bdd4-749efb5e11eb"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "frozen_dead_shrub.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "9ba86c36-dad0-51b3-826d-c4a876c14165",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR4nM2RMQ6AIAxFC/FYbkwM5VbuehUYnNi8Fy42aQhtlck/kUL/+y0Av1PC2BLG1temjOh87Jto4CUqV62XmVKl8nrfuGhUepzL6agewgq5nOMmiSqlBHh2wKmaEsbG04h7oAvrOxPG5kBQP/+IxtOoJmJcS9Ionwymm9+SvfXA0g2GYVKhZaf93gAAAABJRU5ErkJggg=="
+    }
+  ]
+}

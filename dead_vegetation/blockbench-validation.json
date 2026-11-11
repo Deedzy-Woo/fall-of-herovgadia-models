@@ -1,0 +1,68 @@
+[
+  {
+    "name": "dead_cactus",
+    "elements": 3,
+    "textures": 3,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_fern",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_large_fern",
+    "elements": 4,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_savanna_grass",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_savanna_shrub",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_short_grass",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_tall_grass",
+    "elements": 4,
+    "textures": 2,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dead_vegetation_comparison",
+    "elements": 25,
+    "textures": 14,
+    "version": "4.12.6"
+  },
+  {
+    "name": "frozen_dead_grass",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "frozen_dead_shrub",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  },
+  {
+    "name": "withered_wildflower",
+    "elements": 2,
+    "textures": 1,
+    "version": "4.12.6"
+  }
+]

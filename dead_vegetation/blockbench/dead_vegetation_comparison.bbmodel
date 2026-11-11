@@ -1,0 +1,2651 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "dead_vegetation_comparison",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "dead_short_grass_plant_0",
+      "type": "cube",
+      "uuid": "d5f45fc9-a716-5d92-bda3-9827f2beba51",
+      "from": [
+        -59.2,
+        0,
+        -16
+      ],
+      "to": [
+        -44.8,
+        16,
+        -16
+      ],
+      "origin": [
+        -52,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_short_grass_plant_1",
+      "type": "cube",
+      "uuid": "ba0ef84b-4053-58c2-bf67-b1d19f4a0e77",
+      "from": [
+        -52,
+        0,
+        -23.2
+      ],
+      "to": [
+        -52,
+        16,
+        -8.8
+      ],
+      "origin": [
+        -52,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_tall_grass_bottom_0",
+      "type": "cube",
+      "uuid": "4d683115-1d80-5a7c-98de-b4c1d105abec",
+      "from": [
+        -33.2,
+        0,
+        -16
+      ],
+      "to": [
+        -18.8,
+        16,
+        -16
+      ],
+      "origin": [
+        -26,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_tall_grass_bottom_1",
+      "type": "cube",
+      "uuid": "e8e0bb0d-d247-5ea4-b259-9623b8b12729",
+      "from": [
+        -26,
+        0,
+        -23.2
+      ],
+      "to": [
+        -26,
+        16,
+        -8.8
+      ],
+      "origin": [
+        -26,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_tall_grass_top_0",
+      "type": "cube",
+      "uuid": "a74d20bc-4d8d-548c-a8c2-12dbbb12c414",
+      "from": [
+        -33.2,
+        16,
+        -16
+      ],
+      "to": [
+        -18.8,
+        32,
+        -16
+      ],
+      "origin": [
+        -26,
+        24,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_tall_grass_top_1",
+      "type": "cube",
+      "uuid": "cceac34b-5093-5d40-8cf9-78d5b72f4f3b",
+      "from": [
+        -26,
+        16,
+        -23.2
+      ],
+      "to": [
+        -26,
+        32,
+        -8.8
+      ],
+      "origin": [
+        -26,
+        24,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "withered_wildflower_plant_0",
+      "type": "cube",
+      "uuid": "a680536b-8646-5479-ac50-e5954ee4c892",
+      "from": [
+        -7.2,
+        0,
+        -16
+      ],
+      "to": [
+        7.199999999999999,
+        16,
+        -16
+      ],
+      "origin": [
+        0,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "withered_wildflower_plant_1",
+      "type": "cube",
+      "uuid": "fe3f0512-8e01-5bf3-ab43-80c80ed4be75",
+      "from": [
+        0,
+        0,
+        -23.2
+      ],
+      "to": [
+        0,
+        16,
+        -8.8
+      ],
+      "origin": [
+        0,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 3,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_fern_plant_0",
+      "type": "cube",
+      "uuid": "bd76ce47-9a0e-52a3-8682-db8df8cb70e6",
+      "from": [
+        18.8,
+        0,
+        -16
+      ],
+      "to": [
+        33.2,
+        16,
+        -16
+      ],
+      "origin": [
+        26,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_fern_plant_1",
+      "type": "cube",
+      "uuid": "fe13dca2-1ea8-591e-adb6-f4ff8a6bea13",
+      "from": [
+        26,
+        0,
+        -23.2
+      ],
+      "to": [
+        26,
+        16,
+        -8.8
+      ],
+      "origin": [
+        26,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 4,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 4,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_bottom_0",
+      "type": "cube",
+      "uuid": "2d231295-8b13-5bfc-b3b3-aa67bd37a883",
+      "from": [
+        44.8,
+        0,
+        -16
+      ],
+      "to": [
+        59.2,
+        16,
+        -16
+      ],
+      "origin": [
+        52,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_bottom_1",
+      "type": "cube",
+      "uuid": "49a26b37-9275-5dbf-ac5a-6177a06b2876",
+      "from": [
+        52,
+        0,
+        -23.2
+      ],
+      "to": [
+        52,
+        16,
+        -8.8
+      ],
+      "origin": [
+        52,
+        8,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 5,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 5,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_top_0",
+      "type": "cube",
+      "uuid": "33f60528-3685-5187-942b-01256f6a8d39",
+      "from": [
+        44.8,
+        16,
+        -16
+      ],
+      "to": [
+        59.2,
+        32,
+        -16
+      ],
+      "origin": [
+        52,
+        24,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_large_fern_top_1",
+      "type": "cube",
+      "uuid": "e0835ca3-7573-5bf5-8103-62508d8bbe3f",
+      "from": [
+        52,
+        16,
+        -23.2
+      ],
+      "to": [
+        52,
+        32,
+        -8.8
+      ],
+      "origin": [
+        52,
+        24,
+        -16
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 6,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 6,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_savanna_grass_plant_0",
+      "type": "cube",
+      "uuid": "1425ca5f-60cd-51d2-af04-ac79b4cc0137",
+      "from": [
+        -59.2,
+        0,
+        22
+      ],
+      "to": [
+        -44.8,
+        16,
+        22
+      ],
+      "origin": [
+        -52,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_savanna_grass_plant_1",
+      "type": "cube",
+      "uuid": "06d25633-a6de-56a2-8455-54ab01cbb5ae",
+      "from": [
+        -52,
+        0,
+        14.8
+      ],
+      "to": [
+        -52,
+        16,
+        29.2
+      ],
+      "origin": [
+        -52,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 7,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_savanna_shrub_plant_0",
+      "type": "cube",
+      "uuid": "ddbac81a-a1cd-5683-9525-8a10203de221",
+      "from": [
+        -33.2,
+        0,
+        22
+      ],
+      "to": [
+        -18.8,
+        16,
+        22
+      ],
+      "origin": [
+        -26,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 8,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 8,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_savanna_shrub_plant_1",
+      "type": "cube",
+      "uuid": "b0dc0fcb-e3ee-53d1-b6ab-a376fd4344ee",
+      "from": [
+        -26,
+        0,
+        14.8
+      ],
+      "to": [
+        -26,
+        16,
+        29.2
+      ],
+      "origin": [
+        -26,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 8,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 8,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "dead_cactus_cactus_0",
+      "type": "cube",
+      "uuid": "4356dff4-f79e-51f2-b42a-92352852e34b",
+      "from": [
+        -8,
+        0,
+        14
+      ],
+      "to": [
+        8,
+        16,
+        30
+      ],
+      "origin": [
+        0,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 10,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 11,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_cactus_cactus_1",
+      "type": "cube",
+      "uuid": "ca6bb130-45e4-5272-9237-c2bc26950da7",
+      "from": [
+        -8,
+        0,
+        15
+      ],
+      "to": [
+        8,
+        16,
+        29
+      ],
+      "origin": [
+        0,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 9,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 9,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_cactus_cactus_2",
+      "type": "cube",
+      "uuid": "52cd7126-254a-5eae-b055-03f852a6c9e6",
+      "from": [
+        -7,
+        0,
+        14
+      ],
+      "to": [
+        7,
+        16,
+        30
+      ],
+      "origin": [
+        0,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 9,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 9,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "frozen_dead_grass_plant_0",
+      "type": "cube",
+      "uuid": "06619c07-5ff0-5453-8cf9-64988bd29805",
+      "from": [
+        18.8,
+        0,
+        22
+      ],
+      "to": [
+        33.2,
+        16,
+        22
+      ],
+      "origin": [
+        26,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 12,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 12,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "frozen_dead_grass_plant_1",
+      "type": "cube",
+      "uuid": "48f74493-5ab6-502a-b00a-28af863bbae8",
+      "from": [
+        26,
+        0,
+        14.8
+      ],
+      "to": [
+        26,
+        16,
+        29.2
+      ],
+      "origin": [
+        26,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 12,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 12,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "frozen_dead_shrub_plant_0",
+      "type": "cube",
+      "uuid": "170622c4-7fa0-5ba9-b879-3cc024cf7e2f",
+      "from": [
+        44.8,
+        0,
+        22
+      ],
+      "to": [
+        59.2,
+        16,
+        22
+      ],
+      "origin": [
+        52,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 13,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 13,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "frozen_dead_shrub_plant_1",
+      "type": "cube",
+      "uuid": "a514550d-9064-5557-9a1c-0017bc3760ab",
+      "from": [
+        52,
+        0,
+        14.8
+      ],
+      "to": [
+        52,
+        16,
+        29.2
+      ],
+      "origin": [
+        52,
+        8,
+        22
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 13,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 13,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "dead_short_grass",
+      "uuid": "9abf778f-b6bb-5015-98af-7898a9c048ec",
+      "origin": [
+        -52,
+        8,
+        -16
+      ],
+      "children": [
+        "d5f45fc9-a716-5d92-bda3-9827f2beba51",
+        "ba0ef84b-4053-58c2-bf67-b1d19f4a0e77"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_tall_grass",
+      "uuid": "684ab842-bf89-5b7c-81b5-a17ee87bc1f4",
+      "origin": [
+        -26,
+        8,
+        -16
+      ],
+      "children": [
+        "4d683115-1d80-5a7c-98de-b4c1d105abec",
+        "e8e0bb0d-d247-5ea4-b259-9623b8b12729",
+        "a74d20bc-4d8d-548c-a8c2-12dbbb12c414",
+        "cceac34b-5093-5d40-8cf9-78d5b72f4f3b"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "withered_wildflower",
+      "uuid": "f861d968-e85d-5b92-a400-de8c60b1efca",
+      "origin": [
+        0,
+        8,
+        -16
+      ],
+      "children": [
+        "a680536b-8646-5479-ac50-e5954ee4c892",
+        "fe3f0512-8e01-5bf3-ab43-80c80ed4be75"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_fern",
+      "uuid": "0b8ba845-5819-5b9d-8901-6a2609126807",
+      "origin": [
+        26,
+        8,
+        -16
+      ],
+      "children": [
+        "bd76ce47-9a0e-52a3-8682-db8df8cb70e6",
+        "fe13dca2-1ea8-591e-adb6-f4ff8a6bea13"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_large_fern",
+      "uuid": "ebcc518e-7351-5bc9-8c71-829847f9fe46",
+      "origin": [
+        52,
+        8,
+        -16
+      ],
+      "children": [
+        "2d231295-8b13-5bfc-b3b3-aa67bd37a883",
+        "49a26b37-9275-5dbf-ac5a-6177a06b2876",
+        "33f60528-3685-5187-942b-01256f6a8d39",
+        "e0835ca3-7573-5bf5-8103-62508d8bbe3f"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_savanna_grass",
+      "uuid": "032bfc1f-e3eb-5b8f-b07d-9a3df78e6aa7",
+      "origin": [
+        -52,
+        8,
+        22
+      ],
+      "children": [
+        "1425ca5f-60cd-51d2-af04-ac79b4cc0137",
+        "06d25633-a6de-56a2-8455-54ab01cbb5ae"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_savanna_shrub",
+      "uuid": "aec36872-3b25-5c1f-b541-2c645c2549b2",
+      "origin": [
+        -26,
+        8,
+        22
+      ],
+      "children": [
+        "ddbac81a-a1cd-5683-9525-8a10203de221",
+        "b0dc0fcb-e3ee-53d1-b6ab-a376fd4344ee"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "dead_cactus",
+      "uuid": "00e4f3b0-d9c4-5311-b446-e8100315b307",
+      "origin": [
+        0,
+        8,
+        22
+      ],
+      "children": [
+        "4356dff4-f79e-51f2-b42a-92352852e34b",
+        "ca6bb130-45e4-5272-9237-c2bc26950da7",
+        "52cd7126-254a-5eae-b055-03f852a6c9e6"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "frozen_dead_grass",
+      "uuid": "8907c653-7c63-5f88-89f6-25f31ba0dc4f",
+      "origin": [
+        26,
+        8,
+        22
+      ],
+      "children": [
+        "06619c07-5ff0-5453-8cf9-64988bd29805",
+        "48f74493-5ab6-502a-b00a-28af863bbae8"
+      ],
+      "export": true,
+      "isOpen": true
+    },
+    {
+      "name": "frozen_dead_shrub",
+      "uuid": "7c5b9be6-f438-5ce8-a889-95c68b17c235",
+      "origin": [
+        52,
+        8,
+        22
+      ],
+      "children": [
+        "170622c4-7fa0-5ba9-b879-3cc024cf7e2f",
+        "a514550d-9064-5557-9a1c-0017bc3760ab"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "dead_short_grass.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "58b13bfd-e060-5631-8091-65c620d69183",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2ElEQVR4nN2RIQ6DQBBFZ0hPUFXTUyBJcKiVGAKWBElQWCyKIEmwEAwShSNBcoiqih5iqpYMy0LR/W5n5v99uwPwX7Itk5JQUBIKUntl5pFtmbu6VmpAmXmHRkNXLOoBdRQ/Ay4jMt344fm4b5ptldLn/YI46/ASQdOPGLjOSuFHudbIZ7R/oKqt0tUQuA41/YjyuYbu3dzASaQZAGCaF7Qtk4xpXlBd0xE6D09CQdO8oAEAEGfdLuRIfpRjEgoq6gEBlD9Q0bk4Pp/dBJyhS8nb5eylLZzpC6qcX1LvXTmVAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "dead_tall_grass_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "c5fc28dd-7f55-5313-8775-98489a1490e6",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtUlEQVR4nGNgwAGig13/w9iFKd7/GRgYGCY2RPxHV8eEywBkzf1ztjLikidoACHAZGdtjOEskgw4dPQsI7rfooNd/y9duxuns7ECZEPQA3DZzPL/2NQxMBAZBlHpnVhdY2dt/B+nAci24gKyEkIIF+Q3rEAJC1y2ogMWYhRhc93WXecYlq7dzUiSARMbIv7nN6xgZGBABDRGGBDjd2S1GAYQ63eYWrgByM4jBRCdF3BZQHFmAgDLHkjHcjPS3wAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "dead_tall_grass_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "2",
+      "uuid": "ad52c5d5-cf44-5639-b165-0d71664a574e",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR4nGNgGDKgMMX7P8Wa7ayNSTeEkM1MZDqKBgaQ5T9kAw4dPcsYHez6PzrYlfzQhgF0Q/AF5MAE4sSGCLiLyHbBxIaI/3gDHjkckMMA2XaKXEA1AwDG3SEEU0jfLgAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "withered_wildflower.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "3",
+      "uuid": "41722614-69ac-5622-a6e9-34601de72db0",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfElEQVR4nGNgGAUDDxiJURQd7Pofxl66djdRenAagMwmygXRwa7/YbY2FMfDNTf0LmRkYGBgYCJkwOMX7xjsrI3/wzTJyQji11CY4o3VuXbWxv9hGFk9C7rm/jlbGWGGvHr/Cy536OhZ0gMP2TW4AN4wQHYBWQYQAyg2AABayi+cA7PZEQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "dead_fern.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "4",
+      "uuid": "4ad88d6e-08a6-5393-907f-d55cd2e220d6",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApUlEQVR4nGNgoCWY2BDxn5AaJpq6gBhXUOwCvAYUpniTHwaFKd7/FWR4GR48+Uy6s+ysjf8zMCD8D+OT5AKYZmKiEsN2dM0TGyL+43IFhgtkJYQY8htWMCKL5TesYJSVEMJqISNWUQYGhuhgV7iNS9fuxqkORcLO2vg/zKala3czTmyI+J/fsIIRZtjjF+8YDh09i6KHBd1EbLbBxPDFBlZAl8wEAGi6QCzu9ELEAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "dead_large_fern_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "5",
+      "uuid": "ac399efa-954b-5558-bc93-89f04ddb6706",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA/klEQVR4nGNggAI7a+P/hSne/6ODXf/DxCY2RMDZ0cGu/wtTvP/bWRvDxRgYGBgYkQ04dPQsI7pGGMhvWMGIrg5ugJ218f9gV1UMxRMbIv4js2Hya3ffZkA2hAHdWdi8gAxwqccAyOGBC7DgskFWQojBTFeYgYHB9f/jF+9QnYwEmHCZvHTtbkZkmixQmOJN0AtYTYdpVJDhZXjw5DMDAwMDQ/+crcS5BF9CwqYeIwwev3iHohlGw8TxAjtr4/8TGyL+o2uGiWGLfwwXnLr8Fp4SYSC/YQXjqctvsVqKNWCw+RdXdKJkJlkJIRTFyHkBZih6okJJifgSDUwOPRwA8BqHkIGAm6IAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_large_fern_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "6",
+      "uuid": "09629ff6-b02a-5c05-841d-11ccf4004054",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoklEQVR4nGNgoCWY2BDxn5AaJpq6gBhXUOwCvAYUpngTDAOCmskyxM7aGK5pYkPEf2Q+OmDBJUFMFOK0HVnzxIaI//hcgRGIshJCDPkNKxiRxfIbVjDKSghhtZARqygDA0N0sCvcxqVrd+NUhxIGdtbG/2E2wTRBvAMx7PGLdwyHjp5FMQxrOkC3EZ8LcEogx3//nK041WHVCNMMiw1kMXQAAKp1RW5kYxKmAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "dead_savanna_grass.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "7",
+      "uuid": "5cd5ae61-cc48-55fd-aab6-67768648fe3b",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR4nGNgGLRg2czy/8SoY0Hm2Fkb/zfWlMCqcGJDxP+1u28zHDp6lpGgqYUp3v+RXTGxIQKna5iwCfbP2coIM4QQQDHAztqYKE04DZCVEMJQMLEh4n9+wwqc/kYxYOna3YzRwa4EXYGshglfAMEAcpRGB7v+X7p2NyPMu1gDET0NRKV3MiJrZmBgYDh09CyjnbXxf6b8hhWM6K6AacBneGGK9/9DR88ywl1AjFdghhemeP/vn7OVEcML+JIvsvOR1aIYgM/pMACzHaYWayCSAgAepF3+h4aReAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "",
+      "name": "dead_savanna_shrub.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "8",
+      "uuid": "79c98f00-5edd-5ac3-8ea3-9145b3feb818",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhElEQVR4nGNgGHSgMtP/f2Wm/390MbIMgrEnNkTgNIAJl63I4MXL7wRdiddWZHF0jSz4bIUpbp++kREmLiHOiaIOxQB0SWSNyAYjAyZ8kuigMtP/P7KhOMMBJkEoOisz/f9jOBFdMcxGbLZh8yJWQ3A6lxDA5RWSDCBbM7E2MxFSQAgAAP8VVsAvU4mKAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "dead_cactus_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "9",
+      "uuid": "9fea5344-332b-5e14-9e49-f3abaea13c65",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR4nGNMi/P5//D5ewZ5SUEGGCCFzwQTlBDlY0AGxPKZGCgEcAN2Hr7GoK2hQL4B7rZaDMs2HKHMBfoaMkRrhLmY7DCAuRjFC6QAmIuJdgGuQCbaAPRAhrmYJBdgC2TqJSRsNiL7GVcg4zSA2ISF1wXEJCy4AS9ef8KrEF0exgcAbSY6vIAKIDwAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_cactus_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "10",
+      "uuid": "c54e2e36-e097-591b-a9f6-3f087ed9c34d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR4nGOMDHb5z0ABYGFgYGCQEuUjWsO+k7cYnMzVGBgYGBievf4EMQDGIQRu3HvBoKEkwfDs9Se4pUzE2gzTjA5Y0AVweefGvRcMUqJ8GC7FMICBgTjvwADRXiDLAClRPgYpUT6c/ifKBftO3sKpmaABz15/wquZKBcQAlhjgZSUiWEAKVHIwEBNL5DibAwDSHU2MgAA6UMr4mkdJQcAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_cactus_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "11",
+      "uuid": "327348bf-8923-50d2-a383-1e845658601c",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR4nGOMDHb5z0ABYGFgYGB49fYT0RreffzGIMTPxcDAwMAgJswHMQDGIQRu3HvBoKEkwYBsKROxNiNrRgYs6AL4vPPq7ScMl2IYwMCA3TvvPn7DaijRXsAFsLoABmDeeffxG4OGkgRW7xF0AUwzWS4QE+YjGL20CQNSUiaGAcSkSGRAPS+Q4mwMA0h1NjIAAFLRLGYW0L5YAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "frozen_dead_grass.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "12",
+      "uuid": "9aa5bf94-914a-500f-8126-b36a923a42ec",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeElEQVR4nGNgGDmgOC/5v5218X+yNeOSYyLbSdgMINuJMBAW5IthAD7nY7hg1brNjNgMIdoAXGDK1G7SAhFdQ052KSM2dXbWxv+xGoBLAzIIC/L9f+joWUayojEsyPf/qnWbGRkYKEgHMG+ykGv7qnWbGShyAQwAAL0DKtz6r88RAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "frozen_dead_shrub.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "13",
+      "uuid": "9ba86c36-dad0-51b3-826d-c4a876c14165",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR4nM2RMQ6AIAxFC/FYbkwM5VbuehUYnNi8Fy42aQhtlck/kUL/+y0Av1PC2BLG1temjOh87Jto4CUqV62XmVKl8nrfuGhUepzL6agewgq5nOMmiSqlBHh2wKmaEsbG04h7oAvrOxPG5kBQP/+IxtOoJmJcS9Ionwymm9+SvfXA0g2GYVKhZaf93gAAAABJRU5ErkJggg=="
+    }
+  ]
+}

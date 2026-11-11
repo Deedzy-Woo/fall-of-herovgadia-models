@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "dead_cactus",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "name": "dead_cactus_cactus_0",
+      "type": "cube",
+      "uuid": "48d9b063-527c-531e-9e6e-a8a625dddd02",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2,
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_cactus_cactus_1",
+      "type": "cube",
+      "uuid": "43e54314-fb1e-546d-bcd9-832fc7a1479d",
+      "from": [
+        0,
+        0,
+        1
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "dead_cactus_cactus_2",
+      "type": "cube",
+      "uuid": "11c109da-a2de-50af-ad27-75a17168d84f",
+      "from": [
+        1,
+        0,
+        0
+      ],
+      "to": [
+        15,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "rescale": false,
+      "box_uv": false,
+      "autouv": 0,
+      "visibility": true,
+      "export": true,
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "dead_cactus",
+      "uuid": "ae7dca21-a3a4-5dc3-b688-e55c75d15c18",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "48d9b063-527c-531e-9e6e-a8a625dddd02",
+        "43e54314-fb1e-546d-bcd9-832fc7a1479d",
+        "11c109da-a2de-50af-ad27-75a17168d84f"
+      ],
+      "export": true,
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "dead_cactus_side.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "9fea5344-332b-5e14-9e49-f3abaea13c65",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR4nGNMi/P5//D5ewZ5SUEGGCCFzwQTlBDlY0AGxPKZGCgEcAN2Hr7GoK2hQL4B7rZaDMs2HKHMBfoaMkRrhLmY7DCAuRjFC6QAmIuJdgGuQCbaAPRAhrmYJBdgC2TqJSRsNiL7GVcg4zSA2ISF1wXEJCy4AS9ef8KrEF0exgcAbSY6vIAKIDwAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_cactus_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "c54e2e36-e097-591b-a9f6-3f087ed9c34d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR4nGOMDHb5z0ABYGFgYGCQEuUjWsO+k7cYnMzVGBgYGBievf4EMQDGIQRu3HvBoKEkwfDs9Se4pUzE2gzTjA5Y0AVweefGvRcMUqJ8GC7FMICBgTjvwADRXiDLAClRPgYpUT6c/ifKBftO3sKpmaABz15/wquZKBcQAlhjgZSUiWEAKVHIwEBNL5DibAwDSHU2MgAA6UMr4mkdJQcAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "dead_cactus_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "2",
+      "uuid": "327348bf-8923-50d2-a383-1e845658601c",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "internal": true,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "double",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR4nGOMDHb5z0ABYGFgYGB49fYT0RreffzGIMTPxcDAwMAgJswHMQDGIQRu3HvBoKEkwYBsKROxNiNrRgYs6AL4vPPq7ScMl2IYwMCA3TvvPn7DaijRXsAFsLoABmDeeffxG4OGkgRW7xF0AUwzWS4QE+YjGL20CQNSUiaGAcSkSGRAPS+Q4mwMA0h1NjIAAFLRLGYW0L5YAAAAAElFTkSuQmCC"
+    }
+  ]
+}
