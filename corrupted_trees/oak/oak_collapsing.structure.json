@@ -1,0 +1,121 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "oak",
+  "state": "collapsing",
+  "size": [
+    3,
+    5,
+    1
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    0,
+    0,
+    0
+  ],
+  "model_origin_to_structure": [
+    0,
+    0,
+    0
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "bcafb7ff-2f00-5fee-9895-77a8a87764ad"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "869a45a6-e7fd-53f5-8c73-42471887f401"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "812ab455-5e13-578e-93fb-f7b2ae286e1f"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "bb325b9e-a472-5217-b1f4-51f3a14a9276"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "f1b43459-0f1a-5d57-ac6e-bca449cfd1b3"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "6dd5a46e-f116-50c1-b433-f021043f1ae4"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "89ab1954-64a9-57d3-ab3e-a46e9da388b3"
+    }
+  ]
+}

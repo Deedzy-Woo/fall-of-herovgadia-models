@@ -1,0 +1,186 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "birch",
+  "state": "withered",
+  "size": [
+    3,
+    8,
+    2
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    1,
+    0,
+    0
+  ],
+  "model_origin_to_structure": [
+    1,
+    0,
+    0
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "6b0417e8-b3b1-5355-89b9-02f9ec16299a"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c2dda813-1ced-5cd2-8508-96658e1e497e"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "76ac27b5-53f0-50a8-81a7-546995227209"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c621ec2b-6f3b-5b03-b55f-45e215be3fc2"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "3d526407-8e18-5012-9a1a-d50f8822368d"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "146c3411-405d-51e2-82e6-28198105e56b"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "2806ff94-1d2d-5c95-8f42-e2dced96ca6b"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "6d46dca4-01ce-5e94-bb50-ac3aff3c918d"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "bbfccf55-7b2f-50b0-aa04-a2e7fe96617b"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "052bb2af-4b06-5b46-b4e4-e0f1b0a4c136"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "ce803cc4-3fe7-53a4-9b1c-b18e325c83c2"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "b6400868-f87c-590e-b438-0ea820bdc2aa"
+    }
+  ]
+}

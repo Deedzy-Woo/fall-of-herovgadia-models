@@ -1,0 +1,108 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "jungle",
+  "state": "collapsing",
+  "size": [
+    1,
+    6,
+    1
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    0,
+    0,
+    0
+  ],
+  "model_origin_to_structure": [
+    0,
+    0,
+    0
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "5986a5d4-b0ad-56ce-8136-5edb4a52a4ce"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c1b6e641-e2d8-5aab-b49a-3a56b5e68f71"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a87b35dc-71e8-5c9d-8ac2-68aa26592c18"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "3779cb95-4cca-5428-ada8-f05bf0fac776"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "06bc8503-e931-503d-a47c-3b19c46f20c7"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c67486da-2f61-5164-aad4-ceca80eadd17"
+    }
+  ]
+}

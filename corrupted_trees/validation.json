@@ -1,0 +1,330 @@
+{
+  "models": [
+    {
+      "model": "oak/oak_withered.bbmodel",
+      "blocks": 15,
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "cracked_blocks": 1,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "oak/oak_decayed.bbmodel",
+      "blocks": 12,
+      "size": [
+        4,
+        6,
+        2
+      ],
+      "cracked_blocks": 7,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "oak/oak_collapsing.bbmodel",
+      "blocks": 7,
+      "size": [
+        3,
+        5,
+        1
+      ],
+      "cracked_blocks": 6,
+      "connected": true,
+      "max_height_blocks": 5
+    },
+    {
+      "model": "birch/birch_withered.bbmodel",
+      "blocks": 12,
+      "size": [
+        3,
+        8,
+        2
+      ],
+      "cracked_blocks": 2,
+      "connected": true,
+      "max_height_blocks": 8
+    },
+    {
+      "model": "birch/birch_decayed.bbmodel",
+      "blocks": 10,
+      "size": [
+        3,
+        7,
+        2
+      ],
+      "cracked_blocks": 6,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "birch/birch_collapsing.bbmodel",
+      "blocks": 7,
+      "size": [
+        2,
+        6,
+        1
+      ],
+      "cracked_blocks": 6,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "spruce/spruce_withered.bbmodel",
+      "blocks": 29,
+      "size": [
+        5,
+        9,
+        5
+      ],
+      "cracked_blocks": 4,
+      "connected": true,
+      "max_height_blocks": 9
+    },
+    {
+      "model": "spruce/spruce_decayed.bbmodel",
+      "blocks": 20,
+      "size": [
+        3,
+        8,
+        3
+      ],
+      "cracked_blocks": 12,
+      "connected": true,
+      "max_height_blocks": 8
+    },
+    {
+      "model": "spruce/spruce_collapsing.bbmodel",
+      "blocks": 13,
+      "size": [
+        3,
+        7,
+        2
+      ],
+      "cracked_blocks": 11,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "acacia/acacia_withered.bbmodel",
+      "blocks": 19,
+      "size": [
+        8,
+        7,
+        3
+      ],
+      "cracked_blocks": 2,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "acacia/acacia_decayed.bbmodel",
+      "blocks": 16,
+      "size": [
+        6,
+        7,
+        3
+      ],
+      "cracked_blocks": 7,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "acacia/acacia_collapsing.bbmodel",
+      "blocks": 8,
+      "size": [
+        4,
+        4,
+        1
+      ],
+      "cracked_blocks": 8,
+      "connected": true,
+      "max_height_blocks": 4
+    },
+    {
+      "model": "dark_oak/dark_oak_withered.bbmodel",
+      "blocks": 39,
+      "size": [
+        7,
+        8,
+        5
+      ],
+      "cracked_blocks": 2,
+      "connected": true,
+      "max_height_blocks": 8
+    },
+    {
+      "model": "dark_oak/dark_oak_decayed.bbmodel",
+      "blocks": 34,
+      "size": [
+        6,
+        7,
+        4
+      ],
+      "cracked_blocks": 23,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "dark_oak/dark_oak_collapsing.bbmodel",
+      "blocks": 23,
+      "size": [
+        4,
+        6,
+        2
+      ],
+      "cracked_blocks": 17,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "jungle/jungle_withered.bbmodel",
+      "blocks": 19,
+      "size": [
+        5,
+        9,
+        4
+      ],
+      "cracked_blocks": 1,
+      "connected": true,
+      "max_height_blocks": 9
+    },
+    {
+      "model": "jungle/jungle_decayed.bbmodel",
+      "blocks": 15,
+      "size": [
+        4,
+        9,
+        3
+      ],
+      "cracked_blocks": 8,
+      "connected": true,
+      "max_height_blocks": 9
+    },
+    {
+      "model": "jungle/jungle_collapsing.bbmodel",
+      "blocks": 6,
+      "size": [
+        1,
+        6,
+        1
+      ],
+      "cracked_blocks": 5,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "mangrove/mangrove_withered.bbmodel",
+      "blocks": 30,
+      "size": [
+        5,
+        8,
+        5
+      ],
+      "cracked_blocks": 2,
+      "connected": true,
+      "max_height_blocks": 8
+    },
+    {
+      "model": "mangrove/mangrove_decayed.bbmodel",
+      "blocks": 27,
+      "size": [
+        5,
+        8,
+        5
+      ],
+      "cracked_blocks": 16,
+      "connected": true,
+      "max_height_blocks": 8
+    },
+    {
+      "model": "mangrove/mangrove_collapsing.bbmodel",
+      "blocks": 24,
+      "size": [
+        5,
+        7,
+        5
+      ],
+      "cracked_blocks": 18,
+      "connected": true,
+      "max_height_blocks": 7
+    },
+    {
+      "model": "cherry/cherry_withered.bbmodel",
+      "blocks": 19,
+      "size": [
+        7,
+        6,
+        3
+      ],
+      "cracked_blocks": 2,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "cherry/cherry_decayed.bbmodel",
+      "blocks": 15,
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "cracked_blocks": 9,
+      "connected": true,
+      "max_height_blocks": 6
+    },
+    {
+      "model": "cherry/cherry_collapsing.bbmodel",
+      "blocks": 12,
+      "size": [
+        4,
+        6,
+        2
+      ],
+      "cracked_blocks": 10,
+      "connected": true,
+      "max_height_blocks": 6
+    }
+  ],
+  "count": 24,
+  "new_textures": false,
+  "registration_verified": false,
+  "source_mod_commit_checked": "a881fbb",
+  "textures_sha256": {
+    "rotten_oak_log.png": "27fd78be32f03bd07ae7b2bbcd17a508a700ff70dc9542f721ae758838f6045f",
+    "rotten_oak_log_top.png": "2d131937ef16d638fd344761237091c1c6b07587429db5bd62ce39ef24f18ee4",
+    "cracked_rotten_oak_log.png": "a21e78dc6923b5e570ef1a0702fc21490f4269d4fad0604571585c24d964a312",
+    "cracked_rotten_oak_log_top.png": "71a79a1444fe902feb05ea35724b1dfb31006779451f97d1d133b6ce601c6085",
+    "rotten_birch_log.png": "50d3bfbe63d17e4267f4c4e26f2cce5505b084154e3353938382305cc0b5a90e",
+    "rotten_birch_log_top.png": "93a1d7c246af27fb7914edf9da81320d3694d1cb794a0e0c05f712cb8e02621f",
+    "cracked_rotten_birch_log.png": "3cfb7f5a20ca9d580d22e37874680fa15d679908794bfde019a3bbeead6c6492",
+    "cracked_rotten_birch_log_top.png": "7f14c5aab1c9140f75921f9e241e9a0ed1d92ab764d754053d4bc6781470d99d",
+    "rotten_spruce_log.png": "a51563c51d7685ba9b0bbf28452de5712e1d5b5643f5bb2f83537efdb307f083",
+    "rotten_spruce_log_top.png": "f411e7df9f6f0d3f6bdb18546b8ce8c7b54039c73a63fe368025c3d1dc2e003c",
+    "cracked_rotten_spruce_log.png": "ecd167b983844f07b75ae5a65af0ecefeec3c3ae3514ac2ced169eb66ab77a65",
+    "cracked_rotten_spruce_log_top.png": "cdadc8b3d624ce949499490cf37a42835c11079b73c34316d811f943e4b9a464",
+    "rotten_acacia_log.png": "f83d2aa310eb5b237708b479c8c90d76012242bcb250aa0402e3a9b460db48c6",
+    "rotten_acacia_log_top.png": "e846a276cffccfa9eb881c2cde011a1887ab35e31303ce07fc7ac6575d4d5f1c",
+    "cracked_rotten_acacia_log.png": "82ad7ffe440a520bb4509ee6030dfa6b34efd65c20f1c5972b3605c78545b342",
+    "cracked_rotten_acacia_log_top.png": "e92df4a9181fd1a1385a63fac0ca2f4f8c705ceb404f5c7a2051598cadd79dc6",
+    "rotten_dark_oak_log.png": "066429f052af54e6817dc58f0b5b517e958968daf7adec27b99fd2e42a2d4c5a",
+    "rotten_dark_oak_log_top.png": "e95f262b9ef20ef58d69d4ec0d9c77ae97a379ad8b614d128663bec881004aca",
+    "cracked_rotten_dark_oak_log.png": "03732fe0855515e2221b19e83b8098d85c041f7736c2117f858e7f550e4bf718",
+    "cracked_rotten_dark_oak_log_top.png": "4bf490b95bd5dd5469e3253fb867c6def9ba4a5c1fdcaef8d85d1d9dd45cd01d",
+    "rotten_jungle_log.png": "38b1bef26fa3adff72b405907a9132a46657671cc5741d1e447ff350553c9789",
+    "rotten_jungle_log_top.png": "62ca60a0fff9296e7d8bdc59e4140a69b53a6a1d349fd14738aecd352a2ae60a",
+    "cracked_rotten_jungle_log.png": "dbd42e0ea744bed559ead1b060f54a6e943667d8c5ceacbe62609026223cf9b8",
+    "cracked_rotten_jungle_log_top.png": "26d0db7817cd0a04743ebb67756f2193da0d1dc875c59a61c3bbc9fd1cc3c81b",
+    "rotten_mangrove_log.png": "690c2a017b6b9f6db872baa86f567b824cae01b23ff00c0569cb5c0939e004ff",
+    "rotten_mangrove_log_top.png": "d81e589231413835b31549f49481aef320e457a52707b2453272885585c0f4b1",
+    "cracked_rotten_mangrove_log.png": "5a08f64a4ba010394c23a75be1f32830073b4c70d1b5769f9b727611c2e326b7",
+    "cracked_rotten_mangrove_log_top.png": "6084d46b322fddd1aca9d6f6cfaee8a6fda3b453248365fd493d2e7d97fbee55",
+    "rotten_cherry_log.png": "662a6c2271ace3b6bdc3716bb2cba1502819f34386b34e1d3dab09b9a2b63679",
+    "rotten_cherry_log_top.png": "be378a65077106200a6915408037876dc3c98dbc91cb78e9e5f1831a1677f020",
+    "cracked_rotten_cherry_log.png": "efd4e983a158311e47d6e26f975f442c8f8b27694e610a3cefb9c8508b145bec",
+    "cracked_rotten_cherry_log_top.png": "b1d3229e38c5ac879196356c8d351fd1e1edcdbbbe2f491a61ca2d2cfab0999d"
+  }
+}

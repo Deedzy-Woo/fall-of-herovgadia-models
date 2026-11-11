@@ -1,0 +1,121 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "birch",
+  "state": "collapsing",
+  "size": [
+    2,
+    6,
+    1
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    0,
+    0,
+    0
+  ],
+  "model_origin_to_structure": [
+    0,
+    0,
+    0
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "f3c40579-f591-5f72-b774-adca1a9ea300"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "d166cbd1-efd0-5864-818d-d3dfffd75c17"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "bb3855f3-a188-5bad-83fb-2c17ff9496fc"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "84ecdae5-965a-57f9-878b-e7c75eea551b"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "ffc37827-b329-5b07-bb5c-94161a1c0f9c"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "39828802-28f9-5b56-bc34-e7ccf7abbd3f"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_birch_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "14d5fc60-c552-5feb-a6a0-9e012cb734d8"
+    }
+  ]
+}

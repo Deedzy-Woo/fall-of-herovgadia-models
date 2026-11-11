@@ -1,0 +1,238 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "acacia",
+  "state": "decayed",
+  "size": [
+    6,
+    7,
+    3
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    1,
+    0,
+    0
+  ],
+  "model_origin_to_structure": [
+    1,
+    0,
+    0
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "e15d4844-63a4-57db-9eef-dfddb2aa259b"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a1e7f44e-01b3-53de-bd66-e3c5f3da6dc0"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a19122d9-b40a-545c-8c8b-cb4874cccbb2"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "6cf66237-6c4c-5e3c-a527-5a9920074e58"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "fd9de293-a58b-5216-aae3-3f7f4745d399"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "f4729e14-8486-5bc0-9c37-754c18589aa7"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "7b43038c-83f1-5e57-8cfb-42e06f0bc614"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "b9a17e92-9205-58af-85fe-654689092973"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "32cab222-c706-5c6a-a442-bda797141d75"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "df87a4ed-5d7c-56d1-83b1-d16338d92bfd"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "3ed3753f-a46d-56e8-accc-d910fa91f082"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "0a603e29-ca61-5265-b5fc-6113245d03c0"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "44ff44ec-8a53-537d-9b73-d35a2d4fb4b2"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "203b552b-6198-5ae5-86f5-53355431dd5c"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_acacia_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "2e0d8f38-e393-50f4-9fb2-77f4bc9f44ce"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_acacia_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "ff27905a-9d77-508d-bef4-eea1f599f743"
+    }
+  ]
+}

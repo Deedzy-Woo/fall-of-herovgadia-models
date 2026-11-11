@@ -1,0 +1,381 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "mangrove",
+  "state": "decayed",
+  "size": [
+    5,
+    8,
+    5
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    2,
+    0,
+    2
+  ],
+  "model_origin_to_structure": [
+    2,
+    0,
+    2
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "5b30d4eb-5931-5aca-b971-c073da8267c5"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "597c269c-c2d8-554c-b647-c9c2c37af01a"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "dda7653f-e028-59fa-b1b4-acb8b551b49d"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "73d6e354-933e-5d18-8a90-a353f3b93c73"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "df267b67-22bf-592f-bc07-cc3df05624ff"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "ac0e74ec-21a5-568a-acbc-e2d325e7346a"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "2792f9b1-a55e-52a3-be60-6272303cd9e8"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "roots",
+      "element_uuid": "d020b90c-1127-5d76-9476-63c046d82002"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "roots",
+      "element_uuid": "3c943b57-25f6-5e5d-afd5-5b15a079e5fd"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "roots",
+      "element_uuid": "2d478324-2a59-5c47-8368-3f9b1f105ec6"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "roots",
+      "element_uuid": "ef91155a-14db-5298-b22c-cd01159fc758"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "roots",
+      "element_uuid": "27c53bec-36dc-5ab7-a0c0-ab74ff770cbe"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "f30abcba-ff3b-5403-a8e0-47b8cb79b9f7"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        3
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "roots",
+      "element_uuid": "ff62392f-dbec-520e-87f2-70d10b89cc27"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "roots",
+      "element_uuid": "ca677f26-7952-5748-a5c0-b15757b899bd"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "roots",
+      "element_uuid": "db4d31dc-e3b0-579b-9f07-edc2b6186fe0"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "roots",
+      "element_uuid": "10cb646b-f3a5-5e4e-a885-1044b566241c"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "d4a683a2-7998-5ebb-be28-3c072f6f10ca"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c9c5faeb-b11e-53e0-8e7e-edc02de0b805"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "911f0ad3-5bf0-5e69-97c4-929934c4759d"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        3
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "7f1bcdf3-5213-51f7-b0c8-3419cfc4b1e8"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "702f2f11-5e5f-53b2-8449-9b745f84ebf4"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "d6dd138b-db11-56a1-b363-b81d51fabc98"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "744c0ab7-c137-5f76-a043-615010c121f0"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        3
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "0bb5272e-f650-5646-b750-ac27d092579e"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "bab3695b-e6fd-5490-bae7-ebdeed7f0231"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_mangrove_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "c7f1cb4d-b2a3-56e5-897a-0467a916b4df"
+    }
+  ]
+}

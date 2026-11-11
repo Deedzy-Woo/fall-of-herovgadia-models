@@ -1,0 +1,537 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "dark_oak",
+  "state": "withered",
+  "size": [
+    7,
+    8,
+    5
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    3,
+    0,
+    1
+  ],
+  "model_origin_to_structure": [
+    3,
+    0,
+    1
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "fa752e3e-5e45-5f9e-958f-60a0af9c2d09"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a436de3e-c5a3-5c36-bfb5-426cb117e4a3"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "ca4280aa-dbcd-5a23-afad-cd24bf4f79a5"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "9c4c6499-29e0-5467-a1b8-bccdb79326ef"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "2743eb31-7d40-5f89-9da9-a97174434e17"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "495faf76-919c-5d9d-8706-5d427ad9abf3"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a7f653c2-13c4-5de5-8acb-24c43da1edb4"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "ad0acc01-f263-552a-8163-bbdb041b7a89"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "514a38e8-bafa-57ab-aa59-c8119c33e759"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "22d9ac60-dc16-5f5e-bb92-c5cd8fd08b6e"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "29121483-4fd4-5908-9704-f5b8b0da2132"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "4b3e30c7-eb1d-5ea5-8939-68354817fbbd"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "81cb9f69-90bf-573c-96c5-f9caacbfe289"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "d54d06b9-c481-5a6e-a5bf-a9925d0d871f"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "6f72c95c-9ed0-5b07-9c6c-4c8340c57478"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "827f2257-9b26-54e3-8503-7ec94c536af6"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "be324b3b-e746-5cc6-ac60-5f996a1804cc"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "0eb9e854-417e-5ab3-a7db-9eba1272dde9"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "e1a8983d-3990-5a1d-8808-54df7e816320"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "28aef5a3-296b-56e8-843c-eb1f7506ff49"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "f0aba54e-e0c6-5d6b-bf99-fd257f5bd925"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "f0bca190-b176-5125-b59f-e8447630e79f"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "small_branches",
+      "element_uuid": "b78c0aaa-4142-5016-ad09-5f29f932bfe1"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "small_branches",
+      "element_uuid": "24563837-4b32-5b76-8478-d1537de408f9"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "0861e8ed-4d18-58c7-94db-8b601ee3a7ca"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a29cd37a-f34d-5274-b1ff-21128c501eed"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "42cd49ba-aad0-59b5-a2ba-7f4db038f7b9"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        3
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "4dd7d5e2-c611-5fe8-a8e4-9cf0fb302f6e"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "be692d25-28e5-509c-8848-0074b5413c4e"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "28dc5c89-97ad-5025-a7b6-fa576ecb6ff9"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "13fc7ea3-1b4f-555a-ba80-8bfaad991afa"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "small_branches",
+      "element_uuid": "82fcfdb4-a56b-5744-84d4-8cbd6fa34fce"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "aece2465-b5e1-5109-b692-96c4a36b49c8"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "876721a9-65eb-5577-b58d-bd9a60c7ae7f"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        3
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "8a426d7a-2696-516e-bb0e-45a80a4adb6d"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        4
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "small_branches",
+      "element_uuid": "dd5f2d64-1aa8-5315-a889-4e07ebec8e05"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "555ec0ef-15f1-5829-ad20-e30c2b7b3400"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "small_branches",
+      "element_uuid": "0cd4676f-c648-5879-a447-c837a354dbcb"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_dark_oak_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "main_branches",
+      "element_uuid": "96c675aa-0c92-59cf-8018-aedd04e4db21"
+    }
+  ]
+}

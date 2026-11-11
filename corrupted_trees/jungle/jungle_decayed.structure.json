@@ -1,0 +1,225 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "jungle",
+  "state": "decayed",
+  "size": [
+    4,
+    9,
+    3
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    2,
+    0,
+    1
+  ],
+  "model_origin_to_structure": [
+    2,
+    0,
+    1
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "924bed93-4213-5a5d-8416-b61e3560cdda"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "5a072cda-0006-5692-994d-fb987a1f407d"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "ba6c2a66-718a-5188-8bdd-e47543050c32"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "a3a29c6f-aa33-5fb9-975f-2a4159357ba9"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "0ac2ee8c-c050-5d4e-b7ea-956f3b6f5700"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "47c30918-0d49-5205-9c92-fe41e4f79e17"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "94cffc72-59ea-5542-9c2e-743ed79fb88f"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "d12685c9-a138-5872-bcbc-71bbe5daa17e"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "e96b8ba0-76d4-5065-b2e9-4415cda53dff"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "a8e87670-2fdd-5f4e-9a24-aa709b28f767"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "92528d75-e95a-5f69-8304-5b8eb7fef8dc"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "598a7693-6461-5d15-a42c-61e824a79dd9"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_jungle_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "5ae9cfa9-320f-5076-8a74-fe37d8aef76a"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "394e2aa1-c39c-51b6-8188-86f5c84b1713"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_jungle_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "broken_branches",
+      "element_uuid": "5b4f602d-1e95-5dad-b192-bd62c00ad8d7"
+    }
+  ]
+}

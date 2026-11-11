@@ -1,0 +1,290 @@
+{
+  "format": "foh.block_structure.v1",
+  "species": "spruce",
+  "state": "decayed",
+  "size": [
+    3,
+    8,
+    3
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "base_position": [
+    1,
+    0,
+    1
+  ],
+  "model_origin_to_structure": [
+    1,
+    0,
+    1
+  ],
+  "block_scale_pixels": 16,
+  "rotation_degrees": 0,
+  "requires_unverified_mod_blocks": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "34fc9c5c-e334-5e4b-8652-afddb3fae5a1"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "c850b148-393b-53a1-a54e-3ff093a73696"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "dedc05a3-7006-56bf-ab59-5eb9ec4625de"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "9bd0af4e-9eb6-57c9-b41b-6309c4574a98"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "e8ea1e54-883a-5183-9ea5-b4e97f80e2de"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "e733e848-8d77-57cd-93f6-36fa380ea621"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "0ea48db9-2ef2-5738-8e60-a679b3327f92"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "f5b27abc-4bff-5aee-9359-474302d392c7"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "b9c4f1da-88dd-5a9c-a5eb-b2f08d8a2eaf"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "da6a16d7-3776-578c-8cdb-1afd00494121"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "a7ce7fb5-0325-580c-b014-09b4c5992745"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "dbbd3b8a-8ce6-50ab-b080-acaf8bf9e6b8"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        2
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "broken_branches",
+      "element_uuid": "24d75107-88b5-569c-9914-41c9881073e4"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "broken_branches",
+      "element_uuid": "923c7d89-ed66-57fa-8351-2c7b0772bd74"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "3983c40a-86ea-5c9d-8950-840e8dea4be4"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "ed4d7407-ceba-5d13-852a-eb1d1a857d58"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        0
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "9d0c8890-05d7-5cfc-946c-7c0004841fe0"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:cracked_rotten_spruce_log",
+      "properties": {
+        "axis": "y"
+      },
+      "group": "trunk",
+      "element_uuid": "59b55dc8-e5ae-5a81-8a67-1a75c945e68f"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        2
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "z"
+      },
+      "group": "main_branches",
+      "element_uuid": "dacd1494-09ac-5a2e-8f6c-d838266c599d"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        1
+      ],
+      "name": "fallofherovgadia:rotten_spruce_log",
+      "properties": {
+        "axis": "x"
+      },
+      "group": "main_branches",
+      "element_uuid": "9083b151-55b0-5814-8054-ab5ff4e9d9cb"
+    }
+  ]
+}

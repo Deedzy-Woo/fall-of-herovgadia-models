@@ -1,0 +1,146 @@
+[
+  {
+    "name": "oak_withered",
+    "elements": 15,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "oak_decayed",
+    "elements": 12,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "oak_collapsing",
+    "elements": 7,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "birch_withered",
+    "elements": 12,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "birch_decayed",
+    "elements": 10,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "birch_collapsing",
+    "elements": 7,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "spruce_withered",
+    "elements": 29,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "spruce_decayed",
+    "elements": 20,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "spruce_collapsing",
+    "elements": 13,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "acacia_withered",
+    "elements": 19,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "acacia_decayed",
+    "elements": 16,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "acacia_collapsing",
+    "elements": 8,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dark_oak_withered",
+    "elements": 39,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dark_oak_decayed",
+    "elements": 34,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "dark_oak_collapsing",
+    "elements": 23,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "jungle_withered",
+    "elements": 19,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "jungle_decayed",
+    "elements": 15,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "jungle_collapsing",
+    "elements": 6,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "mangrove_withered",
+    "elements": 30,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "mangrove_decayed",
+    "elements": 27,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "mangrove_collapsing",
+    "elements": 24,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cherry_withered",
+    "elements": 19,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cherry_decayed",
+    "elements": 15,
+    "textures": 4,
+    "version": "4.12.6"
+  },
+  {
+    "name": "cherry_collapsing",
+    "elements": 12,
+    "textures": 4,
+    "version": "4.12.6"
+  }
+]
