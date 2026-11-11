@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cactus",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "fallofherovgadia:block/dead_cactus_side",
+    "top": "fallofherovgadia:block/dead_cactus_top",
+    "bottom": "fallofherovgadia:block/dead_cactus_bottom"
+  }
+}

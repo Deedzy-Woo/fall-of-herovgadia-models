@@ -1,0 +1,174 @@
+{
+  "textures": [
+    {
+      "name": "dead_large_fern_bottom.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "withered_wildflower.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_fern.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_tall_grass_bottom.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_large_fern_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_savanna_grass.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_tall_grass_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "frozen_dead_grass.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_cactus_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "frozen_dead_shrub.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_cactus_side.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "dead_cactus_bottom.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "dead_short_grass.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "dead_savanna_shrub.png",
+      "size": [
+        16,
+        16
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ],
+  "blocks": [
+    "dead_short_grass",
+    "dead_tall_grass",
+    "withered_wildflower",
+    "dead_fern",
+    "dead_large_fern",
+    "dead_savanna_grass",
+    "dead_savanna_shrub",
+    "dead_cactus",
+    "frozen_dead_grass",
+    "frozen_dead_shrub"
+  ],
+  "worldgen_added": false,
+  "biome_tint": false,
+  "build": "passed",
+  "runtime_result_in_separate_file": true
+}

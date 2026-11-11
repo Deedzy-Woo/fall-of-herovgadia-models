@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "fallofherovgadia:block/dead_tall_grass_bottom"
+    },
+    "half=upper": {
+      "model": "fallofherovgadia:block/dead_tall_grass_top"
+    }
+  }
+}

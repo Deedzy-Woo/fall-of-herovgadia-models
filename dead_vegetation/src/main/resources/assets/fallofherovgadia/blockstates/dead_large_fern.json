@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "fallofherovgadia:block/dead_large_fern_bottom"
+    },
+    "half=upper": {
+      "model": "fallofherovgadia:block/dead_large_fern_top"
+    }
+  }
+}

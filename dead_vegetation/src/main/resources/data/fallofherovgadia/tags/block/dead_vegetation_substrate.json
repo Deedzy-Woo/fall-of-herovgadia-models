@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "minecraft:farmland",
+    {
+      "id": "fallofherovgadia:corrupted_soil",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+PASS: 10 blocks/items; all models loaded without tint; coarse-dirt placement; two-block halves and upper-break cleanup; no random ticks/BoneMeal interface.
+Corrupted soil absent in this checkout: optional substrate tag prepared; in-game placement on it not tested.
