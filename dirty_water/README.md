@@ -2,7 +2,7 @@
 
 Minecraft 1.21.1 / NeoForge 21.1.235 / Java 21.
 
-[Download ZIP](../downloads/dirty_water_visual_prototype.zip) · [Well screenshot](dirty-water-well.png) · [Flow comparison](dirty-water-flow.png) · [Bucket](dirty-water-bucket.png) · [Animated texture preview](texture-animation.gif)
+[Download ZIP](../downloads/dirty_water_visual_prototype.zip) · [Well screenshot](dirty-water-well.png) · [Flow comparison](dirty-water-flow.png) · [Vanilla bucket comparison](bucket-comparison.png) · [Animated texture preview](texture-animation.gif)
 
 [Подключение и описание](README_RU.md) · [Created files](CREATED_FILES.txt) · [Runtime checks](runtime-result.txt)
 

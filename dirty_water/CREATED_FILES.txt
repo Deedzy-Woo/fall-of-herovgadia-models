@@ -1,6 +1,8 @@
 CREATED_FILES.txt
+README.md
 README_RU.md
-dirty-water-bucket.png
+bucket-comparison.png
+bucket-verification.json
 dirty-water-flow.png
 dirty-water-overview.png
 dirty-water-well.png
@@ -22,6 +24,5 @@ src/main/resources/data/minecraft/tags/fluid/water.json
 texture-animation.gif
 textures-preview.png
 validation.json
-CREATED_FILES.txt
 
 Modified existing in project: src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java; assets/fallofherovgadia/lang/en_us.json; assets/fallofherovgadia/lang/ru_ru.json

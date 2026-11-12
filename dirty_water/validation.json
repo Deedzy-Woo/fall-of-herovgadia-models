@@ -45,5 +45,12 @@
     "block": "fallofherovgadia:dirty_water",
     "bucket": "fallofherovgadia:dirty_water_bucket"
   },
-  "runtime_checked": true
+  "runtime_checked": true,
+  "bucket_icon_revision": {
+    "base": "Minecraft 1.21.1 water_bucket.png",
+    "changed_liquid_pixels": 25,
+    "all_non_liquid_pixels_identical": true,
+    "alpha_identical": true,
+    "world_fluid_textures_unchanged": true
+  }
 }

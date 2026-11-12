@@ -4,4 +4,4 @@ BucketItem.emptyContents places source; LiquidBlock.pickupBlock returns dirty bu
 Identical vanilla-water/dirty-water basins: levels, source/falling flags and occupied positions match after settling.
 Source regeneration honors waterSourceConversion=true and false.
 Both animated sprites loaded with 16 frames; translucent source/flow layers; item model loaded, fixed tint.
-Screenshots: overview, well, inventory. No corrupted_soil or rotten logs registered in this checkout; used coarse dirt, vanilla oak and cobblestone for test scene.
+Screenshots retained: overview, well, flow. Current bucket icon uses vanilla water_bucket.png with liquid pixels recolored; see bucket-verification.json. Item model runtime check predates this icon-only revision. No corrupted_soil or rotten logs registered in this checkout; used coarse dirt, vanilla oak and cobblestone for test scene.
