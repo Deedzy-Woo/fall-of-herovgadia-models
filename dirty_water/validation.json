@@ -1,0 +1,49 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.235",
+  "build_success": true,
+  "textures": [
+    {
+      "name": "dirty_water_still",
+      "dimensions": [
+        16,
+        256
+      ],
+      "frame_dimensions": [
+        16,
+        16
+      ],
+      "frames": 16,
+      "alpha_range": [
+        166,
+        166
+      ],
+      "frametime": 3
+    },
+    {
+      "name": "dirty_water_flow",
+      "dimensions": [
+        32,
+        512
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 16,
+      "alpha_range": [
+        166,
+        166
+      ],
+      "frametime": 2
+    }
+  ],
+  "registered_ids": {
+    "fluid_type": "fallofherovgadia:dirty_water",
+    "source": "fallofherovgadia:dirty_water",
+    "flowing": "fallofherovgadia:flowing_dirty_water",
+    "block": "fallofherovgadia:dirty_water",
+    "bucket": "fallofherovgadia:dirty_water_bucket"
+  },
+  "runtime_checked": true
+}

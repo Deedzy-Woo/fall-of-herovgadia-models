@@ -1,0 +1,27 @@
+CREATED_FILES.txt
+README_RU.md
+dirty-water-bucket.png
+dirty-water-flow.png
+dirty-water-overview.png
+dirty-water-well.png
+integration.patch
+lang_additions/en_us.json
+lang_additions/ru_ru.json
+runtime-result.txt
+src/main/java/com/herovgad/fallofherovgadia/DirtyWater.java
+src/main/java/com/herovgad/fallofherovgadia/client/DirtyWaterClient.java
+src/main/resources/assets/fallofherovgadia/blockstates/dirty_water.json
+src/main/resources/assets/fallofherovgadia/models/block/dirty_water.json
+src/main/resources/assets/fallofherovgadia/models/item/dirty_water_bucket.json
+src/main/resources/assets/fallofherovgadia/textures/block/dirty_water_flow.png
+src/main/resources/assets/fallofherovgadia/textures/block/dirty_water_flow.png.mcmeta
+src/main/resources/assets/fallofherovgadia/textures/block/dirty_water_still.png
+src/main/resources/assets/fallofherovgadia/textures/block/dirty_water_still.png.mcmeta
+src/main/resources/assets/fallofherovgadia/textures/item/dirty_water_bucket.png
+src/main/resources/data/minecraft/tags/fluid/water.json
+texture-animation.gif
+textures-preview.png
+validation.json
+CREATED_FILES.txt
+
+Modified existing in project: src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java; assets/fallofherovgadia/lang/en_us.json; assets/fallofherovgadia/lang/ru_ru.json

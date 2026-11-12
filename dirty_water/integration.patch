@@ -1,0 +1,34 @@
+--- a/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/FallOfHerovgadia.java
+@@ -28,6 +28,7 @@
+         ModItems.ITEMS.register(modEventBus);
+         BrokenGlassBlocks.register(modEventBus);
+         DeadVegetation.register(modEventBus);
++        DirtyWater.register(modEventBus);
+         ModParticles.PARTICLES.register(modEventBus);
+         modEventBus.addListener(ModItems::addCreativeItems);
+ 
+--- a/src/main/resources/assets/fallofherovgadia/lang/en_us.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/en_us.json
+@@ -12,5 +12,8 @@
+   "block.fallofherovgadia.dead_savanna_shrub": "Dead Savanna Shrub",
+   "block.fallofherovgadia.dead_cactus": "Dead Cactus",
+   "block.fallofherovgadia.frozen_dead_grass": "Frozen Dead Grass",
+-  "block.fallofherovgadia.frozen_dead_shrub": "Frozen Dead Shrub"
++  "block.fallofherovgadia.frozen_dead_shrub": "Frozen Dead Shrub",
++  "fluid_type.fallofherovgadia.dirty_water": "Dirty Water",
++  "block.fallofherovgadia.dirty_water": "Dirty Water",
++  "item.fallofherovgadia.dirty_water_bucket": "Dirty Water Bucket"
+ }
+--- a/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
++++ b/src/main/resources/assets/fallofherovgadia/lang/ru_ru.json
+@@ -12,5 +12,8 @@
+   "block.fallofherovgadia.dead_savanna_shrub": "Сухой саванный куст",
+   "block.fallofherovgadia.dead_cactus": "Мёртвый кактус",
+   "block.fallofherovgadia.frozen_dead_grass": "Промёрзшая мёртвая трава",
+-  "block.fallofherovgadia.frozen_dead_shrub": "Промёрзший мёртвый куст"
++  "block.fallofherovgadia.frozen_dead_shrub": "Промёрзший мёртвый куст",
++  "fluid_type.fallofherovgadia.dirty_water": "Грязная вода",
++  "block.fallofherovgadia.dirty_water": "Грязная вода",
++  "item.fallofherovgadia.dirty_water_bucket": "Ведро грязной воды"
+ }

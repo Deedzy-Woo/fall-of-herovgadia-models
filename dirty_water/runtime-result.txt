@@ -1,0 +1,7 @@
+PASS
+Source/flowing are separate registered fluids, in water tag; water constants 5/4/1.
+BucketItem.emptyContents places source; LiquidBlock.pickupBlock returns dirty bucket; flowing fluid cannot be picked up. Vanilla bucket consumption helper returns empty bucket in survival.
+Identical vanilla-water/dirty-water basins: levels, source/falling flags and occupied positions match after settling.
+Source regeneration honors waterSourceConversion=true and false.
+Both animated sprites loaded with 16 frames; translucent source/flow layers; item model loaded, fixed tint.
+Screenshots: overview, well, inventory. No corrupted_soil or rotten logs registered in this checkout; used coarse dirt, vanilla oak and cobblestone for test scene.
