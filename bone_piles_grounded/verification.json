@@ -1,36 +1,44 @@
 {
   "small_bone_pile": {
-    "elements": 51,
-    "supported_rigid_units": 20,
-    "all_connected_to_ground": true,
-    "all_projected_centers_inside_contact_hulls": true,
-    "inter_unit_intersections": false,
-    "minimum_support_area_px2": 1.0869461414903938,
+    "changed_upper_bones": 3,
+    "changed_elements": 9,
+    "total_elements": 51,
+    "unchanged_lower_heap_and_skulls": true,
+    "no_intersections_between_bones": true,
+    "oriented_contacts_verified": true,
+    "contact_tolerance_px": 0.025,
+    "textures_uv_dimensions_unchanged": true,
+    "tilt_range_degrees": [
+      16.52359447376863,
+      21.24868644981816
+    ],
     "bounds": [
       [
-        0.7211077050922565,
+        0.2921046130053244,
         0.004999999999999838,
         0.3945748477764186
       ],
       [
         15.678522576615205,
-        4.741651999999998,
+        5.488187183924448,
         15.10604329917449
       ]
     ],
-    "textures_uv_dimensions_unchanged": true,
-    "blockbench_bounds_error_px": 9.536743122984248e-08,
-    "skull_count": 1,
-    "all_open_undersides_face_down": true,
-    "all_bone_elements_unchanged": true
+    "blockbench_bounds_error_px": 9.536743122984248e-08
   },
   "medium_bone_pile": {
-    "elements": 110,
-    "supported_rigid_units": 44,
-    "all_connected_to_ground": true,
-    "all_projected_centers_inside_contact_hulls": true,
-    "inter_unit_intersections": false,
-    "minimum_support_area_px2": 0.3840548846303804,
+    "changed_upper_bones": 7,
+    "changed_elements": 21,
+    "total_elements": 110,
+    "unchanged_lower_heap_and_skulls": true,
+    "no_intersections_between_bones": true,
+    "oriented_contacts_verified": true,
+    "contact_tolerance_px": 0.025,
+    "textures_uv_dimensions_unchanged": true,
+    "tilt_range_degrees": [
+      8.555528034641396,
+      33.21422787627754
+    ],
     "bounds": [
       [
         1.6950556279256843,
@@ -39,23 +47,25 @@
       ],
       [
         19.839148664279783,
-        7.733748000000002,
+        9.665562814087266,
         19.592210169173374
       ]
     ],
-    "textures_uv_dimensions_unchanged": true,
-    "blockbench_bounds_error_px": 1.0890271795460649e-07,
-    "skull_count": 2,
-    "all_open_undersides_face_down": true,
-    "all_bone_elements_unchanged": true
+    "blockbench_bounds_error_px": 1.0890271795460649e-07
   },
   "large_bone_pile": {
-    "elements": 289,
-    "supported_rigid_units": 116,
-    "all_connected_to_ground": true,
-    "all_projected_centers_inside_contact_hulls": true,
-    "inter_unit_intersections": false,
-    "minimum_support_area_px2": 0.166460495083129,
+    "changed_upper_bones": 12,
+    "changed_elements": 36,
+    "total_elements": 289,
+    "unchanged_lower_heap_and_skulls": true,
+    "no_intersections_between_bones": true,
+    "oriented_contacts_verified": true,
+    "contact_tolerance_px": 0.025,
+    "textures_uv_dimensions_unchanged": true,
+    "tilt_range_degrees": [
+      9.224878805004861,
+      36.44909756538395
+    ],
     "bounds": [
       [
         1.3496495023364488,
@@ -64,15 +74,11 @@
       ],
       [
         31.08482815339532,
-        11.375124,
-        30.169888888885158
+        11.711412202821188,
+        31.093064036104575
       ]
     ],
-    "textures_uv_dimensions_unchanged": true,
-    "blockbench_bounds_error_px": 1.0739100275714009e-07,
-    "skull_count": 5,
-    "all_open_undersides_face_down": true,
-    "all_bone_elements_unchanged": true
+    "blockbench_bounds_error_px": 1.0739100275714009e-07
   },
   "sitting_skeleton": {
     "unchanged_byte_for_byte": true

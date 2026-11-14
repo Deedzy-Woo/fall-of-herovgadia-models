@@ -1,7 +1,5 @@
-# Bone piles — grounded arrangement
+# Bone piles — mounded upper layers
 
 [Download Blockbench ZIP](../downloads/bone_piles_grounded_blockbench.zip) · [New models](previews/overview.png) · [Before / after](previews/before_after.png) · [Описание](README_RU.md)
 
-Rearranges the existing three piles into supported assemblies. All original elements, UV, textures and dimensions preserved. The three skeleton projects are copied unchanged from the preceding revision. No Java or game exports.
-
-Skull orientation update: all eight open undersides now face down. Bone geometry, textures, UV and skeleton models unchanged.
+Local adjustment of 22 upper bones into inclined, supported slopes. Lower bones, all skull poses and all textures unchanged. No removed details or new geometry. Skeleton projects unchanged. No Java or game exports.

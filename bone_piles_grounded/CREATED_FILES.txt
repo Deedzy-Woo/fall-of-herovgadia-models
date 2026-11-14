@@ -8,6 +8,7 @@ blockbench/lying_skeleton.bbmodel
 blockbench/medium_bone_pile.bbmodel
 blockbench/sitting_skeleton.bbmodel
 blockbench/small_bone_pile.bbmodel
+mound-validation.json
 previews/before_after.png
 previews/large_bone_pile_after.png
 previews/large_bone_pile_after_side.png
