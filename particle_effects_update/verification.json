@@ -1,0 +1,30 @@
+{
+  "changed_files": [
+    "src/main/resources/assets/fallofherovgadia/particles/corrupted_soil_vapor.json",
+    "src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_soil_vapor_3.png",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_soil_vapor_4.png",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_soil_vapor_1.png",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_soil_vapor_0.png",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_soil_vapor_2.png",
+    "src/main/resources/assets/fallofherovgadia/textures/particle/corrupted_hay_fly_dot.png",
+    "src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java",
+    "src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVaporParticle.java",
+    "src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVapor.java",
+    "src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedParticleBudget.java",
+    "src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java"
+  ],
+  "block_textures_models_registration_and_properties_unchanged": true,
+  "original_archives": {
+    "corrupted_soil_blockbench_animated.zip": "c07968a3e515a6e8cc991b8ed600fc9b14d3d440d9ce2bf9578826b7cd870748",
+    "corrupted_hay_bale_animated_flies.zip": "f59a4240320d19f206ba9601102ad5894dc7b246684ef173bc8dbacdb24be455"
+  },
+  "new_particle_types": false,
+  "new_blocks_in_production": false,
+  "build_success": true,
+  "runtime_complete": true,
+  "dedicated_server_complete": true,
+  "visual_rerun_complete": true,
+  "fly_collision_positions_sampled": true,
+  "original_archive_hashes_match_uploads": true
+}

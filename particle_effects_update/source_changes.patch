@@ -1,0 +1,437 @@
+--- a/src/main/resources/assets/fallofherovgadia/particles/corrupted_soil_vapor.json
++++ b/src/main/resources/assets/fallofherovgadia/particles/corrupted_soil_vapor.json
+@@ -1,5 +1,9 @@
+ {
+   "textures": [
+-    "fallofherovgadia:corrupted_soil_vapor"
++    "fallofherovgadia:corrupted_soil_vapor_0",
++    "fallofherovgadia:corrupted_soil_vapor_1",
++    "fallofherovgadia:corrupted_soil_vapor_2",
++    "fallofherovgadia:corrupted_soil_vapor_3",
++    "fallofherovgadia:corrupted_soil_vapor_4"
+   ]
+ }
+--- a/src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json
++++ b/src/main/resources/assets/fallofherovgadia/particles/corrupted_hay_fly.json
+@@ -1,5 +1,5 @@
+ {
+   "textures": [
+-    "fallofherovgadia:corrupted_hay_fly"
++    "fallofherovgadia:corrupted_hay_fly_dot"
+   ]
+ }
+--- a/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/block/CorruptedHayFlyEmitter.java
+@@ -12,9 +12,9 @@
+ 
+ /** Runs from client animateTick only. No client classes are referenced by this common hook. */
+ public final class CorruptedHayFlyEmitter {
+-    public static final int MIN_INTERVAL_TICKS = 80;
+-    public static final int MAX_INTERVAL_TICKS = 180;
+-    public static final int CELL_COOLDOWN_TICKS = 35;
++    public static final int MIN_INTERVAL_TICKS = 9;
++    public static final int MAX_INTERVAL_TICKS = 19;
++    public static final int CELL_COOLDOWN_TICKS = 7;
+     private static final int MAX_ENTRIES = 2048;
+     private static final Direction[] SURFACES = {Direction.UP, Direction.NORTH, Direction.SOUTH, Direction.EAST, Direction.WEST};
+     private static final Map<Level, Schedule> SCHEDULES = new WeakHashMap<>();
+@@ -23,12 +23,12 @@
+ 
+     public static void animateTick(Level level, BlockPos pos, RandomSource random) {
+         if (!level.isClientSide || level.getNearestPlayer(pos.getX() + 0.5, pos.getY() + 0.5,
+-                pos.getZ() + 0.5, 32.0, false) == null) return;
++                pos.getZ() + 0.5, 18.0, false) == null) return;
+         Schedule schedule = SCHEDULES.computeIfAbsent(level, ignored -> new Schedule());
+         long now = level.getGameTime(), key = pos.asLong();
+         Long due = schedule.blocks.get(key);
+         if (due == null) {
+-            schedule.blocks.put(key, now + interval(random));
++            schedule.blocks.put(key, now + random.nextInt(12));
+             return;
+         }
+         if (now < due) return;
+--- a/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVaporParticle.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVaporParticle.java
+@@ -1,65 +1,44 @@
+ package com.herovgad.fallofherovgadia.client.particle;
+ 
+ import net.minecraft.client.multiplayer.ClientLevel;
+-import net.minecraft.client.particle.Particle;
+-import net.minecraft.client.particle.ParticleProvider;
+-import net.minecraft.client.particle.ParticleRenderType;
+-import net.minecraft.client.particle.SpriteSet;
+-import net.minecraft.client.particle.TextureSheetParticle;
+-import net.minecraft.core.particles.SimpleParticleType;
++import net.minecraft.client.particle.*;
++import net.minecraft.core.particles.*;
++import java.util.Optional;
+ 
+ public final class CorruptedSoilVaporParticle extends TextureSheetParticle {
+-    public static final float MIN_ALPHA = 0.18F;
+-    public static final float MAX_ALPHA = 0.25F;
+-    public static final double MIN_RISE_SPEED = 0.005;
+-    public static final double MAX_RISE_SPEED = 0.015;
+-    private final float initialAlpha;
+-    private final double startY;
+-
+-    private CorruptedSoilVaporParticle(ClientLevel level, double x, double y, double z,
+-                                       double driftX, double rise, double driftZ, SpriteSet sprites) {
+-        super(level, x, y, z);
+-        startY = y;
+-        lifetime = 20 + random.nextInt(21);
+-        gravity = 0.0F;
+-        friction = 1.0F;
+-        hasPhysics = true;
+-        setSize(0.06F, 0.06F);
+-        // These replace any velocity defaults; no random smoke acceleration.
+-        xd = Math.clamp(driftX, -0.002, 0.002);
+-        yd = Math.clamp(rise, MIN_RISE_SPEED, MAX_RISE_SPEED);
+-        zd = Math.clamp(driftZ, -0.002, 0.002);
+-        quadSize = 0.06F + random.nextFloat() * 0.05F;
+-        initialAlpha = MIN_ALPHA + random.nextFloat() * (MAX_ALPHA - MIN_ALPHA);
+-        alpha = 0.0F;
+-        pickSprite(sprites);
++    public static final float MIN_ALPHA=0.48F, MAX_ALPHA=0.60F;
++    public static final double MIN_RISE_SPEED=0.007, MAX_RISE_SPEED=0.012;
++    private static final ParticleGroup GROUP=new ParticleGroup(CorruptedParticleBudget.VAPOR_LIMIT);
++    private final float initialAlpha, initialSize;
++    private final double startY, rise, driftX, driftZ, phase;
++    private CorruptedSoilVaporParticle(ClientLevel level,double x,double y,double z,double dx,double dy,double dz,SpriteSet sprites) {
++        super(level,x,y,z);startY=y;lifetime=72+random.nextInt(37);
++        gravity=0;friction=1;hasPhysics=true;setSize(0.06F,0.06F);
++        driftX=Math.clamp(dx,-0.0025,0.0025);driftZ=Math.clamp(dz,-0.0025,0.0025);
++        rise=Math.clamp(dy,MIN_RISE_SPEED,MAX_RISE_SPEED);phase=random.nextDouble()*Math.PI*2;
++        initialSize=0.24F+random.nextFloat()*0.12F;quadSize=initialSize;
++        initialAlpha=MIN_ALPHA+random.nextFloat()*(MAX_ALPHA-MIN_ALPHA);alpha=0;
++        pickSprite(sprites); // one of five distinct silhouettes, stable for its whole life
+     }
+-
+-    @Override
+-    public void tick() {
+-        super.tick(); // Vanilla collision against nearby block shapes; no world scan.
+-        if (!isAlive()) return;
+-        float progress = (float) age / lifetime;
+-        float fadeIn = Math.min(1.0F, age / 4.0F);
+-        // Vanilla particle.fsh discards alpha < 0.1. Preserve a faint visible center
+-        // before fading below that threshold near the end of the lifetime.
+-        alpha = initialAlpha * fadeIn * (1.0F - progress * progress);
+-        if (y - startY >= 0.8 || (age > 2 && y == yo)) remove();
++    @Override public void tick() {
++        float progress=(float)age/lifetime;
++        xd=driftX+Math.sin(phase+age*0.16)*0.0025;
++        zd=driftZ+Math.cos(phase*1.3+age*0.13)*0.002;
++        yd=rise*(0.88+0.12*Math.sin(phase+age*0.09))*(1-progress*0.2);
++        super.tick();if(!isAlive())return;
++        float fadeIn=Math.min(1,age/8F),fadeOut=Math.min(1,(lifetime-age)/26F);
++        alpha=initialAlpha*fadeIn*fadeOut;
++        quadSize=initialSize*(1+0.3F*progress);
++        if(y-startY>1.4 || age>8 && y==yo)remove();
+     }
+-
+-    @Override
+-    public ParticleRenderType getRenderType() {
+-        return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+-    }
+-
++    @Override public ParticleRenderType getRenderType(){return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;}
++    @Override public Optional<ParticleGroup> getParticleGroup(){return Optional.of(GROUP);}
+     public static final class Provider implements ParticleProvider<SimpleParticleType> {
+         private final SpriteSet sprites;
+-        public Provider(SpriteSet sprites) { this.sprites = sprites; }
+-
+-        @Override
+-        public Particle createParticle(SimpleParticleType type, ClientLevel level,
+-                                       double x, double y, double z, double xd, double yd, double zd) {
+-            return new CorruptedSoilVaporParticle(level, x, y, z, xd, yd, zd, sprites);
++        public Provider(SpriteSet sprites){this.sprites=sprites;}
++        @Override public Particle createParticle(SimpleParticleType t,ClientLevel l,double x,double y,double z,double dx,double dy,double dz){
++            if(!CorruptedParticleBudget.allow(l,x,y,z,false))return null;
++            var p=new CorruptedSoilVaporParticle(l,x,y,z,dx,dy,dz,sprites);CorruptedParticleBudget.track(l,p,false);return p;
+         }
+     }
+ }
+--- a/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVapor.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedSoilVapor.java
+@@ -1,77 +1,76 @@
+ package com.herovgad.fallofherovgadia.client.particle;
+ 
+-import com.herovgad.fallofherovgadia.FallOfHerovgadia;
+-import com.herovgad.fallofherovgadia.ModParticles;
++import com.herovgad.fallofherovgadia.*;
++import net.minecraft.client.Minecraft;
++import net.minecraft.client.ParticleStatus;
+ import net.minecraft.client.multiplayer.ClientLevel;
+ import net.minecraft.core.BlockPos;
+ import net.minecraft.core.registries.BuiltInRegistries;
+ import net.minecraft.resources.ResourceLocation;
+ import net.minecraft.util.RandomSource;
+ import net.minecraft.world.level.block.state.BlockState;
++import net.neoforged.api.distmarker.Dist;
++import net.neoforged.bus.api.SubscribeEvent;
++import net.neoforged.fml.common.EventBusSubscriber;
++import net.neoforged.neoforge.client.event.ClientTickEvent;
++import java.util.*;
+ 
+-import java.util.LinkedHashMap;
+-import java.util.Map;
+-import java.util.WeakHashMap;
++/** Existing emitter, now usable without editing the common soil block class. */
++@EventBusSubscriber(modid=FallOfHerovgadia.MODID,value=Dist.CLIENT)
++public final class CorruptedSoilVapor {
++    public static final int MIN_INTERVAL_TICKS=32,MAX_INTERVAL_TICKS=52,CELL_COOLDOWN_TICKS=16;
++    public static final int DISCOVERY_CHECKS_PER_TICK=256;
++    private static final int MAX_TRACKED_POSITIONS=1024;
++    private static final ResourceLocation SOIL=ResourceLocation.fromNamespaceAndPath(FallOfHerovgadia.MODID,"corrupted_soil");
++    private static final Map<ClientLevel,State> STATES=new WeakHashMap<>();
++    private static final int[] D={-1,0,1};
+ 
+-/** Client-only hook for the future corrupted soil block's animateTick method. */
+-public final class CorruptedSoilVapor {
+-    public static final int MIN_INTERVAL_TICKS = 100;
+-    public static final int MAX_INTERVAL_TICKS = 240;
+-    public static final int CELL_COOLDOWN_TICKS = 40;
+-    private static final int MAX_TRACKED_POSITIONS = 4096;
+-    private static final ResourceLocation SOIL =
+-            ResourceLocation.fromNamespaceAndPath(FallOfHerovgadia.MODID, "corrupted_soil");
+-    private static final Map<ClientLevel, State> STATES = new WeakHashMap<>();
+-
+-    private CorruptedSoilVapor() {}
+-
+-    public static void animateTick(BlockState state, ClientLevel level, BlockPos pos, RandomSource random) {
+-        if (!SOIL.equals(BuiltInRegistries.BLOCK.getKey(state.getBlock()))) return;
+-        BlockPos above = pos.above();
+-        BlockState cover = level.getBlockState(above);
+-        if (cover.isSolidRender(level, above) || !level.getFluidState(above).isEmpty()) return;
+-        State schedule = STATES.computeIfAbsent(level, ignored -> new State());
+-        long now = level.getGameTime();
+-        long key = pos.asLong();
+-        Long due = schedule.blocks.get(key);
+-        if (due == null) {
+-            schedule.blocks.put(key, now + interval(random));
+-            return;
++    @SubscribeEvent public static void clientTick(ClientTickEvent.Post event){
++        var mc=Minecraft.getInstance();var level=mc.level;
++        if(level==null||mc.isPaused()||mc.options.particles().get()==ParticleStatus.MINIMAL)return;
++        var soil=BuiltInRegistries.BLOCK.getOptional(SOIL).orElse(null);if(soil==null)return;
++        var schedule=STATES.computeIfAbsent(level,l->new State());
++        var camera=mc.gameRenderer.getMainCamera().getPosition();var center=BlockPos.containing(camera);
++        // Fixed discovery work: never scan the complete field every frame or force chunk loads.
++        for(int i=0;i<DISCOVERY_CHECKS_PER_TICK;i++){
++            int n=schedule.cursor++%(41*41*13);if(schedule.cursor>=41*41*13)schedule.cursor=0;
++            var p=center.offset(n%41-20,n/(41*41)-8,n/41%41-20);
++            if(level.hasChunkAt(p)&&level.getBlockState(p).is(soil)){
++                schedule.blocks.putIfAbsent(p.asLong(),level.getGameTime()+level.random.nextInt(18));
++            }
+         }
+-        if (now < due) return;
+-        schedule.blocks.put(key, now + interval(random));
+-        // One particle per 4x4x4 spatial cell per two seconds, even across chunk edges.
+-        long cell = BlockPos.asLong(Math.floorDiv(pos.getX(), 4),
+-                Math.floorDiv(pos.getY(), 4), Math.floorDiv(pos.getZ(), 4));
+-        if (now < schedule.cells.getOrDefault(cell, Long.MIN_VALUE)) return;
+-        double x = pos.getX() + 0.1 + random.nextDouble() * 0.8;
+-        double y = pos.getY() + 1.06;
+-        double z = pos.getZ() + 0.1 + random.nextDouble() * 0.8;
+-        // Avoid starting inside a slab/other collision shape above the soil.
+-        if (cover.getCollisionShape(level, above).toAabbs().stream()
+-                .anyMatch(box -> box.inflate(0.04).contains(x - above.getX(), y - above.getY(), z - above.getZ()))) return;
+-        schedule.cells.put(cell, now + CELL_COOLDOWN_TICKS);
+-        double rise = CorruptedSoilVaporParticle.MIN_RISE_SPEED + random.nextDouble()
+-                * (CorruptedSoilVaporParticle.MAX_RISE_SPEED - CorruptedSoilVaporParticle.MIN_RISE_SPEED);
+-        level.addParticle(ModParticles.CORRUPTED_SOIL_VAPOR.get(), x, y, z,
+-                (random.nextDouble() - 0.5) * 0.003, rise, (random.nextDouble() - 0.5) * 0.003);
++        for(long key:new ArrayList<>(schedule.blocks.keySet())){
++            var pos=BlockPos.of(key);
++            if(pos.distToCenterSqr(camera.x,camera.y,camera.z)>24*24||!level.hasChunkAt(pos)||!level.getBlockState(pos).is(soil)){schedule.blocks.remove(key);continue;}
++            animateTick(level.getBlockState(pos),level,pos,level.random);
++        }
+     }
+-
+-    private static int interval(RandomSource random) {
+-        return MIN_INTERVAL_TICKS + random.nextInt(MAX_INTERVAL_TICKS - MIN_INTERVAL_TICKS + 1);
++    public static void animateTick(BlockState state,ClientLevel level,BlockPos pos,RandomSource random){
++        if(!SOIL.equals(BuiltInRegistries.BLOCK.getKey(state.getBlock())))return;
++        var mc=Minecraft.getInstance();if(mc.options.particles().get()==ParticleStatus.MINIMAL)return;
++        var camera=mc.gameRenderer.getMainCamera().getPosition();double distance=pos.distToCenterSqr(camera.x,camera.y,camera.z);if(distance>24*24)return;
++        var above=pos.above();var cover=level.getBlockState(above);
++        if(cover.isSolidRender(level,above)||!level.getFluidState(above).isEmpty())return;
++        var schedule=STATES.computeIfAbsent(level,l->new State());long now=level.getGameTime(),key=pos.asLong();
++        Long due=schedule.blocks.get(key);if(due==null){schedule.blocks.put(key,now+random.nextInt(18));return;}
++        if(now<due)return;
++        int neighbors=0;
++        for(int dx:D)for(int dz:D)if((dx!=0||dz!=0)&&level.getBlockState(pos.offset(dx,0,dz)).is(state.getBlock()))neighbors++;
++        int interval=MIN_INTERVAL_TICKS+random.nextInt(MAX_INTERVAL_TICKS-MIN_INTERVAL_TICKS+1);
++        if(neighbors>1)interval*=2;if(distance>12*12)interval*=2;
++        if(mc.options.particles().get()==ParticleStatus.DECREASED)interval*=2;
++        schedule.blocks.put(key,now+interval);
++        long cell=BlockPos.asLong(Math.floorDiv(pos.getX(),4),Math.floorDiv(pos.getY(),4),Math.floorDiv(pos.getZ(),4));
++        if(now<schedule.cells.getOrDefault(cell,Long.MIN_VALUE))return;
++        double x=pos.getX()+0.12+random.nextDouble()*0.76,y=pos.getY()+1.06,z=pos.getZ()+0.12+random.nextDouble()*0.76;
++        if(cover.getCollisionShape(level,above).toAabbs().stream().anyMatch(b->b.inflate(0.04).contains(x-above.getX(),y-above.getY(),z-above.getZ())))return;
++        schedule.cells.put(cell,now+CELL_COOLDOWN_TICKS*(distance>12*12?2:1));
++        double rise=CorruptedSoilVaporParticle.MIN_RISE_SPEED+random.nextDouble()*(CorruptedSoilVaporParticle.MAX_RISE_SPEED-CorruptedSoilVaporParticle.MIN_RISE_SPEED);
++        level.addParticle(ModParticles.CORRUPTED_SOIL_VAPOR.get(),x,y,z,(random.nextDouble()-0.5)*0.004,rise,(random.nextDouble()-0.5)*0.004);
+     }
+-
+-    private static Map<Long, Long> boundedMap() {
+-        return new LinkedHashMap<>() {
+-            @Override
+-            protected boolean removeEldestEntry(Map.Entry<Long, Long> eldest) {
+-                return size() > MAX_TRACKED_POSITIONS;
+-            }
+-        };
+-    }
+-
+-    private static final class State {
+-        final Map<Long, Long> blocks = boundedMap();
+-        final Map<Long, Long> cells = boundedMap();
+-    }
++    private static Map<Long,Long> boundedMap(){return new LinkedHashMap<>(){
++        @Override protected boolean removeEldestEntry(Map.Entry<Long,Long> e){return size()>MAX_TRACKED_POSITIONS;}
++    };}
++    private static final class State {int cursor;final Map<Long,Long> blocks=boundedMap(),cells=boundedMap();}
++    private CorruptedSoilVapor(){}
+ }
+--- /dev/null
++++ b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedParticleBudget.java
+@@ -0,0 +1,37 @@
++package com.herovgad.fallofherovgadia.client.particle;
++
++import net.minecraft.client.Minecraft;
++import net.minecraft.client.ParticleStatus;
++import net.minecraft.client.multiplayer.ClientLevel;
++import net.minecraft.client.particle.Particle;
++import java.lang.ref.WeakReference;
++import java.util.*;
++
++/** Shared admission limits, not a second emitter. Only existing providers call this. */
++final class CorruptedParticleBudget {
++    static final int VAPOR_LIMIT = 64, FLY_LIMIT = 24;
++    private record Live(WeakReference<Particle> particle, boolean fly) {}
++    private static final Map<ClientLevel, List<Live>> LIVE = new WeakHashMap<>();
++    static boolean allow(ClientLevel level, double x, double y, double z, boolean fly) {
++        var mc = Minecraft.getInstance();
++        if (mc.options.particles().get() == ParticleStatus.MINIMAL) return false;
++        var camera = mc.gameRenderer.getMainCamera().getPosition();
++        if (camera.distanceToSqr(x,y,z) > (fly ? 18*18 : 24*24)) return false;
++        var live = LIVE.computeIfAbsent(level, l -> new ArrayList<>());
++        live.removeIf(e -> { var p=e.particle.get(); return p==null || !p.isAlive(); });
++        int total=0, near=0, cluster=0;
++        for (var e : live) {
++            var p=e.particle.get(); if(p==null || e.fly!=fly) continue;
++            total++; double d=p.getPos().distanceToSqr(x,y,z);
++            if(d < (fly ? 2.1*2.1 : 1.3*1.3)) near++;
++            if(d < 4*4) cluster++;
++        }
++        int limit=fly ? FLY_LIMIT : VAPOR_LIMIT;
++        if(mc.options.particles().get()==ParticleStatus.DECREASED) limit/=2;
++        return total<limit && near<(fly?5:4) && cluster<(fly?10:9);
++    }
++    static void track(ClientLevel level, Particle p, boolean fly) {
++        LIVE.computeIfAbsent(level,l->new ArrayList<>()).add(new Live(new WeakReference<>(p),fly));
++    }
++    private CorruptedParticleBudget() {}
++}
+--- a/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java
++++ b/src/main/java/com/herovgad/fallofherovgadia/client/particle/CorruptedHayFlyParticle.java
+@@ -1,64 +1,48 @@
+ package com.herovgad.fallofherovgadia.client.particle;
+ 
+ import net.minecraft.client.multiplayer.ClientLevel;
+-import net.minecraft.client.particle.Particle;
+-import net.minecraft.client.particle.ParticleProvider;
+-import net.minecraft.client.particle.ParticleRenderType;
+-import net.minecraft.client.particle.SpriteSet;
+-import net.minecraft.client.particle.TextureSheetParticle;
+-import net.minecraft.core.particles.ParticleGroup;
+-import net.minecraft.core.particles.SimpleParticleType;
+-
++import net.minecraft.client.particle.*;
++import net.minecraft.core.particles.*;
+ import java.util.Optional;
+ 
+ public final class CorruptedHayFlyParticle extends TextureSheetParticle {
+-    public static final int GLOBAL_LIMIT = 8;
+-    private static final ParticleGroup GROUP = new ParticleGroup(GLOBAL_LIMIT);
+-    private final double anchorX, anchorY, anchorZ;
+-    private double targetX, targetY, targetZ;
+-    private int retarget;
+-
+-    private CorruptedHayFlyParticle(ClientLevel level, double x, double y, double z, SpriteSet sprites) {
+-        super(level, x, y, z);
+-        anchorX = x; anchorY = y; anchorZ = z;
+-        lifetime = 60 + random.nextInt(41);
+-        quadSize = 0.025F + random.nextFloat() * 0.015F;
+-        gravity = 0; friction = 0.86F; hasPhysics = true;
+-        setSize(0.025F, 0.025F);
+-        pickSprite(sprites);
+-        chooseTarget();
++    public static final int GLOBAL_LIMIT=CorruptedParticleBudget.FLY_LIMIT;
++    private static final ParticleGroup GROUP=new ParticleGroup(GLOBAL_LIMIT);
++    private final double anchorX,anchorY,anchorZ;
++    private double targetX,targetY,targetZ;
++    private int retarget,hover,stuck;
++    private CorruptedHayFlyParticle(ClientLevel level,double x,double y,double z,SpriteSet sprites){
++        super(level,x,y,z);anchorX=x;anchorY=y;anchorZ=z;
++        lifetime=70+random.nextInt(51);quadSize=0.018F+random.nextFloat()*0.008F;
++        gravity=0;friction=0.72F;hasPhysics=true;setSize(0.02F,0.02F);
++        pickSprite(sprites);chooseTarget();
+     }
+-
+-    private void chooseTarget() {
+-        targetX = anchorX + (random.nextDouble() - 0.5) * 0.85;
+-        targetY = anchorY + (random.nextDouble() - 0.5) * 0.55;
+-        targetZ = anchorZ + (random.nextDouble() - 0.5) * 0.85;
+-        retarget = 6 + random.nextInt(8);
++    private void chooseTarget(){
++        targetX=anchorX+(random.nextDouble()-0.5)*0.95;
++        targetY=anchorY+(random.nextDouble()-0.5)*0.65;
++        targetZ=anchorZ+(random.nextDouble()-0.5)*0.95;
++        retarget=4+random.nextInt(10);hover=random.nextInt(4)==0?3+random.nextInt(6):0;
+     }
+-
+-    @Override
+-    public void tick() {
+-        if (--retarget <= 0) chooseTarget();
+-        // Small, changing steering impulses; no autonomous mob/entity or AI.
+-        xd = Math.clamp(xd + (targetX - x) * 0.025, -0.035, 0.035);
+-        yd = Math.clamp(yd + (targetY - y) * 0.025, -0.025, 0.025);
+-        zd = Math.clamp(zd + (targetZ - z) * 0.025, -0.035, 0.035);
+-        super.tick();
+-        if (!isAlive()) return;
+-        // A vanilla collision can stop a particle; retire it instead of leaving a stuck insect.
+-        if (age > 3 && x == xo && y == yo && z == zo) { remove(); return; }
+-        alpha = Math.min(1.0F, Math.min(age / 4.0F, (lifetime - age) / 8.0F));
++    @Override public void tick(){
++        if(--retarget<=0)chooseTarget();
++        if(hover-->0){xd*=0.45;yd*=0.45;zd*=0.45;}
++        else {
++            xd=Math.clamp(xd+(targetX-x)*0.09,-0.055,0.055);
++            yd=Math.clamp(yd+(targetY-y)*0.08,-0.04,0.04);
++            zd=Math.clamp(zd+(targetZ-z)*0.09,-0.055,0.055);
++        }
++        super.tick();if(!isAlive())return;
++        if(x==xo&&y==yo&&z==zo){if(++stuck>8){remove();return;}}else stuck=0;
++        if(Math.abs(x-anchorX)>0.7||Math.abs(z-anchorZ)>0.7||Math.abs(y-anchorY)>0.5){remove();return;}
++        alpha=Math.min(1,Math.min(age/3F,(lifetime-age)/7F));
+     }
+-
+-    @Override public ParticleRenderType getRenderType() { return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT; }
+-    @Override public Optional<ParticleGroup> getParticleGroup() { return Optional.of(GROUP); }
+-
+-    public static final class Provider implements ParticleProvider<SimpleParticleType> {
+-        private final SpriteSet sprites;
+-        public Provider(SpriteSet sprites) { this.sprites = sprites; }
+-        @Override public Particle createParticle(SimpleParticleType type, ClientLevel level,
+-                double x, double y, double z, double xd, double yd, double zd) {
+-            return new CorruptedHayFlyParticle(level, x, y, z, sprites);
++    @Override public ParticleRenderType getRenderType(){return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;}
++    @Override public Optional<ParticleGroup> getParticleGroup(){return Optional.of(GROUP);}
++    public static final class Provider implements ParticleProvider<SimpleParticleType>{
++        private final SpriteSet sprites;public Provider(SpriteSet sprites){this.sprites=sprites;}
++        @Override public Particle createParticle(SimpleParticleType t,ClientLevel l,double x,double y,double z,double dx,double dy,double dz){
++            if(!CorruptedParticleBudget.allow(l,x,y,z,true))return null;
++            var p=new CorruptedHayFlyParticle(l,x,y,z,sprites);CorruptedParticleBudget.track(l,p,true);return p;
+         }
+     }
+ }

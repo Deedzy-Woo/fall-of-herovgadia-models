@@ -1,0 +1,1 @@
+PASS: dedicated NeoForge server started; both existing particle types registered; common hay hook returns safely on server; no client class loading failure; no test soil block registered.

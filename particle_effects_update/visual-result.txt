@@ -1,0 +1,6 @@
+PASS
+soil_single_day: vapor max=3, flies max=0, nonzero ticks=170/0, observation ms=14416
+soil_20x20: vapor max=64, flies max=0, nonzero ticks=170/0, observation ms=14942
+soil_single_night: vapor max=3, flies max=0, nonzero ticks=170/0, observation ms=14896
+global observed maxima=64/0
+Soil is a development-only fixture using archive block PNGs. Hay is the unchanged production block. No performance claim for a user's GPU; software-rendered test only.

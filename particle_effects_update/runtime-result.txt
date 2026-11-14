@@ -1,0 +1,14 @@
+PASS
+soil_single_day: vapor max=3, flies max=0, nonzero ticks=310/0, observation ms=21670
+soil_3x3: vapor max=8, flies max=0, nonzero ticks=310/0, observation ms=21949
+soil_10x10: vapor max=30, flies max=0, nonzero ticks=310/0, observation ms=21950
+soil_20x20: vapor max=64, flies max=0, nonzero ticks=310/0, observation ms=21941
+soil_single_night: vapor max=3, flies max=0, nonzero ticks=310/0, observation ms=21912
+hay_single: vapor max=0, flies max=5, nonzero ticks=0/310, observation ms=21948
+hay_three: vapor max=0, flies max=9, nonzero ticks=0/310, observation ms=21954
+hay_pile18: vapor max=0, flies max=12, nonzero ticks=0/310, observation ms=21946
+minimal: vapor max=0, flies max=0, nonzero ticks=0/0, observation ms=21950
+decreased: vapor max=16, flies max=7, nonzero ticks=281/310, observation ms=21946
+covered: vapor max=0, flies max=0, nonzero ticks=0/0, observation ms=21949
+global observed maxima=64/12
+Soil is a development-only fixture using archive block PNGs. Hay is the unchanged production block. No performance claim for a user's GPU; software-rendered test only.

@@ -1,0 +1,32 @@
+{
+  "vapor_frames": [
+    {
+      "original_file": "originals/vapor_shape_0_fade_02.png",
+      "sha256": "aba6ac6fe7c16fc66ad361731413747b2b0694ad24a6955e26b60989ae358fbd"
+    },
+    {
+      "original_file": "originals/vapor_shape_1_fade_02.png",
+      "sha256": "21ce945a8364837381e825b8551028092959f7f2a937b00dd19597f09324a838"
+    },
+    {
+      "original_file": "originals/vapor_shape_2_fade_02.png",
+      "sha256": "675842d6c58eeb8b74208fc14a01f5290d3df33588df6dd23866de1f1ef243c3"
+    },
+    {
+      "original_file": "originals/vapor_shape_3_fade_02.png",
+      "sha256": "8d9bff914fa6d2607a4f70522e9f1668f0e0407425ccdb9d12e0a1498f7fd7ed"
+    },
+    {
+      "original_file": "originals/vapor_shape_4_fade_02.png",
+      "sha256": "677e2a302d44e98030fbc189d7a77c989eebc033048f09a6da45343a0f559397"
+    }
+  ],
+  "fly_originals_preserved": [
+    "hay_fly_wings_0.png",
+    "hay_fly_wings_1.png",
+    "hay_fly_wings_2.png",
+    "hay_fly_wings_3.png"
+  ],
+  "new_fly_sprite": "corrupted_hay_fly_dot.png",
+  "blockbench_archives_modified": false
+}
