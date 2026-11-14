@@ -1,0 +1,189 @@
+{
+  "small_bone_pile": {
+    "elements_before": 51,
+    "elements_after": 51,
+    "long_bone_scale": 1.18,
+    "skull_scale": 1.35,
+    "footprint_fit_scale": 1,
+    "bounds_before": [
+      [
+        1.533805004479328,
+        0.030000000000000027,
+        0.23687017958297285
+      ],
+      [
+        15.095520692202664,
+        5.711805911834101,
+        14.580056925131789
+      ]
+    ],
+    "bounds_after": [
+      [
+        0.7539635989836337,
+        0.030000000000000027,
+        0.4417727062473642
+      ],
+      [
+        15.246036401016367,
+        7.897606233767564,
+        15.558227293752635
+      ]
+    ],
+    "textures_unchanged": true,
+    "uv_unchanged": true,
+    "skulls_seated_on_existing_bones": true,
+    "blockbench_geometry_bounds_max_error_pixels": 1.0603567535127922e-07,
+    "skull_skull_intersections": false
+  },
+  "medium_bone_pile": {
+    "elements_before": 110,
+    "elements_after": 110,
+    "long_bone_scale": 1.18,
+    "skull_scale": 1.35,
+    "footprint_fit_scale": 1,
+    "bounds_before": [
+      [
+        0.7999999999999998,
+        0.030000000000000027,
+        0.5592321549289203
+      ],
+      [
+        15.46820306453349,
+        8.849754678795675,
+        15.24959584774086
+      ]
+    ],
+    "bounds_after": [
+      [
+        0.2827514239998239,
+        0.030000000000000027,
+        0.46108547018595014
+      ],
+      [
+        15.717248576000177,
+        10.75249644355193,
+        15.53891452981405
+      ]
+    ],
+    "textures_unchanged": true,
+    "uv_unchanged": true,
+    "skulls_seated_on_existing_bones": true,
+    "blockbench_geometry_bounds_max_error_pixels": 1.0554810003782222e-07,
+    "skull_skull_intersections": false
+  },
+  "large_bone_pile": {
+    "elements_before": 289,
+    "elements_after": 289,
+    "long_bone_scale": 1.18,
+    "skull_scale": 1.35,
+    "footprint_fit_scale": 1,
+    "bounds_before": [
+      [
+        1.7586096833161704,
+        0.029999999999999805,
+        2.0451553903090374
+      ],
+      [
+        30.119440454631317,
+        8.884582432851122,
+        30.107721674925205
+      ]
+    ],
+    "bounds_after": [
+      [
+        1.055582151896836,
+        0.030000000000000027,
+        1.9687168576919158
+      ],
+      [
+        30.94441784810316,
+        10.562303532070747,
+        30.031283142308084
+      ]
+    ],
+    "textures_unchanged": true,
+    "uv_unchanged": true,
+    "skulls_seated_on_existing_bones": true,
+    "blockbench_geometry_bounds_max_error_pixels": 1.029166547539262e-07,
+    "skull_skull_intersections": false
+  },
+  "sitting_skeleton": {
+    "elements_before": 10,
+    "elements_after": 10,
+    "torso_lean_degrees": 18,
+    "wall_plane_z": 16,
+    "back_clearance_pixels": 0.04,
+    "maximum_model_z": 15.96,
+    "joint_connection_preserved": true,
+    "head_arms_intersections": false,
+    "textures_unchanged": true,
+    "uv_unchanged": true,
+    "bounds_before": [
+      [
+        0.8907485835015543,
+        0.07999958072469959,
+        -4.2531756541395795
+      ],
+      [
+        15.080549052735188,
+        23.868702938339787,
+        15.354382065784721
+      ]
+    ],
+    "bounds_after": [
+      [
+        0.8907485835015543,
+        0.07999958072469959,
+        -1.9034929358583852
+      ],
+      [
+        15.08054905273519,
+        22.47059731228969,
+        15.96
+      ]
+    ],
+    "blockbench_geometry_bounds_max_error_pixels": 6.881679981418642e-08
+  },
+  "lying_skeleton": {
+    "unchanged_byte_for_byte": true,
+    "sha256": "4fc1c38921fe4bf4404edddc1fc21d680bfe6ca4a122cb19f870c3f2f82639d2",
+    "blockbench_geometry_bounds_max_error_pixels": 4.405098597004553e-08
+  },
+  "hanging_skeleton": {
+    "unchanged_byte_for_byte": true,
+    "sha256": "4fc0b813263d7d65a55b6704172e13a5ba1430bbe78f736381922d52bbba6065",
+    "blockbench_geometry_bounds_max_error_pixels": 1.0975106690125358e-07
+  },
+  "scope": {
+    "models_only": true,
+    "updated_models": [
+      "small_bone_pile",
+      "medium_bone_pile",
+      "large_bone_pile",
+      "sitting_skeleton"
+    ],
+    "unchanged_models": [
+      "lying_skeleton",
+      "hanging_skeleton"
+    ],
+    "java_changed": false,
+    "game_exports_changed": false,
+    "textures_changed": false,
+    "minecraft_runtime_tested": false,
+    "gradle_not_applicable": true
+  },
+  "texture_file_sha256": {
+    "textures/bone_block_top_warm.png": "907fd09f3d37ae80efa56470d8ae5599925a9c090862e53f622f200d41eaa71e",
+    "textures/bone_block_side_aged.png": "caf64cbd34351a4d6e67f20f8171aa5adc5d02582d54a38e13102394616eadbd",
+    "textures/bone_block_top_aged.png": "1055a1c4d859989c5ab83fc49abeff5ba71152aab61cf66a2d63065b0716d2c2",
+    "textures/skeleton_bone_toned.png": "40a63f10104e3ff6c44a7e845eaeb63b937528d36b32108fbc7338d1e57fdadd",
+    "textures/bone_block_side_ivory.png": "5acb18e60e322ac8b86e1690ab4bfc1ce6052679e189d0c27f7b58a300bfee86",
+    "textures/human_skeletons.png": "66524aa68d4e94fd3117df9b6e40cb48da5526e24a7f079c2c4852bca0d1c20e",
+    "textures/bone_block_side_warm.png": "d7889cd5c723b22063dd49142c68b7b2bff866942262ef318c5e7ed71ee2d673",
+    "textures/bone_block_top.png": "8f032810e6ec56a84d8a5e5763c3be54af8fd05872a1c2917345666eb0dd7ccc",
+    "textures/bone_block_top_cool.png": "359328f201e0a22e68ae5a881ab546dbbd94289a5f8ea19368040b2175a99e8d",
+    "textures/bone_block_side.png": "fb314b2c716f1be2d93d1a0c3d6c8559f7ee9e5bcc7d80cbe3f6ef90f9c1bd1d",
+    "textures/bone_block_top_ivory.png": "f62eeb8bca1fff65b42b2be3338f3f0492e71175a885ab41bb30dad2bb228de3",
+    "textures/bone_block_side_cool.png": "bb76611b23ae58243505a35edbae188b8040e89c64ee95fc6d11168da77d6369"
+  }
+}
