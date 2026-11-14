@@ -9,7 +9,7 @@
     255
   ],
   "animated": false,
-  "opaque_palette_colors": 18,
+  "opaque_palette_colors": 15,
   "texture_model_reference_matches": true,
   "source_archive_sha256": "3bf2be12e8109145f3ba815887c6c0d3c731bf821b84615c5f816d7ca305c3a8",
   "source_archive_modified": false,
@@ -24,5 +24,7 @@
   "project_integration_performed": false,
   "in_game_tested": false,
   "git_used_for_asset_creation": false,
-  "publication_requested_in_followup": true
+  "publication_requested_in_followup": true,
+  "selected_variant": "first generated variant, selected by user",
+  "selected_original_sha256": "edf6cbd9157661685023d6c35225bec98a8b8671f41d37170f4c1a1395b8dc02"
 }

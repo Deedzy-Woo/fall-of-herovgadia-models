@@ -3,3 +3,5 @@
 [Download ZIP](../downloads/rotting_meat_bucket_icon.zip) · [16×16 PNG](assets/fallofherovgadia/textures/item/rotting_meat_bucket.png) · [Preview](preview.png) · [Инструкция](README_RU.md)
 
 Standalone 16×16 RGBA item sprite, generated-item JSON for Minecraft 1.21.1, and preview. Visual source: the user-provided rotting meat models and textures. No Java or gameplay integration. Existing meat block and cauldron resources remain unchanged.
+
+Selected by the user: first variant. [Exact selected original](reference/selected_original.png); the game texture remains the 16×16 PNG in assets/.
