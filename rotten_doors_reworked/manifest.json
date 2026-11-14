@@ -1,0 +1,97 @@
+{
+  "scope": "8 rotten door Blockbench visual sources; no mod integration",
+  "models": [
+    {
+      "name": "rotten_oak_door",
+      "species": "oak",
+      "type": "door",
+      "file": "blockbench/oak/rotten_oak_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_oak_door_bottom.png",
+        "rotten_oak_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_door",
+      "species": "spruce",
+      "type": "door",
+      "file": "blockbench/spruce/rotten_spruce_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_spruce_door_bottom.png",
+        "rotten_spruce_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_door",
+      "species": "birch",
+      "type": "door",
+      "file": "blockbench/birch/rotten_birch_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_birch_door_bottom.png",
+        "rotten_birch_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_door",
+      "species": "jungle",
+      "type": "door",
+      "file": "blockbench/jungle/rotten_jungle_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_jungle_door_bottom.png",
+        "rotten_jungle_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_door",
+      "species": "acacia",
+      "type": "door",
+      "file": "blockbench/acacia/rotten_acacia_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_acacia_door_bottom.png",
+        "rotten_acacia_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_door",
+      "species": "dark_oak",
+      "type": "door",
+      "file": "blockbench/dark_oak/rotten_dark_oak_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_dark_oak_door_bottom.png",
+        "rotten_dark_oak_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_door",
+      "species": "mangrove",
+      "type": "door",
+      "file": "blockbench/mangrove/rotten_mangrove_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_mangrove_door_bottom.png",
+        "rotten_mangrove_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_door",
+      "species": "cherry",
+      "type": "door",
+      "file": "blockbench/cherry/rotten_cherry_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_cherry_door_bottom.png",
+        "rotten_cherry_door_top.png"
+      ]
+    }
+  ],
+  "native_texture_size": [
+    16,
+    16
+  ]
+}

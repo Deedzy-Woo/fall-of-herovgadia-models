@@ -1,0 +1,228 @@
+{
+  "models_checked": 8,
+  "errors": [
+    {
+      "phase": "application_startup",
+      "message": "Object",
+      "stack": ""
+    }
+  ],
+  "results": [
+    {
+      "name": "rotten_oak_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_oak_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_oak_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_spruce_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_spruce_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_spruce_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_birch_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_birch_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_birch_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_jungle_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_jungle_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_jungle_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_acacia_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_acacia_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_acacia_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_dark_oak_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_mangrove_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_mangrove_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_cherry_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_cherry_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_cherry_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "species": "oak",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      108.69,
+      93.77,
+      70.01
+    ],
+    "bottom_average_rgb": [
+      99.71,
+      85.05,
+      62.36
+    ],
+    "top_bottom_luminance_difference": 8.7,
+    "planned_blood_streaks": 2,
+    "claw_groups": 2
+  },
+  {
+    "species": "spruce",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      73.5,
+      63.92,
+      51.58
+    ],
+    "bottom_average_rgb": [
+      71.83,
+      62.5,
+      50.39
+    ],
+    "top_bottom_luminance_difference": 1.46,
+    "planned_blood_streaks": 1,
+    "claw_groups": 0
+  },
+  {
+    "species": "birch",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      143.12,
+      131.57,
+      102.73
+    ],
+    "bottom_average_rgb": [
+      135.73,
+      123.71,
+      96.57
+    ],
+    "top_bottom_luminance_difference": 7.64,
+    "planned_blood_streaks": 2,
+    "claw_groups": 0
+  },
+  {
+    "species": "jungle",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      126.15,
+      92.79,
+      76.54
+    ],
+    "bottom_average_rgb": [
+      117.28,
+      86.27,
+      69.47
+    ],
+    "top_bottom_luminance_difference": 7.06,
+    "planned_blood_streaks": 2,
+    "claw_groups": 0
+  },
+  {
+    "species": "acacia",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      141.78,
+      101.73,
+      78.31
+    ],
+    "bottom_average_rgb": [
+      124.7,
+      91.11,
+      68.72
+    ],
+    "top_bottom_luminance_difference": 11.92,
+    "planned_blood_streaks": 1,
+    "claw_groups": 2
+  },
+  {
+    "species": "dark_oak",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      63.34,
+      50.3,
+      38.54
+    ],
+    "bottom_average_rgb": [
+      58.31,
+      47.04,
+      36.11
+    ],
+    "top_bottom_luminance_difference": 3.58,
+    "planned_blood_streaks": 1,
+    "claw_groups": 0
+  },
+  {
+    "species": "mangrove",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      104.08,
+      61.62,
+      56.57
+    ],
+    "bottom_average_rgb": [
+      95.6,
+      57.4,
+      51.34
+    ],
+    "top_bottom_luminance_difference": 5.2,
+    "planned_blood_streaks": 2,
+    "claw_groups": 0
+  },
+  {
+    "species": "cherry",
+    "geometry_unchanged": true,
+    "openings_unchanged": true,
+    "top_average_rgb": [
+      154.14,
+      118.88,
+      114.36
+    ],
+    "bottom_average_rgb": [
+      143.71,
+      111.13,
+      104.85
+    ],
+    "top_bottom_luminance_difference": 8.45,
+    "planned_blood_streaks": 1,
+    "claw_groups": 0
+  }
+]
