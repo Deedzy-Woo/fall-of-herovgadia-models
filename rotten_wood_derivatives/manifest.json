@@ -1,0 +1,528 @@
+{
+  "scope": "Blockbench visual prototypes only",
+  "minecraft_reference": "1.21.1",
+  "models": [
+    {
+      "name": "rotten_oak_stairs",
+      "species": "oak",
+      "type": "stairs",
+      "file": "blockbench/oak/rotten_oak_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_oak_slab",
+      "species": "oak",
+      "type": "slab",
+      "file": "blockbench/oak/rotten_oak_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_oak_fence",
+      "species": "oak",
+      "type": "fence",
+      "file": "blockbench/oak/rotten_oak_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_oak_fence_gate",
+      "species": "oak",
+      "type": "fence_gate",
+      "file": "blockbench/oak/rotten_oak_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_oak_door",
+      "species": "oak",
+      "type": "door",
+      "file": "blockbench/oak/rotten_oak_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_oak_door_bottom.png",
+        "rotten_oak_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_oak_trapdoor",
+      "species": "oak",
+      "type": "trapdoor",
+      "file": "blockbench/oak/rotten_oak_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_oak_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_stairs",
+      "species": "spruce",
+      "type": "stairs",
+      "file": "blockbench/spruce/rotten_spruce_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_spruce_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_slab",
+      "species": "spruce",
+      "type": "slab",
+      "file": "blockbench/spruce/rotten_spruce_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_spruce_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_fence",
+      "species": "spruce",
+      "type": "fence",
+      "file": "blockbench/spruce/rotten_spruce_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_spruce_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_fence_gate",
+      "species": "spruce",
+      "type": "fence_gate",
+      "file": "blockbench/spruce/rotten_spruce_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_spruce_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_door",
+      "species": "spruce",
+      "type": "door",
+      "file": "blockbench/spruce/rotten_spruce_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_spruce_door_bottom.png",
+        "rotten_spruce_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_spruce_trapdoor",
+      "species": "spruce",
+      "type": "trapdoor",
+      "file": "blockbench/spruce/rotten_spruce_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_spruce_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_stairs",
+      "species": "birch",
+      "type": "stairs",
+      "file": "blockbench/birch/rotten_birch_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_birch_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_slab",
+      "species": "birch",
+      "type": "slab",
+      "file": "blockbench/birch/rotten_birch_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_birch_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_fence",
+      "species": "birch",
+      "type": "fence",
+      "file": "blockbench/birch/rotten_birch_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_birch_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_fence_gate",
+      "species": "birch",
+      "type": "fence_gate",
+      "file": "blockbench/birch/rotten_birch_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_birch_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_door",
+      "species": "birch",
+      "type": "door",
+      "file": "blockbench/birch/rotten_birch_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_birch_door_bottom.png",
+        "rotten_birch_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_birch_trapdoor",
+      "species": "birch",
+      "type": "trapdoor",
+      "file": "blockbench/birch/rotten_birch_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_birch_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_stairs",
+      "species": "jungle",
+      "type": "stairs",
+      "file": "blockbench/jungle/rotten_jungle_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_jungle_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_slab",
+      "species": "jungle",
+      "type": "slab",
+      "file": "blockbench/jungle/rotten_jungle_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_jungle_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_fence",
+      "species": "jungle",
+      "type": "fence",
+      "file": "blockbench/jungle/rotten_jungle_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_jungle_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_fence_gate",
+      "species": "jungle",
+      "type": "fence_gate",
+      "file": "blockbench/jungle/rotten_jungle_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_jungle_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_door",
+      "species": "jungle",
+      "type": "door",
+      "file": "blockbench/jungle/rotten_jungle_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_jungle_door_bottom.png",
+        "rotten_jungle_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_jungle_trapdoor",
+      "species": "jungle",
+      "type": "trapdoor",
+      "file": "blockbench/jungle/rotten_jungle_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_jungle_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_stairs",
+      "species": "acacia",
+      "type": "stairs",
+      "file": "blockbench/acacia/rotten_acacia_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_acacia_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_slab",
+      "species": "acacia",
+      "type": "slab",
+      "file": "blockbench/acacia/rotten_acacia_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_acacia_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_fence",
+      "species": "acacia",
+      "type": "fence",
+      "file": "blockbench/acacia/rotten_acacia_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_acacia_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_fence_gate",
+      "species": "acacia",
+      "type": "fence_gate",
+      "file": "blockbench/acacia/rotten_acacia_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_acacia_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_door",
+      "species": "acacia",
+      "type": "door",
+      "file": "blockbench/acacia/rotten_acacia_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_acacia_door_bottom.png",
+        "rotten_acacia_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_acacia_trapdoor",
+      "species": "acacia",
+      "type": "trapdoor",
+      "file": "blockbench/acacia/rotten_acacia_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_acacia_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_stairs",
+      "species": "dark_oak",
+      "type": "stairs",
+      "file": "blockbench/dark_oak/rotten_dark_oak_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_dark_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_slab",
+      "species": "dark_oak",
+      "type": "slab",
+      "file": "blockbench/dark_oak/rotten_dark_oak_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_dark_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_fence",
+      "species": "dark_oak",
+      "type": "fence",
+      "file": "blockbench/dark_oak/rotten_dark_oak_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_dark_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_fence_gate",
+      "species": "dark_oak",
+      "type": "fence_gate",
+      "file": "blockbench/dark_oak/rotten_dark_oak_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_dark_oak_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_door",
+      "species": "dark_oak",
+      "type": "door",
+      "file": "blockbench/dark_oak/rotten_dark_oak_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_dark_oak_door_bottom.png",
+        "rotten_dark_oak_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_trapdoor",
+      "species": "dark_oak",
+      "type": "trapdoor",
+      "file": "blockbench/dark_oak/rotten_dark_oak_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_dark_oak_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_stairs",
+      "species": "mangrove",
+      "type": "stairs",
+      "file": "blockbench/mangrove/rotten_mangrove_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_mangrove_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_slab",
+      "species": "mangrove",
+      "type": "slab",
+      "file": "blockbench/mangrove/rotten_mangrove_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_mangrove_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_fence",
+      "species": "mangrove",
+      "type": "fence",
+      "file": "blockbench/mangrove/rotten_mangrove_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_mangrove_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_fence_gate",
+      "species": "mangrove",
+      "type": "fence_gate",
+      "file": "blockbench/mangrove/rotten_mangrove_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_mangrove_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_door",
+      "species": "mangrove",
+      "type": "door",
+      "file": "blockbench/mangrove/rotten_mangrove_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_mangrove_door_bottom.png",
+        "rotten_mangrove_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_trapdoor",
+      "species": "mangrove",
+      "type": "trapdoor",
+      "file": "blockbench/mangrove/rotten_mangrove_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_mangrove_trapdoor.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_stairs",
+      "species": "cherry",
+      "type": "stairs",
+      "file": "blockbench/cherry/rotten_cherry_stairs.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_cherry_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_slab",
+      "species": "cherry",
+      "type": "slab",
+      "file": "blockbench/cherry/rotten_cherry_slab.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_cherry_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_fence",
+      "species": "cherry",
+      "type": "fence",
+      "file": "blockbench/cherry/rotten_cherry_fence.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_cherry_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_fence_gate",
+      "species": "cherry",
+      "type": "fence_gate",
+      "file": "blockbench/cherry/rotten_cherry_fence_gate.bbmodel",
+      "elements": 8,
+      "textures": [
+        "rotten_cherry_planks.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_door",
+      "species": "cherry",
+      "type": "door",
+      "file": "blockbench/cherry/rotten_cherry_door.bbmodel",
+      "elements": 2,
+      "textures": [
+        "rotten_cherry_door_bottom.png",
+        "rotten_cherry_door_top.png"
+      ]
+    },
+    {
+      "name": "rotten_cherry_trapdoor",
+      "species": "cherry",
+      "type": "trapdoor",
+      "file": "blockbench/cherry/rotten_cherry_trapdoor.bbmodel",
+      "elements": 1,
+      "textures": [
+        "rotten_cherry_trapdoor.png"
+      ]
+    }
+  ],
+  "plank_sources": {
+    "oak": {
+      "file": "textures/rotten_oak_planks.png",
+      "sha256": "5f8e116b1f0748f00705db6d5f55c2e1a6ae7883ec1e0da29e4bcdb91fac1b6f"
+    },
+    "spruce": {
+      "file": "textures/rotten_spruce_planks.png",
+      "sha256": "3c068f547de88afd7a77f847cf8dcf504a728bc791fecdecba6be956c8277f8a"
+    },
+    "birch": {
+      "file": "textures/rotten_birch_planks.png",
+      "sha256": "6eacb5c11e9e1c6886f372e5f0d7d7e93f15ae5451f90d54af599459bc43466b"
+    },
+    "jungle": {
+      "file": "textures/rotten_jungle_planks.png",
+      "sha256": "f83fb76c25463a83edc9791bb41836b9cce752c16e8256176e5f3cd45661fdd1"
+    },
+    "acacia": {
+      "file": "textures/rotten_acacia_planks.png",
+      "sha256": "5a33953f2327f7d17c718840eb47e88aafa8a2fea8134d1453ad31388e447fec"
+    },
+    "dark_oak": {
+      "file": "textures/rotten_dark_oak_planks.png",
+      "sha256": "a951d542ef9d02ca9a4056cce4a9ccd779c436374cfeabc1f022889f02da27f4"
+    },
+    "mangrove": {
+      "file": "textures/rotten_mangrove_planks.png",
+      "sha256": "d1bcf757caf2c48b838ec1d79a7434fd4e18c9491c5adb8d6eb1cda946fc62c5"
+    },
+    "cherry": {
+      "file": "textures/rotten_cherry_planks.png",
+      "sha256": "99a40e83fd69483c18048dc0db1ec5ef9942ab97330cee2361b0e66cc628d425"
+    }
+  }
+}

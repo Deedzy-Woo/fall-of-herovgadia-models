@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_mangrove_trapdoor",
+  "model_identifier": "rotten_mangrove_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "89b77701-0590-5773-818b-cec40255d5ac",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "74f7a16f-06a6-58fb-b9ff-7e716aa515ad",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "89b77701-0590-5773-818b-cec40255d5ac"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_mangrove_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "feaf430e-904c-50e9-9f1e-8239842302c8",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACBElEQVR4nH2TTW8TMRCGn4nW9m6TNpvSlq+AhOCGOHDmwC/i58IBDlwa1CZRmpR8rMeww8GbNBKIkSx73vE743k1lk8fPxidpZT2R7z3aFR88ACICKqKGYDhnAOg0KiMRuc8ujg7kHPQDkQQREA10VoLCIv5PZvtmkJ6Qv+0ZNc0/JhMca4geA9IzmYGImBGTEpKv3g+fkL/tGS5WlKAUJWBb1+/44NnNKrxwVGVIfMxMNg1Daq/WS1XTK5veP3mJSJQeO8wDOcddT3E+YLp7RxV5di891xenVPXQ+7ulh0qFGa5QnAeMzuQP19fy3GCt+Ox3d7MqUc1rnDstg3OFfREhCZGEOkEgy+TiUjniwh2hIVQICJUJxUiQi8/JBN9cPzPgnsQVwAzywnKKhzAfOnfFpOiMSGSRQWyBvsVY6LRSGv2F7nd3wPa1mjb7PfMjKbRQ/8iwrvxCzvWALMHjCMcKOh60aRUVjKsh6yWK96/emUAbdvmSr0ew+EZhhE1UpUXOYFGpSwDqonlckU9qrl6nIPWtbLfU8qDlFKCbrQLBJpdw6B/ws/1muntjEG/T9R46F9E8M6z3qwBGPQHbLcNZpZHebdVQAghoKqc9CuePrukbduMJeV+tWGz3eC9R0TYbSLeuzzKi8WCY91n0zmz2RxrDen1oPsPhhGjEqMigPOOP+rgGIInM1mJAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_acacia_trapdoor",
+  "model_identifier": "rotten_acacia_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "34f40c73-d69f-5c2d-9e55-87b9e76e8a66",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "2a6377d2-eab0-575e-9993-615a079f41d6",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "34f40c73-d69f-5c2d-9e55-87b9e76e8a66"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_acacia_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "2c5a5c99-edea-5f0b-95b3-4aa2ffeee7b4",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtUlEQVR4nHWTTW7UQBCFv+rx2O0JEj8JiZhbcAfEGdggroK4DavhBmaXWbJkg4QiiJADRBMxdg+BfizafzMRtbBcr8vP9V5V25tXzwVgZoxhgIYsRtEfS8LMkMAMMoCj0gNwb1ECovQedaSSiDHizIElgqZpMTOurjeJ4PftHwTsNjcsT09oQqD+sSHLHGA8efyIJrRc/bxJmGB5dgLXG5wkZs5YVee2qtZWFgUo/WlVrW1VnVvpfYdFVtXa3r1fW5LTSXDOjR6YDXmP9e9mbg9zznD8J6ae2kByp+ouwVCjA/DwY6VH1o9GimlkUnJ+gil2WJxgiiiKbNQ3asMgn2cgMGdghmHMsxmG9ZrAwA2tatK2JqkACZG6YIoJnPbEJmLtsY1E023tT7MY06b17DEKdbl1/iARFTuvxi6kSOY6/UK4Yc77vgy9TL1yXd3rl890evwASRwtFviioA2BEHaYGXk+xxcFYbejbQNu5ii9xxc5Hz9dpDH+2rYcP7yPz3OatuXth5rlcjlx5i+XlzUvnp5Rek8bAhdfv6U9kMS2CWyb0N02qOvvHEZd13z+MprbW/EPW970os0+OVkAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

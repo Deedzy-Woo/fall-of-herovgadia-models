@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_mangrove_stairs",
+  "model_identifier": "rotten_mangrove_stairs",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "lower_step",
+      "type": "cube",
+      "uuid": "b9a07123-03b9-537f-9a98-1920d90c45af",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "upper_step",
+      "type": "cube",
+      "uuid": "0d73624f-c9cb-54c1-8be3-d1a055c1d7d8",
+      "from": [
+        8,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "stairs",
+      "uuid": "1cf9eb38-3eef-54eb-9ae1-795050e43c14",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "b9a07123-03b9-537f-9a98-1920d90c45af",
+        "0d73624f-c9cb-54c1-8be3-d1a055c1d7d8"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_mangrove_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "8c7de20a-e920-53a1-9292-e58e1fb1674b",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABaUlEQVR4nH1Sy1LCQBDsZSebbPBRAap4FAe5cPHgX3jwH/wP/1YtIAQqVEBlMZvAehiNUcE5bPU8dqa7ZsTD3S0AAGVZxnE8GAwAEBFq5vs+gzzPyVoLQCnFRUVR8Ntut7nIGJPnefWZhBCe51W+1pqBcw4/jXvRcrmsQlLK2WyGf42K1vmVvqgPLcvyO020WCy63S6A+SEHQACedi/9hm+t3e/3dWJhGLLLoG/waDbUb/jzQ14UhRCiElDJ/aUnCAJK09QDNqdJSyknkwljDyDmF8fxaDQC8FdMkiS9Xq/aDIVhyKPX63XVEl+bmU6n2+02SRIA4/EYQKPip7UmIiISQiilODgcDpvNJgPnnHNO3N9cn+Z/xCiKorpfP5s0TTudDoAFCgDtUnxqALBarY72s9Yqpbrwnt9fV0EwCi/JGKO1brVaAHa7Hdfx2bB0BkEQADDGUJZlWZYdbS+l5JSNzgCo7C0DPgAHjaKiXBZQewAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

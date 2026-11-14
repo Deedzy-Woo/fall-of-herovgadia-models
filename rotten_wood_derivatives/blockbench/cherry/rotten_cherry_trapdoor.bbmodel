@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_cherry_trapdoor",
+  "model_identifier": "rotten_cherry_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "42abc3cc-bccd-52ab-8dac-8f605473bc44",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "70cae8d5-30e3-57e4-925f-9dcd7db30be9",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "42abc3cc-bccd-52ab-8dac-8f605473bc44"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_cherry_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "ada990b4-c462-5561-b0a2-315e9620e31a",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcklEQVR4nE2TwW4cRRCGv+rpHk/POpEACWEhQSSQfOIJEO+SC4ggEXNLHoAoYBQByQEIl1ws5T0inoB7Ihnh9Wp3gY09PT3TPVMcZr1Onf6Suqvr+6tLTo4f6JATAtiyBEBEKPdr/nzxBwCffPYp3WUAQFUZ+h6A2DTYMSf6EDj4+CP+mZ9jRBhypguB92/dwhjD68WSwjkE6NuW/ffe5WK+YDmfYxEwxrB4+QrrHJkppCgovQeBPrSMOVM4hy1LmsUSEQER7Jgyl5sNZVXRxUgfI2VVgSqxbRERjDGgyqjKXlXtLnvvsYVzzG7exFjLZrXimye/CcD3n9/We78/m/QXt/Xe00mf/PBAx5RIMbL4+wwjRrBliQDDMCCAAPWsvtZ1PWEBRgy6xay8R54/eqixaRBgdX5OzhnvPXveA8o4KsYIXWhpY+TDw0Ny35P7ns16jQGwzoEIqHL/6TM5+vkXAfjyux/lq+OfBIW7j3+V+1uMMWfEGACMAopSWEthLVMOOo7XWqemr/LU96BKG8KEkPoeEVifzYltxNeePV+hV7BAHyOxjXxweEjY/EdhLfPTv7AK9CFQ1h5V5cr5J0d39OstyuOjO3p3q58/eqiqSk4JRTG561BVuiaQc969GNp2p9sQeDOsc6gqVVUhJ8ff6pDStAcijCntDhbOMaoi2yGOOW29UHTUaReGlOhC4O2DA5anp4gI+Y0izlfk2E0FtybX77zF6/mCy80Gqyiqynp+hi1Lckq7sRbWMupI4RxDSuSUEGO4XK53k7FdE+hj5N/Vitn+/rUHTTP9eVXEGOrZjFGV5uICVJnduEHbtvwP8sFavdipz1QAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

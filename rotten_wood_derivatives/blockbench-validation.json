@@ -1,0 +1,1028 @@
+{
+  "models_checked": 48,
+  "errors": [
+    {
+      "phase": "application_startup",
+      "message": "Object",
+      "stack": ""
+    }
+  ],
+  "results": [
+    {
+      "name": "rotten_oak_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_oak_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_oak_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_oak_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_oak_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_oak_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_oak_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_oak_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_oak_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_spruce_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_spruce_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_spruce_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_spruce_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_spruce_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_spruce_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_spruce_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_spruce_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_spruce_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_spruce_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_spruce_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_spruce_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_spruce_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_birch_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_birch_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_birch_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_birch_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_birch_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_birch_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_birch_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_birch_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_birch_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_birch_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_birch_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_birch_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_birch_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_jungle_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_jungle_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_jungle_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_jungle_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_jungle_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_jungle_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_jungle_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_jungle_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_jungle_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_jungle_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_jungle_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_jungle_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_jungle_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_acacia_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_acacia_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_acacia_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_acacia_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_acacia_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_acacia_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_acacia_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_acacia_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_acacia_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_acacia_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_acacia_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_acacia_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_acacia_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_dark_oak_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_dark_oak_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_dark_oak_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_mangrove_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_mangrove_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_mangrove_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_mangrove_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_mangrove_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_mangrove_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_mangrove_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_mangrove_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    },
+    {
+      "name": "rotten_cherry_stairs",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_cherry_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "stairs"
+      ]
+    },
+    {
+      "name": "rotten_cherry_slab",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_cherry_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "slab"
+      ]
+    },
+    {
+      "name": "rotten_cherry_fence",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_cherry_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence"
+      ]
+    },
+    {
+      "name": "rotten_cherry_fence_gate",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 8,
+      "expected_elements": 8,
+      "textures": [
+        {
+          "name": "rotten_cherry_planks.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 8,
+      "groups": [
+        "fence_gate"
+      ]
+    },
+    {
+      "name": "rotten_cherry_door",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 2,
+      "expected_elements": 2,
+      "textures": [
+        {
+          "name": "rotten_cherry_door_bottom.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        },
+        {
+          "name": "rotten_cherry_door_top.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 2,
+      "groups": [
+        "door_bottom",
+        "door_top"
+      ]
+    },
+    {
+      "name": "rotten_cherry_trapdoor",
+      "format": "java_block",
+      "blockbench_version": "4.12.6",
+      "elements": 1,
+      "expected_elements": 1,
+      "textures": [
+        {
+          "name": "rotten_cherry_trapdoor.png",
+          "width": 16,
+          "height": 16,
+          "error": 0
+        }
+      ],
+      "missing_faces": [],
+      "roundtrip_elements": 1,
+      "groups": [
+        "trapdoor"
+      ]
+    }
+  ]
+}

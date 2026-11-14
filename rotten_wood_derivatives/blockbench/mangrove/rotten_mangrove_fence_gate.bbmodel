@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_mangrove_fence_gate",
+  "model_identifier": "rotten_mangrove_fence_gate",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Left-hand post",
+      "type": "cube",
+      "uuid": "fb6f97e0-7450-5843-870d-398254b31010",
+      "from": [
+        0,
+        5,
+        7
+      ],
+      "to": [
+        2,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            0,
+            9,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            7,
+            2,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            7,
+            2,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Right-hand post",
+      "type": "cube",
+      "uuid": "379eee86-81ae-5e02-9d34-88bcae844103",
+      "from": [
+        14,
+        5,
+        7
+      ],
+      "to": [
+        16,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            0,
+            16,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            7,
+            0,
+            9,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            0,
+            9,
+            11
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            14,
+            7,
+            16,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            7,
+            16,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Inner vertical post of left-hand gate door",
+      "type": "cube",
+      "uuid": "df3f5b94-f5aa-57a3-bb26-fa119fb9789f",
+      "from": [
+        6,
+        6,
+        7
+      ],
+      "to": [
+        8,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            8,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            7,
+            1,
+            9,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            1,
+            8,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            9,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Inner vertical post of right-hand gate door",
+      "type": "cube",
+      "uuid": "3a8f0b80-3bf8-58d1-ad8e-1ce3d68b78cd",
+      "from": [
+        8,
+        6,
+        7
+      ],
+      "to": [
+        10,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            1,
+            10,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            7,
+            1,
+            9,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            1,
+            10,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            9,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            7,
+            10,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            8,
+            7,
+            10,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Lower horizontal bar of left-hand gate door",
+      "type": "cube",
+      "uuid": "b033057f-7c40-55ce-a851-dd9f95704338",
+      "from": [
+        2,
+        6,
+        7
+      ],
+      "to": [
+        6,
+        9,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7,
+            6,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            6,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            2,
+            7,
+            6,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            7,
+            6,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Upper horizontal bar of left-hand gate door",
+      "type": "cube",
+      "uuid": "4f617d9c-f75a-5386-bd46-9b550914a044",
+      "from": [
+        2,
+        12,
+        7
+      ],
+      "to": [
+        6,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            6,
+            4
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            6,
+            4
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            2,
+            7,
+            6,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            2,
+            7,
+            6,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Lower horizontal bar of right-hand gate door",
+      "type": "cube",
+      "uuid": "38b2fee4-34ee-5bee-b1b0-0c24ee3b8bf9",
+      "from": [
+        10,
+        6,
+        7
+      ],
+      "to": [
+        14,
+        9,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            7,
+            14,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            10,
+            7,
+            14,
+            10
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            10,
+            7,
+            14,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            7,
+            14,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "Upper horizontal bar of right-hand gate door",
+      "type": "cube",
+      "uuid": "1b649918-d2b6-515d-a5fe-e7aea5abd1db",
+      "from": [
+        10,
+        12,
+        7
+      ],
+      "to": [
+        14,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            1,
+            14,
+            4
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            10,
+            1,
+            14,
+            4
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            10,
+            7,
+            14,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            10,
+            7,
+            14,
+            9
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "fence_gate",
+      "uuid": "cbfaa678-0e41-5481-8e88-ac34601f478f",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "fb6f97e0-7450-5843-870d-398254b31010",
+        "379eee86-81ae-5e02-9d34-88bcae844103",
+        "df3f5b94-f5aa-57a3-bb26-fa119fb9789f",
+        "3a8f0b80-3bf8-58d1-ad8e-1ce3d68b78cd",
+        "b033057f-7c40-55ce-a851-dd9f95704338",
+        "4f617d9c-f75a-5386-bd46-9b550914a044",
+        "38b2fee4-34ee-5bee-b1b0-0c24ee3b8bf9",
+        "1b649918-d2b6-515d-a5fe-e7aea5abd1db"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_mangrove_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "8c7de20a-e920-53a1-9292-e58e1fb1674b",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABaUlEQVR4nH1Sy1LCQBDsZSebbPBRAap4FAe5cPHgX3jwH/wP/1YtIAQqVEBlMZvAehiNUcE5bPU8dqa7ZsTD3S0AAGVZxnE8GAwAEBFq5vs+gzzPyVoLQCnFRUVR8Ntut7nIGJPnefWZhBCe51W+1pqBcw4/jXvRcrmsQlLK2WyGf42K1vmVvqgPLcvyO020WCy63S6A+SEHQACedi/9hm+t3e/3dWJhGLLLoG/waDbUb/jzQ14UhRCiElDJ/aUnCAJK09QDNqdJSyknkwljDyDmF8fxaDQC8FdMkiS9Xq/aDIVhyKPX63XVEl+bmU6n2+02SRIA4/EYQKPip7UmIiISQiilODgcDpvNJgPnnHNO3N9cn+Z/xCiKorpfP5s0TTudDoAFCgDtUnxqALBarY72s9Yqpbrwnt9fV0EwCi/JGKO1brVaAHa7Hdfx2bB0BkEQADDGUJZlWZYdbS+l5JSNzgCo7C0DPgAHjaKiXBZQewAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_spruce_trapdoor",
+  "model_identifier": "rotten_spruce_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "a16b8872-1722-58db-b27a-58d6e6d77a5b",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "b211a02e-6ca1-52f8-899c-780078466d34",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "a16b8872-1722-58db-b27a-58d6e6d77a5b"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_spruce_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "c3fdfa85-ea6d-59c0-a999-af32af0f352b",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOUlEQVR4nHWTS08bQRCEv96d6TE22CAwkAg45JB/kJ+Qc/4/ioTEwyE8RIiz4HnsdA6LTS7p06hm1FNdVS3fvn6x3emUvq88PD1xPN8H4PL6B2cnH+heI8vlH/b3dnGu4fb+kYO9PWLOxLiiARARzIx1da8RQXhe/hkAgVQKpVREhFgKQT0gNGbGsnvBuYa4iqTc412LU4eZYWakmPCuHX5dRSYjZZUyItBcPWYWv3qSzgmjwMXdKzY+RkT4uRT87ARV5eJuhZ+dEEaB80WHzk64esy4032PSCU/XwNwNIXy+4YUE0dTpfy+AYHD7eHNGs/P15wdKI2I4L0y2Rq9UfWod6jqGx5IMeG8sj0eATDb2aGUDIBbz2lWsWr4tsWqUa2SUqS+3QfnWHavWDXAaFtHzmlgoM5R+kFhESH1/eYsQAgBESHnhDSycUNEBhsBUi4Am98AnFdKyaSYaNvB6lortVaC95jZ0MD7llIyPni8bzEzcsz8W2utVJXc9xhDbpp1ftr23fdVSjh1jINiZptMBO8Htini2mZgIDJ03xlvISK8rBJ9XyipIAKzne3NvKqOnPN7WkVoLh8S54uOqAekmLh5KowPPmEY54uOHA4BOF90JJ1jZtx3Lbp7+h6kvdmE7vkaDcrZfMLy1xVePafzMU933zEzPn+ckLtbNCjT0OPjPaf7ftiFWiuubTcKT0ZKXMUBdx6rRowZ5wbTxltjlt0LtdZ3G8EQEUD+u40592+WZ4IOAv8F6QldxJhBGowAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

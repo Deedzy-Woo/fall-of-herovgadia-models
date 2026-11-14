@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_birch_slab",
+  "model_identifier": "rotten_birch_slab",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "slab_lower",
+      "type": "cube",
+      "uuid": "93a184cb-65d6-5fd0-8b79-ecb5968b3af9",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "slab",
+      "uuid": "0eca078b-1aa6-5503-816c-da5a97efb893",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "93a184cb-65d6-5fd0-8b79-ecb5968b3af9"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_birch_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "fbc91c70-b002-57be-8da0-d0d42e5b71b3",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABYElEQVR4nG2SYU+DQAyG33Pl2GVRFzFhMiRxZH7yb/k7jH/TbIZsgJKBi3NA2LHgh3MnG+una/Ne26cte315nrj2e5hMXNs0TQAAqqpaLBae5wGo6xoHIyKauDaAp8cHdGy323HOiQhAWZYApJQkhADQNI0Kqah6cM71ZyUDQLPZrJsbQK/Xi6KoG6fhcAhg9V0AuLOuVLQNo6V1XWdZRkRkGIYnxFsQfWTw70ddkv1+/19BN93v98/CMMY0wGazoTRNAUjGARjNbrlcnkXSYGTb9smk4zh2HAdAGIa+75/AkBIpxzAM/TMMwzzP5/M5AMuyVHoAF+2KUkrVtxBiOp0OBgMArusSERExxjjnlCRJt9EgCHTBEwFVDY1uLpVzAtPWpWk6Ho//GIJ45dxe67PRuaWUesSagazLfnZ8NjhsQAihNlCWZZ7nRVFIKWm73QL0+fVjshrHtl6v2+mV+wvytKW2A5PHiAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

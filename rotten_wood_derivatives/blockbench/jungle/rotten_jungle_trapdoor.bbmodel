@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_jungle_trapdoor",
+  "model_identifier": "rotten_jungle_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "9f1c7056-873c-5537-b160-1decdcb8f29f",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "04358aad-3d05-5958-9e2d-7a00544e3c11",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "9f1c7056-873c-5537-b160-1decdcb8f29f"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_jungle_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "4beac7d6-fe6c-5d96-8aa4-cef3cb8753f7",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcklEQVR4nE2TvWtUQRTFf/exO/OCOwv7UrhZMIpgJfgBoqWVpEyvFqKg/4xROz9iE2JioUXUIv+FCGKlqKTY3cDuW9iN+mYmvGsxyepUZxjOvYdzzsjdlasqCJX3AOTWAqAowUdsbtJdFRC891hrEQEUGlmWcarXpegUiEAIAWMMqko8PETrGmMtJD4xRJrNBuOy5NuPPbKq8hRFQYyREAIgjMuS4f4+qDKdTRkMBsQYKcuS0XiE956iUwCQAUwmJapKs2kA5cXWjhjTZO35K1nf/iDWGtaeb4pzju7JLiCUkzINMKZJXdc0mg2qquLhs1eiCq2WQxUAlpZ6qMLDp5sSgsfYtMiYJpmIIJKRScaTl9siAiLQbjuO8a+DA0RAFR6vb4uQOChkaPI8xMD/p9/vz/HsYEZdpwF1Df4oMQXk3so1vXThPForNrcEH8gXcnxVYfMUqa88Nrf8+f0HYw3BBxT49PkLDUUZDgd0OgXjckSMhxhjCCGwWBRMZzNijBRFQTkpOb28TDhKBEgeGGPncjfe7sr69jsxxvDoxZa8fP1erLWsPduSjTe7EnwgcQxZltFAj1qmSuvEP+d7vd4cu5Y7amMqmoigqqhq6sFxTUXg/q1VBZhNp3NVmpzmwe1VVaCudf4mN69f1HNnlyk6i4TgEZG582mzJOxckkCSPxqP+Pp9j8axAhHIsgznHAoYY4gxAtB2bZxrAVBVFao1AAsLloa1hrpWRuMxbefoD/rsfPxJp9MBoNvtMhwOmUwmrF4+Q+tEi9nBFBBUQe7cuKKqSoyHWGvSl0OpqsBCbqm8R1XJc4sgKIr3qXTWWv4CfQZDFuiXxhMAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_oak_trapdoor",
+  "model_identifier": "rotten_oak_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "c4d901e8-b473-5b02-9d87-4000ac7b8416",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            13
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            16,
+            13
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            13
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            16,
+            13
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "85958c8e-0db6-5ca4-ba0d-de1f744313f8",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "c4d901e8-b473-5b02-9d87-4000ac7b8416"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_oak_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "3a5d7e4b-6bee-5ef8-bd8b-135f0f6532c3",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACDElEQVR4nHWTvYsUQRDFf9UsO187O7OBu7oIIosKCoYaamCspmJiaiBm4j93waUmJywa3AWnoHJweDP7NdM9B1MGszO3i9rQdFGv+3VVvSp5+nimAKoKCMYY9pYquu/YsYVemsTcnF4n6HsUziIiBJ6HMQZVpbCW0Pcp7BVWWEvo+RyffqOXL1YMopD5zzPSJAbAGEMUBkwnY0I/4NPRnDQZdP9GYQAp5Is1vWQ44Mb4GutNwcHhZ2kvfXz/WvPFmtJZkmG0h31490rPzi9IhwN6xhhsVSEiIDvZiUFEGn9Tnq4EnV/ANMX7/1LVPeLWDjwPVUWePJrpKI2JwoD7d2cslxuSJCJfbACldI6LLOfBvVkrCmfnv/nx64yLbIk8f/ZQ79y+RekcURB0H5XOEXhed3YKylVkJ6ffMW2+7ePSOQpraVMLfb+rUVk5QLBVhbu8REToAdjKMf96sifVIAoJPZ+ycsy/HJOmcZOzyFbiCUBDEHg+ozT+p4x+3yNNhxwcHu1hWb5qCPLFisKWZPmKXUGyfIUglJVFtf4LK50jy1eYUTpERBilMSJ0e5TGtFPQ9UiLJTGh30TdA/D7fcLA5+2bl5okEQCLxQZVRVW32AsdxhFNXzXyqiq9dmCmkzG11l3ohbP4/T6qynQybkiX607Cuq4bgixbkmXLrb67LbcNvbObs673O/cPrZ8FbY2874AAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

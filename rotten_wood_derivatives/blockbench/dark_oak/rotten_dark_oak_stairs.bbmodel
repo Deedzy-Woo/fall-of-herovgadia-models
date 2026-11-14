@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_dark_oak_stairs",
+  "model_identifier": "rotten_dark_oak_stairs",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "lower_step",
+      "type": "cube",
+      "uuid": "26dc4517-e98a-5a66-8498-d4467f3af65a",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "upper_step",
+      "type": "cube",
+      "uuid": "28a11a0a-5319-5635-bb97-98ac3f5c996f",
+      "from": [
+        8,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "stairs",
+      "uuid": "5d3b6a42-6821-57dd-bd1b-93f3e63f6dea",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "26dc4517-e98a-5a66-8498-d4467f3af65a",
+        "28a11a0a-5319-5635-bb97-98ac3f5c996f"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_dark_oak_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "0aac869b-9808-506e-b01c-d4520baad443",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABKElEQVR4nJWSMW/CMBCFn/GZ2DA0CkMksmTpAJU6du3//xVkYIkUCZbYDUfiDgZjBaGqb/Gzdbbvuzvx/fXRdV2e5wBYSiMEEmVZFswwDMHQbSFyzkHKk3PVZhMvWGujv1wujwsAjDEAoLX3Ppw454JhZgBCCKWU+HzfpjnoPAfwcz7jhaiqqri5Xq/BvJXl8Xis6/oZhkJy4zimiTVN0/d90zQA9vt9CrNgZiGEuSuc1nW9Xq8B7HY7732MZuY5w5+6MZzub6ykTGEAED0q2bYtDcPgnBOAmyattR3HlZQxSCmllEp/WARQItJaq2maJcDM1lp/FwDqum4WZPFSUkoqyzJsYqUPh8N2e6vEMwzF/qcKY7NcLp9hqCgKvBibGQwzG2P+3Ydf6sSIeeUWWVIAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

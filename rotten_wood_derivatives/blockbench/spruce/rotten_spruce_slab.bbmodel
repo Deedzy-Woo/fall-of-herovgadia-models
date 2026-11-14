@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_spruce_slab",
+  "model_identifier": "rotten_spruce_slab",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "slab_lower",
+      "type": "cube",
+      "uuid": "efc7980d-6fc8-594d-a56c-478351095359",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "slab",
+      "uuid": "8f9f1610-f1d6-50a1-a479-95ecf2aeef70",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "efc7980d-6fc8-594d-a56c-478351095359"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_spruce_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "9c9aeeaa-4727-536a-bc70-a1f303e39be1",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABQ0lEQVR4nJWSPW/CMBCGnxTb+ahKM6BGCgtM9B9UHbt17o9HyoaQQEolRIpKANsRHY66UcWCB8v32ud7H/uij/dXII5jAFitVqPRCNi5TpQsOgNKKQnvgCzLBr8DsNZaa4d6cDwegfYcOecOh4MkqDRN27aVwDkHRFGktQaSJBnqwc51aZoCMkdvL8/cMtR4PO7HcRxXVTWbzU6nUxCXy2VZlpcErbU4EZj5fL7f76uqAsqy7LoLukBrrZVzTswBbdtOJpPFYgFI5bAVIG9nyPNcVpvNpigK4Mt64OnhXvQ+jPdeBXNBfTSq3n1/gukubPI/xhgV/k+4g+PEegnDe4QbrzDoYQ64XXOdQXx77/8kKZsWwHq9nk6nfRhlrRVz/dL95hEAIMuypmmUMaZfMcAIz3a7lU4Lbabqur7qNVz/78APbEWMHFz2MsYAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}

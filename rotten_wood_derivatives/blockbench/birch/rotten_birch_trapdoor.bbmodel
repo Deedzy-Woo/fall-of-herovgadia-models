@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_birch_trapdoor",
+  "model_identifier": "rotten_birch_trapdoor",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "trapdoor_panel",
+      "type": "cube",
+      "uuid": "a551b7b6-0036-5145-87ce-d4dbcd7d33bf",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "trapdoor",
+      "uuid": "1de65934-1a55-5df4-a0be-92648624f01b",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "a551b7b6-0036-5145-87ce-d4dbcd7d33bf"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_birch_trapdoor.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "48c5f318-d0cd-54d7-bb23-1e97a161ea45",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKUlEQVR4nF2Sva4VRwzHf561Z3bPlQAFUVAkAVEGARJQRuJBkKiQ0pFHuX0eIl2KPAVXooQU6VCAC/drz87MjlPMOQeEpZE8lmz/Pyy/vXjm4zSCg3sj54IgOE5KCQAE8pKxaAj7EPKSUYB7d39CU0QQRMCBumSAQ91x2NXdHXfn3T//ouM4EseRk9dv+D7cHRE55EHCYdCDR78gQVAERITHT59w89aPpGiIwJIrpgMShGXeEsdEa41aG3//9SeyIxMAnL5p32xq+FoxNUyNMCjJIiEEYtQuinRU6u6U7cLR0Q3meSYMyrIUmjsXF+c4EAbly9lZFxrHveHN8dbQkgt7FJvNBlWl1sp2XhmnCVXl4vyccRqJFsklIyL9hdApaIws220XyEFVkUHRQXfDIVrs5u1ELcuCIH0AAimNeHPAKbUcnNjnpZZOoflhUM4ZNTPwfaGSS6WtFRzOaiEMioSB+Wpm9hkZBtydIRpmhu75IEJKimmk1ELOlaPNBMDF5SXTZsIGI5e8B03JheBdV3DHvUM1tY6CTmldKzZYp7Gzr7Xep/mb08y5EpPy7u0JaiOfTr9qM8+f+eHmbfJSDyK6O7quK21dmecr3N+DCIMmLs9OAbjcifnfx1N+vjN3w71vN9N+SDUXkJm8XNFq33B8/AfXr01MKfL+wxde/f6Sq/PPaIo8fHQfx8lLQV4+/9VFBDMDnBACOReChK83kIz9p1PttGOK/A+UmD9xJZRKjwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

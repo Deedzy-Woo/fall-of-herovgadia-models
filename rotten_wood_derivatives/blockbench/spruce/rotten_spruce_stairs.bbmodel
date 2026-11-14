@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_spruce_stairs",
+  "model_identifier": "rotten_spruce_stairs",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "lower_step",
+      "type": "cube",
+      "uuid": "6fd699a5-fa19-5447-aabe-d5d1b567492f",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "name": "upper_step",
+      "type": "cube",
+      "uuid": "b4f702f4-11ad-58f2-89f7-381831c4c585",
+      "from": [
+        8,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "stairs",
+      "uuid": "9b1b1dbe-a027-5427-b28d-b32b45cbbadb",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        "6fd699a5-fa19-5447-aabe-d5d1b567492f",
+        "b4f702f4-11ad-58f2-89f7-381831c4c585"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_spruce_planks.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "9c9aeeaa-4727-536a-bc70-a1f303e39be1",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABQ0lEQVR4nJWSPW/CMBCGnxTb+ahKM6BGCgtM9B9UHbt17o9HyoaQQEolRIpKANsRHY66UcWCB8v32ud7H/uij/dXII5jAFitVqPRCNi5TpQsOgNKKQnvgCzLBr8DsNZaa4d6cDwegfYcOecOh4MkqDRN27aVwDkHRFGktQaSJBnqwc51aZoCMkdvL8/cMtR4PO7HcRxXVTWbzU6nUxCXy2VZlpcErbU4EZj5fL7f76uqAsqy7LoLukBrrZVzTswBbdtOJpPFYgFI5bAVIG9nyPNcVpvNpigK4Mt64OnhXvQ+jPdeBXNBfTSq3n1/gukubPI/xhgV/k+4g+PEegnDe4QbrzDoYQ64XXOdQXx77/8kKZsWwHq9nk6nfRhlrRVz/dL95hEAIMuypmmUMaZfMcAIz3a7lU4Lbabqur7qNVz/78APbEWMHFz2MsYAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {}
+}
