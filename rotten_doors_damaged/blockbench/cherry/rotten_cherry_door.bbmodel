@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_cherry_door",
+  "model_identifier": "rotten_cherry_door",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "door_bottom",
+      "type": "cube",
+      "uuid": "47a8c972-3456-5fff-804c-8f92fad3b8c6",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        3,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            13,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "door_top",
+      "type": "cube",
+      "uuid": "9e3b5c0d-020f-574e-b879-a3156942a91e",
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        3,
+        32,
+        16
+      ],
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            16,
+            0
+          ],
+          "texture": 1,
+          "rotation": 90
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "door_bottom",
+      "uuid": "9d2d8dd8-482e-5503-b8c8-d918659cece7",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "47a8c972-3456-5fff-804c-8f92fad3b8c6"
+      ],
+      "export": true,
+      "visibility": true
+    },
+    {
+      "name": "door_top",
+      "uuid": "475e2778-858a-5a1f-8b47-b252bfc6ef97",
+      "origin": [
+        0,
+        16,
+        0
+      ],
+      "children": [
+        "9e3b5c0d-020f-574e-b879-a3156942a91e"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_cherry_door_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "14a6e580-ba67-5a24-91c5-f1719943209a",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADPklEQVR4nD3OXU9bZQDA8f9znuc557SlBcZoKwXKi5FtSuDGGZP57ozZldHsYjF+Ar+CGrxxfgGvFo0XGqPRxETjgom6kAkR0DGEAY5SJl2hgLRQoKfn9JzHCxM/wC/5ic/efccoYyg8KDKQHyKKQt764Lr49vqHpuGdYqIIrRVX35sQX01MGK/ZZKu8RX+ul+JmEfH1+xNG2ZqFhTsMDgyjbRtbS5pNH6KICIOQEkdp/CDA9322dyt0pFLUalUsIQQzy7/iujHirkMQ+DQaHgiB48ZYKa2gLItWGKKlRAhBb0+OfP8AwgjUn5tzPDF4gc72DFJJomoVjMB1NGdyOV7sOvPfAsFO+SEd7SmkVDS8BlgGlYh1EldJDvb3EZGh+HALSwiefekya3cWCAWcGx1l6tbPCASpWJyz6TTJtiS2drDOD40hpIUFLBfW6M/lGOjL4x0dYjuaH2anadb3yPfk6M/1Ut7fxbVtFu4vggXqqHqAMQatJY6lcNwYlhDMz88xW1znlYujrKxukM1k+GtzmWQ8QTMMSbenuX1vFst1XRY3l8DSaNdBSwlCMHN/lefGR+hJD1Esr/Ppze8pHZyitEYJQUdbks5UEiWlYiA7SBi10JYkDEO++GmSS2MjPJLJ8/nkN9RPIibn7wqAN194xpwfOYfvN3GVRnneKQkdI2h6YCKkpRgf7sIRcb788TsaHv/j1y5dNK8//zRhGNH0fcr/HKDcRJK7GzOM5h9HKcVqaYkLg08yt/Y7JrJ5+40rdCWT5vJT4yTiisLGDpmMoNUK6GpPYu2U/qawXWZ1Zori9BTD3Y+ye1gm3dbJtZdf5fCoydhQH5ZKEoUpMIZ0JsOt5d+IOzGs6fVFujtTZIcfw28FVE/rxEUCQouYG8OSku3qEcXiBlEY4AUBN298RGq/hq0VSoiI2vEJ67JCZKBxckLb2W6UJfF9H9d2GM72kclmqR/XGcyk2cWwaUtq5RJWpXYIBgqVbUJj+GN9idv3ZjkNA1q+z1JxhSBs8fEnN6js7fDL2iJeEGBrRaVWR2lL4gUBh/U6KWOohwHN42MaXoGFB2vEHAff9zBtMYp7JVphCw3UPY8wivgXBGl1Dmu1qAMAAAAASUVORK5CYII="
+    },
+    {
+      "path": "",
+      "name": "rotten_cherry_door_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "1ca46528-b223-5692-ace6-e96506710c70",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC/klEQVR4nDXSTW9UZRjG8f/9vJwzZ0iZIZCQABI0BWtiFxrF+JKwMi78AC0V/ApsTdFOZzpt9XOoaSU0LoyuXBgjGxdqEIMkSi0l1LakM522M3Oe83K7GLw+wT+/XPL18qImlSp5kRFXEob9I3xcIR0OMGJRLVGBio8oUUIaQJU4Sfjj97u4OKpwsN9BgTQN7OxsE8cx3nkUZXdvjwtnzvLgySP2D3tcOvMCqsrB0SFZkeM6naeUeUGn2+VoOCDyEfvdLiXQ7XUxIlgBLUrGJObvjYccDvq8fHECax0uqVQpQsa/uztcGh/HOY+3jrzIORdOk6nivcdZB2VBKDLWH23go4jeQQ/z24N7VMbGOJZUMdbjnefXP38RZz3H63WSpIoAM+22iPcYLElSZfPpFlYM5vXJ1+gf9kizlDLPmW625LNb3zLdakkWMowIHy5/KgAzzZYYZ0iimEvnx4ljj9l6skk6HJLECYiw2phTgFvz8xrynCwLrHzysQKsNhqqAmlIydIhFRcjawstLYqCh+t/ceH886hAWZQYY5lZWBCAL2/eVGctocgwxrKzu83j7han4hMY76Nn0paiVPr9PqpKqQUKKIAIaZHT2d8n8h4BrrzyDv/sPcZkeSCEwDAdYK0liiKuLS2LYLjdbOhXc3OqKNcXl2Ti4ovcufcz1nr6wyHnjp/G3F+/z1i9hnOeweCI60vPwNptyYsCax0ftBcF4N0bN+TyxKuUlAx6BxgxmMnxScos4+7mBvVanS9mZ0eIzYZiLCELrM6NYNcWmmrN6N7JsSpRFGFKLfnmpx9Z+eGOrHz/HXme8fnsR1oUBdPzTZlpt6XUgpVGQ0NekuaB9e0NnPcYa3AiQqkKwMlaDec93lqMCP/PiiPLc0CpeM/J6imGaUo6DJgsBN67/CZXr7yt77/1Bt45ploLUhrDWqult5tNRUquLS6KdY5cS4wRnLE4bzFjtRPUanVeOvscnV5gqtkSgKnGvAhgrWGqOfrD1WZLRrEyqoli/gPDp2lE/T2HHwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {}
+}

@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "rotten_mangrove_door",
+  "model_identifier": "rotten_mangrove_door",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "door_bottom",
+      "type": "cube",
+      "uuid": "448b45ff-902f-5cce-89f0-a62f98838caa",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        3,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            13,
+            0,
+            16
+          ],
+          "texture": 0,
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "door_top",
+      "type": "cube",
+      "uuid": "112baa65-1283-58c0-b35d-a4b797cc8ab0",
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        3,
+        32,
+        16
+      ],
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "visibility": true,
+      "export": true,
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1,
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            16,
+            0
+          ],
+          "texture": 1,
+          "rotation": 90
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": null,
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "door_bottom",
+      "uuid": "8ad1f3de-685b-536c-90c2-2ef21b81131d",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "448b45ff-902f-5cce-89f0-a62f98838caa"
+      ],
+      "export": true,
+      "visibility": true
+    },
+    {
+      "name": "door_top",
+      "uuid": "2fce507b-0887-53fd-a399-9689ec01e4fa",
+      "origin": [
+        0,
+        16,
+        0
+      ],
+      "children": [
+        "112baa65-1283-58c0-b35d-a4b797cc8ab0"
+      ],
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "rotten_mangrove_door_bottom.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "0",
+      "uuid": "8a5e0436-692d-5501-b102-1cb6fb8ba7f2",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACxElEQVR4nC2Ty24cRRRAT92q7umelx9j+ZU4trBAioAFeAMSYscS5Vv5AVggxAIkg4SDFEwc20kcz3gy8Uz3dE91V10W5pwfOJtjnj37Xg+nd8yrio1en1fjMcc721xMJoQQSaxQt4Hj7S3eTWcsmobPDw+49nMWZYXb2hyhkzHDLKObJqDQti2bvT4GRYyhn3cJMWCMwYpBFVyaEj8ska2rl6TOIQZOb65AwIfIerdLai3WCGKU0V5G0MjJ8Uf08pRltcJYg1S1x4kQo/L1yRFExRqDGMUYw6OPh5QhcDf2RFWubm45vbgkTRzOWSSxDgCD4fafBU0MpKmj8J6/xmN+/P0lTgy1b1FjSBJHlibEGIgx4pbeM8wzEIM2ivnfv8djfvr3lQEIjeqXT/aZ8EC+PSCEwKIEERGsGKZliXMOMYbKe7779ClfPN5VgCxLaFtDEyLOCs4KL17f4sQgWZLw4m5K0MgvV5cc7Y+wIvxw+ienr98ZgCYEimJO7hyIcHbxhlG/RwiK86FlLU3IkpSvspyfzy9x1vLtJ0ck1urJ8WMGnQ73syWL2mMU9rc20BColw3SxJa1vMu0LBARDvsDvnlyxGoZ+Gx7h9XcM3u/BFUUJUalmNwjzqExIpe9dXzjcUbACEGV5zdvUQzWCiFEitWKGJWgir95y54CCqsQcDt7u9S/npNWNelgAAoHG+tsDHs4ERCIQSmrFTq5IwLzXpfGN1gnuNkfv/FoOKSqapZNg0GZzAumRUFU0BBZxcCg06GGh4q2obs2wHuP86rYLKdVRYDdzRHpYs6qKBgeHuKskGUZTduAES7PnmOyhLptqNoGh8D7pgZVzssZB/01rqJnM0Z8CFwX9/hCaULAdix5jBTqyWPyMFUbWsZ1yUiVQlvO7iespRlBlevlPVUIzKqafifFFzXRQfmhZLOfIwj/AUpjiR5Cp8Z7AAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "",
+      "name": "rotten_mangrove_door_top.png",
+      "folder": "block",
+      "namespace": "fallofherovgadia",
+      "id": "1",
+      "uuid": "93102ed2-cafe-5061-b51c-71c289212495",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "internal": true,
+      "saved": true,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACyklEQVR4nCXQyW4cVRSA4f+ce2vo6qHaY9vEBk+JQAJFgiVIBLHmeXgvFrAhyoJNEAJFAsmObLmjdhywHSftobu6qu7AIm/w6ZMfv38Sy24HkUgIUNcNdetJUwsRssQQBa5v71kdDBAiMUam9xWT+RRbZAlX726IRFJrWbQNRZZTVQtmi4oiL4gxEFzL4Zs37CwvUzWOED2u9VhB8N4zcw1v395T5hn3ixqNkSZ4bhc1RMHHQD9L+fP0Fd0sY39jgyiCvZnXROBuVlFmGaNymX4nBVVmVYWK4W5R0cs7OO9xbcv1oiaxSpYa7K/X1zwZlqDKSr+PiPDH+BUSAQQRCDGiwMFoneVhSf1uStW2VE2D3d/fJZ2+Z7XXA4Sj83OMwt7mJlYU71sSm3B4fs7x5SX7o3VQmItH1KDm+CU+CrlVAhEEdtdHzKoZ1WLObFFzcTNlb3NEoobgI4jSGvA+oJ9ufcx0PsMYS/AeERAR8jSj6BTkWcpoOORoMoEQiCHgvKN1DmsU67yjsJbL2R2DrIMgtK5lfWlAlqZ4H6gbRxBFRT4oEWxqiSFivfcMioKNzR7Pno/pW0uWpLwYT3AhkBrF+cjj7S3Orq5RAWMNIYYPuaKGrLT89NsRT0/GcjGfE4G1bo8HwyHDTpedtVWejccMV3qICCTCf1fvERWUGPnr+IyOTQDodlLapsFaQ9kpyBOLc46vt7d5fnpGWRZEFVbKPgpYEeFBt2Sj6GHVxC93NvGV0LgWHwIgJEb4e3LGo+ESv/zzkm8efsKla0BBY4gYhdRaPl9b42RyRe1aJELtWpTIi9dnfHVwwMnNlB8ef0ahOU3jEFHUx4CiKOBDIEYwKNYYhoMuNk354qMtnp4c8+2jHX4/PCVLEzqdnLpx6M8XVySJJbEWtRYRiBJZWu5T5DnrqyVl2ee73T3+vbxFVWnbFu89iTX8Dw7TT8dAtq8rAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {}
+}

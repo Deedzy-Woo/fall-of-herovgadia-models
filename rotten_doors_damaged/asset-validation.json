@@ -1,0 +1,330 @@
+[
+  {
+    "species": "oak",
+    "new_transparent_pixels": 7,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        4,
+        25
+      ],
+      [
+        5,
+        25
+      ],
+      [
+        4,
+        26
+      ],
+      [
+        5,
+        26
+      ],
+      [
+        4,
+        27
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        11,
+        19
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 457
+  },
+  {
+    "species": "spruce",
+    "new_transparent_pixels": 8,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        5,
+        19
+      ],
+      [
+        5,
+        20
+      ],
+      [
+        5,
+        21
+      ],
+      [
+        6,
+        21
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        23
+      ],
+      [
+        12,
+        28
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 501
+  },
+  {
+    "species": "birch",
+    "new_transparent_pixels": 7,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        6,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        10,
+        23
+      ],
+      [
+        11,
+        23
+      ],
+      [
+        10,
+        24
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 504
+  },
+  {
+    "species": "jungle",
+    "new_transparent_pixels": 6,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        11,
+        24
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        11,
+        25
+      ],
+      [
+        11,
+        26
+      ],
+      [
+        3,
+        18
+      ],
+      [
+        3,
+        19
+      ]
+    ],
+    "blood_streaks": 3,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 473
+  },
+  {
+    "species": "acacia",
+    "new_transparent_pixels": 6,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        5,
+        30
+      ],
+      [
+        6,
+        30
+      ],
+      [
+        10,
+        21
+      ],
+      [
+        10,
+        22
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 361
+  },
+  {
+    "species": "dark_oak",
+    "new_transparent_pixels": 7,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        11,
+        25
+      ],
+      [
+        12,
+        25
+      ],
+      [
+        11,
+        26
+      ],
+      [
+        12,
+        26
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 503
+  },
+  {
+    "species": "mangrove",
+    "new_transparent_pixels": 7,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        7,
+        21
+      ],
+      [
+        8,
+        21
+      ],
+      [
+        8,
+        22
+      ],
+      [
+        8,
+        23
+      ],
+      [
+        7,
+        23
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ]
+    ],
+    "blood_streaks": 3,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 501
+  },
+  {
+    "species": "cherry",
+    "new_transparent_pixels": 6,
+    "original_windows_preserved": true,
+    "new_hole_coordinates": [
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        24
+      ],
+      [
+        10,
+        25
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "blood_streaks": 2,
+    "geometry_and_uv_unchanged": true,
+    "native_size_per_texture": [
+      16,
+      16
+    ],
+    "modified_visible_pixels": 467
+  }
+]
