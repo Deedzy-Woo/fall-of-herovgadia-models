@@ -1,0 +1,80 @@
+{
+  "name": "Undead Harpy",
+  "format": "Blockbench Bedrock Entity + GeckoLib-compatible geometry/animation exports",
+  "cuboids": 117,
+  "bones": 24,
+  "texture_size": [
+    128,
+    64
+  ],
+  "animation_names": [
+    "animation.undead_harpy.wing_flap",
+    "animation.undead_harpy.hover",
+    "animation.undead_harpy.dive",
+    "animation.undead_harpy.grab"
+  ],
+  "main_model": "blockbench/undead_harpy.bbmodel",
+  "presentation": "previews/model_sheet.png",
+  "files": [
+    {
+      "path": "README_RU.md",
+      "bytes": 7200,
+      "sha256": "923aebf643008bd01f6e0a85cf49d9cc33f742b6f6924219ac15a3fe3a2d7162"
+    },
+    {
+      "path": "RIG_NOTES.md",
+      "bytes": 3786,
+      "sha256": "b6c339e514eb4091ad5db49102127ec4c13d7bc54970369f82400a856494a6f2"
+    },
+    {
+      "path": "blockbench/undead_harpy.bbmodel",
+      "bytes": 285703,
+      "sha256": "2b06e1869e6a8c675c8c125a9a4df690f0c5404ad1d825f31c9723fb316719a3"
+    },
+    {
+      "path": "blockbench-validation.json",
+      "bytes": 8649,
+      "sha256": "2047c3657c9cc8af0010ccf5b8c555fb84019ffa21ce290c3c21c19c76798765"
+    },
+    {
+      "path": "exports/undead_harpy.animation.json",
+      "bytes": 23534,
+      "sha256": "2bf9283beb318463973156571f6ffc55fc01f12e15fc391ec4197fdc116ac470"
+    },
+    {
+      "path": "exports/undead_harpy.geo.json",
+      "bytes": 230525,
+      "sha256": "0ae188ba7d7e7e161a39bcb1c8f151e6d40410e6b8e0fb5bc5a2d924c4aef344"
+    },
+    {
+      "path": "geometry-validation.json",
+      "bytes": 1374,
+      "sha256": "b7792d8b54ba68e15598776d5444b07528a5f85884ea80e133eda79139afbea7"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 3697,
+      "sha256": "c3a4a13961f251d85321af93239dd3235fa40c317ec49ab2ed10f9ada26aade6"
+    },
+    {
+      "path": "previews/face_details.png",
+      "bytes": 124354,
+      "sha256": "1e956d301c5d936c4d0b50cf955c9896c24613dac3f09d912e7b711a23132050"
+    },
+    {
+      "path": "previews/model_sheet.png",
+      "bytes": 424288,
+      "sha256": "d185820104d75ad4134b23e54eed5422928573eb2a30ff10d72380c5ef43af92"
+    },
+    {
+      "path": "previews/wing_flap.gif",
+      "bytes": 621101,
+      "sha256": "5212467a8f2047683f643fa05db7d9da1938952adf11ba72adae08dfce468875"
+    },
+    {
+      "path": "textures/undead_harpy.png",
+      "bytes": 14591,
+      "sha256": "77a2260aa3c9bc2bf9b322acdac0f046ece0b95049360e90bc663ee9785caeb4"
+    }
+  ]
+}

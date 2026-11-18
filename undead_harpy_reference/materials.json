@@ -1,0 +1,302 @@
+{
+  "size": [
+    128,
+    64
+  ],
+  "head_front_uv": [
+    0,
+    0,
+    8,
+    8
+  ],
+  "tiles": [
+    {
+      "name": "face_front",
+      "uv": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "face_side",
+      "uv": [
+        16,
+        0,
+        32,
+        16
+      ]
+    },
+    {
+      "name": "hair_cap",
+      "uv": [
+        32,
+        0,
+        48,
+        16
+      ]
+    },
+    {
+      "name": "hair_long",
+      "uv": [
+        48,
+        0,
+        64,
+        16
+      ]
+    },
+    {
+      "name": "beak_horn",
+      "uv": [
+        64,
+        0,
+        80,
+        16
+      ]
+    },
+    {
+      "name": "wing_bone",
+      "uv": [
+        80,
+        0,
+        96,
+        16
+      ]
+    },
+    {
+      "name": "claw_horn",
+      "uv": [
+        96,
+        0,
+        112,
+        16
+      ]
+    },
+    {
+      "name": "skin",
+      "uv": [
+        112,
+        0,
+        128,
+        16
+      ]
+    },
+    {
+      "name": "torso_front",
+      "uv": [
+        0,
+        16,
+        16,
+        32
+      ]
+    },
+    {
+      "name": "torso_back",
+      "uv": [
+        16,
+        16,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "decayed_skin",
+      "uv": [
+        32,
+        16,
+        48,
+        32
+      ]
+    },
+    {
+      "name": "limb_skin",
+      "uv": [
+        48,
+        16,
+        64,
+        32
+      ]
+    },
+    {
+      "name": "hip_feathers",
+      "uv": [
+        64,
+        16,
+        80,
+        32
+      ]
+    },
+    {
+      "name": "tail_feathers",
+      "uv": [
+        80,
+        16,
+        96,
+        32
+      ]
+    },
+    {
+      "name": "talon_scales",
+      "uv": [
+        96,
+        16,
+        112,
+        32
+      ]
+    },
+    {
+      "name": "warm_shadow",
+      "uv": [
+        112,
+        16,
+        128,
+        32
+      ]
+    },
+    {
+      "name": "primary_charcoal",
+      "uv": [
+        0,
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "name": "primary_brown",
+      "uv": [
+        16,
+        32,
+        32,
+        48
+      ]
+    },
+    {
+      "name": "primary_rust",
+      "uv": [
+        32,
+        32,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "primary_red_brown",
+      "uv": [
+        48,
+        32,
+        64,
+        48
+      ]
+    },
+    {
+      "name": "secondary_dark",
+      "uv": [
+        64,
+        32,
+        80,
+        48
+      ]
+    },
+    {
+      "name": "secondary_brown",
+      "uv": [
+        80,
+        32,
+        96,
+        48
+      ]
+    },
+    {
+      "name": "secondary_charcoal",
+      "uv": [
+        96,
+        32,
+        112,
+        48
+      ]
+    },
+    {
+      "name": "secondary_rust",
+      "uv": [
+        112,
+        32,
+        128,
+        48
+      ]
+    },
+    {
+      "name": "underwing_charcoal",
+      "uv": [
+        0,
+        48,
+        16,
+        64
+      ]
+    },
+    {
+      "name": "underwing_brown",
+      "uv": [
+        16,
+        48,
+        32,
+        64
+      ]
+    },
+    {
+      "name": "underwing_rust",
+      "uv": [
+        32,
+        48,
+        48,
+        64
+      ]
+    },
+    {
+      "name": "underwing_red_brown",
+      "uv": [
+        48,
+        48,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "joint_skin",
+      "uv": [
+        64,
+        48,
+        80,
+        64
+      ]
+    },
+    {
+      "name": "ragged_hair_ends",
+      "uv": [
+        80,
+        48,
+        96,
+        64
+      ]
+    },
+    {
+      "name": "extra_skin",
+      "uv": [
+        96,
+        48,
+        112,
+        64
+      ]
+    },
+    {
+      "name": "reserved_dark",
+      "uv": [
+        112,
+        48,
+        128,
+        64
+      ]
+    }
+  ]
+}

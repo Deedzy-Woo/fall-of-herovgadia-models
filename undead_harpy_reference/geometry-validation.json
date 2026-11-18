@@ -1,0 +1,70 @@
+{
+  "cube_count": 117,
+  "bone_count": 24,
+  "per_part_cube_counts": {
+    "torso_neck_and_head": 6,
+    "beak": 4,
+    "hair": 8,
+    "wings": 56,
+    "arms_and_hand_claws": 18,
+    "legs_and_talons": 22,
+    "tail": 3
+  },
+  "faces": 702,
+  "triangles": 1404,
+  "render_vertices_separate_faces": 2808,
+  "cube_corner_samples": 936,
+  "rest_world_bounds": {
+    "min": [
+      -42.168,
+      0.31,
+      -8.888
+    ],
+    "max": [
+      42.168,
+      44.7,
+      9.228
+    ],
+    "span_units": [
+      84.335,
+      44.39,
+      18.116
+    ],
+    "span_blocks": [
+      5.271,
+      2.774,
+      1.132
+    ]
+  },
+  "every_cube_owned_once": true,
+  "unreferenced_cubes": 0,
+  "bbmodel_and_geo_bone_names_match": true,
+  "bbmodel_and_geo_cube_counts_match": true,
+  "all_cuboids_nondegenerate": true,
+  "clips": [
+    {
+      "name": "animation.undead_harpy.wing_flap",
+      "duration_seconds": 1.2,
+      "loop": "loop",
+      "animated_bones": 4
+    },
+    {
+      "name": "animation.undead_harpy.hover",
+      "duration_seconds": 2.4,
+      "loop": "loop",
+      "animated_bones": 4
+    },
+    {
+      "name": "animation.undead_harpy.dive",
+      "duration_seconds": 1.1,
+      "loop": "once",
+      "animated_bones": 11
+    },
+    {
+      "name": "animation.undead_harpy.grab",
+      "duration_seconds": 1.0,
+      "loop": "once",
+      "animated_bones": 12
+    }
+  ]
+}

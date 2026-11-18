@@ -1,0 +1,431 @@
+{
+  "version": "4.12.6",
+  "format": "bedrock",
+  "name": "undead_harpy",
+  "elements": 117,
+  "groups": [
+    "root",
+    "body",
+    "chest",
+    "neck",
+    "head",
+    "hair",
+    "beak",
+    "wing_left",
+    "wing_fore_left",
+    "wing_right",
+    "wing_fore_right",
+    "arm_left",
+    "forearm_left",
+    "hand_left",
+    "arm_right",
+    "forearm_right",
+    "hand_right",
+    "tail",
+    "thigh_left",
+    "shin_left",
+    "foot_left",
+    "thigh_right",
+    "shin_right",
+    "foot_right"
+  ],
+  "textures": [
+    {
+      "name": "undead_harpy.png",
+      "width": 128,
+      "height": 64,
+      "error": 0
+    }
+  ],
+  "missing_faces": [],
+  "invalid_geometry": [],
+  "animations": [
+    {
+      "name": "animation.undead_harpy.wing_flap",
+      "length": 1.2,
+      "bones": 4,
+      "keyframes": 18
+    },
+    {
+      "name": "animation.undead_harpy.hover",
+      "length": 2.4,
+      "bones": 4,
+      "keyframes": 12
+    },
+    {
+      "name": "animation.undead_harpy.dive",
+      "length": 1.1,
+      "bones": 11,
+      "keyframes": 44
+    },
+    {
+      "name": "animation.undead_harpy.grab",
+      "length": 1,
+      "bones": 12,
+      "keyframes": 46
+    }
+  ],
+  "roundtrip_elements": 117,
+  "roundtrip_animations": 4,
+  "bounds": {
+    "min": [
+      -42.16751090215232,
+      0.3103093339438141,
+      -8.88810999183351
+    ],
+    "max": [
+      42.16751090215232,
+      44.69986279768857,
+      9.22832080424028
+    ]
+  },
+  "roundtrip_reopened": {
+    "elements": 117,
+    "groups": 24,
+    "animations": 4,
+    "textures": [
+      {
+        "width": 128,
+        "height": 64
+      }
+    ]
+  },
+  "animation_checks": [
+    {
+      "name": "animation.undead_harpy.wing_flap",
+      "moving_bones": [
+        "wing_left",
+        "wing_fore_left",
+        "wing_right",
+        "wing_fore_right"
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.hover",
+      "moving_bones": [
+        "head",
+        "tail",
+        "body",
+        "hair"
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.dive",
+      "moving_bones": [
+        "root",
+        "wing_left",
+        "wing_right",
+        "arm_left",
+        "arm_right",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.grab",
+      "moving_bones": [
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    }
+  ],
+  "leg_animation": {
+    "authored_bones": [
+      "thigh_left",
+      "shin_left",
+      "foot_left",
+      "thigh_right",
+      "shin_right",
+      "foot_right"
+    ],
+    "moving_bones": [
+      "thigh_left",
+      "shin_left",
+      "foot_left",
+      "thigh_right",
+      "shin_right",
+      "foot_right"
+    ]
+  },
+  "authoritative_exports": {
+    "geometry": "../exports/undead_harpy.geo.json",
+    "animations": "../exports/undead_harpy.animation.json",
+    "geometry_format": "1.12.0",
+    "animation_format": "1.8.0"
+  },
+  "wing_flap_preview_frames": 16,
+  "rendered_views": [
+    {
+      "name": "front_3quarter",
+      "bounds": {
+        "min": [
+          -42.16751090215232,
+          0.3103093339438141,
+          -8.88810999183351
+        ],
+        "max": [
+          42.16751090215232,
+          44.69986279768857,
+          9.22832080424028
+        ]
+      },
+      "camera": [
+        55.131352880544654,
+        44.82015746984618,
+        -131.0950204998553
+      ],
+      "target": [
+        0,
+        22.50508606581619,
+        0.1701054062033851
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8699999999999991,
+          0.7776923415559804
+        ],
+        "y": [
+          -0.6837986198036725,
+          0.5102505605711614
+        ]
+      }
+    },
+    {
+      "name": "front",
+      "bounds": {
+        "min": [
+          -42.16751090215232,
+          0.3103093339438141,
+          -8.88810999183351
+        ],
+        "max": [
+          42.16751090215232,
+          44.69986279768857,
+          9.22832080424028
+        ]
+      },
+      "camera": [
+        1.7382072460501804e-14,
+        28.182501781956987,
+        -141.76528749731688
+      ],
+      "target": [
+        0,
+        22.50508606581619,
+        0.1701054062033851
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8700000000000004,
+          0.8700000000000004
+        ],
+        "y": [
+          -0.550636837937026,
+          0.5401045197439501
+        ]
+      }
+    },
+    {
+      "name": "side",
+      "bounds": {
+        "min": [
+          -42.16751090215232,
+          0.3103093339438141,
+          -8.88810999183351
+        ],
+        "max": [
+          42.16751090215232,
+          44.69986279768857,
+          9.22832080424028
+        ]
+      },
+      "camera": [
+        135.8801645128629,
+        33.37549922684523,
+        -3.2268987066182007
+      ],
+      "target": [
+        0,
+        22.50508606581619,
+        0.1701054062033851
+      ],
+      "projected_extent": {
+        "x": [
+          -0.29695081475966434,
+          0.23618712153609384
+        ],
+        "y": [
+          -0.8700000000000002,
+          0.6639909597703801
+        ]
+      }
+    },
+    {
+      "name": "back",
+      "bounds": {
+        "min": [
+          -42.16751090215232,
+          0.3103093339438141,
+          -8.88810999183351
+        ],
+        "max": [
+          42.16751090215232,
+          44.69986279768857,
+          9.22832080424028
+        ]
+      },
+      "camera": [
+        17.06473321573056,
+        36.725697078924995,
+        142.37621553729136
+      ],
+      "target": [
+        0,
+        22.50508606581619,
+        0.1701054062033851
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8495650604808399,
+          0.8700000000000001
+        ],
+        "y": [
+          -0.5808293393738023,
+          0.5298643039586505
+        ]
+      }
+    },
+    {
+      "name": "face_closeup",
+      "bounds": {
+        "min": [
+          -4.956817281867346,
+          25.133051184588744,
+          -8.88810999183351
+        ],
+        "max": [
+          4.622966770165163,
+          37.14017961243261,
+          1.4327057334443727
+        ]
+      },
+      "camera": [
+        10.560779886191579,
+        34.7125171125249,
+        -33.526883079313095
+      ],
+      "target": [
+        -0.16692525585109186,
+        31.136615398510678,
+        -3.7277021291945687
+      ],
+      "projected_extent": {
+        "x": [
+          -0.6994278290713463,
+          0.8600000000000008
+        ],
+        "y": [
+          -0.8383977690996453,
+          0.6920101003016241
+        ]
+      }
+    },
+    {
+      "name": "face_profile",
+      "bounds": {
+        "min": [
+          -4.956817281867346,
+          25.133051184588744,
+          -8.88810999183351
+        ],
+        "max": [
+          4.622966770165163,
+          37.14017961243261,
+          1.4327057334443727
+        ]
+      },
+      "camera": [
+        29.694994238213607,
+        32.331092178273266,
+        -8.206990053304274
+      ],
+      "target": [
+        -0.16692525585109186,
+        31.136615398510678,
+        -3.7277021291945687
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8600000000000008,
+          0.6903912678077405
+        ],
+        "y": [
+          -0.8146542836062395,
+          0.7723362197245802
+        ]
+      }
+    },
+    {
+      "name": "dynamic_flight",
+      "animation": "animation.undead_harpy.dive",
+      "time": 0.528,
+      "bounds": {
+        "min": [
+          -36.0745949973017,
+          -5.1670699010500085,
+          -34.51571530435847
+        ],
+        "max": [
+          36.0745949973017,
+          38.4867248341217,
+          -2.9211764821271293
+        ]
+      },
+      "camera": [
+        81.38291105989488,
+        -2.120844316516827,
+        -123.05551135464647
+      ],
+      "target": [
+        0,
+        16.659827466535848,
+        -18.7184458932428
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8600000000000015,
+          0.7418185479414706
+        ],
+        "y": [
+          -0.568755060814928,
+          0.8456330038219938
+        ]
+      }
+    }
+  ],
+  "page_errors": [
+    {
+      "phase": "application_startup",
+      "message": "Object",
+      "stack": ""
+    }
+  ],
+  "model_errors": [],
+  "source_model_sha256": "2b06e1869e6a8c675c8c125a9a4df690f0c5404ad1d825f31c9723fb316719a3",
+  "source_model_path": "blockbench/undead_harpy.bbmodel",
+  "geometry_identifier": "geometry.undead_harpy"
+}
