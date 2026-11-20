@@ -1,0 +1,53 @@
+{
+  "cube_count": 70,
+  "bone_count": 24,
+  "per_part_cube_counts": {
+    "torso_neck_and_head": 11,
+    "beak": 3,
+    "hair": 6,
+    "wings": 22,
+    "arms_and_hand_claws": 12,
+    "legs_and_talons": 14,
+    "tail": 2
+  },
+  "faces": 420,
+  "triangles": 840,
+  "render_vertices_separate_faces": 1680,
+  "cube_corner_samples": 560,
+  "rest_world_bounds": {
+    "min": [
+      -36.698,
+      0.07,
+      -8.941
+    ],
+    "max": [
+      36.698,
+      43.724,
+      8.523
+    ],
+    "span_units": [
+      73.396,
+      43.655,
+      17.464
+    ],
+    "span_blocks": [
+      4.587,
+      2.728,
+      1.091
+    ]
+  },
+  "every_cube_owned_once": true,
+  "unreferenced_cubes": 0,
+  "bbmodel_and_geo_bone_names_match": true,
+  "bbmodel_and_geo_cube_counts_match": true,
+  "all_cuboids_nondegenerate": true,
+  "animations": 0,
+  "animation_controllers": 0,
+  "single_atlas_size": [
+    16,
+    16
+  ],
+  "opaque_texture": true,
+  "uv_within_literal16x16": true,
+  "no_animation_files": true
+}

@@ -1,0 +1,76 @@
+{
+  "texture_size": [
+    16,
+    16
+  ],
+  "single_atlas": true,
+  "materials": {
+    "face": [
+      0,
+      0,
+      8,
+      8
+    ],
+    "skin": [
+      8,
+      0,
+      12,
+      4
+    ],
+    "beak": [
+      12,
+      0,
+      16,
+      4
+    ],
+    "hair": [
+      8,
+      4,
+      12,
+      8
+    ],
+    "bone": [
+      12,
+      4,
+      16,
+      8
+    ],
+    "wounded_torso": [
+      0,
+      8,
+      8,
+      16
+    ],
+    "wing_feathers": [
+      8,
+      8,
+      16,
+      12
+    ],
+    "wing_underside": [
+      8,
+      12,
+      12,
+      16
+    ],
+    "claws": [
+      12,
+      12,
+      16,
+      16
+    ]
+  },
+  "cut_edge_sample": [
+    0,
+    10,
+    1,
+    11
+  ],
+  "ivory_sample": [
+    13,
+    5,
+    14,
+    6
+  ],
+  "alpha": "fully opaque"
+}

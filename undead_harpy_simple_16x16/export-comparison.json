@@ -1,0 +1,15 @@
+{
+  "geometry_identifier": "geometry.undead_harpy",
+  "geometry_format": "1.12.0",
+  "bones": 24,
+  "cubes": 70,
+  "manual_official_geometry_match_by_bone": true,
+  "source_final_geometry_and_uv_match": true,
+  "source_final_bbmodel_exact": true,
+  "animations": 0,
+  "animation_controllers": 0,
+  "exported_animation_files": 0,
+  "gif_files": 0,
+  "final_model_sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911",
+  "source_model_sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911"
+}

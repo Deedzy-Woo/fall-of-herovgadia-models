@@ -1,0 +1,79 @@
+{
+  "name": "Undead Harpy — simplified16x16",
+  "cuboids": 70,
+  "bones": 24,
+  "textures": 1,
+  "texture_size": [
+    16,
+    16
+  ],
+  "animation_clips": 0,
+  "animation_controllers": 0,
+  "files": [
+    {
+      "path": "README_RU.md",
+      "bytes": 4331,
+      "sha256": "633ea53f372330d4273ca7d45b4a1a897e8b846a31325a7331228ad8c785bb9f"
+    },
+    {
+      "path": "RIG_NOTES.md",
+      "bytes": 2918,
+      "sha256": "e81c2a49297792cea68b5193985264c38d4e844170ff923b0ce4d4cc46201843"
+    },
+    {
+      "path": "blockbench/undead_harpy.bbmodel",
+      "bytes": 134046,
+      "sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911"
+    },
+    {
+      "path": "blockbench-validation.json",
+      "bytes": 14631,
+      "sha256": "966d1859f759729cd7fcf4870ef8ba1a3fbafd93a6ead23debd0a9f18ef6e164"
+    },
+    {
+      "path": "export-comparison.json",
+      "bytes": 532,
+      "sha256": "2aa3f5490682537b63559d1ef5fa7486ee6d1420bedb341e13823f21edce3259"
+    },
+    {
+      "path": "exports/undead_harpy.geo.json",
+      "bytes": 136621,
+      "sha256": "82c609d167f65242ec95743ec1e8231be97bd38d7bf6eb73da27a5a380b6b925"
+    },
+    {
+      "path": "geometry-validation.json",
+      "bytes": 987,
+      "sha256": "29000b31339e9ff135d199c4f536549b503924ccabecd01f22fae624f56ae642"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 775,
+      "sha256": "c032801bab6174327f41df3cbb8f1e2b5caeff736c0abb18be48dc2201565059"
+    },
+    {
+      "path": "previews/before_after.png",
+      "bytes": 168558,
+      "sha256": "3618635ae92fe93a842190244c89a11656f795b7d039f9af195203a9d4d7b78d"
+    },
+    {
+      "path": "previews/details.png",
+      "bytes": 52257,
+      "sha256": "cd1beeb99b2f16645152b6e213acd3758d962ae04e61d650130babe6570de620"
+    },
+    {
+      "path": "previews/model_sheet.png",
+      "bytes": 130928,
+      "sha256": "6e2d70b603905a416b786e2e6d94a6a638c9145f2c1267ca038943a9020dabc0"
+    },
+    {
+      "path": "previews/texture_nearest_preview.png",
+      "bytes": 2969,
+      "sha256": "7dba9f2412a5a6d486f5b90319e13f1f2cc4108ce0cc03656175737c47fe4e87"
+    },
+    {
+      "path": "textures/undead_harpy.png",
+      "bytes": 641,
+      "sha256": "2998b704cce6f03952d7e1b75a25dd5deae5749e2b7df5cf1b7f54bc998b1764"
+    }
+  ]
+}
