@@ -1,0 +1,1485 @@
+{
+  "method": "World-space oriented cuboids derived from actual Blockbench mesh geometry and matrixWorld. Contacts use all15 separating axes (SAT), not AABB; hair uses outward ray tests plus underlying dark hair-material samples on each non-front skull surface.",
+  "contact_tolerance_units": 0.035,
+  "cubes": 88,
+  "contacts": 183,
+  "feathers": [
+    {
+      "name": "left_broad_feather_1",
+      "direct_wing_contacts": [
+        "left_leading_outer",
+        "left_broad_feather_2",
+        "left_wing_outer_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_1",
+        "left_leading_outer",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_broad_feather_2",
+      "direct_wing_contacts": [
+        "left_leading_outer",
+        "left_broad_feather_1",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_wing_outer_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_2",
+        "left_leading_outer",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_broad_feather_3",
+      "direct_wing_contacts": [
+        "left_leading_outer",
+        "left_broad_feather_2",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_wing_outer_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_3",
+        "left_leading_outer",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_feather_tip_3",
+      "direct_wing_contacts": [
+        "left_broad_feather_2",
+        "left_broad_feather_3"
+      ],
+      "path_to_body": [
+        "left_feather_tip_3",
+        "left_broad_feather_2",
+        "left_leading_outer",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_broad_feather_4",
+      "direct_wing_contacts": [
+        "left_broad_feather_3",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_wing_inner_support",
+        "left_wing_outer_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_4",
+        "left_wing_inner_support",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_broad_feather_5",
+      "direct_wing_contacts": [
+        "left_leading_inner",
+        "left_dense_inner_cover",
+        "left_broad_feather_4",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "left_wing_inner_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_5",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_feather_tip_5",
+      "direct_wing_contacts": [
+        "left_dense_inner_cover",
+        "left_broad_feather_4",
+        "left_broad_feather_5"
+      ],
+      "path_to_body": [
+        "left_feather_tip_5",
+        "left_dense_inner_cover",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "left_broad_feather_6",
+      "direct_wing_contacts": [
+        "left_leading_inner",
+        "left_broad_feather_5",
+        "left_wing_root_socket",
+        "left_wing_inner_support"
+      ],
+      "path_to_body": [
+        "left_broad_feather_6",
+        "left_leading_inner",
+        "chest_left_back"
+      ]
+    },
+    {
+      "name": "right_broad_feather_1",
+      "direct_wing_contacts": [
+        "right_leading_outer",
+        "right_broad_feather_2",
+        "right_wing_outer_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_1",
+        "right_leading_outer",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_broad_feather_2",
+      "direct_wing_contacts": [
+        "right_leading_outer",
+        "right_broad_feather_1",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_wing_outer_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_2",
+        "right_leading_outer",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_broad_feather_3",
+      "direct_wing_contacts": [
+        "right_leading_outer",
+        "right_broad_feather_2",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_wing_outer_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_3",
+        "right_leading_outer",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_feather_tip_3",
+      "direct_wing_contacts": [
+        "right_broad_feather_2",
+        "right_broad_feather_3"
+      ],
+      "path_to_body": [
+        "right_feather_tip_3",
+        "right_broad_feather_2",
+        "right_leading_outer",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_broad_feather_4",
+      "direct_wing_contacts": [
+        "right_broad_feather_3",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_wing_inner_support",
+        "right_wing_outer_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_4",
+        "right_wing_inner_support",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_broad_feather_5",
+      "direct_wing_contacts": [
+        "right_leading_inner",
+        "right_dense_inner_cover",
+        "right_broad_feather_4",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "right_wing_inner_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_5",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_feather_tip_5",
+      "direct_wing_contacts": [
+        "right_dense_inner_cover",
+        "right_broad_feather_4",
+        "right_broad_feather_5"
+      ],
+      "path_to_body": [
+        "right_feather_tip_5",
+        "right_dense_inner_cover",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    },
+    {
+      "name": "right_broad_feather_6",
+      "direct_wing_contacts": [
+        "right_leading_inner",
+        "right_broad_feather_5",
+        "right_wing_root_socket",
+        "right_wing_inner_support"
+      ],
+      "path_to_body": [
+        "right_broad_feather_6",
+        "right_leading_inner",
+        "chest_core"
+      ]
+    }
+  ],
+  "disconnected_feathers": [],
+  "beak": [
+    {
+      "name": "beak_upper_wedge",
+      "direct_contacts": [
+        "head_skull",
+        "beak_closed_mandible",
+        "beak_bridge"
+      ],
+      "path_to_skull": [
+        "beak_upper_wedge",
+        "head_skull"
+      ]
+    },
+    {
+      "name": "beak_hooked_tip",
+      "direct_contacts": [
+        "beak_closed_mandible",
+        "beak_bridge"
+      ],
+      "path_to_skull": [
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "head_skull"
+      ]
+    },
+    {
+      "name": "beak_closed_mandible",
+      "direct_contacts": [
+        "head_skull",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_bridge"
+      ],
+      "path_to_skull": [
+        "beak_closed_mandible",
+        "head_skull"
+      ]
+    },
+    {
+      "name": "beak_bridge",
+      "direct_contacts": [
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible"
+      ],
+      "path_to_skull": [
+        "beak_bridge",
+        "beak_upper_wedge",
+        "head_skull"
+      ]
+    }
+  ],
+  "disconnected_beak_parts": [],
+  "claw_hooks": [
+    {
+      "name": "left_hand_claw_2_dark_hook",
+      "parent_prong": "left_hand_claw_2",
+      "direct_contact_to_parent": true,
+      "direct_contacts": [
+        "left_hand_claw_2"
+      ]
+    },
+    {
+      "name": "left_toe_2_dark_hook",
+      "parent_prong": "left_toe_2",
+      "direct_contact_to_parent": true,
+      "direct_contacts": [
+        "left_toe_2"
+      ]
+    },
+    {
+      "name": "right_hand_claw_2_dark_hook",
+      "parent_prong": "right_hand_claw_2",
+      "direct_contact_to_parent": true,
+      "direct_contacts": [
+        "right_hand_claw_2"
+      ]
+    },
+    {
+      "name": "right_toe_2_dark_hook",
+      "parent_prong": "right_toe_2",
+      "direct_contact_to_parent": true,
+      "direct_contacts": [
+        "right_toe_2"
+      ]
+    }
+  ],
+  "disconnected_claw_hooks": [],
+  "hair_coverage": [
+    {
+      "surface": "right_side",
+      "samples": 121,
+      "external_hair_samples": 121,
+      "external_hair_coverage": 1,
+      "combined_with_hair_textured_skull_samples": 121,
+      "combined_coverage": 1,
+      "skull_face_uv": [
+        16,
+        0,
+        32,
+        16
+      ],
+      "potential_uncovered_samples": []
+    },
+    {
+      "surface": "left_side",
+      "samples": 121,
+      "external_hair_samples": 121,
+      "external_hair_coverage": 1,
+      "combined_with_hair_textured_skull_samples": 121,
+      "combined_coverage": 1,
+      "skull_face_uv": [
+        16,
+        0,
+        32,
+        16
+      ],
+      "potential_uncovered_samples": []
+    },
+    {
+      "surface": "top",
+      "samples": 121,
+      "external_hair_samples": 121,
+      "external_hair_coverage": 1,
+      "combined_with_hair_textured_skull_samples": 121,
+      "combined_coverage": 1,
+      "skull_face_uv": [
+        48,
+        0,
+        64,
+        16
+      ],
+      "potential_uncovered_samples": []
+    },
+    {
+      "surface": "back",
+      "samples": 121,
+      "external_hair_samples": 121,
+      "external_hair_coverage": 1,
+      "combined_with_hair_textured_skull_samples": 121,
+      "combined_coverage": 1,
+      "skull_face_uv": [
+        32,
+        0,
+        48,
+        16
+      ],
+      "potential_uncovered_samples": []
+    }
+  ],
+  "hair_paths_to_crown": [
+    {
+      "name": "hair_crown",
+      "path_to_crown": [
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_back",
+      "path_to_crown": [
+        "hair_back",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_left_frame",
+      "path_to_crown": [
+        "hair_left_frame",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_right_frame",
+      "path_to_crown": [
+        "hair_right_frame",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_left_bang",
+      "path_to_crown": [
+        "hair_left_bang",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_right_bang",
+      "path_to_crown": [
+        "hair_right_bang",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_left_temple_shell",
+      "path_to_crown": [
+        "hair_left_temple_shell",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_right_temple_shell",
+      "path_to_crown": [
+        "hair_right_temple_shell",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_back_left_lock",
+      "path_to_crown": [
+        "hair_back_left_lock",
+        "hair_back",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_back_right_lock",
+      "path_to_crown": [
+        "hair_back_right_lock",
+        "hair_back",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_back_middle_lock",
+      "path_to_crown": [
+        "hair_back_middle_lock",
+        "hair_back",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_left_mid_lock",
+      "path_to_crown": [
+        "hair_left_mid_lock",
+        "hair_left_temple_shell",
+        "hair_crown"
+      ]
+    },
+    {
+      "name": "hair_right_mid_lock",
+      "path_to_crown": [
+        "hair_right_mid_lock",
+        "hair_right_temple_shell",
+        "hair_crown"
+      ]
+    }
+  ],
+  "disconnected_hair_pieces": [],
+  "hair_height_review": {
+    "crown_max_skull_local_y": 4.49999997615814,
+    "parts_above_crown": [],
+    "parts": [
+      {
+        "name": "hair_crown",
+        "max_skull_local_y": 4.5,
+        "above_crown": false
+      },
+      {
+        "name": "hair_back",
+        "max_skull_local_y": 3.25,
+        "above_crown": false
+      },
+      {
+        "name": "hair_left_frame",
+        "max_skull_local_y": 3.2969,
+        "above_crown": false
+      },
+      {
+        "name": "hair_right_frame",
+        "max_skull_local_y": 3.308,
+        "above_crown": false
+      },
+      {
+        "name": "hair_left_bang",
+        "max_skull_local_y": 3.7669,
+        "above_crown": false
+      },
+      {
+        "name": "hair_right_bang",
+        "max_skull_local_y": 3.7328,
+        "above_crown": false
+      },
+      {
+        "name": "hair_left_temple_shell",
+        "max_skull_local_y": 3.7,
+        "above_crown": false
+      },
+      {
+        "name": "hair_right_temple_shell",
+        "max_skull_local_y": 3.7,
+        "above_crown": false
+      },
+      {
+        "name": "hair_back_left_lock",
+        "max_skull_local_y": -2.0742,
+        "above_crown": false
+      },
+      {
+        "name": "hair_back_right_lock",
+        "max_skull_local_y": -2.1466,
+        "above_crown": false
+      },
+      {
+        "name": "hair_back_middle_lock",
+        "max_skull_local_y": -1.9224,
+        "above_crown": false
+      },
+      {
+        "name": "hair_left_mid_lock",
+        "max_skull_local_y": -1.9575,
+        "above_crown": false
+      },
+      {
+        "name": "hair_right_mid_lock",
+        "max_skull_local_y": -2.0913,
+        "above_crown": false
+      }
+    ]
+  },
+  "potential_bare_head_surfaces": [],
+  "contact_edges": [
+    {
+      "a": "pelvis",
+      "b": "abdomen",
+      "max_sat_separation": -1
+    },
+    {
+      "a": "pelvis",
+      "b": "left_thigh",
+      "max_sat_separation": -2.167874
+    },
+    {
+      "a": "pelvis",
+      "b": "right_thigh",
+      "max_sat_separation": -2.176064
+    },
+    {
+      "a": "pelvis",
+      "b": "tail_feather_1",
+      "max_sat_separation": -0.483194
+    },
+    {
+      "a": "pelvis",
+      "b": "tail_feather_2",
+      "max_sat_separation": -0.483194
+    },
+    {
+      "a": "abdomen",
+      "b": "chest_core",
+      "max_sat_separation": -1.513141
+    },
+    {
+      "a": "abdomen",
+      "b": "chest_left_back",
+      "max_sat_separation": -1.333095
+    },
+    {
+      "a": "abdomen",
+      "b": "chest_left_lower_flesh",
+      "max_sat_separation": -1.513141
+    },
+    {
+      "a": "chest_core",
+      "b": "chest_left_back",
+      "max_sat_separation": 0
+    },
+    {
+      "a": "chest_core",
+      "b": "chest_left_upper_flesh",
+      "max_sat_separation": 0
+    },
+    {
+      "a": "chest_core",
+      "b": "chest_left_lower_flesh",
+      "max_sat_separation": 0
+    },
+    {
+      "a": "chest_core",
+      "b": "thin_neck",
+      "max_sat_separation": -1.651496
+    },
+    {
+      "a": "chest_core",
+      "b": "right_leading_inner",
+      "max_sat_separation": -0.383587
+    },
+    {
+      "a": "chest_core",
+      "b": "right_upper_arm",
+      "max_sat_separation": -0.289218
+    },
+    {
+      "a": "chest_core",
+      "b": "hair_back_right_lock",
+      "max_sat_separation": -1.186993
+    },
+    {
+      "a": "chest_core",
+      "b": "hair_back_middle_lock",
+      "max_sat_separation": -1.045862
+    },
+    {
+      "a": "chest_core",
+      "b": "hair_right_mid_lock",
+      "max_sat_separation": -0.182073
+    },
+    {
+      "a": "chest_core",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.9
+    },
+    {
+      "a": "chest_core",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.311456
+    },
+    {
+      "a": "chest_left_back",
+      "b": "chest_left_upper_flesh",
+      "max_sat_separation": 0
+    },
+    {
+      "a": "chest_left_back",
+      "b": "chest_left_lower_flesh",
+      "max_sat_separation": 0
+    },
+    {
+      "a": "chest_left_back",
+      "b": "exposed_rib_lower",
+      "max_sat_separation": -0.05
+    },
+    {
+      "a": "chest_left_back",
+      "b": "exposed_rib_upper",
+      "max_sat_separation": -0.05
+    },
+    {
+      "a": "chest_left_back",
+      "b": "thin_neck",
+      "max_sat_separation": -0.607528
+    },
+    {
+      "a": "chest_left_back",
+      "b": "left_leading_inner",
+      "max_sat_separation": -0.383587
+    },
+    {
+      "a": "chest_left_back",
+      "b": "left_upper_arm",
+      "max_sat_separation": -0.196052
+    },
+    {
+      "a": "chest_left_back",
+      "b": "hair_back_left_lock",
+      "max_sat_separation": -1.258797
+    },
+    {
+      "a": "chest_left_back",
+      "b": "hair_back_middle_lock",
+      "max_sat_separation": -0.380526
+    },
+    {
+      "a": "chest_left_back",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.9
+    },
+    {
+      "a": "chest_left_back",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.311456
+    },
+    {
+      "a": "chest_left_upper_flesh",
+      "b": "thin_neck",
+      "max_sat_separation": -0.65
+    },
+    {
+      "a": "thin_neck",
+      "b": "head_skull",
+      "max_sat_separation": -1.178491
+    },
+    {
+      "a": "thin_neck",
+      "b": "jaw",
+      "max_sat_separation": -1.628491
+    },
+    {
+      "a": "head_skull",
+      "b": "jaw",
+      "max_sat_separation": -1
+    },
+    {
+      "a": "head_skull",
+      "b": "beak_upper_wedge",
+      "max_sat_separation": -0.242433
+    },
+    {
+      "a": "head_skull",
+      "b": "beak_closed_mandible",
+      "max_sat_separation": -0.180292
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_crown",
+      "max_sat_separation": -0.6
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_back",
+      "max_sat_separation": -0.25
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_left_frame",
+      "max_sat_separation": -0.454831
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_right_frame",
+      "max_sat_separation": -0.468203
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_left_bang",
+      "max_sat_separation": -0.6
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_right_bang",
+      "max_sat_separation": -0.6
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_left_temple_shell",
+      "max_sat_separation": -0.04
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_right_temple_shell",
+      "max_sat_separation": -0.04
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_left_mid_lock",
+      "max_sat_separation": 0.001476
+    },
+    {
+      "a": "head_skull",
+      "b": "hair_right_mid_lock",
+      "max_sat_separation": 0.020238
+    },
+    {
+      "a": "head_skull",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.043037
+    },
+    {
+      "a": "head_skull",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.043037
+    },
+    {
+      "a": "beak_upper_wedge",
+      "b": "beak_closed_mandible",
+      "max_sat_separation": -0.049854
+    },
+    {
+      "a": "beak_upper_wedge",
+      "b": "beak_bridge",
+      "max_sat_separation": -0.360617
+    },
+    {
+      "a": "beak_hooked_tip",
+      "b": "beak_closed_mandible",
+      "max_sat_separation": -0.261882
+    },
+    {
+      "a": "beak_hooked_tip",
+      "b": "beak_bridge",
+      "max_sat_separation": -0.193704
+    },
+    {
+      "a": "beak_closed_mandible",
+      "b": "beak_bridge",
+      "max_sat_separation": -0.06746
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_back",
+      "max_sat_separation": -0.3
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_left_frame",
+      "max_sat_separation": -0.332608
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_right_frame",
+      "max_sat_separation": -0.341123
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_left_bang",
+      "max_sat_separation": -0.65
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_right_bang",
+      "max_sat_separation": -0.65
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_left_temple_shell",
+      "max_sat_separation": -0.49
+    },
+    {
+      "a": "hair_crown",
+      "b": "hair_right_temple_shell",
+      "max_sat_separation": -0.49
+    },
+    {
+      "a": "hair_back",
+      "b": "hair_left_temple_shell",
+      "max_sat_separation": -0.29
+    },
+    {
+      "a": "hair_back",
+      "b": "hair_right_temple_shell",
+      "max_sat_separation": -0.29
+    },
+    {
+      "a": "hair_back",
+      "b": "hair_back_left_lock",
+      "max_sat_separation": -0.95
+    },
+    {
+      "a": "hair_back",
+      "b": "hair_back_right_lock",
+      "max_sat_separation": -0.9
+    },
+    {
+      "a": "hair_back",
+      "b": "hair_back_middle_lock",
+      "max_sat_separation": -0.8
+    },
+    {
+      "a": "hair_back",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.177363
+    },
+    {
+      "a": "hair_back",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.608513
+    },
+    {
+      "a": "hair_back",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.499088
+    },
+    {
+      "a": "hair_back",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.604524
+    },
+    {
+      "a": "hair_left_frame",
+      "b": "hair_left_bang",
+      "max_sat_separation": -0.738289
+    },
+    {
+      "a": "hair_left_frame",
+      "b": "hair_left_temple_shell",
+      "max_sat_separation": -0.804831
+    },
+    {
+      "a": "hair_right_frame",
+      "b": "hair_right_bang",
+      "max_sat_separation": -0.25
+    },
+    {
+      "a": "hair_right_frame",
+      "b": "hair_right_temple_shell",
+      "max_sat_separation": -0.818202
+    },
+    {
+      "a": "hair_left_bang",
+      "b": "hair_left_temple_shell",
+      "max_sat_separation": -0.464908
+    },
+    {
+      "a": "hair_right_bang",
+      "b": "hair_right_temple_shell",
+      "max_sat_separation": -0.303227
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_leading_outer",
+      "max_sat_separation": -0.328187
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_dense_inner_cover",
+      "max_sat_separation": -0.810643
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_broad_feather_5",
+      "max_sat_separation": -0.877893
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_broad_feather_6",
+      "max_sat_separation": -0.613812
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "hair_back_left_lock",
+      "max_sat_separation": -0.589532
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -1.649874
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -1.099881
+    },
+    {
+      "a": "left_leading_inner",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -0.841172
+    },
+    {
+      "a": "left_leading_outer",
+      "b": "left_broad_feather_1",
+      "max_sat_separation": -0.825448
+    },
+    {
+      "a": "left_leading_outer",
+      "b": "left_broad_feather_2",
+      "max_sat_separation": -0.907784
+    },
+    {
+      "a": "left_leading_outer",
+      "b": "left_broad_feather_3",
+      "max_sat_separation": -0.402742
+    },
+    {
+      "a": "left_leading_outer",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.320907
+    },
+    {
+      "a": "left_leading_outer",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -1.324925
+    },
+    {
+      "a": "left_dense_inner_cover",
+      "b": "left_broad_feather_5",
+      "max_sat_separation": -0.05
+    },
+    {
+      "a": "left_dense_inner_cover",
+      "b": "left_feather_tip_5",
+      "max_sat_separation": 0.01
+    },
+    {
+      "a": "left_dense_inner_cover",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.942823
+    },
+    {
+      "a": "left_dense_inner_cover",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.249961
+    },
+    {
+      "a": "left_broad_feather_1",
+      "b": "left_broad_feather_2",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "left_broad_feather_1",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -0.85
+    },
+    {
+      "a": "left_broad_feather_2",
+      "b": "left_broad_feather_3",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "left_broad_feather_2",
+      "b": "left_feather_tip_3",
+      "max_sat_separation": -0.064279
+    },
+    {
+      "a": "left_broad_feather_2",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -0.99
+    },
+    {
+      "a": "left_broad_feather_3",
+      "b": "left_feather_tip_3",
+      "max_sat_separation": -0.662338
+    },
+    {
+      "a": "left_broad_feather_3",
+      "b": "left_broad_feather_4",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "left_broad_feather_3",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -0.85
+    },
+    {
+      "a": "left_broad_feather_4",
+      "b": "left_broad_feather_5",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "left_broad_feather_4",
+      "b": "left_feather_tip_5",
+      "max_sat_separation": -0.149382
+    },
+    {
+      "a": "left_broad_feather_4",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -1.009964
+    },
+    {
+      "a": "left_broad_feather_4",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -0.562836
+    },
+    {
+      "a": "left_broad_feather_5",
+      "b": "left_feather_tip_5",
+      "max_sat_separation": -0.691173
+    },
+    {
+      "a": "left_broad_feather_5",
+      "b": "left_broad_feather_6",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "left_broad_feather_5",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.947434
+    },
+    {
+      "a": "left_broad_feather_6",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.514114
+    },
+    {
+      "a": "left_broad_feather_6",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.926266
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_leading_outer",
+      "max_sat_separation": -0.328187
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_dense_inner_cover",
+      "max_sat_separation": -0.810643
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_broad_feather_5",
+      "max_sat_separation": -0.877893
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_broad_feather_6",
+      "max_sat_separation": -0.613812
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "hair_back_right_lock",
+      "max_sat_separation": -0.268775
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -1.649874
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -1.099881
+    },
+    {
+      "a": "right_leading_inner",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -0.841172
+    },
+    {
+      "a": "right_leading_outer",
+      "b": "right_broad_feather_1",
+      "max_sat_separation": -0.825448
+    },
+    {
+      "a": "right_leading_outer",
+      "b": "right_broad_feather_2",
+      "max_sat_separation": -0.907784
+    },
+    {
+      "a": "right_leading_outer",
+      "b": "right_broad_feather_3",
+      "max_sat_separation": -0.402742
+    },
+    {
+      "a": "right_leading_outer",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.320907
+    },
+    {
+      "a": "right_leading_outer",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -1.324925
+    },
+    {
+      "a": "right_dense_inner_cover",
+      "b": "right_broad_feather_5",
+      "max_sat_separation": -0.05
+    },
+    {
+      "a": "right_dense_inner_cover",
+      "b": "right_feather_tip_5",
+      "max_sat_separation": 0.01
+    },
+    {
+      "a": "right_dense_inner_cover",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.942823
+    },
+    {
+      "a": "right_dense_inner_cover",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.249961
+    },
+    {
+      "a": "right_broad_feather_1",
+      "b": "right_broad_feather_2",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "right_broad_feather_1",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -0.85
+    },
+    {
+      "a": "right_broad_feather_2",
+      "b": "right_broad_feather_3",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "right_broad_feather_2",
+      "b": "right_feather_tip_3",
+      "max_sat_separation": -0.064279
+    },
+    {
+      "a": "right_broad_feather_2",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -0.99
+    },
+    {
+      "a": "right_broad_feather_3",
+      "b": "right_feather_tip_3",
+      "max_sat_separation": -0.662338
+    },
+    {
+      "a": "right_broad_feather_3",
+      "b": "right_broad_feather_4",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "right_broad_feather_3",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -0.85
+    },
+    {
+      "a": "right_broad_feather_4",
+      "b": "right_broad_feather_5",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "right_broad_feather_4",
+      "b": "right_feather_tip_5",
+      "max_sat_separation": -0.149382
+    },
+    {
+      "a": "right_broad_feather_4",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -1.009964
+    },
+    {
+      "a": "right_broad_feather_4",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -0.562836
+    },
+    {
+      "a": "right_broad_feather_5",
+      "b": "right_feather_tip_5",
+      "max_sat_separation": -0.691173
+    },
+    {
+      "a": "right_broad_feather_5",
+      "b": "right_broad_feather_6",
+      "max_sat_separation": -0.66
+    },
+    {
+      "a": "right_broad_feather_5",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.947434
+    },
+    {
+      "a": "right_broad_feather_6",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.514114
+    },
+    {
+      "a": "right_broad_feather_6",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.926266
+    },
+    {
+      "a": "left_upper_arm",
+      "b": "left_forearm",
+      "max_sat_separation": -0.455367
+    },
+    {
+      "a": "left_forearm",
+      "b": "left_palm",
+      "max_sat_separation": -0.498858
+    },
+    {
+      "a": "left_palm",
+      "b": "left_hand_claw_1",
+      "max_sat_separation": -0.457705
+    },
+    {
+      "a": "left_palm",
+      "b": "left_hand_claw_2",
+      "max_sat_separation": -0.4272
+    },
+    {
+      "a": "left_palm",
+      "b": "left_hand_claw_3",
+      "max_sat_separation": -0.457705
+    },
+    {
+      "a": "left_hand_claw_2",
+      "b": "left_hand_claw_2_dark_hook",
+      "max_sat_separation": -0.301104
+    },
+    {
+      "a": "right_upper_arm",
+      "b": "right_forearm",
+      "max_sat_separation": -0.233292
+    },
+    {
+      "a": "right_upper_arm",
+      "b": "hair_right_mid_lock",
+      "max_sat_separation": -0.022869
+    },
+    {
+      "a": "right_forearm",
+      "b": "right_palm",
+      "max_sat_separation": -0.705441
+    },
+    {
+      "a": "right_palm",
+      "b": "right_hand_claw_1",
+      "max_sat_separation": -0.457705
+    },
+    {
+      "a": "right_palm",
+      "b": "right_hand_claw_2",
+      "max_sat_separation": -0.4272
+    },
+    {
+      "a": "right_palm",
+      "b": "right_hand_claw_3",
+      "max_sat_separation": -0.457705
+    },
+    {
+      "a": "right_hand_claw_2",
+      "b": "right_hand_claw_2_dark_hook",
+      "max_sat_separation": -0.301104
+    },
+    {
+      "a": "left_thigh",
+      "b": "left_shin",
+      "max_sat_separation": -0.627668
+    },
+    {
+      "a": "left_shin",
+      "b": "left_foot",
+      "max_sat_separation": -0.691506
+    },
+    {
+      "a": "left_foot",
+      "b": "left_toe_1",
+      "max_sat_separation": -0.406457
+    },
+    {
+      "a": "left_foot",
+      "b": "left_toe_2",
+      "max_sat_separation": -0.378095
+    },
+    {
+      "a": "left_foot",
+      "b": "left_toe_3",
+      "max_sat_separation": -0.406457
+    },
+    {
+      "a": "left_foot",
+      "b": "left_rear_toe",
+      "max_sat_separation": -0.514251
+    },
+    {
+      "a": "left_toe_2",
+      "b": "left_toe_2_dark_hook",
+      "max_sat_separation": -0.440568
+    },
+    {
+      "a": "right_thigh",
+      "b": "right_shin",
+      "max_sat_separation": -0.635788
+    },
+    {
+      "a": "right_shin",
+      "b": "right_foot",
+      "max_sat_separation": -0.669813
+    },
+    {
+      "a": "right_foot",
+      "b": "right_toe_1",
+      "max_sat_separation": -0.406457
+    },
+    {
+      "a": "right_foot",
+      "b": "right_toe_2",
+      "max_sat_separation": -0.378095
+    },
+    {
+      "a": "right_foot",
+      "b": "right_toe_3",
+      "max_sat_separation": -0.406457
+    },
+    {
+      "a": "right_foot",
+      "b": "right_rear_toe",
+      "max_sat_separation": -0.514251
+    },
+    {
+      "a": "right_toe_2",
+      "b": "right_toe_2_dark_hook",
+      "max_sat_separation": -0.440568
+    },
+    {
+      "a": "tail_feather_1",
+      "b": "tail_feather_2",
+      "max_sat_separation": -0.800271
+    },
+    {
+      "a": "hair_left_temple_shell",
+      "b": "hair_left_mid_lock",
+      "max_sat_separation": -0.348524
+    },
+    {
+      "a": "hair_left_temple_shell",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -0.142204
+    },
+    {
+      "a": "hair_right_temple_shell",
+      "b": "hair_right_mid_lock",
+      "max_sat_separation": -0.329762
+    },
+    {
+      "a": "hair_right_temple_shell",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.193037
+    },
+    {
+      "a": "hair_back_left_lock",
+      "b": "left_wing_root_socket",
+      "max_sat_separation": -1.364991
+    },
+    {
+      "a": "hair_back_left_lock",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -0.901529
+    },
+    {
+      "a": "hair_back_right_lock",
+      "b": "right_wing_root_socket",
+      "max_sat_separation": -0.841581
+    },
+    {
+      "a": "hair_back_right_lock",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -0.964449
+    },
+    {
+      "a": "left_wing_root_socket",
+      "b": "left_wing_inner_support",
+      "max_sat_separation": -1.649961
+    },
+    {
+      "a": "left_wing_inner_support",
+      "b": "left_wing_outer_support",
+      "max_sat_separation": -1.199964
+    },
+    {
+      "a": "right_wing_root_socket",
+      "b": "right_wing_inner_support",
+      "max_sat_separation": -1.649961
+    },
+    {
+      "a": "right_wing_inner_support",
+      "b": "right_wing_outer_support",
+      "max_sat_separation": -1.199964
+    }
+  ],
+  "source_model_sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4"
+}

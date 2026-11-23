@@ -1,0 +1,1067 @@
+{
+  "blockbench_version": "4.12.6",
+  "format": "bedrock",
+  "name": "undead_harpy",
+  "elements": 88,
+  "groups": [
+    "root",
+    "body",
+    "chest",
+    "neck",
+    "head",
+    "hair",
+    "beak",
+    "wing_left",
+    "wing_fore_left",
+    "wing_right",
+    "wing_fore_right",
+    "arm_left",
+    "forearm_left",
+    "hand_left",
+    "arm_right",
+    "forearm_right",
+    "hand_right",
+    "tail",
+    "thigh_left",
+    "shin_left",
+    "foot_left",
+    "thigh_right",
+    "shin_right",
+    "foot_right"
+  ],
+  "textures": [
+    {
+      "name": "undead_harpy.png",
+      "width": 64,
+      "height": 64,
+      "error": 0
+    }
+  ],
+  "project_texture_size": [
+    64,
+    64
+  ],
+  "animations": [],
+  "animation_controllers": 0,
+  "atlas_alpha_values": [
+    255
+  ],
+  "missing_faces": [],
+  "invalid_geometry": [],
+  "uv_outside_64x64": [],
+  "roundtrip_elements": 88,
+  "roundtrip_animations": 0,
+  "bounds": {
+    "min": [
+      -36.69812855605933,
+      -0.08969182953547583,
+      -8.515646577816739
+    ],
+    "max": [
+      36.69812855605933,
+      44.801189163481894,
+      8.522824796128196
+    ]
+  },
+  "source_model_path": "blockbench/undead_harpy.bbmodel",
+  "source_model_sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4",
+  "roundtrip_reopened": {
+    "elements": 88,
+    "groups": 24,
+    "animations": 0
+  },
+  "official_geometry_export": {
+    "format": "1.12.0",
+    "identifier": "geometry.undead_harpy",
+    "bones": 24,
+    "cubes": 88
+  },
+  "independent_attachment_review": {
+    "feathers_checked": 16,
+    "disconnected_feathers": [],
+    "disconnected_beak_parts": [],
+    "claw_hooks_checked": 4,
+    "disconnected_claw_hooks": [],
+    "potential_bare_head_surfaces": [],
+    "disconnected_hair_pieces": [],
+    "hair_parts_above_crown": [],
+    "hair_coverage": [
+      {
+        "surface": "right_side",
+        "external_hair_coverage": 1,
+        "combined_coverage": 1
+      },
+      {
+        "surface": "left_side",
+        "external_hair_coverage": 1,
+        "combined_coverage": 1
+      },
+      {
+        "surface": "top",
+        "external_hair_coverage": 1,
+        "combined_coverage": 1
+      },
+      {
+        "surface": "back",
+        "external_hair_coverage": 1,
+        "combined_coverage": 1
+      }
+    ]
+  },
+  "exported_animation_files": 0,
+  "static_presentation_reused": true,
+  "rendered_views": [
+    {
+      "name": "front_3quarter",
+      "isolated_component": false,
+      "focus_cubes": [
+        "pelvis",
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper",
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "left_upper_arm",
+        "left_forearm",
+        "left_palm",
+        "left_hand_claw_1",
+        "left_hand_claw_2",
+        "left_hand_claw_3",
+        "right_upper_arm",
+        "right_forearm",
+        "right_palm",
+        "right_hand_claw_1",
+        "right_hand_claw_2",
+        "right_hand_claw_3",
+        "left_thigh",
+        "left_shin",
+        "left_foot",
+        "left_toe_1",
+        "left_toe_2",
+        "left_toe_3",
+        "left_rear_toe",
+        "right_thigh",
+        "right_shin",
+        "right_foot",
+        "right_toe_1",
+        "right_toe_2",
+        "right_toe_3",
+        "right_rear_toe",
+        "tail_feather_1",
+        "tail_feather_2",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support",
+        "left_hand_claw_2_dark_hook",
+        "left_toe_2_dark_hook",
+        "right_hand_claw_2_dark_hook",
+        "right_toe_2_dark_hook"
+      ],
+      "bounds": {
+        "min": [
+          -36.69812855605933,
+          -0.08969182953547583,
+          -8.515646577816739
+        ],
+        "max": [
+          36.69812855605933,
+          44.801189163481894,
+          8.522824796128196
+        ]
+      },
+      "camera": [
+        48.239418706346946,
+        41.88122766716127,
+        -114.85216971547985
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8700000000000002,
+          0.7852343176678801
+        ],
+        "y": [
+          -0.7766926914528911,
+          0.6085499486254092
+        ]
+      }
+    },
+    {
+      "name": "front",
+      "isolated_component": false,
+      "focus_cubes": [
+        "pelvis",
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper",
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "left_upper_arm",
+        "left_forearm",
+        "left_palm",
+        "left_hand_claw_1",
+        "left_hand_claw_2",
+        "left_hand_claw_3",
+        "right_upper_arm",
+        "right_forearm",
+        "right_palm",
+        "right_hand_claw_1",
+        "right_hand_claw_2",
+        "right_hand_claw_3",
+        "left_thigh",
+        "left_shin",
+        "left_foot",
+        "left_toe_1",
+        "left_toe_2",
+        "left_toe_3",
+        "left_rear_toe",
+        "right_thigh",
+        "right_shin",
+        "right_foot",
+        "right_toe_1",
+        "right_toe_2",
+        "right_toe_3",
+        "right_rear_toe",
+        "tail_feather_1",
+        "tail_feather_2",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support",
+        "left_hand_claw_2_dark_hook",
+        "left_toe_2_dark_hook",
+        "right_hand_claw_2_dark_hook",
+        "right_toe_2_dark_hook"
+      ],
+      "bounds": {
+        "min": [
+          -36.69812855605933,
+          -0.08969182953547583,
+          -8.515646577816739
+        ],
+        "max": [
+          36.69812855605933,
+          44.801189163481894,
+          8.522824796128196
+        ]
+      },
+      "camera": [
+        1.5198832722499332e-14,
+        26.078985293177936,
+        -124.10429843100157
+      ],
+      "projected_extent": {
+        "x": [
+          -0.87,
+          0.87
+        ],
+        "y": [
+          -0.6380451509976218,
+          0.6309803949510503
+        ]
+      }
+    },
+    {
+      "name": "side_right",
+      "isolated_component": false,
+      "focus_cubes": [
+        "pelvis",
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper",
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "left_upper_arm",
+        "left_forearm",
+        "left_palm",
+        "left_hand_claw_1",
+        "left_hand_claw_2",
+        "left_hand_claw_3",
+        "right_upper_arm",
+        "right_forearm",
+        "right_palm",
+        "right_hand_claw_1",
+        "right_hand_claw_2",
+        "right_hand_claw_3",
+        "left_thigh",
+        "left_shin",
+        "left_foot",
+        "left_toe_1",
+        "left_toe_2",
+        "left_toe_3",
+        "left_rear_toe",
+        "right_thigh",
+        "right_shin",
+        "right_foot",
+        "right_toe_1",
+        "right_toe_2",
+        "right_toe_3",
+        "right_rear_toe",
+        "tail_feather_1",
+        "tail_feather_2",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support",
+        "left_hand_claw_2_dark_hook",
+        "left_toe_2_dark_hook",
+        "right_hand_claw_2_dark_hook",
+        "right_toe_2_dark_hook"
+      ],
+      "bounds": {
+        "min": [
+          -36.69812855605933,
+          -0.08969182953547583,
+          -8.515646577816739
+        ],
+        "max": [
+          36.69812855605933,
+          44.801189163481894,
+          8.522824796128196
+        ]
+      },
+      "camera": [
+        128.7517737219751,
+        31.368372827511458,
+        -3.2152052338936614
+      ],
+      "projected_extent": {
+        "x": [
+          -0.28208606318980306,
+          0.22830004732608408
+        ],
+        "y": [
+          -0.8700000000000006,
+          0.7143279026984984
+        ]
+      }
+    },
+    {
+      "name": "side_left",
+      "isolated_component": false,
+      "focus_cubes": [
+        "pelvis",
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper",
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "left_upper_arm",
+        "left_forearm",
+        "left_palm",
+        "left_hand_claw_1",
+        "left_hand_claw_2",
+        "left_hand_claw_3",
+        "right_upper_arm",
+        "right_forearm",
+        "right_palm",
+        "right_hand_claw_1",
+        "right_hand_claw_2",
+        "right_hand_claw_3",
+        "left_thigh",
+        "left_shin",
+        "left_foot",
+        "left_toe_1",
+        "left_toe_2",
+        "left_toe_3",
+        "left_rear_toe",
+        "right_thigh",
+        "right_shin",
+        "right_foot",
+        "right_toe_1",
+        "right_toe_2",
+        "right_toe_3",
+        "right_rear_toe",
+        "tail_feather_1",
+        "tail_feather_2",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support",
+        "left_hand_claw_2_dark_hook",
+        "left_toe_2_dark_hook",
+        "right_hand_claw_2_dark_hook",
+        "right_toe_2_dark_hook"
+      ],
+      "bounds": {
+        "min": [
+          -36.69812855605933,
+          -0.08969182953547583,
+          -8.515646577816739
+        ],
+        "max": [
+          36.69812855605933,
+          44.801189163481894,
+          8.522824796128196
+        ]
+      },
+      "camera": [
+        -128.7517737219751,
+        31.368372827511458,
+        -3.2152052338936614
+      ],
+      "projected_extent": {
+        "x": [
+          -0.22830004732608408,
+          0.28208606318980306
+        ],
+        "y": [
+          -0.8700000000000006,
+          0.7143279026984984
+        ]
+      }
+    },
+    {
+      "name": "back",
+      "isolated_component": false,
+      "focus_cubes": [
+        "pelvis",
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper",
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "left_upper_arm",
+        "left_forearm",
+        "left_palm",
+        "left_hand_claw_1",
+        "left_hand_claw_2",
+        "left_hand_claw_3",
+        "right_upper_arm",
+        "right_forearm",
+        "right_palm",
+        "right_hand_claw_1",
+        "right_hand_claw_2",
+        "right_hand_claw_3",
+        "left_thigh",
+        "left_shin",
+        "left_foot",
+        "left_toe_1",
+        "left_toe_2",
+        "left_toe_3",
+        "left_rear_toe",
+        "right_thigh",
+        "right_shin",
+        "right_foot",
+        "right_toe_1",
+        "right_toe_2",
+        "right_toe_3",
+        "right_rear_toe",
+        "tail_feather_1",
+        "tail_feather_2",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support",
+        "left_hand_claw_2_dark_hook",
+        "left_toe_2_dark_hook",
+        "right_hand_claw_2_dark_hook",
+        "right_toe_2_dark_hook"
+      ],
+      "bounds": {
+        "min": [
+          -36.69812855605933,
+          -0.08969182953547583,
+          -8.515646577816739
+        ],
+        "max": [
+          36.69812855605933,
+          44.801189163481894,
+          8.522824796128196
+        ]
+      },
+      "camera": [
+        12.470755035518362,
+        33.57942819893973,
+        124.71113946433933
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8556555957174882,
+          0.8699999999999996
+        ],
+        "y": [
+          -0.6622863105829171,
+          0.6226876243366875
+        ]
+      }
+    },
+    {
+      "name": "face_closeup",
+      "isolated_component": false,
+      "focus_cubes": [
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock"
+      ],
+      "bounds": {
+        "min": [
+          -5.01775195356992,
+          24.394482591361474,
+          -8.515646577816739
+        ],
+        "max": [
+          4.586957035551194,
+          37.279352746574126,
+          1.5664672657716114
+        ]
+      },
+      "camera": [
+        10.78158738105342,
+        34.50257928232206,
+        -34.021769767308065
+      ],
+      "projected_extent": {
+        "x": [
+          -0.683603288636623,
+          0.8303426165100108
+        ],
+        "y": [
+          -0.86,
+          0.7260532597852859
+        ]
+      }
+    },
+    {
+      "name": "beak_profile_right",
+      "isolated_component": true,
+      "focus_cubes": [
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock"
+      ],
+      "bounds": {
+        "min": [
+          -5.01775195356992,
+          24.394482591361474,
+          -8.515646577816739
+        ],
+        "max": [
+          4.586957035551194,
+          37.279352746574126,
+          1.5664672657716114
+        ]
+      },
+      "camera": [
+        29.613468563358875,
+        31.731783649638842,
+        -4.667744296917293
+      ],
+      "projected_extent": {
+        "x": [
+          -0.802348614345962,
+          0.7555801381525126
+        ],
+        "y": [
+          -0.8600000000000004,
+          0.833738306710021
+        ]
+      }
+    },
+    {
+      "name": "beak_profile_left",
+      "isolated_component": true,
+      "focus_cubes": [
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock"
+      ],
+      "bounds": {
+        "min": [
+          -5.01775195356992,
+          24.394482591361474,
+          -8.515646577816739
+        ],
+        "max": [
+          4.586957035551194,
+          37.279352746574126,
+          1.5664672657716114
+        ]
+      },
+      "camera": [
+        -30.0442634813776,
+        31.731783649638842,
+        -4.667744296917293
+      ],
+      "projected_extent": {
+        "x": [
+          -0.7555801381525126,
+          0.8023486143459619
+        ],
+        "y": [
+          -0.8600000000000001,
+          0.833738306710022
+        ]
+      }
+    },
+    {
+      "name": "head_top",
+      "isolated_component": true,
+      "focus_cubes": [
+        "thin_neck",
+        "head_skull",
+        "jaw",
+        "beak_upper_wedge",
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "hair_crown",
+        "hair_back",
+        "hair_left_frame",
+        "hair_right_frame",
+        "hair_left_bang",
+        "hair_right_bang",
+        "beak_bridge",
+        "hair_left_temple_shell",
+        "hair_right_temple_shell",
+        "hair_back_left_lock",
+        "hair_back_right_lock",
+        "hair_back_middle_lock",
+        "hair_left_mid_lock",
+        "hair_right_mid_lock"
+      ],
+      "bounds": {
+        "min": [
+          -5.01775195356992,
+          24.394482591361474,
+          -8.515646577816739
+        ],
+        "max": [
+          4.586957035551194,
+          37.279352746574126,
+          1.5664672657716114
+        ]
+      },
+      "camera": [
+        1.468159704704865,
+        64.50806094325213,
+        -4.821435386993946
+      ],
+      "projected_extent": {
+        "x": [
+          -0.7071162954359751,
+          0.7051307904166745
+        ],
+        "y": [
+          -0.7879948663840068,
+          0.860000000000001
+        ]
+      }
+    },
+    {
+      "name": "wing_roots_front",
+      "isolated_component": false,
+      "focus_cubes": [
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "left_leading_inner",
+        "left_dense_inner_cover",
+        "right_leading_inner",
+        "right_dense_inner_cover",
+        "left_wing_root_socket",
+        "right_wing_root_socket"
+      ],
+      "bounds": {
+        "min": [
+          -15.75283686139765,
+          19.15439268289439,
+          -3.0639190882804317
+        ],
+        "max": [
+          15.75283686139765,
+          37.63738093320467,
+          2.4157938833134254
+        ]
+      },
+      "camera": [
+        12.105493350818337,
+        36.14340255257326,
+        -48.74603600575681
+      ],
+      "projected_extent": {
+        "x": [
+          -0.84,
+          0.7786478695791546
+        ],
+        "y": [
+          -0.7275102687078111,
+          0.6235472339320111
+        ]
+      }
+    },
+    {
+      "name": "wing_roots_back",
+      "isolated_component": false,
+      "focus_cubes": [
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "left_leading_inner",
+        "left_dense_inner_cover",
+        "right_leading_inner",
+        "right_dense_inner_cover",
+        "left_wing_root_socket",
+        "right_wing_root_socket"
+      ],
+      "bounds": {
+        "min": [
+          -15.75283686139765,
+          19.15439268289439,
+          -3.0639190882804317
+        ],
+        "max": [
+          15.75283686139765,
+          37.63738093320467,
+          2.4157938833134254
+        ]
+      },
+      "camera": [
+        4.9795814187929945,
+        36.86117521999761,
+        49.471751585446434
+      ],
+      "projected_extent": {
+        "x": [
+          -0.8138121982026899,
+          0.8400000000000001
+        ],
+        "y": [
+          -0.6688435127769674,
+          0.6105311176169295
+        ]
+      }
+    },
+    {
+      "name": "rib_wound_closeup",
+      "isolated_component": false,
+      "focus_cubes": [
+        "abdomen",
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "exposed_rib_lower",
+        "exposed_rib_upper"
+      ],
+      "bounds": {
+        "min": [
+          -3.55,
+          17.85732254813536,
+          -3.0639190882804317
+        ],
+        "max": [
+          3.549999952316284,
+          28.438924616709485,
+          2.06777624253139
+        ]
+      },
+      "camera": [
+        6.607280692305649,
+        25.03591807275028,
+        -24.095502551972753
+      ],
+      "projected_extent": {
+        "x": [
+          -0.5235262434723561,
+          0.5932538378756883
+        ],
+        "y": [
+          -0.8399999999999996,
+          0.7899006617152837
+        ]
+      }
+    }
+  ],
+  "page_errors": [
+    {
+      "phase": "application_startup",
+      "message": "Object",
+      "stack": ""
+    }
+  ],
+  "model_errors": [],
+  "frozen_final_model_sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4"
+}

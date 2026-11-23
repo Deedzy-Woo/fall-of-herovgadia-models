@@ -1,0 +1,876 @@
+{
+  "method": "Exact15-axis separating-axis OBB tests in actual world rest space; parent and cube ZYX Euler transforms included. Feather-root boxes use upper20percent of native cuboid length, not full-feather AABB.",
+  "wings": {
+    "left": {
+      "nodes": [
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "left_leading_inner",
+        "left_leading_outer",
+        "left_dense_inner_cover",
+        "left_broad_feather_1",
+        "left_broad_feather_2",
+        "left_broad_feather_3",
+        "left_feather_tip_3",
+        "left_broad_feather_4",
+        "left_broad_feather_5",
+        "left_feather_tip_5",
+        "left_broad_feather_6",
+        "left_wing_root_socket",
+        "left_wing_inner_support",
+        "left_wing_outer_support"
+      ],
+      "edges": [
+        {
+          "a": "chest_core",
+          "b": "chest_left_back",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_core",
+          "b": "chest_left_upper_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_core",
+          "b": "chest_left_lower_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_left_back",
+          "b": "chest_left_upper_flesh",
+          "minimum_axis_overlap": -0.0
+        },
+        {
+          "a": "chest_left_back",
+          "b": "chest_left_lower_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_left_back",
+          "b": "left_leading_inner",
+          "minimum_axis_overlap": 0.38359
+        },
+        {
+          "a": "chest_left_back",
+          "b": "left_wing_root_socket",
+          "minimum_axis_overlap": 0.9
+        },
+        {
+          "a": "chest_left_back",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 0.31146
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_leading_outer",
+          "minimum_axis_overlap": 0.32819
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_dense_inner_cover",
+          "minimum_axis_overlap": 0.81064
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_broad_feather_5",
+          "minimum_axis_overlap": 0.87789
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_broad_feather_6",
+          "minimum_axis_overlap": 0.61381
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_wing_root_socket",
+          "minimum_axis_overlap": 1.64987
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 1.09988
+        },
+        {
+          "a": "left_leading_inner",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 0.84117
+        },
+        {
+          "a": "left_leading_outer",
+          "b": "left_broad_feather_1",
+          "minimum_axis_overlap": 0.82545
+        },
+        {
+          "a": "left_leading_outer",
+          "b": "left_broad_feather_2",
+          "minimum_axis_overlap": 0.90778
+        },
+        {
+          "a": "left_leading_outer",
+          "b": "left_broad_feather_3",
+          "minimum_axis_overlap": 0.40274
+        },
+        {
+          "a": "left_leading_outer",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 0.32091
+        },
+        {
+          "a": "left_leading_outer",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 1.32492
+        },
+        {
+          "a": "left_dense_inner_cover",
+          "b": "left_broad_feather_5",
+          "minimum_axis_overlap": 0.05
+        },
+        {
+          "a": "left_dense_inner_cover",
+          "b": "left_wing_root_socket",
+          "minimum_axis_overlap": 0.94282
+        },
+        {
+          "a": "left_dense_inner_cover",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 0.24996
+        },
+        {
+          "a": "left_broad_feather_1",
+          "b": "left_broad_feather_2",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "left_broad_feather_1",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 0.85
+        },
+        {
+          "a": "left_broad_feather_2",
+          "b": "left_broad_feather_3",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "left_broad_feather_2",
+          "b": "left_feather_tip_3",
+          "minimum_axis_overlap": 0.06428
+        },
+        {
+          "a": "left_broad_feather_2",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 0.99
+        },
+        {
+          "a": "left_broad_feather_3",
+          "b": "left_feather_tip_3",
+          "minimum_axis_overlap": 0.66234
+        },
+        {
+          "a": "left_broad_feather_3",
+          "b": "left_broad_feather_4",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "left_broad_feather_3",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 0.85
+        },
+        {
+          "a": "left_broad_feather_4",
+          "b": "left_broad_feather_5",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "left_broad_feather_4",
+          "b": "left_feather_tip_5",
+          "minimum_axis_overlap": 0.14938
+        },
+        {
+          "a": "left_broad_feather_4",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 1.00996
+        },
+        {
+          "a": "left_broad_feather_4",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 0.56284
+        },
+        {
+          "a": "left_broad_feather_5",
+          "b": "left_feather_tip_5",
+          "minimum_axis_overlap": 0.69117
+        },
+        {
+          "a": "left_broad_feather_5",
+          "b": "left_broad_feather_6",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "left_broad_feather_5",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 0.94743
+        },
+        {
+          "a": "left_broad_feather_6",
+          "b": "left_wing_root_socket",
+          "minimum_axis_overlap": 0.51411
+        },
+        {
+          "a": "left_broad_feather_6",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 0.92627
+        },
+        {
+          "a": "left_wing_root_socket",
+          "b": "left_wing_inner_support",
+          "minimum_axis_overlap": 1.64996
+        },
+        {
+          "a": "left_wing_inner_support",
+          "b": "left_wing_outer_support",
+          "minimum_axis_overlap": 1.19996
+        }
+      ],
+      "all_wing_cubes_reach_torso": true,
+      "disconnected": [],
+      "paths_to_torso": {
+        "left_leading_inner": [
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_leading_outer": [
+          "left_leading_outer",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_dense_inner_cover": [
+          "left_dense_inner_cover",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_broad_feather_1": [
+          "left_broad_feather_1",
+          "left_leading_outer",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_broad_feather_2": [
+          "left_broad_feather_2",
+          "left_leading_outer",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_broad_feather_3": [
+          "left_broad_feather_3",
+          "left_leading_outer",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_feather_tip_3": [
+          "left_feather_tip_3",
+          "left_broad_feather_2",
+          "left_leading_outer",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_broad_feather_4": [
+          "left_broad_feather_4",
+          "left_wing_inner_support",
+          "chest_left_back"
+        ],
+        "left_broad_feather_5": [
+          "left_broad_feather_5",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_feather_tip_5": [
+          "left_feather_tip_5",
+          "left_broad_feather_4",
+          "left_wing_inner_support",
+          "chest_left_back"
+        ],
+        "left_broad_feather_6": [
+          "left_broad_feather_6",
+          "left_leading_inner",
+          "chest_left_back"
+        ],
+        "left_wing_root_socket": [
+          "left_wing_root_socket",
+          "chest_left_back"
+        ],
+        "left_wing_inner_support": [
+          "left_wing_inner_support",
+          "chest_left_back"
+        ],
+        "left_wing_outer_support": [
+          "left_wing_outer_support",
+          "left_leading_inner",
+          "chest_left_back"
+        ]
+      },
+      "feather_root_upper20percent_direct_support_contacts": {
+        "left_broad_feather_1": [
+          "left_leading_outer",
+          "left_wing_outer_support"
+        ],
+        "left_broad_feather_2": [
+          "left_leading_outer",
+          "left_wing_outer_support"
+        ],
+        "left_broad_feather_3": [
+          "left_leading_outer",
+          "left_wing_outer_support"
+        ],
+        "left_broad_feather_4": [
+          "left_wing_inner_support",
+          "left_wing_outer_support"
+        ],
+        "left_broad_feather_5": [
+          "left_leading_inner",
+          "left_dense_inner_cover",
+          "left_wing_inner_support"
+        ],
+        "left_broad_feather_6": [
+          "left_leading_inner",
+          "left_wing_root_socket",
+          "left_wing_inner_support"
+        ]
+      },
+      "all_feather_roots_meet_support": true,
+      "tip_parent_contacts": {
+        "left_feather_tip_3": {
+          "parent_feather": "left_broad_feather_3",
+          "intersects": true
+        },
+        "left_feather_tip_5": {
+          "parent_feather": "left_broad_feather_5",
+          "intersects": true
+        }
+      }
+    },
+    "right": {
+      "nodes": [
+        "chest_core",
+        "chest_left_back",
+        "chest_left_upper_flesh",
+        "chest_left_lower_flesh",
+        "right_leading_inner",
+        "right_leading_outer",
+        "right_dense_inner_cover",
+        "right_broad_feather_1",
+        "right_broad_feather_2",
+        "right_broad_feather_3",
+        "right_feather_tip_3",
+        "right_broad_feather_4",
+        "right_broad_feather_5",
+        "right_feather_tip_5",
+        "right_broad_feather_6",
+        "right_wing_root_socket",
+        "right_wing_inner_support",
+        "right_wing_outer_support"
+      ],
+      "edges": [
+        {
+          "a": "chest_core",
+          "b": "chest_left_back",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_core",
+          "b": "chest_left_upper_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_core",
+          "b": "chest_left_lower_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "chest_core",
+          "b": "right_leading_inner",
+          "minimum_axis_overlap": 0.38359
+        },
+        {
+          "a": "chest_core",
+          "b": "right_wing_root_socket",
+          "minimum_axis_overlap": 0.9
+        },
+        {
+          "a": "chest_core",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 0.31146
+        },
+        {
+          "a": "chest_left_back",
+          "b": "chest_left_upper_flesh",
+          "minimum_axis_overlap": -0.0
+        },
+        {
+          "a": "chest_left_back",
+          "b": "chest_left_lower_flesh",
+          "minimum_axis_overlap": 0.0
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_leading_outer",
+          "minimum_axis_overlap": 0.32819
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_dense_inner_cover",
+          "minimum_axis_overlap": 0.81064
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_broad_feather_5",
+          "minimum_axis_overlap": 0.87789
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_broad_feather_6",
+          "minimum_axis_overlap": 0.61381
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_wing_root_socket",
+          "minimum_axis_overlap": 1.64987
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 1.09988
+        },
+        {
+          "a": "right_leading_inner",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 0.84117
+        },
+        {
+          "a": "right_leading_outer",
+          "b": "right_broad_feather_1",
+          "minimum_axis_overlap": 0.82545
+        },
+        {
+          "a": "right_leading_outer",
+          "b": "right_broad_feather_2",
+          "minimum_axis_overlap": 0.90778
+        },
+        {
+          "a": "right_leading_outer",
+          "b": "right_broad_feather_3",
+          "minimum_axis_overlap": 0.40274
+        },
+        {
+          "a": "right_leading_outer",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 0.32091
+        },
+        {
+          "a": "right_leading_outer",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 1.32492
+        },
+        {
+          "a": "right_dense_inner_cover",
+          "b": "right_broad_feather_5",
+          "minimum_axis_overlap": 0.05
+        },
+        {
+          "a": "right_dense_inner_cover",
+          "b": "right_wing_root_socket",
+          "minimum_axis_overlap": 0.94282
+        },
+        {
+          "a": "right_dense_inner_cover",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 0.24996
+        },
+        {
+          "a": "right_broad_feather_1",
+          "b": "right_broad_feather_2",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "right_broad_feather_1",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 0.85
+        },
+        {
+          "a": "right_broad_feather_2",
+          "b": "right_broad_feather_3",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "right_broad_feather_2",
+          "b": "right_feather_tip_3",
+          "minimum_axis_overlap": 0.06428
+        },
+        {
+          "a": "right_broad_feather_2",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 0.99
+        },
+        {
+          "a": "right_broad_feather_3",
+          "b": "right_feather_tip_3",
+          "minimum_axis_overlap": 0.66234
+        },
+        {
+          "a": "right_broad_feather_3",
+          "b": "right_broad_feather_4",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "right_broad_feather_3",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 0.85
+        },
+        {
+          "a": "right_broad_feather_4",
+          "b": "right_broad_feather_5",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "right_broad_feather_4",
+          "b": "right_feather_tip_5",
+          "minimum_axis_overlap": 0.14938
+        },
+        {
+          "a": "right_broad_feather_4",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 1.00996
+        },
+        {
+          "a": "right_broad_feather_4",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 0.56284
+        },
+        {
+          "a": "right_broad_feather_5",
+          "b": "right_feather_tip_5",
+          "minimum_axis_overlap": 0.69117
+        },
+        {
+          "a": "right_broad_feather_5",
+          "b": "right_broad_feather_6",
+          "minimum_axis_overlap": 0.66
+        },
+        {
+          "a": "right_broad_feather_5",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 0.94743
+        },
+        {
+          "a": "right_broad_feather_6",
+          "b": "right_wing_root_socket",
+          "minimum_axis_overlap": 0.51411
+        },
+        {
+          "a": "right_broad_feather_6",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 0.92627
+        },
+        {
+          "a": "right_wing_root_socket",
+          "b": "right_wing_inner_support",
+          "minimum_axis_overlap": 1.64996
+        },
+        {
+          "a": "right_wing_inner_support",
+          "b": "right_wing_outer_support",
+          "minimum_axis_overlap": 1.19996
+        }
+      ],
+      "all_wing_cubes_reach_torso": true,
+      "disconnected": [],
+      "paths_to_torso": {
+        "right_leading_inner": [
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_leading_outer": [
+          "right_leading_outer",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_dense_inner_cover": [
+          "right_dense_inner_cover",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_broad_feather_1": [
+          "right_broad_feather_1",
+          "right_leading_outer",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_broad_feather_2": [
+          "right_broad_feather_2",
+          "right_leading_outer",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_broad_feather_3": [
+          "right_broad_feather_3",
+          "right_leading_outer",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_feather_tip_3": [
+          "right_feather_tip_3",
+          "right_broad_feather_2",
+          "right_leading_outer",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_broad_feather_4": [
+          "right_broad_feather_4",
+          "right_wing_inner_support",
+          "chest_core"
+        ],
+        "right_broad_feather_5": [
+          "right_broad_feather_5",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_feather_tip_5": [
+          "right_feather_tip_5",
+          "right_broad_feather_4",
+          "right_wing_inner_support",
+          "chest_core"
+        ],
+        "right_broad_feather_6": [
+          "right_broad_feather_6",
+          "right_leading_inner",
+          "chest_core"
+        ],
+        "right_wing_root_socket": [
+          "right_wing_root_socket",
+          "chest_core"
+        ],
+        "right_wing_inner_support": [
+          "right_wing_inner_support",
+          "chest_core"
+        ],
+        "right_wing_outer_support": [
+          "right_wing_outer_support",
+          "right_leading_inner",
+          "chest_core"
+        ]
+      },
+      "feather_root_upper20percent_direct_support_contacts": {
+        "right_broad_feather_1": [
+          "right_leading_outer",
+          "right_wing_outer_support"
+        ],
+        "right_broad_feather_2": [
+          "right_leading_outer",
+          "right_wing_outer_support"
+        ],
+        "right_broad_feather_3": [
+          "right_leading_outer",
+          "right_wing_outer_support"
+        ],
+        "right_broad_feather_4": [
+          "right_wing_inner_support",
+          "right_wing_outer_support"
+        ],
+        "right_broad_feather_5": [
+          "right_leading_inner",
+          "right_dense_inner_cover",
+          "right_wing_inner_support"
+        ],
+        "right_broad_feather_6": [
+          "right_leading_inner",
+          "right_wing_root_socket",
+          "right_wing_inner_support"
+        ]
+      },
+      "all_feather_roots_meet_support": true,
+      "tip_parent_contacts": {
+        "right_feather_tip_3": {
+          "parent_feather": "right_broad_feather_3",
+          "intersects": true
+        },
+        "right_feather_tip_5": {
+          "parent_feather": "right_broad_feather_5",
+          "intersects": true
+        }
+      }
+    }
+  },
+  "beak": {
+    "edges": [
+      {
+        "a": "head_skull",
+        "b": "beak_upper_wedge",
+        "minimum_axis_overlap": 0.24243
+      },
+      {
+        "a": "head_skull",
+        "b": "beak_closed_mandible",
+        "minimum_axis_overlap": 0.18029
+      },
+      {
+        "a": "beak_upper_wedge",
+        "b": "beak_closed_mandible",
+        "minimum_axis_overlap": 0.04985
+      },
+      {
+        "a": "beak_upper_wedge",
+        "b": "beak_bridge",
+        "minimum_axis_overlap": 0.36062
+      },
+      {
+        "a": "beak_hooked_tip",
+        "b": "beak_closed_mandible",
+        "minimum_axis_overlap": 0.26188
+      },
+      {
+        "a": "beak_hooked_tip",
+        "b": "beak_bridge",
+        "minimum_axis_overlap": 0.1937
+      },
+      {
+        "a": "beak_closed_mandible",
+        "b": "beak_bridge",
+        "minimum_axis_overlap": 0.06746
+      }
+    ],
+    "paths_to_skull": {
+      "beak_upper_wedge": [
+        "beak_upper_wedge",
+        "head_skull"
+      ],
+      "beak_hooked_tip": [
+        "beak_hooked_tip",
+        "beak_closed_mandible",
+        "head_skull"
+      ],
+      "beak_closed_mandible": [
+        "beak_closed_mandible",
+        "head_skull"
+      ],
+      "beak_bridge": [
+        "beak_bridge",
+        "beak_upper_wedge",
+        "head_skull"
+      ]
+    },
+    "all_beak_parts_connected": true
+  },
+  "hair_coverage": {
+    "left": {
+      "sample_count": 49,
+      "covered_count": 49,
+      "coverage_fraction": 1.0,
+      "uncovered": []
+    },
+    "right": {
+      "sample_count": 49,
+      "covered_count": 49,
+      "coverage_fraction": 1.0,
+      "uncovered": []
+    },
+    "back": {
+      "sample_count": 49,
+      "covered_count": 49,
+      "coverage_fraction": 1.0,
+      "uncovered": []
+    },
+    "crown": {
+      "sample_count": 49,
+      "covered_count": 49,
+      "coverage_fraction": 1.0,
+      "uncovered": []
+    }
+  },
+  "all_skull_hair_samples_covered": true,
+  "hair_contact_paths_to_crown": {
+    "hair_crown": [
+      "hair_crown"
+    ],
+    "hair_back": [
+      "hair_back",
+      "hair_crown"
+    ],
+    "hair_left_frame": [
+      "hair_left_frame",
+      "hair_crown"
+    ],
+    "hair_right_frame": [
+      "hair_right_frame",
+      "hair_crown"
+    ],
+    "hair_left_bang": [
+      "hair_left_bang",
+      "hair_crown"
+    ],
+    "hair_right_bang": [
+      "hair_right_bang",
+      "hair_crown"
+    ],
+    "hair_left_temple_shell": [
+      "hair_left_temple_shell",
+      "hair_crown"
+    ],
+    "hair_right_temple_shell": [
+      "hair_right_temple_shell",
+      "hair_crown"
+    ],
+    "hair_back_left_lock": [
+      "hair_back_left_lock",
+      "hair_back",
+      "hair_crown"
+    ],
+    "hair_back_right_lock": [
+      "hair_back_right_lock",
+      "hair_back",
+      "hair_crown"
+    ],
+    "hair_back_middle_lock": [
+      "hair_back_middle_lock",
+      "hair_back",
+      "hair_crown"
+    ],
+    "hair_left_mid_lock": [
+      "hair_left_mid_lock",
+      "hair_left_temple_shell",
+      "hair_crown"
+    ],
+    "hair_right_mid_lock": [
+      "hair_right_mid_lock",
+      "hair_right_temple_shell",
+      "hair_crown"
+    ]
+  },
+  "all_hair_parts_physically_connected": true,
+  "claw_hook_parent_contacts": {
+    "left_hand_claw_2_dark_hook": {
+      "parent": "left_hand_claw_2",
+      "intersects": true,
+      "minimum_axis_overlap": 0.3011
+    },
+    "left_toe_2_dark_hook": {
+      "parent": "left_toe_2",
+      "intersects": true,
+      "minimum_axis_overlap": 0.44057
+    },
+    "right_hand_claw_2_dark_hook": {
+      "parent": "right_hand_claw_2",
+      "intersects": true,
+      "minimum_axis_overlap": 0.3011
+    },
+    "right_toe_2_dark_hook": {
+      "parent": "right_toe_2",
+      "intersects": true,
+      "minimum_axis_overlap": 0.44057
+    }
+  },
+  "all_claw_hooks_contact_their_parent": true,
+  "cube_count": 88,
+  "all_cubes_owned_once": true
+}

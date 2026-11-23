@@ -1,0 +1,683 @@
+{
+  "source_file": "/workspace/work/undead-harpy-refined64/source/blockbench/undead_harpy.bbmodel",
+  "source_sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911",
+  "final_source_sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4",
+  "source_cubes": 70,
+  "final_cubes": 88,
+  "retained_original_cube_uuids": 70,
+  "removed_original_cube_uuids": [],
+  "added_cube_count": 18,
+  "original_bones_retained": 24,
+  "all_original_bone_transforms_and_hierarchy_unchanged": true,
+  "all_original_cube_bone_ownership_unchanged": true,
+  "protected_geometry_count": 61,
+  "protected_body_limbs_wound_and_wing_geometry_unchanged": true,
+  "original_geometry_changes": [
+    {
+      "name": "beak_upper_wedge",
+      "uuid": "c8f97a97-b413-554a-88a6-bb584b5959a7",
+      "changed_fields": [
+        "from",
+        "to",
+        "origin",
+        "rotation"
+      ]
+    },
+    {
+      "name": "beak_hooked_tip",
+      "uuid": "638a9457-60cf-5baa-abca-4bb48a396a59",
+      "changed_fields": [
+        "from",
+        "to",
+        "origin"
+      ]
+    },
+    {
+      "name": "beak_closed_mandible",
+      "uuid": "d5819fbb-457b-54f7-8aa4-4280fead135e",
+      "changed_fields": [
+        "from",
+        "to",
+        "rotation"
+      ]
+    },
+    {
+      "name": "hair_crown",
+      "uuid": "37f8ac8d-8a52-564d-838d-9b195760e76f",
+      "changed_fields": [
+        "to"
+      ]
+    },
+    {
+      "name": "hair_back",
+      "uuid": "a8b06237-8e8b-5741-951a-6839b1875b9f",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    },
+    {
+      "name": "hair_left_frame",
+      "uuid": "04744226-351a-513f-8ec1-718840b77f58",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    },
+    {
+      "name": "hair_right_frame",
+      "uuid": "b1ff9c46-9afa-5ee5-9395-9ea7da447deb",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    }
+  ],
+  "unchanged_original_cube_geometry_count": 63,
+  "every_cube_owned_once": true,
+  "unreferenced_cubes": 0,
+  "per_part_cube_counts": {
+    "body_neck_skull_and_wound": 11,
+    "beak": 4,
+    "hair": 13,
+    "wings": 28,
+    "arms_and_hand_claws": 14,
+    "legs_and_talons": 16,
+    "tail": 2
+  },
+  "faces": 528,
+  "triangles": 1056,
+  "render_vertices_separate_faces": 2112,
+  "single_embedded_png_matches_resource": true,
+  "atlas_size": [
+    64,
+    64
+  ],
+  "all_uv_within_atlas": true,
+  "texture_fully_opaque": true,
+  "animations": 0,
+  "animation_controllers": 0,
+  "no_animation_file": true,
+  "source_cube_audit": [
+    {
+      "name": "pelvis",
+      "uuid": "cbe987f9-866f-594b-8858-9e4fe5088e8a",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "abdomen",
+      "uuid": "929dd448-edbc-5c4e-a96f-54308eddbb1a",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "chest_core",
+      "uuid": "34bfe3a4-c6f6-5ce6-af7e-2b3d72c1f775",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "chest_left_back",
+      "uuid": "687c6721-0041-5014-bdf1-170dec10daaf",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "chest_left_upper_flesh",
+      "uuid": "d7c91fd9-383a-5149-8d66-9a1c81af9c3f",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "chest_left_lower_flesh",
+      "uuid": "5c9bb174-e6bd-5ac5-9c02-dce4cf908cf3",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "exposed_rib_lower",
+      "uuid": "d62a3ff4-9405-584a-b560-f440e4162ecc",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "exposed_rib_upper",
+      "uuid": "67454da2-8274-595c-8e2b-d2ead69285b1",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "thin_neck",
+      "uuid": "a9727914-1b5c-568d-b629-42c7df32cbee",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "head_skull",
+      "uuid": "d2de7459-cec9-5c76-9263-520996be500e",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "jaw",
+      "uuid": "f20a3f30-2b9b-5a98-9c77-60ce068c73e0",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "beak_upper_wedge",
+      "uuid": "c8f97a97-b413-554a-88a6-bb584b5959a7",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "beak_hooked_tip",
+      "uuid": "638a9457-60cf-5baa-abca-4bb48a396a59",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "beak_closed_mandible",
+      "uuid": "d5819fbb-457b-54f7-8aa4-4280fead135e",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_crown",
+      "uuid": "37f8ac8d-8a52-564d-838d-9b195760e76f",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_back",
+      "uuid": "a8b06237-8e8b-5741-951a-6839b1875b9f",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_left_frame",
+      "uuid": "04744226-351a-513f-8ec1-718840b77f58",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_right_frame",
+      "uuid": "b1ff9c46-9afa-5ee5-9395-9ea7da447deb",
+      "retained": true,
+      "geometry_unchanged": false,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_left_bang",
+      "uuid": "ea30dd8c-3d96-5dd1-8c0c-f870f72388a5",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "hair_right_bang",
+      "uuid": "e7068af7-8fd8-5e73-ac8c-2fc598482581",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": false
+    },
+    {
+      "name": "left_leading_inner",
+      "uuid": "7972397c-1470-51cb-b464-49782c7402f4",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_leading_outer",
+      "uuid": "3db72db9-c2cf-5092-8a45-f20f5c7bdeb6",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_dense_inner_cover",
+      "uuid": "81db2c0e-0fe7-5cf1-9077-671d54b9dce0",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_1",
+      "uuid": "5a73ba77-c00a-5aa5-8a19-ce2b08d45c1c",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_2",
+      "uuid": "0fa09fbe-3c70-5d53-98c1-71956a4ca102",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_3",
+      "uuid": "177a8975-cc55-55c2-b1d4-7675cee79de8",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_feather_tip_3",
+      "uuid": "97593e28-edc0-5836-b7bc-5b77369fd3f1",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_4",
+      "uuid": "ca128e5c-403c-55d7-85fd-a2d81d135ce7",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_5",
+      "uuid": "17a63a18-c51e-5207-b98b-bb32fd5748d1",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_feather_tip_5",
+      "uuid": "5eea9a3d-bc9e-5e95-bd4b-49d7b3b50e17",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_broad_feather_6",
+      "uuid": "adec7976-edd7-52d8-bd4c-80aa4cfd7cc7",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_leading_inner",
+      "uuid": "cf1f3dfb-6edd-5376-9d30-b8b650f0f3d3",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_leading_outer",
+      "uuid": "c9b3b8f9-73cf-5897-a441-af01819f1464",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_dense_inner_cover",
+      "uuid": "0678d8d1-cdc6-5a7b-912d-459b7df37976",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_1",
+      "uuid": "1ba877b2-7533-5ff8-a83b-18c508664256",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_2",
+      "uuid": "f00e8b46-16cf-528b-8609-28e127a234f2",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_3",
+      "uuid": "f2131aa2-ca21-5e72-86e3-81202b338c62",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_feather_tip_3",
+      "uuid": "2b56d8d5-a6b7-5158-8ba6-afecb1de8317",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_4",
+      "uuid": "9dfab4a7-e94d-52d4-ac23-e0844386870e",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_5",
+      "uuid": "e8e6d5ab-e9e2-5fb7-8da8-29bfb0121c1e",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_feather_tip_5",
+      "uuid": "6f51ee2d-48fc-54c8-8d6d-8da48a760ea2",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_broad_feather_6",
+      "uuid": "463e1d4e-26e3-52a8-9f2e-4d5f74fe5533",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_upper_arm",
+      "uuid": "959a7da1-fe7f-5798-b35c-641dfa48faa1",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_forearm",
+      "uuid": "c1c39a12-1110-57af-94bc-0f31e9da7588",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_palm",
+      "uuid": "48e02dd8-6c39-5b4a-97f7-de3ac3d7855a",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_hand_claw_1",
+      "uuid": "fff693b7-f890-567b-90f1-f2adce7f4f7d",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_hand_claw_2",
+      "uuid": "3f2bdbf4-0eb5-5ce5-b266-c86c61333b80",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_hand_claw_3",
+      "uuid": "851f82d4-3dd2-5507-837b-aec58c56b098",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_upper_arm",
+      "uuid": "9e9ccbfc-6711-5d86-9c3f-46c2ff59c693",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_forearm",
+      "uuid": "722b9fd5-35c6-5055-90bb-fb650d233786",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_palm",
+      "uuid": "73ca6ce2-5702-5742-8a2b-6d0d45b00ec4",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_hand_claw_1",
+      "uuid": "898b891c-660d-5802-b2a9-ce994124896d",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_hand_claw_2",
+      "uuid": "d6659ca3-43ae-571f-97d9-365710bcec3f",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_hand_claw_3",
+      "uuid": "353b6ae4-38c9-564c-81d7-e298f3df373e",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_thigh",
+      "uuid": "263897ad-c1b2-5045-bb49-8f43411432ee",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_shin",
+      "uuid": "577181f2-dfcf-52a2-80be-7f4db74d3408",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_foot",
+      "uuid": "ad87e190-6823-5ab5-bf38-bf9552c2a6b6",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_toe_1",
+      "uuid": "9d4e52cb-4c83-59be-b845-0eef752e7396",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_toe_2",
+      "uuid": "5a2b1a5b-5047-5670-aa3c-248d2dbc5b50",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_toe_3",
+      "uuid": "086fea71-433d-50d8-ac55-581c79b1cad2",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "left_rear_toe",
+      "uuid": "785be3e1-d2ca-542d-939e-073434ae8c51",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_thigh",
+      "uuid": "f8b06944-15fd-5212-b745-d0f5f18dd017",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_shin",
+      "uuid": "9f83553b-a7a9-57e1-9881-7fe0eb54f195",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_foot",
+      "uuid": "78cb8d4a-de91-5f6d-9f8f-3aa63a9ba82d",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_toe_1",
+      "uuid": "dddd4fe4-5b6e-5139-a6a1-420a7ffc5f3e",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_toe_2",
+      "uuid": "b8ecac7d-cb7e-5650-ab9d-ce0c06218dbe",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_toe_3",
+      "uuid": "e3e61dbc-652b-5c80-af27-9464889ceb15",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "right_rear_toe",
+      "uuid": "128961ec-18d1-5cbf-a0c6-9f0824478e33",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "tail_feather_1",
+      "uuid": "3aa0acd0-289c-5dfa-b871-1d1fab3969df",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    },
+    {
+      "name": "tail_feather_2",
+      "uuid": "6e63c988-93e7-5a90-af87-b04a509010ba",
+      "retained": true,
+      "geometry_unchanged": true,
+      "bone_ownership_unchanged": true,
+      "protected_body_limb_wound_or_wing": true
+    }
+  ],
+  "added_cube_names": [
+    "beak_bridge",
+    "hair_left_temple_shell",
+    "hair_right_temple_shell",
+    "hair_back_left_lock",
+    "hair_back_right_lock",
+    "hair_back_middle_lock",
+    "hair_left_mid_lock",
+    "hair_right_mid_lock",
+    "left_wing_root_socket",
+    "left_wing_inner_support",
+    "left_wing_outer_support",
+    "right_wing_root_socket",
+    "right_wing_inner_support",
+    "right_wing_outer_support",
+    "left_hand_claw_2_dark_hook",
+    "left_toe_2_dark_hook",
+    "right_hand_claw_2_dark_hook",
+    "right_toe_2_dark_hook"
+  ]
+}

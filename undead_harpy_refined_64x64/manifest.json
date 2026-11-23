@@ -1,0 +1,95 @@
+{
+  "name": "Undead Harpy — refined64x64",
+  "source_archive": "undead_harpy_16x16_blockbench.zip",
+  "source_bbmodel_sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911",
+  "source_elements_preserved": 70,
+  "elements": 88,
+  "bones": 24,
+  "texture_size": [
+    64,
+    64
+  ],
+  "animations": 0,
+  "files": [
+    {
+      "path": "README_RU.md",
+      "bytes": 6500,
+      "sha256": "84952bdc859b48bca3fa18c5bff94c8a3ea35918dc688fa0f5559d4b7d5632bc"
+    },
+    {
+      "path": "RIG_NOTES.md",
+      "bytes": 4040,
+      "sha256": "a73e9dc4fc3b3bc10b49dee2154272e6207d2d3e684236bd5d77f9c9e3e9754a"
+    },
+    {
+      "path": "attachment-review.json",
+      "bytes": 34028,
+      "sha256": "e089b65fa8e41380f851b2d5bb314384181ff51b91b97d677da28b388dbdf590"
+    },
+    {
+      "path": "blockbench/undead_harpy.bbmodel",
+      "bytes": 168169,
+      "sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4"
+    },
+    {
+      "path": "blockbench-validation.json",
+      "bytes": 26255,
+      "sha256": "04418d8ca2336123f1ad3c547ca622119153d865155ef5ca90ca3b359cac9391"
+    },
+    {
+      "path": "connection-validation.json",
+      "bytes": 23750,
+      "sha256": "40ee65481de5ecbe8c7fce487c9ea7ea7bfcf964d6272e70fc8fcd786aeaa8ca"
+    },
+    {
+      "path": "export-comparison.json",
+      "bytes": 669,
+      "sha256": "27f520070e2d445d4b1419baabbb21ab25481db99102dddb8225ed70c2a03e81"
+    },
+    {
+      "path": "exports/undead_harpy.geo.json",
+      "bytes": 171954,
+      "sha256": "9ee598dfedeac2b85d908928a532a20e76c26235379ac140776a054405e241e6"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 1475,
+      "sha256": "2a8f2bf3cfc904f4b5290b72904df147dcc9adf4ca88be843b45ea4864e474c6"
+    },
+    {
+      "path": "model-metadata.json",
+      "bytes": 4834,
+      "sha256": "afd7a024735fbfa1c09bb0267b98bcb00b9b138a2b897d21c3a5c8dd7cb14185"
+    },
+    {
+      "path": "previews/attachment_details.png",
+      "bytes": 123992,
+      "sha256": "d2c20548e57515116e7e08545dcc5d1e40fe2a222c343983299ddb26e44fbe49"
+    },
+    {
+      "path": "previews/head_details.png",
+      "bytes": 148322,
+      "sha256": "c805973f20f8024e974fdcd7be97c411b5bc20b7defc600b3d14bf521dcf08a9"
+    },
+    {
+      "path": "previews/model_sheet.png",
+      "bytes": 221901,
+      "sha256": "feaaa9ae478e5b47572d40b42f1fe0f313dd97c32b3b7427391312d5560fbf9b"
+    },
+    {
+      "path": "previews/texture_nearest_preview.png",
+      "bytes": 7903,
+      "sha256": "547fa9b87a41d5b299a1f3a8626ec76ab3873c1b4c63a5eda33ae8b18d607ac3"
+    },
+    {
+      "path": "source-preservation.json",
+      "bytes": 20341,
+      "sha256": "43c8aa7a21406137dc05a7aeb3c335415b4456515cbf3e4f9ee1859523bb5fcb"
+    },
+    {
+      "path": "textures/undead_harpy.png",
+      "bytes": 3003,
+      "sha256": "1b9a089f7f5029afe5c14beb473b3ac409b850c491055281f1099646ea9c80f5"
+    }
+  ]
+}

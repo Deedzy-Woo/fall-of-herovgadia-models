@@ -1,0 +1,133 @@
+{
+  "size": [
+    64,
+    64
+  ],
+  "tile_size": [
+    16,
+    16
+  ],
+  "coarse_logical_pixels": [
+    2,
+    2
+  ],
+  "materials": {
+    "face": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "hair_side": [
+      16,
+      0,
+      32,
+      16
+    ],
+    "hair_back": [
+      32,
+      0,
+      48,
+      16
+    ],
+    "hair_crown": [
+      48,
+      0,
+      64,
+      16
+    ],
+    "skin": [
+      0,
+      16,
+      16,
+      32
+    ],
+    "torso_wound": [
+      16,
+      16,
+      32,
+      32
+    ],
+    "limb_skin": [
+      32,
+      16,
+      48,
+      32
+    ],
+    "bone": [
+      48,
+      16,
+      64,
+      32
+    ],
+    "beak": [
+      0,
+      32,
+      16,
+      48
+    ],
+    "claw": [
+      16,
+      32,
+      32,
+      48
+    ],
+    "feather_dark": [
+      32,
+      32,
+      48,
+      48
+    ],
+    "feather_brown": [
+      48,
+      32,
+      64,
+      48
+    ],
+    "feather_under": [
+      0,
+      48,
+      16,
+      64
+    ],
+    "feather_covert": [
+      16,
+      48,
+      32,
+      64
+    ],
+    "cavity_red": [
+      32,
+      48,
+      48,
+      64
+    ],
+    "talon_scales": [
+      48,
+      48,
+      64,
+      64
+    ]
+  },
+  "samples": {
+    "cavity": [
+      34,
+      50,
+      35,
+      51
+    ],
+    "old_blood": [
+      43,
+      58,
+      44,
+      59
+    ],
+    "ivory": [
+      52,
+      20,
+      53,
+      21
+    ]
+  },
+  "eye_reference": "actual ghoul.png eye RGB255,172,42; one2x2 cluster per eye; no emissive map"
+}

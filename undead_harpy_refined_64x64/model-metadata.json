@@ -1,0 +1,252 @@
+{
+  "source_file": "/workspace/work/undead-harpy-refined64/source/blockbench/undead_harpy.bbmodel",
+  "source_sha256": "b97be43db25bacd5951df922fdb41a02a560e0c49699958f50e75bcda3e05911",
+  "source_cubes": 70,
+  "final_cubes": 88,
+  "bones": 24,
+  "source_uuids_retained": 70,
+  "added_cubes": 18,
+  "body_limb_pose_and_wound_geometry_unchanged": true,
+  "texture_size": [
+    64,
+    64
+  ],
+  "animations": 0,
+  "animation_controllers": 0,
+  "new_support_names": [
+    "left_wing_root_socket",
+    "left_wing_inner_support",
+    "left_wing_outer_support",
+    "right_wing_root_socket",
+    "right_wing_inner_support",
+    "right_wing_outer_support"
+  ],
+  "hair_shells": [
+    "hair_left_temple_shell",
+    "hair_right_temple_shell"
+  ],
+  "added_hair_locks": [
+    "hair_back_left_lock",
+    "hair_back_right_lock",
+    "hair_back_middle_lock",
+    "hair_left_mid_lock",
+    "hair_right_mid_lock"
+  ],
+  "beak_cubes": [
+    "beak_upper_wedge",
+    "beak_hooked_tip",
+    "beak_closed_mandible",
+    "beak_bridge"
+  ],
+  "uv_regions": {
+    "FACE": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "HAIR_SIDE": [
+      16,
+      0,
+      32,
+      16
+    ],
+    "HAIR_BACK": [
+      32,
+      0,
+      48,
+      16
+    ],
+    "HAIR_CROWN": [
+      48,
+      0,
+      64,
+      16
+    ],
+    "SKIN": [
+      0,
+      16,
+      16,
+      32
+    ],
+    "TORSO": [
+      16,
+      16,
+      32,
+      32
+    ],
+    "LIMB": [
+      32,
+      16,
+      48,
+      32
+    ],
+    "BONE": [
+      48,
+      16,
+      64,
+      32
+    ],
+    "BEAK": [
+      0,
+      32,
+      16,
+      48
+    ],
+    "CLAW": [
+      16,
+      32,
+      32,
+      48
+    ],
+    "FEATHER_DARK": [
+      32,
+      32,
+      48,
+      48
+    ],
+    "FEATHER_BROWN": [
+      48,
+      32,
+      64,
+      48
+    ],
+    "FEATHER_UNDER": [
+      0,
+      48,
+      16,
+      64
+    ],
+    "COVERT": [
+      16,
+      48,
+      32,
+      64
+    ],
+    "CAVITY": [
+      32,
+      48,
+      48,
+      64
+    ],
+    "SCALES": [
+      48,
+      48,
+      64,
+      64
+    ]
+  },
+  "final_source_sha256": "a9931c5680148539e2c1d7a74b18b709e320f78f354c2de765e213836f7c87c4",
+  "retained_original_cube_uuids": 70,
+  "removed_original_cube_uuids": [],
+  "added_cube_count": 18,
+  "original_bones_retained": 24,
+  "all_original_bone_transforms_and_hierarchy_unchanged": true,
+  "all_original_cube_bone_ownership_unchanged": true,
+  "protected_geometry_count": 61,
+  "protected_body_limbs_wound_and_wing_geometry_unchanged": true,
+  "original_geometry_changes": [
+    {
+      "name": "beak_upper_wedge",
+      "uuid": "c8f97a97-b413-554a-88a6-bb584b5959a7",
+      "changed_fields": [
+        "from",
+        "to",
+        "origin",
+        "rotation"
+      ]
+    },
+    {
+      "name": "beak_hooked_tip",
+      "uuid": "638a9457-60cf-5baa-abca-4bb48a396a59",
+      "changed_fields": [
+        "from",
+        "to",
+        "origin"
+      ]
+    },
+    {
+      "name": "beak_closed_mandible",
+      "uuid": "d5819fbb-457b-54f7-8aa4-4280fead135e",
+      "changed_fields": [
+        "from",
+        "to",
+        "rotation"
+      ]
+    },
+    {
+      "name": "hair_crown",
+      "uuid": "37f8ac8d-8a52-564d-838d-9b195760e76f",
+      "changed_fields": [
+        "to"
+      ]
+    },
+    {
+      "name": "hair_back",
+      "uuid": "a8b06237-8e8b-5741-951a-6839b1875b9f",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    },
+    {
+      "name": "hair_left_frame",
+      "uuid": "04744226-351a-513f-8ec1-718840b77f58",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    },
+    {
+      "name": "hair_right_frame",
+      "uuid": "b1ff9c46-9afa-5ee5-9395-9ea7da447deb",
+      "changed_fields": [
+        "from",
+        "to"
+      ]
+    }
+  ],
+  "unchanged_original_cube_geometry_count": 63,
+  "every_cube_owned_once": true,
+  "unreferenced_cubes": 0,
+  "per_part_cube_counts": {
+    "body_neck_skull_and_wound": 11,
+    "beak": 4,
+    "hair": 13,
+    "wings": 28,
+    "arms_and_hand_claws": 14,
+    "legs_and_talons": 16,
+    "tail": 2
+  },
+  "faces": 528,
+  "triangles": 1056,
+  "render_vertices_separate_faces": 2112,
+  "single_embedded_png_matches_resource": true,
+  "atlas_size": [
+    64,
+    64
+  ],
+  "all_uv_within_atlas": true,
+  "texture_fully_opaque": true,
+  "no_animation_file": true,
+  "added_cube_names": [
+    "beak_bridge",
+    "hair_left_temple_shell",
+    "hair_right_temple_shell",
+    "hair_back_left_lock",
+    "hair_back_right_lock",
+    "hair_back_middle_lock",
+    "hair_left_mid_lock",
+    "hair_right_mid_lock",
+    "left_wing_root_socket",
+    "left_wing_inner_support",
+    "left_wing_outer_support",
+    "right_wing_root_socket",
+    "right_wing_inner_support",
+    "right_wing_outer_support",
+    "left_hand_claw_2_dark_hook",
+    "left_toe_2_dark_hook",
+    "right_hand_claw_2_dark_hook",
+    "right_toe_2_dark_hook"
+  ]
+}
