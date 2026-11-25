@@ -1,0 +1,102 @@
+{
+  "project": "Fall of Herovgadia",
+  "asset": "undead_harpy_grab_carry",
+  "source_commit": "47ca88af719858337d494b82829cc327d9d186e2",
+  "files": [
+    {
+      "path": "README_RU.md",
+      "bytes": 5210,
+      "sha256": "9f7733514bf2c1c0f93808c98bdb2fe0affc4e612e648a10eaf27542849c4c55"
+    },
+    {
+      "path": "blockbench/undead_harpy.bbmodel",
+      "bytes": 3086373,
+      "sha256": "297d4c5f37e46522a7e2393de7840cdf97df30dbe57ac707a7bbd93145ceaae3"
+    },
+    {
+      "path": "checks/export-review.json",
+      "bytes": 4255,
+      "sha256": "cf02d8c8cac72d42e7cff8e908ac59b84580513688cda591988e57dd593f2803"
+    },
+    {
+      "path": "checks/gif-verification.json",
+      "bytes": 285,
+      "sha256": "0a68a419837d6b4fb5720d94b5a88e35044917f7ef6a9e54509b25854443e02f"
+    },
+    {
+      "path": "checks/pose-reference.json",
+      "bytes": 12791,
+      "sha256": "0c848501105ed11c04fae1fa771ad68f608aa5ca1f79c792dd0a986e8adcc7a4"
+    },
+    {
+      "path": "checks/pose-validation.json",
+      "bytes": 12017,
+      "sha256": "86f2872ffb6a47cdba6512ce7fe3a1e5cc16a2bca93dbb7346a578c0988bdc65"
+    },
+    {
+      "path": "checks/source-preservation.json",
+      "bytes": 2159,
+      "sha256": "50202c225be408ee796d3b9d4c152b3b469ee20dfc738992ebe2d1914708421f"
+    },
+    {
+      "path": "checks/transition-review.json",
+      "bytes": 659,
+      "sha256": "b5b210b6c443afcfbda62e427972d5e997b705f7bcad3d412d201bda26046281"
+    },
+    {
+      "path": "exports/undead_harpy.animation.json",
+      "bytes": 726977,
+      "sha256": "b6f192b61d7cb315efe66e5808937d8e52f8cc4d01c1a9ec4925f92310c77a69"
+    },
+    {
+      "path": "previews/before_after_side.png",
+      "bytes": 163290,
+      "sha256": "d08d09327eb5d2cc0a46b9094993de0348d0bd48267ca1c21d8cc56865d5bf4b"
+    },
+    {
+      "path": "previews/carry_angle45.gif",
+      "bytes": 702710,
+      "sha256": "18f4e5b56d2f7a4695c70100d93b1b3dcd4faaafd99806ff0d7bf281c633e2ab"
+    },
+    {
+      "path": "previews/carry_first_middle_last.png",
+      "bytes": 55747,
+      "sha256": "71acb830aae4db1c2bb922851e96c610408ff8b605e5405824ae7dd2f9e03cdc"
+    },
+    {
+      "path": "previews/carry_four_views.png",
+      "bytes": 249073,
+      "sha256": "681f52bec66b68f5c52ead7d06d486d70935e80ec4e7d6e3395ece6fd438f6f8"
+    },
+    {
+      "path": "previews/carry_overview_angle45.png",
+      "bytes": 101649,
+      "sha256": "752d7298b8b304c72c2c6fbc5c08b1364a9d680538c6c46d1e5e3808868f618b"
+    },
+    {
+      "path": "previews/carry_overview_back.png",
+      "bytes": 118482,
+      "sha256": "b95d55b85d3fcb1e9aeeba9f93ac25a893ca7e6931ba73c63ed9517dc41b6044"
+    },
+    {
+      "path": "previews/carry_overview_front.png",
+      "bytes": 104703,
+      "sha256": "a4ac5d3505fb8059876153c1ce9bf4a154028da8dd1031e46098422de0366a9e"
+    },
+    {
+      "path": "previews/carry_overview_side.png",
+      "bytes": 113948,
+      "sha256": "abaffc9ba3b38ff2e8086986e19b062014e2a9a19328b2c1ad4f2089949c8b62"
+    },
+    {
+      "path": "previews/carry_side.gif",
+      "bytes": 712423,
+      "sha256": "5d6b93b38c90861058909c1d380b730d243a5b580369e1f4aada0e4026440f1d"
+    },
+    {
+      "path": "textures/undead_harpy.png",
+      "bytes": 3001,
+      "sha256": "20d2eee170bcac47fd1f90d5c40fb85c4009c7f2ad70d173e880f8de2eb789b9"
+    }
+  ]
+}

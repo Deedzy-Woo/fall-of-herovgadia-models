@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": {
+    "same_model_fields": true,
+    "all_nonanimation_model_fields_unchanged": true,
+    "twelve_original_animation_names_in_original_order": true,
+    "eight_other_source_clips_unchanged": true,
+    "all_four_target_source_clips_changed": true,
+    "all_keyframe_uuids_unique": true,
+    "target_identity_duration_loop_preserved": true,
+    "export_root_fields_preserved": true,
+    "export_twelve_original_clips": true,
+    "eight_other_export_clips_unchanged": true,
+    "four_target_export_clips_changed": true,
+    "animation.undead_harpy.grab_dive_no_new_scale_animation": true,
+    "animation.undead_harpy.grab_dive_finite_numeric_keyframes": true,
+    "animation.undead_harpy.release_no_new_scale_animation": true,
+    "animation.undead_harpy.release_finite_numeric_keyframes": true,
+    "animation.undead_harpy.carry_no_new_scale_animation": true,
+    "animation.undead_harpy.carry_finite_numeric_keyframes": true,
+    "animation.undead_harpy.player_catch_no_new_scale_animation": true,
+    "animation.undead_harpy.player_catch_finite_numeric_keyframes": true
+  },
+  "unchanged_geometry_elements": 92,
+  "animation_count": 12,
+  "changed_clips": [
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.release"
+  ],
+  "unchanged_clips": [
+    "animation.undead_harpy.fly",
+    "animation.undead_harpy.glide",
+    "animation.undead_harpy.attack_dive",
+    "animation.undead_harpy.special_warning",
+    "animation.undead_harpy.hurt",
+    "animation.undead_harpy.death",
+    "animation.undead_harpy.death_fall",
+    "animation.undead_harpy.death_land"
+  ],
+  "textures": [
+    {
+      "name": "undead_harpy.png",
+      "sha256": "20d2eee170bcac47fd1f90d5c40fb85c4009c7f2ad70d173e880f8de2eb789b9"
+    }
+  ],
+  "source_archive_sha256": "f32156b80881d33343d61b5b029b70b3893aa56a0571aca69c5b98410a3ff433",
+  "output_sha256": {
+    "undead_harpy.bbmodel": "297d4c5f37e46522a7e2393de7840cdf97df30dbe57ac707a7bbd93145ceaae3",
+    "undead_harpy.animation.json": "b6f192b61d7cb315efe66e5808937d8e52f8cc4d01c1a9ec4925f92310c77a69"
+  }
+}

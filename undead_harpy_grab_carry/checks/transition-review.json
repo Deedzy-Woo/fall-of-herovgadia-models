@@ -1,0 +1,35 @@
+{
+  "transitions": [
+    {
+      "from": "grab_dive:end",
+      "to": "player_catch:start",
+      "continuous": true,
+      "differences": []
+    },
+    {
+      "from": "player_catch:end",
+      "to": "carry:start",
+      "continuous": true,
+      "differences": []
+    },
+    {
+      "from": "carry:start",
+      "to": "carry:end",
+      "continuous": true,
+      "differences": []
+    },
+    {
+      "from": "carry:start",
+      "to": "release:start",
+      "continuous": true,
+      "differences": []
+    },
+    {
+      "from": "release:end",
+      "to": "fly:start",
+      "continuous": true,
+      "differences": []
+    }
+  ],
+  "all_continuous": true
+}

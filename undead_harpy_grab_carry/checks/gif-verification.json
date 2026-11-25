@@ -1,0 +1,22 @@
+[
+  {
+    "file": "carry_side.gif",
+    "frames": 20,
+    "total_ms": 800,
+    "size": [
+      900,
+      750
+    ],
+    "bytes": 712423
+  },
+  {
+    "file": "carry_angle45.gif",
+    "frames": 20,
+    "total_ms": 800,
+    "size": [
+      900,
+      750
+    ],
+    "bytes": 702710
+  }
+]

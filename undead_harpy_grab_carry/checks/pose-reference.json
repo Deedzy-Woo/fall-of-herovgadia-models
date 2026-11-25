@@ -1,0 +1,693 @@
+{
+  "dummy": {
+    "center": [
+      0.0,
+      9.6,
+      -12.5
+    ],
+    "size": [
+      9.6,
+      28.8,
+      9.6
+    ],
+    "torso_y": [
+      6.0,
+      16.8
+    ],
+    "torso_half_width": 3.2,
+    "torso_half_depth": 2.4
+  },
+  "pose_editor": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "body": [
+      -23,
+      0,
+      0
+    ],
+    "chest": [
+      1,
+      0,
+      0
+    ],
+    "neck": [
+      2,
+      0,
+      0
+    ],
+    "head": [
+      -8,
+      0,
+      0
+    ],
+    "hair": [
+      0,
+      0,
+      0
+    ],
+    "tail": [
+      -6,
+      0,
+      0
+    ],
+    "arm_left": [
+      8.68616,
+      23.02674,
+      -81.72674
+    ],
+    "forearm_left": [
+      54.5541,
+      -45.20487,
+      27.91975
+    ],
+    "hand_left": [
+      21.86419,
+      -19.56971,
+      -4.42716
+    ],
+    "arm_right": [
+      5.42028,
+      -33.90496,
+      63.26814
+    ],
+    "forearm_right": [
+      36.14449,
+      74.17604,
+      -31.55035
+    ],
+    "hand_right": [
+      26.75582,
+      19.376,
+      23.37229
+    ],
+    "thigh_left": [
+      63.0294,
+      39.37141,
+      -54.76126
+    ],
+    "shin_left": [
+      -10.29045,
+      -20.0598,
+      63.71283
+    ],
+    "foot_left": [
+      72.16833,
+      33.49301,
+      161.50807
+    ],
+    "thigh_right": [
+      75.7518,
+      -37.64512,
+      33.25593
+    ],
+    "shin_right": [
+      -14.20702,
+      -17.95954,
+      -19.6558
+    ],
+    "foot_right": [
+      -58.32831,
+      -92.1931,
+      -58.85208
+    ]
+  },
+  "pose_native": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "body": [
+      23,
+      0,
+      0
+    ],
+    "chest": [
+      -1,
+      0,
+      0
+    ],
+    "neck": [
+      -2,
+      0,
+      0
+    ],
+    "head": [
+      8,
+      0,
+      0
+    ],
+    "hair": [
+      0,
+      0,
+      0
+    ],
+    "tail": [
+      6,
+      0,
+      0
+    ],
+    "arm_left": [
+      -8.68616,
+      -23.02674,
+      -81.72674
+    ],
+    "forearm_left": [
+      -54.5541,
+      45.20487,
+      27.91975
+    ],
+    "hand_left": [
+      -21.86419,
+      19.56971,
+      -4.42716
+    ],
+    "arm_right": [
+      -5.42028,
+      33.90496,
+      63.26814
+    ],
+    "forearm_right": [
+      -36.14449,
+      -74.17604,
+      -31.55035
+    ],
+    "hand_right": [
+      -26.75582,
+      -19.376,
+      23.37229
+    ],
+    "thigh_left": [
+      -63.0294,
+      -39.37141,
+      -54.76126
+    ],
+    "shin_left": [
+      10.29045,
+      20.0598,
+      63.71283
+    ],
+    "foot_left": [
+      -72.16833,
+      -33.49301,
+      161.50807
+    ],
+    "thigh_right": [
+      -75.7518,
+      37.64512,
+      33.25593
+    ],
+    "shin_right": [
+      14.20702,
+      17.95954,
+      -19.6558
+    ],
+    "foot_right": [
+      58.32831,
+      92.1931,
+      -58.85208
+    ]
+  },
+  "limbs": [
+    {
+      "kind": "arm",
+      "side": "left",
+      "angles_editor": {
+        "arm_left": [
+          8.68616,
+          23.02674,
+          -81.72674
+        ],
+        "forearm_left": [
+          54.5541,
+          -45.20487,
+          27.91975
+        ],
+        "hand_left": [
+          21.86419,
+          -19.56971,
+          -4.42716
+        ]
+      },
+      "angles_native": {
+        "arm_left": [
+          -8.68616,
+          -23.02674,
+          -81.72674
+        ],
+        "forearm_left": [
+          -54.5541,
+          45.20487,
+          27.91975
+        ],
+        "hand_left": [
+          -21.86419,
+          19.56971,
+          -4.42716
+        ]
+      },
+      "target": [
+        -4.67,
+        16.0,
+        -13.0
+      ],
+      "actual_hook_tip": [
+        -4.71082,
+        15.98356,
+        -13.00973
+      ],
+      "claw_tips": [
+        [
+          -4.55172,
+          17.39005,
+          -13.89931
+        ],
+        [
+          -4.54996,
+          16.59439,
+          -12.62773
+        ],
+        [
+          -4.5482,
+          15.79871,
+          -11.35617
+        ]
+      ],
+      "palm_goal": [
+        -7.4,
+        19.4,
+        -10.85
+      ],
+      "actual_palm": [
+        -7.51699,
+        19.42951,
+        -10.84957
+      ],
+      "joint_goal": [
+        -9.7,
+        24.8,
+        -6.3
+      ],
+      "actual_joint": [
+        -9.92794,
+        25.39754,
+        -5.76506
+      ],
+      "joint_origins": [
+        [
+          -4.3,
+          24.48575,
+          -4.69504
+        ],
+        [
+          -9.92794,
+          25.39754,
+          -5.76506
+        ],
+        [
+          -7.99458,
+          20.08587,
+          -10.4382
+        ]
+      ],
+      "target_error": 0.045071400565070655,
+      "residual_norm": 0.5528005599758709
+    },
+    {
+      "kind": "arm",
+      "side": "right",
+      "angles_editor": {
+        "arm_right": [
+          5.42028,
+          -33.90496,
+          63.26814
+        ],
+        "forearm_right": [
+          36.14449,
+          74.17604,
+          -31.55035
+        ],
+        "hand_right": [
+          26.75582,
+          19.376,
+          23.37229
+        ]
+      },
+      "angles_native": {
+        "arm_right": [
+          -5.42028,
+          33.90496,
+          63.26814
+        ],
+        "forearm_right": [
+          -36.14449,
+          -74.17604,
+          -31.55035
+        ],
+        "hand_right": [
+          -26.75582,
+          -19.376,
+          23.37229
+        ]
+      },
+      "target": [
+        4.67,
+        15.6,
+        -13.0
+      ],
+      "actual_hook_tip": [
+        4.71041,
+        15.58322,
+        -13.00997
+      ],
+      "claw_tips": [
+        [
+          4.54747,
+          15.39808,
+          -11.35647
+        ],
+        [
+          4.55001,
+          16.19408,
+          -12.62784
+        ],
+        [
+          4.55255,
+          16.99007,
+          -13.89921
+        ]
+      ],
+      "palm_goal": [
+        7.4,
+        19.0,
+        -10.85
+      ],
+      "actual_palm": [
+        7.51922,
+        19.0263,
+        -10.84868
+      ],
+      "joint_goal": [
+        9.7,
+        24.8,
+        -6.3
+      ],
+      "actual_joint": [
+        9.91253,
+        25.44915,
+        -5.76337
+      ],
+      "joint_origins": [
+        [
+          4.3,
+          24.48575,
+          -4.69504
+        ],
+        [
+          9.91253,
+          25.44915,
+          -5.76337
+        ],
+        [
+          7.99731,
+          19.68216,
+          -10.4371
+        ]
+      ],
+      "target_error": 0.044874718969862365,
+      "residual_norm": 0.5629766149914149
+    },
+    {
+      "kind": "leg",
+      "side": "left",
+      "angles_editor": {
+        "thigh_left": [
+          63.0294,
+          39.37141,
+          -54.76126
+        ],
+        "shin_left": [
+          -10.29045,
+          -20.0598,
+          63.71283
+        ],
+        "foot_left": [
+          72.16833,
+          33.49301,
+          161.50807
+        ]
+      },
+      "angles_native": {
+        "thigh_left": [
+          -63.0294,
+          -39.37141,
+          -54.76126
+        ],
+        "shin_left": [
+          10.29045,
+          20.0598,
+          63.71283
+        ],
+        "foot_left": [
+          -72.16833,
+          -33.49301,
+          161.50807
+        ]
+      },
+      "target": [
+        -3.05,
+        9.4,
+        -10.2
+      ],
+      "actual_hook_tip": [
+        -3.01888,
+        9.4357,
+        -10.16652
+      ],
+      "claw_tips": [
+        [
+          -3.38166,
+          7.8651,
+          -9.47249
+        ],
+        [
+          -3.37389,
+          8.99087,
+          -10.60941
+        ],
+        [
+          -3.3661,
+          10.11661,
+          -11.74636
+        ]
+      ],
+      "palm_goal": [
+        -7.9,
+        13.0,
+        -6.7
+      ],
+      "actual_palm": [
+        -7.67145,
+        12.75364,
+        -6.91306
+      ],
+      "joint_goal": [
+        -5.5,
+        17.9,
+        -4.5
+      ],
+      "actual_joint": [
+        -5.33289,
+        18.65012,
+        -4.8167
+      ],
+      "joint_origins": [
+        [
+          -2.15,
+          17.10959,
+          1.2247
+        ],
+        [
+          -5.33289,
+          18.65012,
+          -4.8167
+        ],
+        [
+          -8.17696,
+          13.28119,
+          -6.39415
+        ]
+      ],
+      "target_error": 0.05800023459627888,
+      "residual_norm": 0.6870975486327522
+    },
+    {
+      "kind": "leg",
+      "side": "right",
+      "angles_editor": {
+        "thigh_right": [
+          75.7518,
+          -37.64512,
+          33.25593
+        ],
+        "shin_right": [
+          -14.20702,
+          -17.95954,
+          -19.6558
+        ],
+        "foot_right": [
+          -58.32831,
+          -92.1931,
+          -58.85208
+        ]
+      },
+      "angles_native": {
+        "thigh_right": [
+          -75.7518,
+          37.64512,
+          33.25593
+        ],
+        "shin_right": [
+          14.20702,
+          17.95954,
+          -19.6558
+        ],
+        "foot_right": [
+          58.32831,
+          92.1931,
+          -58.85208
+        ]
+      },
+      "target": [
+        3.05,
+        8.9,
+        -10.2
+      ],
+      "actual_hook_tip": [
+        3.01868,
+        8.93502,
+        -10.1664
+      ],
+      "claw_tips": [
+        [
+          3.37027,
+          9.60908,
+          -11.7482
+        ],
+        [
+          3.37431,
+          8.48803,
+          -10.60661
+        ],
+        [
+          3.37832,
+          7.36695,
+          -9.46505
+        ]
+      ],
+      "palm_goal": [
+        7.9,
+        12.5,
+        -6.7
+      ],
+      "actual_palm": [
+        7.66679,
+        12.2619,
+        -6.91569
+      ],
+      "joint_goal": [
+        5.5,
+        17.9,
+        -4.5
+      ],
+      "actual_joint": [
+        5.31919,
+        18.45954,
+        -4.45477
+      ],
+      "joint_origins": [
+        [
+          2.15,
+          17.10959,
+          1.2247
+        ],
+        [
+          5.31919,
+          18.45954,
+          -4.45477
+        ],
+        [
+          8.17159,
+          12.79111,
+          -6.39777
+        ]
+      ],
+      "target_error": 0.0577625609856593,
+      "residual_norm": 0.6382825046914405
+    }
+  ],
+  "body_forward_tilt_degrees": 26,
+  "chest_forward_tilt_degrees": 32,
+  "root_translation": [
+    0,
+    0,
+    0
+  ],
+  "contact_definition": "Actual source middle hook tip and three source claw endpoints, transformed through tilted parent hierarchy.",
+  "final_model": "/workspace/work/harpy-grab-carry/animation/undead_harpy.bbmodel",
+  "dummy_fixture_exported": false,
+  "changed_animations": [
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.release"
+  ],
+  "unchanged_animations": [
+    "animation.undead_harpy.fly",
+    "animation.undead_harpy.glide",
+    "animation.undead_harpy.attack_dive",
+    "animation.undead_harpy.special_warning",
+    "animation.undead_harpy.hurt",
+    "animation.undead_harpy.death",
+    "animation.undead_harpy.death_fall",
+    "animation.undead_harpy.death_land"
+  ],
+  "transition_seams_max_native_channel_difference": {
+    "grab_dive_end_to_player_catch_start": 0.0,
+    "player_catch_end_to_carry_start": 0.0,
+    "carry_loop": 0.0,
+    "carry_start_to_release_start": 0.0,
+    "release_end_to_original_fly_start": 0.0
+  },
+  "wing_adjustment": "Sourcecarry powerstroke and outer-segment lag retained; subtract6deg nativeX on both wingroots to clear the frontinnercover/upperarm graze.",
+  "carry_body_and_grip_constant": true,
+  "source_wing_translation_retained": true,
+  "no_grip_bone_translation_or_scale": true,
+  "timeline": {
+    "grab_dive": {
+      "duration": 0.64,
+      "steps": "Originalfly0 to forward hunch and four-limb open capture pose; wings tuck earlier."
+    },
+    "player_catch": {
+      "duration": 0.46,
+      "steps": "Both hands close by.38s, both feet close by.43s; wings spread and entirepose equalscarry0 at.46."
+    },
+    "carry": {
+      "duration": 0.8,
+      "loop": true,
+      "steps": "Body,chest,head and all12gripbones remain fixed; powerful wingflap and lagging outerfans, mild tail only."
+    },
+    "release": {
+      "duration": 0.36,
+      "steps": "All4limbs open by.10s, then body and limbs recover to exact originalfly0 by.36."
+    }
+  },
+  "head_forward_tilt_degrees": 36,
+  "limitation": "No individual finger/toe bones: opening and closing is authored with hand/foot orientation and limb separation; no new bones or scaling.",
+  "soft_hair_mount_contact_note": "The new forward-hunched pose allows soft rear hair locks to brush the proximal wing sockets. This is pose-dependent contact, not an unchanged source-carry overlap. Hard head/player and free feather/arm penetration take priority.",
+  "fixed_rig_limitation": "The immutable rig has no individual finger/toe bones; grasp opens through wrist/ankle orientation and limb separation.",
+  "release_wing_phase_note": "Release limb start matches everycarryphase because the grip is fixed. Wing phase can be crossfaded by future integration; no runtime code is added."
+}

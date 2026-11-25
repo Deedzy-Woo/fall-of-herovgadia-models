@@ -1,0 +1,500 @@
+{
+  "model_path": "/workspace/work/harpy-grab-carry/animation/undead_harpy.bbmodel",
+  "source_model_sha256": "297d4c5f37e46522a7e2393de7840cdf97df30dbe57ac707a7bbd93145ceaae3",
+  "blockbench": {
+    "version": "4.12.6",
+    "cubes": 92,
+    "bones": 24,
+    "animations": [
+      {
+        "name": "animation.undead_harpy.fly",
+        "length": 1.2,
+        "loop": "loop"
+      },
+      {
+        "name": "animation.undead_harpy.glide",
+        "length": 1.5,
+        "loop": "loop"
+      },
+      {
+        "name": "animation.undead_harpy.attack_dive",
+        "length": 1,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.special_warning",
+        "length": 0.73,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.grab_dive",
+        "length": 0.64,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.player_catch",
+        "length": 0.46,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.carry",
+        "length": 0.8,
+        "loop": "loop"
+      },
+      {
+        "name": "animation.undead_harpy.release",
+        "length": 0.36,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.hurt",
+        "length": 0.35,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.death",
+        "length": 0.7,
+        "loop": "once"
+      },
+      {
+        "name": "animation.undead_harpy.death_fall",
+        "length": 0.95,
+        "loop": "loop"
+      },
+      {
+        "name": "animation.undead_harpy.death_land",
+        "length": 0.64,
+        "loop": "hold"
+      }
+    ],
+    "textures": [
+      {
+        "name": "undead_harpy.png",
+        "width": 64,
+        "height": 64,
+        "error": 0
+      }
+    ]
+  },
+  "fixture": {
+    "center": [
+      0,
+      9.6,
+      -12.5
+    ],
+    "size": [
+      9.6,
+      28.8,
+      9.6
+    ],
+    "parts": [
+      {
+        "name": "torso",
+        "min": [
+          -3.2,
+          6,
+          -14.9
+        ],
+        "max": [
+          3.2,
+          16.8,
+          -10.1
+        ]
+      },
+      {
+        "name": "arm_left",
+        "min": [
+          -4.8,
+          6,
+          -14.9
+        ],
+        "max": [
+          -3.2,
+          16.8,
+          -10.1
+        ]
+      },
+      {
+        "name": "arm_right",
+        "min": [
+          3.2,
+          6,
+          -14.9
+        ],
+        "max": [
+          4.8,
+          16.8,
+          -10.1
+        ]
+      },
+      {
+        "name": "head",
+        "min": [
+          -3.6,
+          16.8,
+          -16.1
+        ],
+        "max": [
+          3.6,
+          24,
+          -8.9
+        ]
+      },
+      {
+        "name": "leg_left",
+        "min": [
+          -3.2,
+          -4.800000000000001,
+          -14.9
+        ],
+        "max": [
+          -0.12,
+          6,
+          -10.1
+        ]
+      },
+      {
+        "name": "leg_right",
+        "min": [
+          0.12,
+          -4.800000000000001,
+          -14.9
+        ],
+        "max": [
+          3.2,
+          6,
+          -10.1
+        ]
+      },
+      {
+        "name": "eye_left",
+        "min": [
+          -2.3,
+          20.5,
+          -16.13
+        ],
+        "max": [
+          -1.1,
+          21.25,
+          -16.1
+        ]
+      },
+      {
+        "name": "eye_right",
+        "min": [
+          1.1,
+          20.5,
+          -16.13
+        ],
+        "max": [
+          2.3,
+          21.25,
+          -16.1
+        ]
+      },
+      {
+        "name": "hair_cap",
+        "min": [
+          -3.61,
+          22.6,
+          -16.11
+        ],
+        "max": [
+          3.61,
+          24,
+          -8.89
+        ]
+      }
+    ]
+  },
+  "fixture_not_in_export": {
+    "cubes": 92,
+    "bones": 24,
+    "codecElements": 92
+  },
+  "unchanged_nonanimation_fields": true,
+  "unchanged_other_clips": 8,
+  "target_clips": [
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.release"
+  ],
+  "carry": {
+    "samples": 81,
+    "all_four_close_samples": 81,
+    "all_four_correct_region_samples": 81,
+    "limb_max_distances": {
+      "left_hand": 0,
+      "left_foot": 0,
+      "right_hand": 0,
+      "right_foot": 0
+    },
+    "max_core_overlap": 0,
+    "core_penetration_samples": 0,
+    "core_penetration_cubes": [],
+    "head_player_max_overlap": 0,
+    "hair_player_max_overlap": 0,
+    "head_player_overlap_cubes": [],
+    "head_chest_collision_samples": 0,
+    "wing_collision_samples": {
+      "player": 0,
+      "arm": 0,
+      "head": 0,
+      "hair": 81
+    },
+    "wing_collision_max_depth": {
+      "player": 0,
+      "arm": 0,
+      "head": 0,
+      "hair": 2.122982611396246
+    },
+    "wing_collision_pairs": {
+      "player": [],
+      "arm": [],
+      "head": [],
+      "hair": [
+        "left_leading_inner / hair_back_left_lock",
+        "left_wing_root_socket / hair_back_left_lock",
+        "right_wing_root_socket / hair_back_right_lock",
+        "left_wing_root_socket / hair_back",
+        "right_wing_root_socket / hair_back",
+        "right_wing_inner_support / hair_right_temple_shell",
+        "left_wing_root_socket / hair_left_temple_shell",
+        "right_wing_inner_support / hair_back",
+        "left_wing_inner_support / hair_left_temple_shell"
+      ]
+    },
+    "body_lean": [
+      26.000000000000004,
+      26.000000000000004
+    ],
+    "chest_lean": [
+      32,
+      32
+    ],
+    "head_lean": [
+      36.0108363439907,
+      36.0108363439907
+    ]
+  },
+  "loop_first_end_max_matrix_difference": 0,
+  "joins": [
+    {
+      "from": "animation.undead_harpy.grab_dive",
+      "to": "animation.undead_harpy.player_catch",
+      "max_world_matrix_difference": 0
+    },
+    {
+      "from": "animation.undead_harpy.player_catch",
+      "to": "animation.undead_harpy.carry",
+      "max_world_matrix_difference": 0
+    },
+    {
+      "from": "animation.undead_harpy.carry",
+      "to": "animation.undead_harpy.release",
+      "max_world_matrix_difference": 0
+    },
+    {
+      "from": "animation.undead_harpy.release",
+      "to": "animation.undead_harpy.fly",
+      "max_world_matrix_difference": 0
+    }
+  ],
+  "other_clip_summaries": {
+    "animation.undead_harpy.grab_dive": {
+      "samples": 33,
+      "all_four_close_samples": 0,
+      "all_four_correct_region_samples": 21,
+      "limb_max_distances": {
+        "left_hand": 10.255741515942837,
+        "left_foot": 9.234903752760518,
+        "right_hand": 7.796746131573029,
+        "right_foot": 8.251918247258047
+      },
+      "max_core_overlap": 0,
+      "core_penetration_samples": 0,
+      "core_penetration_cubes": [],
+      "head_player_max_overlap": 0,
+      "hair_player_max_overlap": 0.17976090867807182,
+      "head_player_overlap_cubes": [],
+      "head_chest_collision_samples": 0,
+      "wing_collision_samples": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 19
+      },
+      "wing_collision_max_depth": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 1.9896254283525174
+      },
+      "wing_collision_pairs": {
+        "player": [],
+        "arm": [],
+        "head": [],
+        "hair": [
+          "left_wing_root_socket / hair_back_left_lock",
+          "left_wing_inner_support / hair_back",
+          "right_wing_root_socket / hair_back_right_lock",
+          "left_wing_inner_support / hair_back_left_lock",
+          "left_wing_root_socket / hair_back",
+          "right_wing_inner_support / hair_back",
+          "right_wing_root_socket / hair_back",
+          "left_leading_inner / hair_back_left_lock",
+          "right_wing_inner_support / hair_back_right_lock",
+          "right_leading_inner / hair_back_right_lock"
+        ]
+      },
+      "body_lean": [
+        12.522999999999998,
+        26.000000000000004
+      ],
+      "chest_lean": [
+        18.223999999999997,
+        32
+      ],
+      "head_lean": [
+        6.025919361295441,
+        36.0108363439907
+      ]
+    },
+    "animation.undead_harpy.player_catch": {
+      "samples": 33,
+      "all_four_close_samples": 16,
+      "all_four_correct_region_samples": 33,
+      "limb_max_distances": {
+        "left_hand": 2.1914409596692384,
+        "left_foot": 0.561832789796776,
+        "right_hand": 2.1906294471580123,
+        "right_foot": 0.5619587708803052
+      },
+      "max_core_overlap": 0,
+      "core_penetration_samples": 0,
+      "core_penetration_cubes": [],
+      "head_player_max_overlap": 0,
+      "hair_player_max_overlap": 0,
+      "head_player_overlap_cubes": [],
+      "head_chest_collision_samples": 0,
+      "wing_collision_samples": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 33
+      },
+      "wing_collision_max_depth": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 2.143730347233158
+      },
+      "wing_collision_pairs": {
+        "player": [],
+        "arm": [],
+        "head": [],
+        "hair": [
+          "left_leading_inner / hair_back_left_lock",
+          "right_leading_inner / hair_back_right_lock",
+          "left_wing_root_socket / hair_back",
+          "left_wing_root_socket / hair_back_left_lock",
+          "left_wing_inner_support / hair_back",
+          "left_wing_inner_support / hair_back_left_lock",
+          "right_wing_root_socket / hair_back",
+          "right_wing_root_socket / hair_back_right_lock",
+          "right_wing_inner_support / hair_back",
+          "right_wing_inner_support / hair_back_right_lock"
+        ]
+      },
+      "body_lean": [
+        26.000000000000004,
+        26.000000000000004
+      ],
+      "chest_lean": [
+        32,
+        32
+      ],
+      "head_lean": [
+        36.0108363439907,
+        36.0108363439907
+      ]
+    },
+    "animation.undead_harpy.release": {
+      "samples": 33,
+      "all_four_close_samples": 4,
+      "all_four_correct_region_samples": 24,
+      "limb_max_distances": {
+        "left_hand": 10.255741515942837,
+        "left_foot": 9.234903752760518,
+        "right_hand": 7.796746131573029,
+        "right_foot": 8.244252875627009
+      },
+      "max_core_overlap": 0,
+      "core_penetration_samples": 0,
+      "core_penetration_cubes": [],
+      "head_player_max_overlap": 0,
+      "hair_player_max_overlap": 0.17908425184683763,
+      "head_player_overlap_cubes": [],
+      "head_chest_collision_samples": 0,
+      "wing_collision_samples": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 23
+      },
+      "wing_collision_max_depth": {
+        "player": 0,
+        "arm": 0,
+        "head": 0,
+        "hair": 2.1435819992976715
+      },
+      "wing_collision_pairs": {
+        "player": [],
+        "arm": [],
+        "head": [],
+        "hair": [
+          "left_leading_inner / hair_back_left_lock",
+          "left_wing_root_socket / hair_back_left_lock",
+          "right_wing_root_socket / hair_back_right_lock",
+          "left_wing_root_socket / hair_back",
+          "right_wing_root_socket / hair_back",
+          "right_leading_inner / hair_back_right_lock",
+          "left_wing_inner_support / hair_back",
+          "left_wing_inner_support / hair_back_left_lock",
+          "right_wing_inner_support / hair_back",
+          "right_wing_inner_support / hair_back_right_lock"
+        ]
+      },
+      "body_lean": [
+        12.522999999999998,
+        26.000000000000004
+      ],
+      "chest_lean": [
+        18.223999999999997,
+        32
+      ],
+      "head_lean": [
+        6.025919361295441,
+        36.0108363439907
+      ]
+    }
+  },
+  "frame_sequences": {
+    "frames": 20,
+    "duration": 0.8,
+    "side": "carry_side_frames/",
+    "angle45": "carry_angle45_frames/",
+    "fixed_camera": true,
+    "fixed_dummy": true,
+    "focus": "body-and-player grip closeup; wing tips may leave closeup while overview stills include full model"
+  },
+  "page_errors": [
+    {
+      "phase": "application_startup",
+      "message": "Object",
+      "stack": ""
+    }
+  ],
+  "model_errors": []
+}
