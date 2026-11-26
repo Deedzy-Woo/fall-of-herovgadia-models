@@ -1,0 +1,221 @@
+{
+  "model": "/workspace/work/harpy-flight-fix/model/undead_harpy.bbmodel",
+  "sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "blockbench": "4.12.6",
+  "native_javascript_errors": [],
+  "endpoints": [
+    {
+      "from": [
+        "fly",
+        0
+      ],
+      "to": [
+        "fly",
+        1.2
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "glide",
+        0
+      ],
+      "to": [
+        "glide",
+        1.5
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "carry",
+        0
+      ],
+      "to": [
+        "carry",
+        0.8
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "fly",
+        0
+      ],
+      "to": [
+        "grab_dive",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "grab_dive",
+        0.64
+      ],
+      "to": [
+        "player_catch",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "player_catch",
+        0.46
+      ],
+      "to": [
+        "carry",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "carry",
+        0
+      ],
+      "to": [
+        "release",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "release",
+        0.36
+      ],
+      "to": [
+        "fly",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    }
+  ],
+  "all_endpoints_pass": true,
+  "action_bodies_preserved": {
+    "attack_dive": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "special_warning": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "beak",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death_fall": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death_land": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    }
+  },
+  "hurt_exact": true
+}

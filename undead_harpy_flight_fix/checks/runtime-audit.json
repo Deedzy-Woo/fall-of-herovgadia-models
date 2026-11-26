@@ -1,0 +1,68 @@
+{
+  "source_model": "/workspace/work/harpy-flight-fix/source/undead_harpy_grab_carry/blockbench/undead_harpy.bbmodel",
+  "source_geometry_file_in_archive": false,
+  "source_model_identifier": "undead_harpy",
+  "safe_standalone_geometry_identifier": "geometry.undead_harpy",
+  "source_animation_names": [
+    "animation.undead_harpy.fly",
+    "animation.undead_harpy.glide",
+    "animation.undead_harpy.attack_dive",
+    "animation.undead_harpy.special_warning",
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.release",
+    "animation.undead_harpy.hurt",
+    "animation.undead_harpy.death",
+    "animation.undead_harpy.death_fall",
+    "animation.undead_harpy.death_land"
+  ],
+  "source_has_sound_effect_animators": false,
+  "local_project": {
+    "path": "/workspace/work/fall-of-herovgadia",
+    "branch": "main",
+    "head": "fdbacaeee12bc8cf802ec0229c7a19e04dcb6ee3",
+    "existing_uncommitted_changes": true,
+    "harpy_entity_base": "net.minecraft.world.entity.monster.Phantom",
+    "harpy_renderer": "net.minecraft.client.renderer.entity.PhantomRenderer",
+    "harpy_geckolib_model_class_found": false,
+    "harpy_game_geo_animation_texture_resources_found": false
+  },
+  "github_game_repository": {
+    "name": "Deedzy-Woo/fall-of-herovgadia",
+    "default_branch": "main",
+    "main_head": "a881fbb0d19dedf2d024051f5a2ad8480f6b02fa",
+    "checked_branches": [
+      "main",
+      "ghoul-combat-v2",
+      "chore/update-altar-mods-20261031",
+      "chore/update-ballista-table-20261101"
+    ],
+    "harpy_geckolib_model_renderer_or_resources_in_checked_branches": false,
+    "rechecked_on_utc": "2026-11-26",
+    "rechecked_main_head": "a881fbb0d19dedf2d024051f5a2ad8480f6b02fa"
+  },
+  "actual_screenshot_integration_available": false,
+  "runtime_resource_ids_and_controller_overrides": "Unknown: integrated DeadHarpyGeoModel/Renderer/controller code is absent from all available local copies and current connected GitHub branches. Do not invent paths or attribute screenshot issue to unavailable Java code.",
+  "geckolib_jar": {
+    "version": "4.8.3",
+    "path": "/workspace/work/gradle-cache/caches/modules-2/files-2.1/software.bernie.geckolib/geckolib-neoforge-1.21.1/4.8.3/fb0ac6ad63dc5f401c15c66a037c08e9709d1c42/geckolib-neoforge-1.21.1-4.8.3.jar",
+    "sha1": "fb0ac6ad63dc5f401c15c66a037c08e9709d1c42",
+    "sha256": "f5bbf6f9f84021ff044e3debba00a0c03c3d3ffab3150bb72c0f92c8b8218a92"
+  },
+  "verified_coordinate_rules_from_actual_jar": [
+    "BakedModelFactory.Builtin.constructBone: geometry rotation degrees [x,y,z] -> radians [-x,-y,+z]; pivot -> [-x,+y,+z].",
+    "BakedAnimationsAdapter.buildKeyframeStack: constant animation rotations degrees [x,y,z] -> radians [-x,-y,+z].",
+    "AnimationProcessor.tickAnimation: interpolated rotation deltas are added to the initial bone snapshot, not used as absolute rest replacement.",
+    "RenderUtil.rotateMatrixAroundBone: Z rotation then Y rotation then X rotation via PoseStack.mulPose; matrix product Rz*Ry*Rx.",
+    "RenderUtil.translateToPivotPoint and translateAwayFromPivotPoint: translate around already-converted pivots in model units /16.",
+    "RenderUtil.translateMatrixToBone: position offsets [-posX,+posY,+posZ]/16.",
+    "GeoEntityRenderer.renderRecursively: bone position -> pivot -> local rotation -> scale -> render -> translate away -> children; parent body/chest transforms inherited."
+  ],
+  "sound_timing": {
+    "wings_1_2_3_code_or_assets_available": false,
+    "source_animation_sound_effects_available": false,
+    "actual_live_timing_changes_required": "Cannot establish without integrated controller/sound code. Source archive has no sound event keys; current available game uses vanilla Phantom sounds. No sound behavior changed."
+  },
+  "scope": "Read-only runtime/code audit and binary inspection. No Java, game resources, AI, sounds, or repository changes performed."
+}

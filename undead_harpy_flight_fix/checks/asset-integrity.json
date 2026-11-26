@@ -1,0 +1,48 @@
+{
+  "model_path": "/workspace/work/harpy-flight-fix/model/undead_harpy.bbmodel",
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "geometry_sha256": "f99f6c0e6545674d713ac83b2d4897bc3e53695d8a65162f6ba5f35c7bc96520",
+  "animation_sha256": "c4bd5c63fecc47f5e393e65e1b5d7b9a382b1238f9f535d9f718324a59b32e22",
+  "checks": {
+    "original_twelve_names_and_order": true,
+    "all_durations_loops_and_clip_uuids_preserved": true,
+    "source_atlas_preserved": true,
+    "source_hierarchy_and_pivots_preserved": true,
+    "identifier_preserved": true,
+    "hurt_source_clip_preserved": true,
+    "hurt_export_preserved": true,
+    "attack_dive_source_nonwing_animators_preserved": true,
+    "attack_dive_export_nonwing_bones_preserved": true,
+    "special_warning_source_nonwing_animators_preserved": true,
+    "special_warning_export_nonwing_bones_preserved": true,
+    "death_source_nonwing_animators_preserved": true,
+    "death_export_nonwing_bones_preserved": true,
+    "death_fall_source_nonwing_animators_preserved": true,
+    "death_fall_export_nonwing_bones_preserved": true,
+    "death_land_source_nonwing_animators_preserved": true,
+    "death_land_export_nonwing_bones_preserved": true,
+    "only_left_forearm_geometry_modified": true,
+    "all_face_uvs_preserved": true
+  },
+  "geometry_changes": [
+    {
+      "name": "left_forearm",
+      "changed_fields": [
+        "from"
+      ]
+    }
+  ],
+  "passed": true,
+  "texture": {
+    "mode": "RGB",
+    "size": [
+      64,
+      64
+    ],
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "transparent_pixels": 0
+  }
+}

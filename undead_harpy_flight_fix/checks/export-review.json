@@ -1,0 +1,2085 @@
+{
+  "model_path": "/workspace/work/harpy-flight-fix/model/undead_harpy.bbmodel",
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "blockbench": "4.12.6",
+  "source_count": 92,
+  "bone_count": 24,
+  "clip_names": [
+    "animation.undead_harpy.fly",
+    "animation.undead_harpy.glide",
+    "animation.undead_harpy.attack_dive",
+    "animation.undead_harpy.special_warning",
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.release",
+    "animation.undead_harpy.hurt",
+    "animation.undead_harpy.death",
+    "animation.undead_harpy.death_fall",
+    "animation.undead_harpy.death_land"
+  ],
+  "source_atlas_unchanged": true,
+  "embedded_atlas_sha256": "20d2eee170bcac47fd1f90d5c40fb85c4009c7f2ad70d173e880f8de2eb789b9",
+  "textures_loaded": [
+    {
+      "name": "undead_harpy.png",
+      "loaded": true,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "fixture_cube_count": 0,
+  "geometry_identifier": "geometry.undead_harpy",
+  "native_format": "1.8.0",
+  "geometry_format": "1.12.0",
+  "exact_authored_timestamp_corrections": 97,
+  "preserved_original_channels": [
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "foot_right",
+      "channel": "rotation"
+    }
+  ],
+  "changed_channels": [
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.fly",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "root",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "beak",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "root",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "body",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "chest",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "neck",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "head",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "hair",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "arm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "forearm_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "hand_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "arm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "forearm_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "hand_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "tail",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "thigh_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "shin_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "foot_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "thigh_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "shin_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "bone": "foot_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_left",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_fore_left",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_right",
+      "channel": "rotation"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_right",
+      "channel": "position"
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "bone": "wing_fore_right",
+      "channel": "rotation"
+    }
+  ],
+  "reloaded_cube_count": 92,
+  "reloaded_bone_count": 24,
+  "reloaded_clip_names": [
+    "animation.undead_harpy.fly",
+    "animation.undead_harpy.glide",
+    "animation.undead_harpy.attack_dive",
+    "animation.undead_harpy.special_warning",
+    "animation.undead_harpy.grab_dive",
+    "animation.undead_harpy.player_catch",
+    "animation.undead_harpy.carry",
+    "animation.undead_harpy.release",
+    "animation.undead_harpy.hurt",
+    "animation.undead_harpy.death",
+    "animation.undead_harpy.death_fall",
+    "animation.undead_harpy.death_land"
+  ],
+  "reload_comparisons": [
+    {
+      "name": "animation.undead_harpy.fly",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279606710587,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279606710587,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.3,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279597832047,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.6,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279472314616,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.8999999999999999,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279576262656,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 1.2,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279606710587,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.glide",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.000001505627961693571,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279587858865,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.375,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627961693571,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.75,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279547105897,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 1.125,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279513141659,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 1.5,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279587858865,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.attack_dive",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279578854005,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279578854005,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.25,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627955113449,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.5,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627952957327,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.75,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627955970014,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 1,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279578854005,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.special_warning",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279578854005,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279578854005,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.1825,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279545371584,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.365,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279566793158,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.5475,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279547610557,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.73,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627957376827,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.grab_dive",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279606710587,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279606710587,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.16,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279529675388,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.32,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279588690274,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.48,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279528211438,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.64,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.player_catch",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279544810328,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.115,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.23,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.34500000000000003,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.46,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.carry",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279544810328,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.2,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.4,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.6000000000000001,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.8,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.release",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279606710587,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.09,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279544810328,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.18,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279577312655,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.27,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279563374588,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.36,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279606710587,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.hurt",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.000001505627956676176,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279548605546,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.0875,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279553991962,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.175,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627956676176,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.26249999999999996,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279527377896,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.35,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279548605546,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.death",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279610672586,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279578854005,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.175,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279610672586,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.35,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279545369261,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.5249999999999999,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.000001505627958166997,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.7,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279533436835,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.death_fall",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279546982177,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279533436835,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.2375,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279496792714,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.475,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279546982177,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.7124999999999999,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279517880721,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.95,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279533436835,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    },
+    {
+      "name": "animation.undead_harpy.death_land",
+      "max_matrix_difference": 0,
+      "max_cube_corner_distance": 0.0000015056279558176173,
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279533436835,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.16,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279538958133,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.32,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279553336436,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.48,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279558176173,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        },
+        {
+          "time": 0.64,
+          "max_matrix_difference": 0,
+          "max_cube_corner_distance": 0.0000015056279558176173,
+          "worst_bone": null,
+          "worst_cube": "head/0"
+        }
+      ]
+    }
+  ],
+  "max_matrix_difference": 0,
+  "max_cube_corner_distance": 0.000001505627961693571,
+  "model_errors": [],
+  "app_startup_errors_before_model_load": [
+    "Object"
+  ],
+  "scope": "Actual Blockbench native geometry/keyframe export and final geometry+animation JSON reload; not a Minecraft session or custom renderer/controller test.",
+  "passed": true
+}

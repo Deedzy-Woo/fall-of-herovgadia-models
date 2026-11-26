@@ -1,0 +1,910 @@
+{
+  "model": "/workspace/work/harpy-flight-fix/model/undead_harpy.bbmodel",
+  "sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "native_application": "Blockbench 4.12.6",
+  "geometry": {
+    "editable_cuboids": 92,
+    "bones": 24,
+    "animations": 12,
+    "atlas": "one embedded unchanged64x64 PNG",
+    "only_geometry_change": "Existing left_forearm lower cap extended0.4 model units; pivots, hierarchy, fingers, textures unchanged."
+  },
+  "sampling": "81 phases each fly/glide/carry;41 phases perotherclip. Exact finaltime sampled to avoid floating endpoint overshoot. Allwing includes roots/covers; freefeathers checked separately. SAT tolerance0.001 model units.",
+  "clips": [
+    {
+      "clip": "fly",
+      "duration_seconds": 1.2,
+      "samples": 81,
+      "left_wrist_min_overlap_units": 0.8560069628296563,
+      "right_wrist_min_overlap_units": 0.6487704044668872,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 0.9285399736888378,
+      "proximal_wing_hair_max_overlap_units": 1.2256417578238794,
+      "leading_tip_world_span_units": [
+        59.66516459462271,
+        72.89734307327076
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -36.54990054748643,
+          -29.87091216746847
+        ],
+        "y": [
+          27.83763747744174,
+          48.37271068859021
+        ],
+        "z": [
+          -0.6934041978050814,
+          8.194428773579872
+        ]
+      }
+    },
+    {
+      "clip": "glide",
+      "duration_seconds": 1.5,
+      "samples": 81,
+      "left_wrist_min_overlap_units": 0.8667225219059995,
+      "right_wrist_min_overlap_units": 0.6593883493756527,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.232839520541605,
+      "proximal_wing_hair_max_overlap_units": 1.1168258760697118,
+      "leading_tip_world_span_units": [
+        72.79989582978457,
+        73.2840207654009
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -36.589722993666726,
+          -36.45143807275631
+        ],
+        "y": [
+          34.41281828724985,
+          35.67067404824637
+        ],
+        "z": [
+          3.4482238565852623,
+          3.5980489246308496
+        ]
+      }
+    },
+    {
+      "clip": "attack_dive",
+      "duration_seconds": 1.0,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.8272270374333879,
+      "right_wrist_min_overlap_units": 0.5184069987162994,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.251721939617415,
+      "proximal_wing_hair_max_overlap_units": 0,
+      "leading_tip_world_span_units": [
+        59.526845477670534,
+        73.18304751992382
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -36.910831927378155,
+          -28.243907345792614
+        ],
+        "y": [
+          32.531791471445516,
+          48.19674161826129
+        ],
+        "z": [
+          -16.522725754823128,
+          5.960665908578901
+        ]
+      }
+    },
+    {
+      "clip": "special_warning",
+      "duration_seconds": 0.73,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.7977547847709003,
+      "right_wrist_min_overlap_units": 0.4855199990942731,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.2207673233091025,
+      "proximal_wing_hair_max_overlap_units": 0,
+      "leading_tip_world_span_units": [
+        63.24207404594965,
+        72.70701515508436
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -35.33047609693091,
+          -30.798906410248172
+        ],
+        "y": [
+          36.8215345986523,
+          46.562083866866345
+        ],
+        "z": [
+          -4.678788285610314,
+          6.866626933639068
+        ]
+      }
+    },
+    {
+      "clip": "grab_dive",
+      "duration_seconds": 0.64,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.7186932971569953,
+      "right_wrist_min_overlap_units": 0.38627748507034765,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 0.9778997789534956,
+      "proximal_wing_hair_max_overlap_units": 1.6184719741212166,
+      "leading_tip_world_span_units": [
+        60.185219859430994,
+        61.820090582500114
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -30.910045291250057,
+          -30.092609929715497
+        ],
+        "y": [
+          46.3937522363586,
+          47.633484727086895
+        ],
+        "z": [
+          -3.702403664456893,
+          -0.5474610170161409
+        ]
+      }
+    },
+    {
+      "clip": "player_catch",
+      "duration_seconds": 0.46,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.7328104029281426,
+      "right_wrist_min_overlap_units": 0.30364176714557223,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 0.9778997789534956,
+      "proximal_wing_hair_max_overlap_units": 1.6184719741212166,
+      "leading_tip_world_span_units": [
+        61.6682972345721,
+        62.08800957029077
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -31.044004785145386,
+          -30.83414861728605
+        ],
+        "y": [
+          45.28813736948432,
+          46.3937522363586
+        ],
+        "z": [
+          -9.434109615054743,
+          -3.702403664456893
+        ]
+      }
+    },
+    {
+      "clip": "carry",
+      "duration_seconds": 0.8,
+      "samples": 81,
+      "left_wrist_min_overlap_units": 0.7561520984528298,
+      "right_wrist_min_overlap_units": 0.3123193530448738,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.218503421616262,
+      "proximal_wing_hair_max_overlap_units": 1.8418790833717613,
+      "leading_tip_world_span_units": [
+        61.17432571357749,
+        72.94786711555662
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -36.47393355777831,
+          -30.587162856788744
+        ],
+        "y": [
+          28.68836038108206,
+          45.68533080761837
+        ],
+        "z": [
+          -9.761645262524016,
+          4.728258554243499
+        ]
+      },
+      "fixed_world_player_carry": {
+        "all_four_close": true,
+        "all_four_correct_regions": true,
+        "max_contact_distance": 0,
+        "max_core_overlap": 0,
+        "head_overlap": 0,
+        "hair_overlap": 0
+      }
+    },
+    {
+      "clip": "release",
+      "duration_seconds": 0.36,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.7198644610138365,
+      "right_wrist_min_overlap_units": 0.30589798272171254,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 0.9246479644224037,
+      "proximal_wing_hair_max_overlap_units": 1.5389851629001856,
+      "leading_tip_world_span_units": [
+        60.185219859430994,
+        62.09079020883665
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -31.045395104418326,
+          -30.092609929715497
+        ],
+        "y": [
+          45.28813736948432,
+          47.633484727086895
+        ],
+        "z": [
+          -9.434109615054743,
+          -0.5544920723690416
+        ]
+      }
+    },
+    {
+      "clip": "hurt",
+      "duration_seconds": 0.35,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.8970286598197168,
+      "right_wrist_min_overlap_units": 0.7054411971320231,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": "not applicable: additive hurt needs a base pose; see hurt-overlay-report.json",
+      "mounted_root_body_max_overlap_units": 1.1664420112451004,
+      "proximal_wing_hair_max_overlap_units": 1.4300690918373264,
+      "leading_tip_world_span_units": [
+        63.6979401411444,
+        64.37542499208234
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -32.054977361407865,
+          -31.771272100352764
+        ],
+        "y": [
+          40.05289489640604,
+          43.57657057009298
+        ],
+        "z": [
+          -3.619375643704215,
+          5.684602506102739
+        ]
+      }
+    },
+    {
+      "clip": "death",
+      "duration_seconds": 0.7,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.780444286735456,
+      "right_wrist_min_overlap_units": 0.4318711869325562,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.2687079895813032,
+      "proximal_wing_hair_max_overlap_units": 0,
+      "leading_tip_world_span_units": [
+        68.90794531472147,
+        72.08985156488323
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -34.76596169886333,
+          -30.923585898454945
+        ],
+        "y": [
+          36.06640028546639,
+          44.851103444478966
+        ],
+        "z": [
+          -0.5656937976215026,
+          8.304220775024623
+        ]
+      }
+    },
+    {
+      "clip": "death_fall",
+      "duration_seconds": 0.95,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.9139102792029608,
+      "right_wrist_min_overlap_units": 0.5826903575893785,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.2687079895813032,
+      "proximal_wing_hair_max_overlap_units": 0,
+      "leading_tip_world_span_units": [
+        69.08712264859933,
+        69.16031447485562
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -30.923585898454945,
+          -30.87556812558642
+        ],
+        "y": [
+          44.8111037159017,
+          44.851103444478966
+        ],
+        "z": [
+          -0.5656937976215026,
+          -0.28924049537115604
+        ]
+      }
+    },
+    {
+      "clip": "death_land",
+      "duration_seconds": 0.64,
+      "samples": 41,
+      "left_wrist_min_overlap_units": 0.9139102792029608,
+      "right_wrist_min_overlap_units": 0.5825441558339002,
+      "whole_feather_midplane_crossings": {
+        "left": 0,
+        "right": 0
+      },
+      "free_feather_hardbody_max_overlap_units": 0,
+      "opposite_wing_max_overlap_units": 0,
+      "all_wing_hardhead_max_overlap_units": 0,
+      "mounted_root_body_max_overlap_units": 1.2687079895813032,
+      "proximal_wing_hair_max_overlap_units": 0,
+      "leading_tip_world_span_units": [
+        69.13514042146787,
+        71.82435463305296
+      ],
+      "leading_tip_left_world_ranges_units": {
+        "x": [
+          -35.92552775476786,
+          -30.923585898454945
+        ],
+        "y": [
+          16.74851750396699,
+          44.851103444478966
+        ],
+        "z": [
+          -17.624816541912317,
+          -0.5656937976215026
+        ]
+      }
+    }
+  ],
+  "body_response": {
+    "fly": {
+      "root_world_y_units": [
+        -0.6989065,
+        1.1989065
+      ],
+      "head_world_pitch_degrees": [
+        5.900113605964296,
+        7.092104807638936
+      ]
+    },
+    "glide": {
+      "root_world_y_units": [
+        0.10015950000000001,
+        0.499752625
+      ],
+      "head_world_pitch_degrees": [
+        6.305494921735198,
+        6.684826128477046
+      ]
+    },
+    "carry": {
+      "root_world_y_units": [
+        0,
+        0.28
+      ],
+      "head_world_pitch_degrees": [
+        36.0108363439907,
+        36.0108363439907
+      ]
+    }
+  },
+  "native_endpoint_matrix_tests": [
+    {
+      "from": [
+        "fly",
+        0
+      ],
+      "to": [
+        "fly",
+        1.2
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "glide",
+        0
+      ],
+      "to": [
+        "glide",
+        1.5
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "carry",
+        0
+      ],
+      "to": [
+        "carry",
+        0.8
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "fly",
+        0
+      ],
+      "to": [
+        "grab_dive",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "grab_dive",
+        0.64
+      ],
+      "to": [
+        "player_catch",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "player_catch",
+        0.46
+      ],
+      "to": [
+        "carry",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "carry",
+        0
+      ],
+      "to": [
+        "release",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    },
+    {
+      "from": [
+        "release",
+        0.36
+      ],
+      "to": [
+        "fly",
+        0
+      ],
+      "max_world_bone_matrix_error": 0
+    }
+  ],
+  "action_body_preservation": {
+    "attack_dive": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "special_warning": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "beak",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death_fall": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "death_land": {
+      "all_nonwing_animator_objects_exact": true,
+      "nonwing_bones": [
+        "body",
+        "chest",
+        "neck",
+        "head",
+        "hair",
+        "tail",
+        "root",
+        "arm_left",
+        "forearm_left",
+        "hand_left",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "arm_right",
+        "forearm_right",
+        "hand_right",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    }
+  },
+  "gif_validation": {
+    "passed": true,
+    "gifs": [
+      {
+        "file": "final_renders/fly_back.gif",
+        "sha256": "4352b2673945f6dae823c4013695fa012aa0ac4d3c68e90a5f937671873e16f7",
+        "frames": 24,
+        "duration_ms": 1200,
+        "distinct_frames": 24,
+        "durations_ms": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "expected_duration_ms": 1200
+      },
+      {
+        "file": "final_renders/fly_angle45.gif",
+        "sha256": "ff8dbc10482465d50c6a9b72e2d8aa93306e4da5aefddc7ba2d810a595a7a01a",
+        "frames": 24,
+        "duration_ms": 1200,
+        "distinct_frames": 24,
+        "durations_ms": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "expected_duration_ms": 1200
+      },
+      {
+        "file": "final_renders/glide_angle45.gif",
+        "sha256": "b3f9baeed28e71ae30bfe1128e5549033c14a1345136ed3713c858042f36a9dd",
+        "frames": 20,
+        "duration_ms": 1500,
+        "distinct_frames": 20,
+        "durations_ms": [
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80,
+          70,
+          80
+        ],
+        "expected_duration_ms": 1500
+      },
+      {
+        "file": "final_renders/carry_side.gif",
+        "sha256": "690b3f6824bf8a55dae98f8e7a09bb93831377058be436f5a7f8554e5b9fadea",
+        "frames": 20,
+        "duration_ms": 800,
+        "distinct_frames": 20,
+        "durations_ms": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "expected_duration_ms": 800
+      },
+      {
+        "file": "final_renders/carry_angle45.gif",
+        "sha256": "ef13d4e1572e160d5ef24b87d2f17b042263db9ce359351f05b47162aef53d62",
+        "frames": 20,
+        "duration_ms": 800,
+        "distinct_frames": 20,
+        "durations_ms": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "expected_duration_ms": 800
+      }
+    ]
+  },
+  "render_validation": {
+    "geometry_and_texture_dependencies_exact": true,
+    "fly_glide_carry_animation_dependencies_exact": true,
+    "render_source_sha256": [
+      "57990988330a1ff93f11a96e38c9b114854bb4dc2ce898f67134a1ab785df047",
+      "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e"
+    ]
+  },
+  "limits": [
+    "Minecraft and the actual GeckoLib gamecontroller were not launched in this validation.",
+    "Shoulder socket/body overlap and proximal backhair brushing are intentional mounted/soft contacts, reported separately from hardhead and freefeather collisions.",
+    "Standalone hurt is an additive overlay; test results for hurt combined with a base flight animation are in hurt-overlay-report.json."
+  ],
+  "hurt_overlay_native_validation": [
+    {
+      "clip": "fly",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.8560069628296563,
+      "right_wrist_min_overlap": 0.6490030031080569,
+      "left_socket_min_body_overlap": 0.6097231711514226,
+      "right_socket_min_body_overlap": 0.5511841053682929,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    },
+    {
+      "clip": "glide",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.8667225219059962,
+      "right_wrist_min_overlap": 0.6594626553272904,
+      "left_socket_min_body_overlap": 1.217348376746054,
+      "right_socket_min_body_overlap": 1.2203641220771861,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    },
+    {
+      "clip": "carry",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.7561520984528254,
+      "right_wrist_min_overlap": 0.3123193530448738,
+      "left_socket_min_body_overlap": 0.6700090680420989,
+      "right_socket_min_body_overlap": 0.6228071819616869,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    }
+  ],
+  "native_javascript_errors": [],
+  "hurt_source_exact": true,
+  "checks": {
+    "all12_wrists_connected": true,
+    "all12_free_feathers_and_opposite_wings_clear": true,
+    "all11_base_clips_hardhead_clear": true,
+    "all459_hurt_compositions_clear": true,
+    "all8_native_matrix_seams_exact": true,
+    "source_hurt_exact": true,
+    "render_dependencies_verified": true,
+    "gif_frames_and_timing_verified": true,
+    "no_native_javascript_errors": true
+  },
+  "passed": true
+}

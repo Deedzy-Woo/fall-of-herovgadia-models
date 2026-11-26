@@ -1,0 +1,106 @@
+{
+  "pivot_diagnosis": {
+    "left": {
+      "forearm_tip_local": [
+        -6.800004816091765,
+        14.099968497761838,
+        -3.900010476957725
+      ],
+      "wrist_pivot_local": [
+        -6.8,
+        14.1,
+        -3.9
+      ],
+      "tip_pivot_error_units": 3.354627240517293e-05,
+      "palm_upper_overlap_above_wrist": 0.20000000000000107,
+      "correct_parent_chain": true
+    },
+    "right": {
+      "forearm_tip_local": [
+        9.700017683774576,
+        15.299968146538964,
+        -6.0000185728167015
+      ],
+      "wrist_pivot_local": [
+        9.7,
+        15.3,
+        -6.0
+      ],
+      "tip_pivot_error_units": 4.0893867309358294e-05,
+      "palm_upper_overlap_above_wrist": 0.1999999999999993,
+      "correct_parent_chain": true
+    }
+  },
+  "source_contact_summary": {
+    "global_min_overlap": 0.3036415612234755,
+    "global_max_sat_gap": 0.0,
+    "worst": {
+      "clip": "animation.undead_harpy.player_catch",
+      "side": "right",
+      "time": 0.322,
+      "sat_overlap": 0.3036415612234755
+    }
+  },
+  "options": [
+    {
+      "mode": "forearm",
+      "amount": 0.4,
+      "global_min_overlap": 0.7005212228379243,
+      "global_max_sat_gap": 0.0,
+      "worst": {
+        "clip": "animation.undead_harpy.player_catch",
+        "side": "right",
+        "time": 0.322,
+        "sat_overlap": 0.7005212228379243
+      }
+    },
+    {
+      "mode": "forearm",
+      "amount": 0.6,
+      "global_min_overlap": 0.8989610536451442,
+      "global_max_sat_gap": 0.0,
+      "worst": {
+        "clip": "animation.undead_harpy.player_catch",
+        "side": "right",
+        "time": 0.322,
+        "sat_overlap": 0.8989610536451442
+      }
+    },
+    {
+      "mode": "forearm",
+      "amount": 0.8,
+      "global_min_overlap": 1.0973974149213133,
+      "global_max_sat_gap": 0.0,
+      "worst": {
+        "clip": "animation.undead_harpy.player_catch",
+        "side": "right",
+        "time": 0.322,
+        "sat_overlap": 1.0973974149213133
+      }
+    },
+    {
+      "mode": "palm",
+      "amount": 0.4,
+      "global_min_overlap": 0.7036415612234741,
+      "global_max_sat_gap": 0.0,
+      "worst": {
+        "clip": "animation.undead_harpy.player_catch",
+        "side": "right",
+        "time": 0.322,
+        "sat_overlap": 0.7036415612234741
+      }
+    },
+    {
+      "mode": "palm",
+      "amount": 0.6,
+      "global_min_overlap": 0.9036415612234787,
+      "global_max_sat_gap": 0.0,
+      "worst": {
+        "clip": "animation.undead_harpy.player_catch",
+        "side": "right",
+        "time": 0.322,
+        "sat_overlap": 0.9036415612234787
+      }
+    }
+  ]
+}

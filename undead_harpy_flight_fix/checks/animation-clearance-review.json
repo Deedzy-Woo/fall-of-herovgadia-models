@@ -1,0 +1,205 @@
+{
+  "model_sha256": "2ec0dc1d007b75e6e0ee329e005ae0b4bfb3d7213bf2862e027584cd0da16d2d",
+  "scope_preservation": {
+    "hurt_entirely_original": true,
+    "glide_carry_exactly_frozen": true,
+    "fly_rotations_and_nonwing_data_exactly_frozen": true,
+    "3corrected_transition_nonwing_data_exact": true,
+    "geometry_textures_uv_pivots_hierarchy_original": true
+  },
+  "fly_hurt153": {
+    "summary": {
+      "body": 0.1556040106952299,
+      "head": 0,
+      "arm": 0
+    },
+    "pairs": {
+      "body: left_wing_inner_support / chest_left_back": {
+        "count": 29,
+        "max_depth": 0.04094721337306684,
+        "time_of_max": 15.0
+      },
+      "body: right_wing_inner_support / chest_core": {
+        "count": 30,
+        "max_depth": 0.06477207129581597,
+        "time_of_max": 128.0
+      },
+      "body: left_wing_front_inner_cover / chest_left_back": {
+        "count": 29,
+        "max_depth": 0.10094494052746228,
+        "time_of_max": 4.0
+      },
+      "body: right_wing_front_inner_cover / chest_core": {
+        "count": 32,
+        "max_depth": 0.1556040106952299,
+        "time_of_max": 2.0
+      },
+      "body: right_leading_inner / chest_core": {
+        "count": 7,
+        "max_depth": 0.01877937431168686,
+        "time_of_max": 2.0
+      },
+      "body: left_leading_inner / chest_left_back": {
+        "count": 4,
+        "max_depth": 0.003305319195875178,
+        "time_of_max": 4.0
+      }
+    }
+  },
+  "fly": {
+    "summary": {
+      "body": 0.04716443924424141,
+      "head": 0,
+      "arm": 0
+    },
+    "pairs": {
+      "body: left_wing_inner_support / chest_left_back": {
+        "count": 13,
+        "max_depth": 0.03706629008434437,
+        "time_of_max": 0.03
+      },
+      "body: right_wing_inner_support / chest_core": {
+        "count": 13,
+        "max_depth": 0.038705734670915426,
+        "time_of_max": 1.155
+      },
+      "body: left_wing_front_inner_cover / chest_left_back": {
+        "count": 13,
+        "max_depth": 0.04716443924424141,
+        "time_of_max": 0.0
+      },
+      "body: right_wing_front_inner_cover / chest_core": {
+        "count": 15,
+        "max_depth": 0.04716443924423963,
+        "time_of_max": 0.0
+      }
+    }
+  },
+  "grab_dive": {
+    "summary": {
+      "body": 0.04803542799635174,
+      "head": 0,
+      "arm": 0
+    },
+    "pairs": {
+      "body: left_wing_inner_support / chest_left_back": {
+        "count": 18,
+        "max_depth": 0.03580018146328179,
+        "time_of_max": 0.0
+      },
+      "body: right_wing_inner_support / chest_core": {
+        "count": 18,
+        "max_depth": 0.03580018146328179,
+        "time_of_max": 0.0
+      },
+      "body: left_wing_front_inner_cover / chest_left_back": {
+        "count": 18,
+        "max_depth": 0.048035427996349966,
+        "time_of_max": 0.016
+      },
+      "body: right_wing_front_inner_cover / chest_core": {
+        "count": 18,
+        "max_depth": 0.04803542799635174,
+        "time_of_max": 0.016
+      },
+      "body: left_leading_inner / chest_left_back": {
+        "count": 2,
+        "max_depth": 0.004836406679598504,
+        "time_of_max": 0.64
+      },
+      "body: right_leading_inner / chest_core": {
+        "count": 2,
+        "max_depth": 0.004836406679599392,
+        "time_of_max": 0.64
+      }
+    }
+  },
+  "release": {
+    "summary": {
+      "body": 0.0493498724203798,
+      "head": 0,
+      "arm": 0
+    },
+    "pairs": {
+      "body: left_leading_inner / chest_left_back": {
+        "count": 12,
+        "max_depth": 0.0493498724203798,
+        "time_of_max": 0.0
+      },
+      "body: right_leading_inner / chest_core": {
+        "count": 12,
+        "max_depth": 0.049349872420378915,
+        "time_of_max": 0.0
+      },
+      "body: left_wing_inner_support / chest_left_back": {
+        "count": 20,
+        "max_depth": 0.03580018146328179,
+        "time_of_max": 0.36
+      },
+      "body: right_wing_inner_support / chest_core": {
+        "count": 20,
+        "max_depth": 0.03580018146328179,
+        "time_of_max": 0.36
+      },
+      "body: left_wing_front_inner_cover / chest_left_back": {
+        "count": 20,
+        "max_depth": 0.04777052288902439,
+        "time_of_max": 0.34199999999999997
+      },
+      "body: right_wing_front_inner_cover / chest_core": {
+        "count": 20,
+        "max_depth": 0.04777052288902439,
+        "time_of_max": 0.34199999999999997
+      }
+    }
+  },
+  "special_warning": {
+    "summary": {
+      "body": 0.020556579314396473,
+      "head": 0,
+      "arm": 0
+    },
+    "pairs": {
+      "body: right_leading_inner / chest_core": {
+        "count": 2,
+        "max_depth": 0.020556579314396473,
+        "time_of_max": 0.73
+      },
+      "body: left_leading_inner / chest_left_back": {
+        "count": 1,
+        "max_depth": 0.011290481232423488,
+        "time_of_max": 0.73
+      }
+    }
+  },
+  "minimum_socket_torso_overlap": {
+    "fly": {
+      "left": 0.6661643991226875,
+      "right": 0.666164399122688
+    },
+    "fly_hurt153": {
+      "left": 0.609723126753841,
+      "right": 0.5511841153880139
+    },
+    "grab": {
+      "left": 0.6637823067110085,
+      "right": 0.663782306711008
+    },
+    "release": {
+      "left": 0.663836171227782,
+      "right": 0.6638361712277816
+    }
+  },
+  "seams": {
+    "grab_dive->player_catch": 0.0,
+    "player_catch->carry": 0.0,
+    "release->fly": 0.0,
+    "carry0_release0": 0.0
+  },
+  "loops": {
+    "fly": 0.0,
+    "glide": 0.0,
+    "carry": 0.0,
+    "death_fall": 0.0
+  }
+}

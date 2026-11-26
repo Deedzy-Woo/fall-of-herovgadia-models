@@ -1,0 +1,33 @@
+{
+  "source_model_sha256": "297d4c5f37e46522a7e2393de7840cdf97df30dbe57ac707a7bbd93145ceaae3",
+  "scope": "Geometry-only robustness improvement; no animation, pivot, hierarchy, UV, texture or claw-tip changes.",
+  "patches": [
+    {
+      "element_uuid": "c1c39a12-1110-57af-94bc-0f31e9da7588",
+      "element_name": "left_forearm",
+      "field": "from",
+      "old_value": [
+        -6.925,
+        13.4658,
+        -1.875
+      ],
+      "new_value": [
+        -6.925,
+        13.0658,
+        -1.875
+      ],
+      "changed_coordinate": "Y",
+      "local_shaft_extension_units": 0.4,
+      "local_shaft_extension_blocks": 0.025
+    }
+  ],
+  "left_wrist_pivot_unchanged": [
+    -6.8,
+    14.1,
+    -3.9
+  ],
+  "right_hand_unchanged": true,
+  "claw_tip_geometry_and_all_bone_transforms_unchanged": true,
+  "diagnosis": "The supplied archive already has connected hands. Actual rotated-cuboid tests find no source gap, no parent/pivot mismatch and no limb translation tracks. The left join is shallower than the right in fly and may read as a visual seam. This small existing-forearm cap extension strengthens the join; it does not establish the cause of the Minecraft screenshot.",
+  "runtime_limit": "The upload contains no .geo.json and local/repository copies lack the integrated harpy renderer/model/controller. Runtime export/controller mismatch cannot be confirmed here. Official geometry must be re-exported from the merged final model."
+}

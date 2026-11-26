@@ -1,0 +1,47 @@
+{
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "gifs": [
+    {
+      "file": "carry_angle45.gif",
+      "frames": 20,
+      "duration_ms": 800,
+      "distinct_frames": 20,
+      "sha256": "ef13d4e1572e160d5ef24b87d2f17b042263db9ce359351f05b47162aef53d62"
+    },
+    {
+      "file": "carry_side.gif",
+      "frames": 20,
+      "duration_ms": 800,
+      "distinct_frames": 20,
+      "sha256": "690b3f6824bf8a55dae98f8e7a09bb93831377058be436f5a7f8554e5b9fadea"
+    },
+    {
+      "file": "flight_before_after.gif",
+      "frames": 24,
+      "duration_ms": 1200,
+      "distinct_frames": 24,
+      "sha256": "0f3e5eff65b3a42c58d1514ff7db823fa0cca2c3e06e60fe0758108e9863d1eb"
+    },
+    {
+      "file": "fly_angle45.gif",
+      "frames": 24,
+      "duration_ms": 1200,
+      "distinct_frames": 24,
+      "sha256": "ff8dbc10482465d50c6a9b72e2d8aa93306e4da5aefddc7ba2d810a595a7a01a"
+    },
+    {
+      "file": "fly_back.gif",
+      "frames": 24,
+      "duration_ms": 1200,
+      "distinct_frames": 24,
+      "sha256": "4352b2673945f6dae823c4013695fa012aa0ac4d3c68e90a5f937671873e16f7"
+    },
+    {
+      "file": "glide_angle45.gif",
+      "frames": 20,
+      "duration_ms": 1500,
+      "distinct_frames": 20,
+      "sha256": "b3f9baeed28e71ae30bfe1128e5549033c14a1345136ed3713c858042f36a9dd"
+    }
+  ]
+}

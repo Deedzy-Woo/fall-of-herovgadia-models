@@ -1,0 +1,223 @@
+{
+  "source_has_real_gap": false,
+  "source_all12_clips_contact_report": "source-wrist-contact.json",
+  "source_minimum_obb_overlap": {
+    "left": 0.3231293644880111,
+    "right": 0.3036415612234755
+  },
+  "source_fly_minimum_obb_overlap": {
+    "left": 0.464872247608187,
+    "right": 0.6347943377424121
+  },
+  "patched_all12_clips_minimum_obb_overlap": {
+    "left": 0.7187194588873931,
+    "right": 0.3036415612234755
+  },
+  "patched_contact_frames_per_clip": 101,
+  "method": "Exact15-axis world-space oriented-box SAT with ZYX rotations and nativeBedrock signs; no AABB-only test. Source interpolation is entirely linear.",
+  "clips": {
+    "rest": {
+      "samples": 1,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.8970286069800846,
+          "frames_without_contact": 0,
+          "worst_time": 0.0
+        },
+        "right": {
+          "minimum_obb_overlap": 0.7054409958485399,
+          "frames_without_contact": 0,
+          "worst_time": 0.0
+        }
+      }
+    },
+    "animation.undead_harpy.fly": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.8630289458137979,
+          "frames_without_contact": 0,
+          "worst_time": 0.528
+        },
+        "right": {
+          "minimum_obb_overlap": 0.6347943377424121,
+          "frames_without_contact": 0,
+          "worst_time": 0.54
+        }
+      }
+    },
+    "animation.undead_harpy.glide": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.8796920390330323,
+          "frames_without_contact": 0,
+          "worst_time": 1.035
+        },
+        "right": {
+          "minimum_obb_overlap": 0.6519155399550849,
+          "frames_without_contact": 0,
+          "worst_time": 1.1099999999999999
+        }
+      }
+    },
+    "animation.undead_harpy.attack_dive": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.8271332257327932,
+          "frames_without_contact": 0,
+          "worst_time": 0.53
+        },
+        "right": {
+          "minimum_obb_overlap": 0.5180981905490158,
+          "frames_without_contact": 0,
+          "worst_time": 0.53
+        }
+      }
+    },
+    "animation.undead_harpy.special_warning": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.7977547356901598,
+          "frames_without_contact": 0,
+          "worst_time": 0.1825
+        },
+        "right": {
+          "minimum_obb_overlap": 0.48505779797137105,
+          "frames_without_contact": 0,
+          "worst_time": 0.1606
+        }
+      }
+    },
+    "animation.undead_harpy.grab_dive": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.7187194588873931,
+          "frames_without_contact": 0,
+          "worst_time": 0.35200000000000004
+        },
+        "right": {
+          "minimum_obb_overlap": 0.37958157710495755,
+          "frames_without_contact": 0,
+          "worst_time": 0.3456
+        }
+      }
+    },
+    "animation.undead_harpy.player_catch": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.7328514098450452,
+          "frames_without_contact": 0,
+          "worst_time": 0.2898
+        },
+        "right": {
+          "minimum_obb_overlap": 0.3036415612234755,
+          "frames_without_contact": 0,
+          "worst_time": 0.322
+        }
+      }
+    },
+    "animation.undead_harpy.carry": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.7561520509298205,
+          "frames_without_contact": 0,
+          "worst_time": 0.336
+        },
+        "right": {
+          "minimum_obb_overlap": 0.3123191469230795,
+          "frames_without_contact": 0,
+          "worst_time": 0.064
+        }
+      }
+    },
+    "animation.undead_harpy.release": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.719941162716828,
+          "frames_without_contact": 0,
+          "worst_time": 0.216
+        },
+        "right": {
+          "minimum_obb_overlap": 0.30461864388828985,
+          "frames_without_contact": 0,
+          "worst_time": 0.0108
+        }
+      }
+    },
+    "animation.undead_harpy.hurt": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.897028606980081,
+          "frames_without_contact": 0,
+          "worst_time": 0.03849999999999999
+        },
+        "right": {
+          "minimum_obb_overlap": 0.7054409958485381,
+          "frames_without_contact": 0,
+          "worst_time": 0.22749999999999998
+        }
+      }
+    },
+    "animation.undead_harpy.death": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.7804442344517843,
+          "frames_without_contact": 0,
+          "worst_time": 0.091
+        },
+        "right": {
+          "minimum_obb_overlap": 0.4318709832312946,
+          "frames_without_contact": 0,
+          "worst_time": 0.10499999999999998
+        }
+      }
+    },
+    "animation.undead_harpy.death_fall": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.9139102258063039,
+          "frames_without_contact": 0,
+          "worst_time": 0.0
+        },
+        "right": {
+          "minimum_obb_overlap": 0.5826901503105608,
+          "frames_without_contact": 0,
+          "worst_time": 0.0
+        }
+      }
+    },
+    "animation.undead_harpy.death_land": {
+      "samples": 101,
+      "sides": {
+        "left": {
+          "minimum_obb_overlap": 0.9139102258063039,
+          "frames_without_contact": 0,
+          "worst_time": 0.0
+        },
+        "right": {
+          "minimum_obb_overlap": 0.5825439515632747,
+          "frames_without_contact": 0,
+          "worst_time": 0.1728
+        }
+      }
+    }
+  },
+  "continuous_contact_proof": {
+    "assumptions": "Hand is a child of the forearm; neither hand nor forearm has relative position or scale tracks. Parent/root rigid motion is shared.",
+    "left_forearm_contains_sphere_at_wrist_radius": 0.4000333806771934,
+    "left_palm_contains_sphere_at_wrist_radius": 0.20000000000000107,
+    "guaranteed_shared_sphere_radius_for_any_wrist_rotation": 0.19990000000000108,
+    "guaranteed_common_volume_model_units_cubed": 0.03346008128438666,
+    "explanation": "The same wrist-centered sphere is inside both meshes. A rigid wrist rotation cannot move this sphere out of the palm, so the join stays physically connected continuously, including between sampled frames."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "/workspace/work/harpy-flight-fix/model/undead_harpy.bbmodel",
+  "sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "method": "Native Blockbench additive stacking; base animation time and hurt time independently sampled using temporary instance time getters. No model export or mutations.",
+  "clips": [
+    {
+      "clip": "fly",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.8560069628296563,
+      "right_wrist_min_overlap": 0.6490030031080569,
+      "left_socket_min_body_overlap": 0.6097231711514226,
+      "right_socket_min_body_overlap": 0.5511841053682929,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    },
+    {
+      "clip": "glide",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.8667225219059962,
+      "right_wrist_min_overlap": 0.6594626553272904,
+      "left_socket_min_body_overlap": 1.217348376746054,
+      "right_socket_min_body_overlap": 1.2203641220771861,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    },
+    {
+      "clip": "carry",
+      "samples": 153,
+      "left_wrist_min_overlap": 0.7561520984528254,
+      "right_wrist_min_overlap": 0.3123193530448738,
+      "left_socket_min_body_overlap": 0.6700090680420989,
+      "right_socket_min_body_overlap": 0.6228071819616869,
+      "max_hardhead_overlap": 0,
+      "max_opposite_wing_overlap": 0,
+      "head_hit_count": 0,
+      "worst_head": [],
+      "free_body_hit_count": 0,
+      "worst_freebody": []
+    }
+  ]
+}

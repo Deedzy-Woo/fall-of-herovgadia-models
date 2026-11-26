@@ -1,0 +1,237 @@
+{
+  "project": "Fall of Herovgadia",
+  "asset": "undead_harpy_flight_fix",
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "files": [
+    {
+      "path": "README_RU.md",
+      "bytes": 8369,
+      "sha256": "90bae8078f9ed89dada6ae6527050b65678bedd967f22b6fabf09b0184614833"
+    },
+    {
+      "path": "blockbench/undead_harpy.bbmodel",
+      "bytes": 3895052,
+      "sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e"
+    },
+    {
+      "path": "checks/VALIDATION_RU.md",
+      "bytes": 4421,
+      "sha256": "02fd77e234c7f9546fa96b5b8c891a9621992783eaa405413bcd3f3b213f51e3"
+    },
+    {
+      "path": "checks/animation-clearance-review.json",
+      "bytes": 5447,
+      "sha256": "cf249913a6ac881020a04b885059a355cba17c5397dfb9fbcf1ede80e3cd0568"
+    },
+    {
+      "path": "checks/asset-integrity.json",
+      "bytes": 1617,
+      "sha256": "ad8a75f15ae4227aacbd676c58c6b0ba14f2f6be13978bd746c6060217ec0750"
+    },
+    {
+      "path": "checks/endpoint-report.json",
+      "bytes": 4036,
+      "sha256": "b9029f5a43beb0a46cef507fe025006c3b2ae691c4fc59bd9cbbec98f1a2d31a"
+    },
+    {
+      "path": "checks/export-review.json",
+      "bytes": 52317,
+      "sha256": "bea2ef29fe32898e9948d12aabd9786a3fabf6d31bee1933bc1f4bf3b8dc10f4"
+    },
+    {
+      "path": "checks/gecko-coordinate-replay.json",
+      "bytes": 22793,
+      "sha256": "43888b4a4ee676e6cd8fafa72e59b74fffcd38c04428afca3b143ff0ee942962"
+    },
+    {
+      "path": "checks/gif-report.json",
+      "bytes": 2764,
+      "sha256": "53ba0ee4422c8eb2071cc76ee64873489133c7982f0f3ff41fdbd971c07f18b2"
+    },
+    {
+      "path": "checks/hand_patch.json",
+      "bytes": 1448,
+      "sha256": "ef2b5d8ec3248010e9aa03f41e1d3f74a3b9c861c525e586434df40954709004"
+    },
+    {
+      "path": "checks/hurt-overlay-report.json",
+      "bytes": 1730,
+      "sha256": "5e9c79256084b344c431ccc6fd4cd39f469de15df117be588d7bf99a49ae7ed9"
+    },
+    {
+      "path": "checks/native-validation-report.json",
+      "bytes": 22929,
+      "sha256": "5fcd937f66374660644ccaf91b5d102b6edb2ccb14c2b352d3e1094bab4b7198"
+    },
+    {
+      "path": "checks/package-render-audit.json",
+      "bytes": 1341,
+      "sha256": "a5902435beb2489b5927b5f07cd9c0587588e2e6c9a7d7543881233447303646"
+    },
+    {
+      "path": "checks/runtime-audit.json",
+      "bytes": 3968,
+      "sha256": "cb7e2e97cee512ef443cb580ac98a63b10ff6a34c3feb01c8b89e07d405cbea8"
+    },
+    {
+      "path": "checks/sound-phase-notes.json",
+      "bytes": 2123,
+      "sha256": "618b064d444f473b1ce1a761412d3534361911b4aa24593c655b28483887837d"
+    },
+    {
+      "path": "checks/wrist-contact-proof.json",
+      "bytes": 6556,
+      "sha256": "4f4ee87080c2ab1237ab80cb7b69614db3017a25c9519cde0f7d57966ceb1040"
+    },
+    {
+      "path": "checks/wrist-diagnosis.json",
+      "bytes": 2605,
+      "sha256": "90c9f93ba2bb8995c17d072a595bbf13e9d49a8b1da90c1ebf27751fe412d3c0"
+    },
+    {
+      "path": "exports/undead_harpy.animation.json",
+      "bytes": 942990,
+      "sha256": "c4bd5c63fecc47f5e393e65e1b5d7b9a382b1238f9f535d9f718324a59b32e22"
+    },
+    {
+      "path": "exports/undead_harpy.geo.json",
+      "bytes": 179807,
+      "sha256": "f99f6c0e6545674d713ac83b2d4897bc3e53695d8a65162f6ba5f35c7bc96520"
+    },
+    {
+      "path": "previews/carry_angle45.gif",
+      "bytes": 501565,
+      "sha256": "ef13d4e1572e160d5ef24b87d2f17b042263db9ce359351f05b47162aef53d62"
+    },
+    {
+      "path": "previews/carry_side.gif",
+      "bytes": 393506,
+      "sha256": "690b3f6824bf8a55dae98f8e7a09bb93831377058be436f5a7f8554e5b9fadea"
+    },
+    {
+      "path": "previews/flight_before_after.gif",
+      "bytes": 979655,
+      "sha256": "0f3e5eff65b3a42c58d1514ff7db823fa0cca2c3e06e60fe0758108e9863d1eb"
+    },
+    {
+      "path": "previews/flight_before_after.png",
+      "bytes": 80512,
+      "sha256": "8366c8854cf6c6cafd4c99a6d21638525d57b8e91955d04aab2d6940872ad511"
+    },
+    {
+      "path": "previews/flight_phases.png",
+      "bytes": 136191,
+      "sha256": "75c5facc8007699b395946d6b5bcf517bfad9278f9f021707a672f9cb8e8a407"
+    },
+    {
+      "path": "previews/flight_views.png",
+      "bytes": 129223,
+      "sha256": "11b0b3ad755b4ca857caa0d0a61cc65fad1722f0ee4897ed3f4ae4693e2bddb5"
+    },
+    {
+      "path": "previews/fly_angle45.gif",
+      "bytes": 729371,
+      "sha256": "ff8dbc10482465d50c6a9b72e2d8aa93306e4da5aefddc7ba2d810a595a7a01a"
+    },
+    {
+      "path": "previews/fly_back.gif",
+      "bytes": 731449,
+      "sha256": "4352b2673945f6dae823c4013695fa012aa0ac4d3c68e90a5f937671873e16f7"
+    },
+    {
+      "path": "previews/fly_lower_angle45.png",
+      "bytes": 118098,
+      "sha256": "9250c57b8a41a1dc513ceb3d768a1ff86cc1e11cfaad249ebb4530c7051ca691"
+    },
+    {
+      "path": "previews/fly_lower_back.png",
+      "bytes": 104965,
+      "sha256": "7a001cfe83881ab204b37b15548c07dd560ebc38eef238b4c6079e0f7d704ea5"
+    },
+    {
+      "path": "previews/fly_lower_front.png",
+      "bytes": 106273,
+      "sha256": "6ace56b210c0d9833e6ac0b1130af35ebaeaa2681334826eb97e1b71e32066e5"
+    },
+    {
+      "path": "previews/fly_lower_side.png",
+      "bytes": 91860,
+      "sha256": "091b7953f52d47138609b2d6bf323a14beed94ef27d870d70261d43a66473660"
+    },
+    {
+      "path": "previews/fly_lower_top.png",
+      "bytes": 107257,
+      "sha256": "23d1f4f19680aa3cebe02cf47b37a2bf4bfc2703860bb0ab8cbc4c01d09f6b02"
+    },
+    {
+      "path": "previews/fly_upper_angle45.png",
+      "bytes": 122439,
+      "sha256": "ff1141b754281b29b139e6bc6341f4e7e26c287ffdc2fb1ff8c4502a5943c723"
+    },
+    {
+      "path": "previews/fly_upper_back.png",
+      "bytes": 121172,
+      "sha256": "f58163ba90125044f94f3f82dd3972fc30dfa44bdda8c126f2efee8a1ee1c5ee"
+    },
+    {
+      "path": "previews/fly_upper_front.png",
+      "bytes": 125848,
+      "sha256": "f9d5e7fc225dd0eba0a62a79e8399fb121c1c81e37072f0c9b0591d0af8ba637"
+    },
+    {
+      "path": "previews/fly_upper_side.png",
+      "bytes": 77923,
+      "sha256": "fdaddb7159006b22b0f2d84480ea503d4c9616c7a841a01184e377454b02ea89"
+    },
+    {
+      "path": "previews/fly_upper_top.png",
+      "bytes": 113537,
+      "sha256": "ffdb5e76f6daa75804abe8905fe45b3c7c99640cfbd7f26a530f5a9c0121d37d"
+    },
+    {
+      "path": "previews/glide_angle45.gif",
+      "bytes": 662582,
+      "sha256": "b3f9baeed28e71ae30bfe1128e5549033c14a1345136ed3713c858042f36a9dd"
+    },
+    {
+      "path": "previews/wrist_details.png",
+      "bytes": 56127,
+      "sha256": "5fc11aa5f4693235d6d2c1f57976c8f1d63c6215e478bf550f7606f4ac344944"
+    },
+    {
+      "path": "previews/wrist_left_attack_dive.png",
+      "bytes": 55851,
+      "sha256": "33bff3c273da2ab5c3859d8bfd278e9a3bd278861f5364de10e5eb6f24545523"
+    },
+    {
+      "path": "previews/wrist_left_carry.png",
+      "bytes": 63182,
+      "sha256": "962ae0badf381d33282e26a1209de93ad362d37bf14ba48794e8d41ea49ef096"
+    },
+    {
+      "path": "previews/wrist_left_death.png",
+      "bytes": 41536,
+      "sha256": "aec1b41f737cdc08245badd6ea8f3ceb836d3bd5a28968ed6a5ba039dd60cbeb"
+    },
+    {
+      "path": "previews/wrist_left_fly.png",
+      "bytes": 46653,
+      "sha256": "4c0db7e88c1ce8309db7e492bcd70db313fcd2d3c861d9e28abff58d8d0d6353"
+    },
+    {
+      "path": "previews/wrist_left_glide.png",
+      "bytes": 45947,
+      "sha256": "390101b07807f0afbbe79cdc0c554df59d6929fb1f82feb882654ff62723d926"
+    },
+    {
+      "path": "previews/wrist_left_rest.png",
+      "bytes": 43398,
+      "sha256": "72e96f12fa5242ba7b82b95b0dd8ebd718bc576a7c3346f146ce81db395d2079"
+    },
+    {
+      "path": "textures/undead_harpy.png",
+      "bytes": 3001,
+      "sha256": "20d2eee170bcac47fd1f90d5c40fb85c4009c7f2ad70d173e880f8de2eb789b9"
+    }
+  ]
+}

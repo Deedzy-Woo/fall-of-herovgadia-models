@@ -1,0 +1,578 @@
+{
+  "scope": "CPU asset replay of verified GeckoLib 4.8.3 JAR coordinate and additive-transform rules; not Minecraft execution or custom controller/renderer testing.",
+  "jar_audit": "runtime-audit.json",
+  "geometry_identifier": "geometry.undead_harpy",
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "geometry_sha256": "f99f6c0e6545674d713ac83b2d4897bc3e53695d8a65162f6ba5f35c7bc96520",
+  "animation_sha256": "c4bd5c63fecc47f5e393e65e1b5d7b9a382b1238f9f535d9f718324a59b32e22",
+  "comparisons": [
+    {
+      "clip": "animation.undead_harpy.fly",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559370841361e-08,
+          "max_cube_corner_distance_model_units": 9.572094993346178e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.3,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559388205039e-08,
+          "max_cube_corner_distance_model_units": 9.572095021128062e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.6,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.9825593915605e-08,
+          "max_cube_corner_distance_model_units": 9.5720950264968e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.8999999999999999,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559394827125e-08,
+          "max_cube_corner_distance_model_units": 9.5720950317234e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 1.2,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559370841361e-08,
+          "max_cube_corner_distance_model_units": 9.572094993346178e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 8.881784197001252e-16,
+      "max_cube_corner_distance_blocks": 5.982559394827125e-08
+    },
+    {
+      "clip": "animation.undead_harpy.glide",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559308009779e-08,
+          "max_cube_corner_distance_model_units": 9.572094892815647e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.375,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559419953474e-08,
+          "max_cube_corner_distance_model_units": 9.572095071925558e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.75,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559373463137e-08,
+          "max_cube_corner_distance_model_units": 9.57209499754102e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 1.125,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559420950222e-08,
+          "max_cube_corner_distance_model_units": 9.572095073520356e-07,
+          "worst_bone": "hand_left",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 1.5,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559308009779e-08,
+          "max_cube_corner_distance_model_units": 9.572094892815647e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 8.881784197001252e-16,
+      "max_cube_corner_distance_blocks": 5.982559420950222e-08
+    },
+    {
+      "clip": "animation.undead_harpy.attack_dive",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559421849962e-08,
+          "max_cube_corner_distance_model_units": 9.57209507495994e-07,
+          "worst_bone": "hand_left",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.25,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559383724705e-08,
+          "max_cube_corner_distance_model_units": 9.572095013959527e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.5,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559380134281e-08,
+          "max_cube_corner_distance_model_units": 9.57209500821485e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.75,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559451687408e-08,
+          "max_cube_corner_distance_model_units": 9.572095122699853e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 1,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559421849962e-08,
+          "max_cube_corner_distance_model_units": 9.57209507495994e-07,
+          "worst_bone": "hand_left",
+          "worst_cube": "wing_fore_left/6"
+        }
+      ],
+      "max_matrix_difference": 8.881784197001252e-16,
+      "max_cube_corner_distance_blocks": 5.982559451687408e-08
+    },
+    {
+      "clip": "animation.undead_harpy.special_warning",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559421849962e-08,
+          "max_cube_corner_distance_model_units": 9.57209507495994e-07,
+          "worst_bone": "hand_left",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.1825,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559439659822e-08,
+          "max_cube_corner_distance_model_units": 9.572095103455716e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.365,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559404495199e-08,
+          "max_cube_corner_distance_model_units": 9.572095047192319e-07,
+          "worst_bone": "beak",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.5475,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559398073496e-08,
+          "max_cube_corner_distance_model_units": 9.572095036917593e-07,
+          "worst_bone": "beak",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.73,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559423567459e-08,
+          "max_cube_corner_distance_model_units": 9.572095077707934e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 8.881784197001252e-16,
+      "max_cube_corner_distance_blocks": 5.982559439659822e-08
+    },
+    {
+      "clip": "animation.undead_harpy.grab_dive",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559370841361e-08,
+          "max_cube_corner_distance_model_units": 9.572094993346178e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.16,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.98255939335835e-08,
+          "max_cube_corner_distance_model_units": 9.57209502937336e-07,
+          "worst_bone": "neck",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.32,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559388805802e-08,
+          "max_cube_corner_distance_model_units": 9.572095022089284e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.48,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559444223306e-08,
+          "max_cube_corner_distance_model_units": 9.57209511075729e-07,
+          "worst_bone": "forearm_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.64,
+          "max_matrix_difference": 4.510281037539698e-16,
+          "max_cube_corner_distance_blocks": 5.982559374742821e-08,
+          "max_cube_corner_distance_model_units": 9.572094999588514e-07,
+          "worst_bone": "foot_right",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 5.551115123125783e-16,
+      "max_cube_corner_distance_blocks": 5.982559444223306e-08
+    },
+    {
+      "clip": "animation.undead_harpy.player_catch",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 4.510281037539698e-16,
+          "max_cube_corner_distance_blocks": 5.982559374742821e-08,
+          "max_cube_corner_distance_model_units": 9.572094999588514e-07,
+          "worst_bone": "foot_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.115,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.98255933325056e-08,
+          "max_cube_corner_distance_model_units": 9.572094933200897e-07,
+          "worst_bone": "foot_left",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.23,
+          "max_matrix_difference": 5.828670879282072e-16,
+          "max_cube_corner_distance_blocks": 5.982559367333755e-08,
+          "max_cube_corner_distance_model_units": 9.572094987734009e-07,
+          "worst_bone": "foot_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.34500000000000003,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559398787859e-08,
+          "max_cube_corner_distance_model_units": 9.572095038060575e-07,
+          "worst_bone": "foot_left",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.46,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559375898815e-08,
+          "max_cube_corner_distance_model_units": 9.572095001438104e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 7.771561172376096e-16,
+      "max_cube_corner_distance_blocks": 5.982559398787859e-08
+    },
+    {
+      "clip": "animation.undead_harpy.carry",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559375898815e-08,
+          "max_cube_corner_distance_model_units": 9.572095001438104e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.2,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.98255938823474e-08,
+          "max_cube_corner_distance_model_units": 9.572095021175583e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.4,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559433587598e-08,
+          "max_cube_corner_distance_model_units": 9.572095093740157e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.6000000000000001,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.98255950628239e-08,
+          "max_cube_corner_distance_model_units": 9.572095210051824e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.8,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559375898815e-08,
+          "max_cube_corner_distance_model_units": 9.572095001438104e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 7.771561172376096e-16,
+      "max_cube_corner_distance_blocks": 5.98255950628239e-08
+    },
+    {
+      "clip": "animation.undead_harpy.release",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 7.771561172376096e-16,
+          "max_cube_corner_distance_blocks": 5.982559375898815e-08,
+          "max_cube_corner_distance_model_units": 9.572095001438104e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.09,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559506236452e-08,
+          "max_cube_corner_distance_model_units": 9.572095209978323e-07,
+          "worst_bone": "foot_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.18,
+          "max_matrix_difference": 4.996003610813204e-16,
+          "max_cube_corner_distance_blocks": 5.982559405410089e-08,
+          "max_cube_corner_distance_model_units": 9.572095048656142e-07,
+          "worst_bone": "shin_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.27,
+          "max_matrix_difference": 6.661338147750939e-16,
+          "max_cube_corner_distance_blocks": 5.982559397056511e-08,
+          "max_cube_corner_distance_model_units": 9.572095035290417e-07,
+          "worst_bone": "head",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.36,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559370841361e-08,
+          "max_cube_corner_distance_model_units": 9.572094993346178e-07,
+          "worst_bone": "hand_right",
+          "worst_cube": "wing_fore_right/5"
+        }
+      ],
+      "max_matrix_difference": 7.771561172376096e-16,
+      "max_cube_corner_distance_blocks": 5.982559506236452e-08
+    },
+    {
+      "clip": "animation.undead_harpy.hurt",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559420170943e-08,
+          "max_cube_corner_distance_model_units": 9.572095072273508e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.0875,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559400763089e-08,
+          "max_cube_corner_distance_model_units": 9.572095041220942e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.175,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559378193778e-08,
+          "max_cube_corner_distance_model_units": 9.572095005110045e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.26249999999999996,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559382271827e-08,
+          "max_cube_corner_distance_model_units": 9.572095011634924e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.35,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559420170943e-08,
+          "max_cube_corner_distance_model_units": 9.572095072273508e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/6"
+        }
+      ],
+      "max_matrix_difference": 4.440892098500626e-16,
+      "max_cube_corner_distance_blocks": 5.982559420170943e-08
+    },
+    {
+      "clip": "animation.undead_harpy.death",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 5.551115123125783e-16,
+          "max_cube_corner_distance_blocks": 5.982559421849962e-08,
+          "max_cube_corner_distance_model_units": 9.57209507495994e-07,
+          "worst_bone": "hand_left",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.175,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559378692877e-08,
+          "max_cube_corner_distance_model_units": 9.572095005908604e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.35,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559405591689e-08,
+          "max_cube_corner_distance_model_units": 9.572095048946702e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.5249999999999999,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559486189425e-08,
+          "max_cube_corner_distance_model_units": 9.57209517790308e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_right/5"
+        },
+        {
+          "time": 0.7,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559433484094e-08,
+          "max_cube_corner_distance_model_units": 9.57209509357455e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        }
+      ],
+      "max_matrix_difference": 5.551115123125783e-16,
+      "max_cube_corner_distance_blocks": 5.982559486189425e-08
+    },
+    {
+      "clip": "animation.undead_harpy.death_fall",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559433484094e-08,
+          "max_cube_corner_distance_model_units": 9.57209509357455e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.2375,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559429180288e-08,
+          "max_cube_corner_distance_model_units": 9.572095086688461e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.475,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559395750595e-08,
+          "max_cube_corner_distance_model_units": 9.572095033200952e-07,
+          "worst_bone": "hair",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.7124999999999999,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559433484094e-08,
+          "max_cube_corner_distance_model_units": 9.57209509357455e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.95,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559433484094e-08,
+          "max_cube_corner_distance_model_units": 9.57209509357455e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        }
+      ],
+      "max_matrix_difference": 4.440892098500626e-16,
+      "max_cube_corner_distance_blocks": 5.982559433484094e-08
+    },
+    {
+      "clip": "animation.undead_harpy.death_land",
+      "samples": [
+        {
+          "time": 0,
+          "max_matrix_difference": 3.3306690738754696e-16,
+          "max_cube_corner_distance_blocks": 5.982559433484094e-08,
+          "max_cube_corner_distance_model_units": 9.57209509357455e-07,
+          "worst_bone": "wing_fore_left",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.16,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.98255943165572e-08,
+          "max_cube_corner_distance_model_units": 9.572095090649151e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/5"
+        },
+        {
+          "time": 0.32,
+          "max_matrix_difference": 4.440892098500626e-16,
+          "max_cube_corner_distance_blocks": 5.982559424382393e-08,
+          "max_cube_corner_distance_model_units": 9.57209507901183e-07,
+          "worst_bone": "wing_fore_right",
+          "worst_cube": "wing_fore_left/6"
+        },
+        {
+          "time": 0.48,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559412832255e-08,
+          "max_cube_corner_distance_model_units": 9.572095060531607e-07,
+          "worst_bone": "beak",
+          "worst_cube": "wing_fore_right/6"
+        },
+        {
+          "time": 0.64,
+          "max_matrix_difference": 8.881784197001252e-16,
+          "max_cube_corner_distance_blocks": 5.982559412832255e-08,
+          "max_cube_corner_distance_model_units": 9.572095060531607e-07,
+          "worst_bone": "beak",
+          "worst_cube": "wing_fore_right/6"
+        }
+      ],
+      "max_matrix_difference": 8.881784197001252e-16,
+      "max_cube_corner_distance_blocks": 5.982559433484094e-08
+    }
+  ],
+  "max_matrix_difference": 8.881784197001252e-16,
+  "max_cube_corner_distance_blocks": 5.98255950628239e-08,
+  "max_cube_corner_distance_model_units": 9.572095210051824e-07,
+  "passed": true
+}

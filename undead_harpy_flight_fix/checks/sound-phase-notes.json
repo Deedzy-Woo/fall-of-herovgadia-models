@@ -1,0 +1,44 @@
+{
+  "status": "Phase notes only; no sound keys, Java callbacks, or playback behavior were added or modified.",
+  "actual_runtime_sound_hooks_available": false,
+  "current_archive_contains_wings_sound_keyframes": false,
+  "historical_note": "The separate earlier undead_harpy_sound_timing.txt recommends fly .12s and carry .08s. It is not part of the current uploaded archive and is not evidence of currently integrated playback hooks.",
+  "authored_flight_cycle_phase": {
+    "fly": {
+      "duration_s": 1.2,
+      "upper_main_wing_turnaround_s": 0,
+      "downstroke_interval_s": [
+        0,
+        0.504
+      ],
+      "main_max_downstroke_angular_speed_s": 0.252,
+      "lower_main_wing_turnaround_s": 0.504,
+      "outer_segment_lag_s": 0.102,
+      "outer_max_downstroke_angular_speed_s": 0.354,
+      "candidate_future_trigger_reference_s": 0.25
+    },
+    "carry": {
+      "duration_s": 0.8,
+      "upper_main_wing_turnaround_s": 0,
+      "downstroke_interval_s": [
+        0,
+        0.312
+      ],
+      "main_max_downstroke_angular_speed_s": 0.156,
+      "lower_main_wing_turnaround_s": 0.312,
+      "outer_segment_lag_s": 0.076,
+      "outer_max_downstroke_angular_speed_s": 0.232,
+      "candidate_future_trigger_reference_s": 0.16
+    }
+  },
+  "future_integration_requirement": "Inspect the actual integrated wings_1/wings_2/wings_3 hook and sound clip envelope before deciding whether to move it. Use one variant at one event per downstroke; do not layer a JSON event over an existing Java event. Phase reference values are not applied changes or a runtime synchronization claim.",
+  "model_sha256": "8d462829817c6cd533c9e5a4b522734a9e7b0b258fe6505a401711e443e3dc6e",
+  "animation_sha256": "c4bd5c63fecc47f5e393e65e1b5d7b9a382b1238f9f535d9f718324a59b32e22",
+  "verified_final_cycle_durations_s": {
+    "fly": 1.2,
+    "glide": 1.5,
+    "carry": 0.8
+  },
+  "final_export_sound_event_entries": 0,
+  "phase_interpretation": "Times identify the authored cosine-stroke shoulder angular phase; outer segments follow with a fixed lag. They are future reference markers, not verified live sound playback times."
+}
